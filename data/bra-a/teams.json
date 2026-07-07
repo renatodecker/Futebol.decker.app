@@ -1,0 +1,302 @@
+{
+  "pal": {
+    "name": "Palmeiras",
+    "abbrev": "PAL",
+    "espnId": "2029",
+    "fdId": 1769,
+    "fdName": "SE Palmeiras",
+    "badge": "/img/badges/bra-a/pal.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "fla": {
+    "name": "Flamengo",
+    "abbrev": "FLA",
+    "espnId": "819",
+    "fdId": 1783,
+    "fdName": "CR Flamengo",
+    "badge": "/img/badges/bra-a/fla.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "flu": {
+    "name": "Fluminense",
+    "abbrev": "FLU",
+    "espnId": "3445",
+    "fdId": 1765,
+    "fdName": "Fluminense FC",
+    "badge": "/img/badges/bra-a/flu.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "cap": {
+    "name": "Athletico Paranaense",
+    "abbrev": "CAP",
+    "espnId": "3458",
+    "fdId": 1768,
+    "fdName": "CA Paranaense",
+    "badge": "/img/badges/bra-a/cap.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "bra": {
+    "name": "Red Bull Bragantino",
+    "abbrev": "BRA",
+    "espnId": "6079",
+    "fdId": 4286,
+    "fdName": "RB Bragantino",
+    "badge": "/img/badges/bra-a/bra.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "bah": {
+    "name": "Bahia",
+    "abbrev": "BAH",
+    "espnId": "9967",
+    "fdId": 1777,
+    "fdName": "EC Bahia",
+    "badge": "/img/badges/bra-a/bah.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "cfc": {
+    "name": "Coritiba",
+    "abbrev": "CFC",
+    "espnId": "3456",
+    "fdId": 4241,
+    "fdName": "Coritiba FBC",
+    "badge": "/img/badges/bra-a/cfc.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "sao": {
+    "name": "São Paulo",
+    "abbrev": "SAO",
+    "espnId": "2026",
+    "fdId": 1776,
+    "fdName": "São Paulo FC",
+    "badge": "/img/badges/bra-a/sao.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "cam": {
+    "name": "Atlético-MG",
+    "abbrev": "CAM",
+    "espnId": "7632",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-a/cam.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "cor": {
+    "name": "Corinthians",
+    "abbrev": "COR",
+    "espnId": "874",
+    "fdId": 1779,
+    "fdName": "SC Corinthians Paulista",
+    "badge": "/img/badges/bra-a/cor.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "cru": {
+    "name": "Cruzeiro",
+    "abbrev": "CRU",
+    "espnId": "2022",
+    "fdId": 1771,
+    "fdName": "Cruzeiro EC",
+    "badge": "/img/badges/bra-a/cru.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "bot": {
+    "name": "Botafogo",
+    "abbrev": "BOT",
+    "espnId": "6086",
+    "fdId": 1770,
+    "fdName": "Botafogo FR",
+    "badge": "/img/badges/bra-a/bot.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "vit": {
+    "name": "Vitória",
+    "abbrev": "VIT",
+    "espnId": "3457",
+    "fdId": 1782,
+    "fdName": "EC Vitória",
+    "badge": "/img/badges/bra-a/vit.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "int": {
+    "name": "Internacional",
+    "abbrev": "INT",
+    "espnId": "1936",
+    "fdId": 6684,
+    "fdName": "SC Internacional",
+    "badge": "/img/badges/bra-a/int.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "san": {
+    "name": "Santos",
+    "abbrev": "SAN",
+    "espnId": "2674",
+    "fdId": 6685,
+    "fdName": "Santos FC",
+    "badge": "/img/badges/bra-a/san.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "gre": {
+    "name": "Grêmio",
+    "abbrev": "GRE",
+    "espnId": "6273",
+    "fdId": 1767,
+    "fdName": "Grêmio FBPA",
+    "badge": "/img/badges/bra-a/gre.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "vas": {
+    "name": "Vasco da Gama",
+    "abbrev": "VAS",
+    "espnId": "3454",
+    "fdId": 1780,
+    "fdName": "CR Vasco da Gama",
+    "badge": "/img/badges/bra-a/vas.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "rem": {
+    "name": "Remo",
+    "abbrev": "REMO",
+    "espnId": "4936",
+    "fdId": 4287,
+    "fdName": "Clube do Remo",
+    "badge": "/img/badges/bra-a/rem.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "mir": {
+    "name": "Mirassol",
+    "abbrev": "MIR",
+    "espnId": "9169",
+    "fdId": 4364,
+    "fdName": "Mirassol FC",
+    "badge": "/img/badges/bra-a/mir.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  },
+  "cha": {
+    "name": "Chapecoense",
+    "abbrev": "CHA",
+    "espnId": "9318",
+    "fdId": 1772,
+    "fdName": "Chapecoense AF",
+    "badge": "/img/badges/bra-a/cha.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
+  }
+}
