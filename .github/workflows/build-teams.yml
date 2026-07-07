@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: "22"
       - name: Gerar esqueleto de teams.json
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: node scripts/build-teams.js --liga=${{ inputs.liga || 'bra-a' }}
       - name: Commit esqueleto
         run: |
