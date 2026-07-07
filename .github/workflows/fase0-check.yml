@@ -1,4 +1,4 @@
-name: Fase 0 - Gate de viabilidade
+name: "Fase 0 - Gate de viabilidade"
 
 on:
   workflow_dispatch:
