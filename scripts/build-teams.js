@@ -33,8 +33,8 @@ function slugify(name) {
 }
 
 const STOPWORDS = new Set([
-  'futebol', 'clube', 'esporte', 'clube', 'de', 'regatas', 'sociedade', 'esportiva',
-  'associacao', 'atletico', 'atletica', 'sport', 'foot', 'ball', 'ec', 'fc', 'sc', 'cr', 'ac',
+  'futebol', 'clube', 'esporte', 'de', 'regatas', 'sociedade', 'esportiva',
+  'associacao', 'foot', 'ball', 'ec', 'fc', 'sc', 'cr', 'ac',
   'e', 'do', 'da', 'dos', 'das',
 ]);
 
