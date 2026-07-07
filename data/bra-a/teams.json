@@ -123,8 +123,8 @@
     "name": "Atlético-MG",
     "abbrev": "CAM",
     "espnId": "7632",
-    "fdId": null,
-    "fdName": null,
+    "fdId": 1766,
+    "fdName": "CA Mineiro",
     "badge": "/img/badges/bra-a/cam.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
     "skin": {
@@ -132,7 +132,7 @@
       "secondary": null,
       "text": null
     },
-    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+    "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
   "cor": {
     "name": "Corinthians",
