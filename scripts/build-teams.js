@@ -150,6 +150,18 @@ async function main() {
   console.log(fdTeams
     ? `Cruzamento football-data: ${fdMatched}/${Object.keys(skeleton).length} casaram automaticamente.`
     : 'football-data não consultado (sem token ou sem canonicalCode) — fdId ficou null para todos.');
+
+  if (fdTeams) {
+    const unmatchedEspn = Object.values(skeleton).filter((t) => t.fdId == null);
+    const unmatchedFd = fdTeams.filter((fd) => !takenFdIds.has(fd.id));
+    if (unmatchedEspn.length > 0) {
+      console.log('--- DIAGNÓSTICO: sem match ---');
+      console.log('ESPN sem match:', unmatchedEspn.map((t) => t.name));
+      console.log('football-data sobrando (não usados por ninguém):', unmatchedFd.map((fd) => ({ id: fd.id, name: fd.name, shortName: fd.shortName, tla: fd.tla })));
+      const debugPath = path.join(teamsDir, `_unmatched-debug-${liga}.json`);
+      fs.writeFileSync(debugPath, JSON.stringify({ unmatchedEspn: unmatchedEspn.map((t) => t.name), unmatchedFd }, null, 2));
+    }
+  }
 }
 
 main().catch((err) => {
