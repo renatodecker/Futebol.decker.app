@@ -14,6 +14,26 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';
+const ESPN_SITE_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+
+async function findLeagueLogoUrl(espnSlug) {
+  // O standings não costuma trazer o logo da competição; o scoreboard sim,
+  // no array top-level "leagues[].logos".
+  const scoreboardUrl = `${ESPN_SITE_BASE}/${espnSlug}/scoreboard`;
+  const res = await fetch(scoreboardUrl);
+  if (res.status === 200) {
+    const json = await res.json();
+    const url = json?.leagues?.[0]?.logos?.[0]?.href;
+    if (url) return url;
+  }
+  const standingsUrl = `${ESPN_STANDINGS_BASE}/${espnSlug}/standings`;
+  const res2 = await fetch(standingsUrl);
+  if (res2.status === 200) {
+    const json2 = await res2.json();
+    return json2?.logos?.[0]?.href || json2?.league?.logos?.[0]?.href || null;
+  }
+  return null;
+}
 
 function argLiga() {
   const arg = process.argv.find((a) => a.startsWith('--liga='));
@@ -21,19 +41,9 @@ function argLiga() {
 }
 
 async function downloadLeagueLogo(liga, cfg) {
-  const url = `${ESPN_STANDINGS_BASE}/${cfg.sources.espnSlug}/standings`;
-  const res = await fetch(url);
-  if (res.status !== 200) {
-    console.warn(`Falha ao buscar standings ESPN para logo da liga (HTTP ${res.status}).`);
-    return;
-  }
-  const json = await res.json();
-  const logoUrl = json?.logos?.[0]?.href
-    || json?.league?.logos?.[0]?.href
-    || json?.children?.[0]?.logos?.[0]?.href
-    || null;
+  const logoUrl = await findLeagueLogoUrl(cfg.sources.espnSlug);
   if (!logoUrl) {
-    console.warn('Nenhum logo de liga encontrado no standings ESPN — mantendo /img/leagues/ vazio para revisão manual.');
+    console.warn('Nenhum logo de liga encontrado (scoreboard nem standings ESPN) — mantendo /img/leagues/ vazio para revisão manual.');
     return;
   }
   const logoRes = await fetch(logoUrl);
