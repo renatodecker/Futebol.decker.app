@@ -65,12 +65,33 @@ button {
   gap: 10px;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.decker-home-link {
+  flex: 0 0 auto;
+  display: flex;
+  line-height: 0;
+}
+
+.decker-mark {
+  width: 22px;
+  height: 22px;
+}
+
 .brand {
   color: var(--text);
   text-decoration: none;
   font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: -0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .brand-dot {
