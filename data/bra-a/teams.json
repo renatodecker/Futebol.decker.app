@@ -8,9 +8,9 @@
     "badge": "/img/badges/bra-a/pal.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#006437",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -23,9 +23,9 @@
     "badge": "/img/badges/bra-a/fla.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C60C0C",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -38,9 +38,9 @@
     "badge": "/img/badges/bra-a/flu.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#7A1226",
+      "secondary": "#005C33",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -53,9 +53,9 @@
     "badge": "/img/badges/bra-a/cap.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#E31E24",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -68,9 +68,9 @@
     "badge": "/img/badges/bra-a/bra.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#D2001F",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -83,9 +83,9 @@
     "badge": "/img/badges/bra-a/bah.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#1560BD",
+      "secondary": "#FF0000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -98,9 +98,9 @@
     "badge": "/img/badges/bra-a/cfc.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#026E36",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -113,9 +113,9 @@
     "badge": "/img/badges/bra-a/sao.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C1121C",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -128,9 +128,9 @@
     "badge": "/img/badges/bra-a/cam.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -143,9 +143,9 @@
     "badge": "/img/badges/bra-a/cor.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -158,9 +158,9 @@
     "badge": "/img/badges/bra-a/cru.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#003399",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -173,9 +173,9 @@
     "badge": "/img/badges/bra-a/bot.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -188,9 +188,9 @@
     "badge": "/img/badges/bra-a/vit.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C8102E",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -203,9 +203,9 @@
     "badge": "/img/badges/bra-a/int.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#E30613",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -218,9 +218,9 @@
     "badge": "/img/badges/bra-a/san.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -233,9 +233,9 @@
     "badge": "/img/badges/bra-a/gre.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#0060A9",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -248,9 +248,9 @@
     "badge": "/img/badges/bra-a/vas.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -263,9 +263,9 @@
     "badge": "/img/badges/bra-a/rem.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#0033A0",
+      "secondary": "#C8102E",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -278,9 +278,9 @@
     "badge": "/img/badges/bra-a/mir.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#F7D117",
+      "secondary": "#1C7C3F",
+      "text": "#000000"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   },
@@ -293,9 +293,9 @@
     "badge": "/img/badges/bra-a/cha.png",
     "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#046A38",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     },
     "_reviewNeeded": "Confirmar o match fdName acima e preencher cores skin (revisão manual, contraste AA) e baixar badge para o caminho indicado."
   }
