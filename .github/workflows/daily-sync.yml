@@ -1,0 +1,33 @@
+name: "Daily sync"
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # ~06:00 America/Sao_Paulo (UTC-3)
+  workflow_dispatch:
+    inputs:
+      liga:
+        description: "Rodar só uma liga (slug). Vazio = todas as active."
+        required: false
+        default: ""
+
+jobs:
+  daily-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Rodar daily-sync
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: node scripts/daily-sync.js ${{ inputs.liga != '' && format('--liga={0}', inputs.liga) || '' }}
+      - name: Commit dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: daily sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
