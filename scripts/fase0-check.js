@@ -37,24 +37,39 @@ function fmtDate(d) {
 
 async function findFinishedEvents(espnSlug, wanted) {
   const found = [];
+  const debug = { requests: [], statusNamesSeen: new Set(), httpFailures: 0 };
   const today = new Date();
-  for (let back = 0; back < 45 && found.length < wanted; back += 3) {
+  for (let back = 0; back < 60 && found.length < wanted; back += 1) {
     const day = new Date(today);
     day.setDate(day.getDate() - back);
     const url = `${ESPN_BASE}/${espnSlug}/scoreboard?dates=${fmtDate(day)}`;
-    const { ok, json } = await getJson(url);
+    let ok, json;
+    try {
+      ({ ok, json } = await getJson(url));
+    } catch (err) {
+      ok = 'ERR';
+      json = null;
+      debug.requests.push({ date: fmtDate(day), http: `ERR: ${err.message}`, events: 0 });
+      debug.httpFailures += 1;
+      await new Promise((r) => setTimeout(r, 150));
+      continue;
+    }
+    const eventsCount = Array.isArray(json?.events) ? json.events.length : 0;
+    debug.requests.push({ date: fmtDate(day), http: ok, events: eventsCount });
+    if (ok !== 200) debug.httpFailures += 1;
     if (ok === 200 && json && Array.isArray(json.events)) {
       for (const ev of json.events) {
         const status = ev?.status?.type?.name;
+        if (status) debug.statusNamesSeen.add(status);
         if (status === 'STATUS_FULL_TIME' || status === 'STATUS_FINAL') {
           found.push(ev);
           if (found.length >= wanted) break;
         }
       }
     }
-    await new Promise((r) => setTimeout(r, 300));
+    await new Promise((r) => setTimeout(r, 150));
   }
-  return found;
+  return { found, debug };
 }
 
 function summarizeGoalsAssistsCards(summaryJson) {
@@ -103,8 +118,19 @@ async function main() {
   report.push(`espnSlug: \`${espnSlug}\` | fonte canônica: \`${cfg.sources.canonical || 'n/a'}\` (${cfg.sources.canonicalCode || 'n/a'})`);
   report.push('');
 
-  const events = await findFinishedEvents(espnSlug, 3);
+  const { found: events, debug } = await findFinishedEvents(espnSlug, 3);
   report.push(`## 1-5. Summaries ESPN (${events.length} jogo(s) finalizado(s) encontrados)`);
+  report.push('');
+  report.push('### Diagnóstico das requisições ao scoreboard');
+  report.push('');
+  report.push(`- Falhas HTTP (não-200 ou erro de rede): ${debug.httpFailures} / ${debug.requests.length}`);
+  report.push(`- Nomes de status vistos nos eventos: ${Array.from(debug.statusNamesSeen).join(', ') || 'nenhum'}`);
+  report.push('- Amostra das últimas requisições:');
+  report.push('```');
+  for (const r of debug.requests.slice(0, 15)) {
+    report.push(`${r.date} -> http=${r.http} events=${r.events}`);
+  }
+  report.push('```');
   report.push('');
 
   if (events.length === 0) {
