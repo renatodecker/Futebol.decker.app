@@ -1,0 +1,49 @@
+{
+  "bra-a": {
+    "name": "Brasileirão Série A",
+    "shortName": "Série A",
+    "country": "BR",
+    "season": 2026,
+    "status": "active",
+    "logo": "/img/leagues/bra-a.png",
+    "identity": { "primary": "#009C3B", "secondary": "#FFDF00", "text": "#FFFFFF" },
+    "sources": {
+      "espnSlug": "bra.1",
+      "canonical": "football-data",
+      "canonicalCode": "BSA"
+    },
+    "rules": {
+      "teams": 20,
+      "rounds": 38,
+      "liveTiebreakers": ["pts", "won", "gd", "gf"]
+    }
+  },
+  "bra-b": {
+    "name": "Brasileirão Série B",
+    "shortName": "Série B",
+    "country": "BR",
+    "status": "planned",
+    "sources": { "espnSlug": "bra.2", "canonical": null }
+  },
+  "eng-1": {
+    "name": "Premier League",
+    "shortName": "Premier League",
+    "country": "EN",
+    "status": "planned",
+    "sources": { "espnSlug": "eng.1", "canonical": "football-data", "canonicalCode": "PL" }
+  },
+  "esp-1": {
+    "name": "La Liga",
+    "shortName": "La Liga",
+    "country": "ES",
+    "status": "planned",
+    "sources": { "espnSlug": "esp.1", "canonical": "football-data", "canonicalCode": "PD" }
+  },
+  "ita-1": {
+    "name": "Serie A",
+    "shortName": "Serie A",
+    "country": "IT",
+    "status": "planned",
+    "sources": { "espnSlug": "ita.1", "canonical": "football-data", "canonicalCode": "SA" }
+  }
+}
