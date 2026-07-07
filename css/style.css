@@ -295,6 +295,15 @@ button {
   cursor: pointer;
 }
 
+.match-card .round-label {
+  grid-column: 1 / -1;
+  font-size: 0.65rem;
+  color: var(--ink-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 2px;
+}
+
 .match-card .team {
   display: flex;
   align-items: center;

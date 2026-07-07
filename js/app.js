@@ -87,9 +87,20 @@ function updateHeaderForLiga(cfg) {
 // Home: frame de skin + últimos resultados + próximos jogos
 // ---------------------------------------------------------------------
 
+function orderedTeamEntries() {
+  const entries = Object.entries(state.teams)
+    .sort((a, b) => a[1].name.localeCompare(b[1].name, 'pt-BR'));
+  const pinnedIndex = entries.findIndex(([slug]) => slug === 'gre');
+  if (pinnedIndex > 0) {
+    const [pinned] = entries.splice(pinnedIndex, 1);
+    entries.unshift(pinned);
+  }
+  return entries;
+}
+
 function renderTeamFrame() {
   const frame = document.getElementById('teamFrame');
-  frame.innerHTML = Object.entries(state.teams).map(([slug, team]) => `
+  frame.innerHTML = orderedTeamEntries().map(([slug, team]) => `
     <button class="team-frame-item ${slug === state.team ? 'is-active' : ''}" data-team="${slug}" title="${team.name}">
       <img src="${team.badge}" alt="${team.name}" loading="lazy" />
     </button>
@@ -115,7 +126,7 @@ function selectTeamSkin(slug) {
   renderTeamFrame();
 }
 
-function matchCardHtml(m) {
+function matchCardHtml(m, { showRound = false } = {}) {
   const home = state.teams[m.home];
   const away = state.teams[m.away];
   const { date, time } = fmtDateTime(m.date);
@@ -124,9 +135,11 @@ function matchCardHtml(m) {
   const scoreHtml = m.status === 'finished' || isLive
     ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span>`
     : `<span class="datetime">${date}<br>${time}</span>`;
+  const roundHtml = showRound ? `<span class="round-label">Rodada ${m.round}</span>` : '';
 
   return `
     <div class="match-card ${isLive ? 'is-live' : ''}" data-match="${m.id}">
+      ${roundHtml}
       <div class="team home">
         <img src="${home?.badge || ''}" alt="" />
         <span class="team-name">${home?.abbrev || m.home}</span>
@@ -238,7 +251,7 @@ function renderMeses() {
       const matches = days.get(day).sort((a, b) => new Date(a.date) - new Date(b.date));
       const dayLabel = new Intl.DateTimeFormat('pt-BR', { weekday: 'long', day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' })
         .format(new Date(`${day}T12:00:00Z`));
-      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map(matchCardHtml).join('')}`;
+      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map((m) => matchCardHtml(m, { showRound: true })).join('')}`;
     }).join('');
     return [ym, label.charAt(0).toUpperCase() + label.slice(1), body];
   });
