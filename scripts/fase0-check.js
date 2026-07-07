@@ -74,20 +74,24 @@ async function findFinishedEvents(espnSlug, wanted) {
 
 function summarizeGoalsAssistsCards(summaryJson) {
   const out = { goals: [], cards: [], subs: [], lineupHasNumbers: false };
-  const keyEvents = summaryJson?.keyEvents || summaryJson?.header?.keyEvents || [];
+  const keyEvents = summaryJson?.keyEvents || [];
   for (const ke of keyEvents) {
-    const type = ke?.type?.text || ke?.type?.id;
-    const athlete = ke?.athletesInvolved?.[0]?.displayName || ke?.athlete?.displayName;
-    if (/goal/i.test(type || '') && !/own/i.test(type || '')) {
-      const assist = ke?.assist?.[0]?.displayName || null;
-      out.goals.push({ type, athlete, assist, raw: ke });
-    } else if (/yellow|red/i.test(type || '')) {
-      out.cards.push({ type, athlete });
-    } else if (/substitution/i.test(type || '')) {
+    const typeSlug = ke?.type?.type || '';
+    const typeText = ke?.type?.text || typeSlug;
+    const participants = ke?.participants || [];
+    const scorer = participants[0]?.athlete?.displayName || null;
+    if (ke?.scoringPlay === true) {
+      // participants[0] = scorer, participants[1] = assist provider (when present).
+      // Own goals surface as a distinct type slug (e.g. "goal---own"); flagged, not attributed as a normal goal.
+      const isOwnGoal = /own/i.test(typeSlug);
+      const assist = participants[1]?.athlete?.displayName || null;
+      out.goals.push({ type: typeText, athlete: scorer, assist, ownGoal: isOwnGoal });
+    } else if (typeSlug === 'yellow-card' || typeSlug === 'red-card') {
+      out.cards.push({ type: typeText, athlete: scorer });
+    } else if (typeSlug === 'substitution') {
       out.subs.push({
-        in: ke?.athletesInvolved?.find((a) => a?.playSubstitutedType === 'in')?.displayName,
-        out: ke?.athletesInvolved?.find((a) => a?.playSubstitutedType === 'out')?.displayName,
-        raw: ke,
+        in: participants[0]?.athlete?.displayName,
+        out: participants[1]?.athlete?.displayName,
       });
     }
   }
@@ -185,11 +189,25 @@ async function main() {
     const { ok, json } = await getJson(url);
     fs.writeFileSync(path.join(samplesDir, `espn-roster-${teamId}.json`), JSON.stringify(json, null, 2));
     report.push(`### ${teamName} (espnId=${teamId})`);
-    if (ok === 200 && json) {
-      const athlete = json?.athletes?.[0]?.items?.[0] || json?.athletes?.[0];
-      report.push('- Campos ESPN roster disponíveis (amostra de 1 atleta):');
+    if (ok === 200 && json && Array.isArray(json.athletes)) {
+      const list = json.athletes;
+      const withJersey = list.filter((a) => a?.jersey != null).length;
+      const withCitizenship = list.filter((a) => a?.citizenship).length;
+      const withPosition = list.filter((a) => a?.position?.abbreviation).length;
+      const withDob = list.filter((a) => a?.dateOfBirth).length;
+      report.push(`- ${list.length} atletas no elenco. Número de camisa: ${withJersey}/${list.length}. Nacionalidade: ${withCitizenship}/${list.length}. Posição: ${withPosition}/${list.length}. Nascimento: ${withDob}/${list.length}.`);
+      const sample = list.find((a) => a?.jersey != null) || list[0];
+      report.push('- Amostra (1 atleta, campos relevantes):');
       report.push('```json');
-      report.push(JSON.stringify(athlete, null, 2)?.slice(0, 1500) || 'n/a');
+      report.push(JSON.stringify({
+        fullName: sample?.fullName,
+        displayName: sample?.displayName,
+        shortName: sample?.shortName,
+        jersey: sample?.jersey,
+        position: sample?.position?.abbreviation,
+        dateOfBirth: sample?.dateOfBirth,
+        citizenship: sample?.citizenship,
+      }, null, 2));
       report.push('```');
     } else {
       report.push(`- Falha ao buscar roster ESPN (HTTP ${ok}).`);
