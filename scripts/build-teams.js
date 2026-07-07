@@ -48,7 +48,7 @@ function nameTokens(name) {
   return norm.split(' ').filter((t) => t.length >= 3 && !STOPWORDS.has(t));
 }
 
-function matchFdTeam(espnName, fdTeams, taken) {
+function matchFdTeam(espnName, espnAbbrev, fdTeams, taken) {
   const espnTokens = new Set(nameTokens(espnName));
   let best = null;
   let bestScore = 0;
@@ -62,7 +62,17 @@ function matchFdTeam(espnName, fdTeams, taken) {
       best = fd;
     }
   }
-  return bestScore > 0 ? best : null;
+  if (bestScore > 0) return best;
+
+  // Nomes podem divergir totalmente entre fontes (ex.: ESPN "Atlético-MG" vs
+  // football-data "CA Mineiro" — usa o gentílico do estado, não a sigla).
+  // Fallback: siglas federativas oficiais (tla/abbreviation) costumam bater
+  // entre fontes mesmo quando o nome não bate em nenhuma palavra.
+  if (espnAbbrev) {
+    const abbrevMatch = fdTeams.find((fd) => !taken.has(fd.id) && fd.tla && fd.tla.toUpperCase() === espnAbbrev.toUpperCase());
+    if (abbrevMatch) return abbrevMatch;
+  }
+  return null;
 }
 
 async function fetchFdTeams(cfg) {
@@ -120,7 +130,7 @@ async function main() {
     let fdId = null;
     let fdName = null;
     if (fdTeams) {
-      const match = matchFdTeam(team.displayName, fdTeams, takenFdIds);
+      const match = matchFdTeam(team.displayName, team.abbreviation, fdTeams, takenFdIds);
       if (match) {
         fdId = match.id;
         fdName = match.name;
@@ -151,6 +161,7 @@ async function main() {
     ? `Cruzamento football-data: ${fdMatched}/${Object.keys(skeleton).length} casaram automaticamente.`
     : 'football-data não consultado (sem token ou sem canonicalCode) — fdId ficou null para todos.');
 
+  const debugPath = path.join(teamsDir, `_unmatched-debug-${liga}.json`);
   if (fdTeams) {
     const unmatchedEspn = Object.values(skeleton).filter((t) => t.fdId == null);
     const unmatchedFd = fdTeams.filter((fd) => !takenFdIds.has(fd.id));
@@ -158,8 +169,9 @@ async function main() {
       console.log('--- DIAGNÓSTICO: sem match ---');
       console.log('ESPN sem match:', unmatchedEspn.map((t) => t.name));
       console.log('football-data sobrando (não usados por ninguém):', unmatchedFd.map((fd) => ({ id: fd.id, name: fd.name, shortName: fd.shortName, tla: fd.tla })));
-      const debugPath = path.join(teamsDir, `_unmatched-debug-${liga}.json`);
       fs.writeFileSync(debugPath, JSON.stringify({ unmatchedEspn: unmatchedEspn.map((t) => t.name), unmatchedFd }, null, 2));
+    } else if (fs.existsSync(debugPath)) {
+      fs.unlinkSync(debugPath);
     }
   }
 }
