@@ -245,12 +245,22 @@ async function matchEspnEvents(liga, cfg, teams, fixtures) {
 }
 
 function computeCurrentRound(fixtures) {
-  const rounds = [...new Set(fixtures.matches.map((m) => m.round))].sort((a, b) => a - b);
-  for (const r of rounds) {
-    const roundMatches = fixtures.matches.filter((m) => m.round === r);
-    if (roundMatches.some((m) => m.status !== 'finished')) return r;
+  // Não dá pra usar "primeira rodada com jogo pendente": adiamentos deixam
+  // rodadas antigas com jogos em aberto por semanas, travando o cálculo.
+  // A rodada "atual" é a da partida com data mais próxima de hoje (passada
+  // ou futura), que é o que a UI (auto-scroll/expand em Rodadas) precisa.
+  const now = Date.now();
+  let best = null;
+  let bestDiff = Infinity;
+  for (const m of fixtures.matches) {
+    if (m.status === 'postponed') continue;
+    const diff = Math.abs(new Date(m.date).getTime() - now);
+    if (diff < bestDiff) {
+      bestDiff = diff;
+      best = m.round;
+    }
   }
-  return rounds[rounds.length - 1] || 1;
+  return best ?? 1;
 }
 
 function computeLiveWindows(fixtures) {
