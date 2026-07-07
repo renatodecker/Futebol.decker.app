@@ -13,14 +13,46 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
+const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';
 
 function argLiga() {
   const arg = process.argv.find((a) => a.startsWith('--liga='));
   return arg ? arg.split('=')[1] : 'bra-a';
 }
 
+async function downloadLeagueLogo(liga, cfg) {
+  const url = `${ESPN_STANDINGS_BASE}/${cfg.sources.espnSlug}/standings`;
+  const res = await fetch(url);
+  if (res.status !== 200) {
+    console.warn(`Falha ao buscar standings ESPN para logo da liga (HTTP ${res.status}).`);
+    return;
+  }
+  const json = await res.json();
+  const logoUrl = json?.logos?.[0]?.href
+    || json?.league?.logos?.[0]?.href
+    || json?.children?.[0]?.logos?.[0]?.href
+    || null;
+  if (!logoUrl) {
+    console.warn('Nenhum logo de liga encontrado no standings ESPN — mantendo /img/leagues/ vazio para revisão manual.');
+    return;
+  }
+  const logoRes = await fetch(logoUrl);
+  if (logoRes.status !== 200) {
+    console.warn(`Falha ao baixar logo da liga (HTTP ${logoRes.status}) de ${logoUrl}.`);
+    return;
+  }
+  const logosDir = path.join(ROOT, 'img', 'leagues');
+  fs.mkdirSync(logosDir, { recursive: true });
+  const buf = Buffer.from(await logoRes.arrayBuffer());
+  fs.writeFileSync(path.join(logosDir, `${liga}.png`), buf);
+  console.log(`Logo da liga baixado de ${logoUrl} para img/leagues/${liga}.png.`);
+}
+
 async function main() {
   const liga = argLiga();
+  const leagues = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'leagues.json'), 'utf8'));
+  await downloadLeagueLogo(liga, leagues[liga]);
+
   const teamsPath = path.join(ROOT, 'data', liga, 'teams.json');
   const teams = JSON.parse(fs.readFileSync(teamsPath, 'utf8'));
   const badgesDir = path.join(ROOT, 'img', 'badges', liga);
