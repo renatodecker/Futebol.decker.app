@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>futebol.decker.app.br</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-row">
+      <a class="brand" href="/">
+        <span class="brand-name">futebol<span class="brand-dot">.</span>decker</span>
+      </a>
+      <button class="league-picker-toggle" id="leaguePickerToggle" aria-expanded="false" aria-controls="leaguePicker">
+        <img id="currentLeagueLogo" class="league-logo" alt="" />
+        <span id="currentLeagueName">Carregando…</span>
+        <span class="chevron">▾</span>
+      </button>
+    </div>
+    <div class="league-picker" id="leaguePicker" hidden></div>
+  </header>
+
+  <nav class="live-bar" id="liveBar" hidden>
+    <span class="live-dot"></span>
+    <span id="liveBarText">Ao vivo</span>
+  </nav>
+
+  <nav class="tab-bar" id="tabBar">
+    <button class="tab-btn is-active" data-tab="home">Home</button>
+    <button class="tab-btn" data-tab="classificacao">Classificação</button>
+    <button class="tab-btn" data-tab="rodadas">Rodadas</button>
+    <button class="tab-btn" data-tab="meses">Meses</button>
+    <button class="tab-btn" data-tab="estatisticas">Estatísticas</button>
+  </nav>
+
+  <main id="app">
+    <section class="tab-panel is-active" id="tab-home" data-tab-panel="home">
+      <div class="skin-reset-row">
+        <button class="skin-reset-btn" id="skinResetBtn" hidden>tema da liga</button>
+      </div>
+
+      <h2 class="section-title">Escolha seu time</h2>
+      <div class="team-frame" id="teamFrame"></div>
+
+      <h2 class="section-title">Últimos resultados</h2>
+      <div class="match-list" id="recentResults"></div>
+
+      <h2 class="section-title">Próximos jogos</h2>
+      <div class="match-list" id="upcomingFixtures"></div>
+    </section>
+
+    <section class="tab-panel" id="tab-classificacao" data-tab-panel="classificacao">
+      <div id="standingsBadge" class="standings-badge" hidden></div>
+      <div class="table-scroll">
+        <table class="standings-table" id="standingsTable">
+          <thead>
+            <tr>
+              <th class="col-pos">#</th>
+              <th class="col-team">Time</th>
+              <th>P</th>
+              <th>J</th>
+              <th>V</th>
+              <th>E</th>
+              <th>D</th>
+              <th>GP</th>
+              <th>GC</th>
+              <th>SG</th>
+              <th>%</th>
+              <th class="col-form">Forma</th>
+            </tr>
+          </thead>
+          <tbody id="standingsBody"></tbody>
+        </table>
+      </div>
+      <ul class="zones-legend" id="zonesLegend"></ul>
+    </section>
+
+    <section class="tab-panel" id="tab-rodadas" data-tab-panel="rodadas">
+      <div class="accordion" id="rodadasAccordion"></div>
+    </section>
+
+    <section class="tab-panel" id="tab-meses" data-tab-panel="meses">
+      <div class="accordion" id="mesesAccordion"></div>
+    </section>
+
+    <section class="tab-panel" id="tab-estatisticas" data-tab-panel="estatisticas">
+      <p class="empty-state">Estatísticas de jogadores chegam na próxima fase.</p>
+    </section>
+  </main>
+
+  <div class="squad-modal" id="squadModal" hidden>
+    <div class="squad-modal-backdrop" id="squadModalBackdrop"></div>
+    <div class="squad-modal-content" id="squadModalContent"></div>
+  </div>
+
+  <script type="module" src="js/theme.js"></script>
+  <script type="module" src="js/standings.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
