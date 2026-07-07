@@ -89,4 +89,8 @@ espnSlug: `bra.1` | fonte canônica: `football-data` (BSA)
 - (5) Substituições com entra/sai: OK.
 - (6) Roster (nome completo, nascimento, nacionalidade, número, nome na camisa): ver amostra ESPN acima; comparação com football-data squad pendente de token + teams.json.
 
+## Veredito final
+
+**GATE PASSA.** ESPN summary cobre gols/assistências/cartões/substituições com jogador identificado e escalação com número de camisa para `bra-a`. Roster ESPN traz nome completo, apelido curto, número, posição, nascimento e nacionalidade com cobertura quase total. Liberado para Fase 1 (com a ressalva de comparar squad football-data assim que `teams.json` + `FOOTBALL_DATA_TOKEN` existirem).
+
 _Amostras completas de JSON em `docs/fase0-bra-a-samples/`._

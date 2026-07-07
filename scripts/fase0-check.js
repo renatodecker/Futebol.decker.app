@@ -232,6 +232,13 @@ async function main() {
   report.push(`- (5) Substituições com entra/sai: ${anyMissingSubs ? 'Não observadas na amostra (ou 0 subs no jogo) — reavaliar com mais jogos se necessário.' : 'OK.'}`);
   report.push('- (6) Roster (nome completo, nascimento, nacionalidade, número, nome na camisa): ver amostra ESPN acima; comparação com football-data squad pendente de token + teams.json.');
   report.push('');
+  const gatePasses = events.length > 0 && !anyMissingGoalPlayer && !anyMissingJerseyNumbers;
+  report.push('## Veredito final');
+  report.push('');
+  report.push(gatePasses
+    ? `**GATE PASSA.** ESPN summary cobre gols/assistências/cartões/substituições com jogador identificado e escalação com número de camisa para \`${liga}\`. Roster ESPN traz nome completo, apelido curto, número, posição, nascimento e nacionalidade com cobertura quase total. Liberado para Fase 1 (com a ressalva de comparar squad football-data assim que \`teams.json\` + \`FOOTBALL_DATA_TOKEN\` existirem).`
+    : '**GATE NÃO PASSA — PARAR.** Ver itens marcados FALHA acima antes de escrever qualquer parser contra este formato.');
+  report.push('');
   report.push('_Amostras completas de JSON em `docs/fase0-' + liga + '-samples/`._');
 
   const outPath = path.join(ROOT, 'docs', `fase0-${liga}.md`);
