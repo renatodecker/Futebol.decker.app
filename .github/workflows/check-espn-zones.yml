@@ -1,0 +1,29 @@
+name: "Diagnóstico · ESPN standings tem nota de zona?"
+
+on:
+  workflow_dispatch:
+    inputs:
+      liga:
+        description: "Slug da liga (ex.: bra-a, eng-1, esp-1)"
+        required: false
+        default: "bra-a"
+
+jobs:
+  check-espn-zones:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Rodar diagnóstico
+        run: node scripts/check-espn-zones.js --liga=${{ inputs.liga || 'bra-a' }}
+      - name: Commit resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "docs: espn standings zone check for ${{ inputs.liga || 'bra-a' }}"
+          git push
