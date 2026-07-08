@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+const ESPN_STANDINGS_BASE = 'https://site.api.espn.com/apis/v2/sports/soccer';
 
 async function main() {
   const liga = process.argv.find((a) => a.startsWith('--liga='))?.split('=')[1] || 'bra-a';
