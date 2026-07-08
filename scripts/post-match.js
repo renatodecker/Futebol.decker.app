@@ -22,6 +22,10 @@ const ROOT = path.join(__dirname, '..');
 const ESPN_SITE_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
 const TWO_HOURS_MS = 2 * 60 * 60 * 1000;
 
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
 function loadJson(p, fallback) {
   try {
     return JSON.parse(fs.readFileSync(p, 'utf8'));
@@ -87,6 +91,7 @@ async function fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir) {
     m.status = 'finished';
     m.score = { home: Number(home?.score ?? 0), away: Number(away?.score ?? 0) };
     updated += 1;
+    await sleep(250);
   }
   return updated;
 }
