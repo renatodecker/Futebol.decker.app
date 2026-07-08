@@ -39,10 +39,6 @@ async function fdGet(pathname, token) {
   return res.json();
 }
 
-function fmtDate(d) {
-  return d.toISOString().slice(0, 10).replace(/-/g, '');
-}
-
 function mapStatus(fdStatus) {
   switch (fdStatus) {
     case 'FINISHED':
@@ -196,24 +192,19 @@ async function syncFixturesAndStandings(liga, cfg, teams, token) {
 }
 
 async function matchEspnEvents(liga, cfg, teams, fixtures) {
+  // Casa espnEventId para QUALQUER jogo que ainda não tenha um, usando a
+  // própria data do jogo (não uma janela fixa de "próximos 7 dias"): jogos
+  // já finalizados na primeira carga (bootstrap em meio à temporada) nunca
+  // passam pelo status "scheduled" de novo, então uma janela olhando só pra
+  // frente nunca os alcançaria — post-match.js ficaria pra sempre sem como
+  // buscar o summary desses jogos.
   const espnSlug = cfg.sources.espnSlug;
-  const today = new Date();
-  const in7Days = new Set();
-  for (let d = 0; d < 7; d += 1) {
-    const day = new Date(today);
-    day.setDate(day.getDate() + d);
-    in7Days.add(fmtDate(day));
-  }
+  const targets = fixtures.matches.filter((m) => !m.espnEventId);
+  if (targets.length === 0) return 0;
 
-  const upcoming = fixtures.matches.filter((m) => {
-    if (m.espnEventId || m.status === 'finished') return false;
-    const day = m.date.slice(0, 10).replace(/-/g, '');
-    return in7Days.has(day);
-  });
-  if (upcoming.length === 0) return 0;
-
+  const dates = new Set(targets.map((m) => m.date.slice(0, 10).replace(/-/g, '')));
   const eventsByDate = new Map();
-  for (const day of in7Days) {
+  for (const day of dates) {
     const url = `${ESPN_SITE_BASE}/${espnSlug}/scoreboard?dates=${day}`;
     const res = await fetch(url);
     if (res.status !== 200) continue;
@@ -223,7 +214,7 @@ async function matchEspnEvents(liga, cfg, teams, fixtures) {
   }
 
   let matched = 0;
-  for (const fixture of upcoming) {
+  for (const fixture of targets) {
     const day = fixture.date.slice(0, 10).replace(/-/g, '');
     const events = eventsByDate.get(day) || [];
     const homeEspnId = teams[fixture.home]?.espnId;
@@ -237,8 +228,8 @@ async function matchEspnEvents(liga, cfg, teams, fixtures) {
     if (ev) {
       fixture.espnEventId = ev.id;
       matched += 1;
-    } else {
-      console.warn(`[${liga}] sem espnEventId para ${fixture.id} (${fixture.date}) — modal ficará indisponível até casar.`);
+    } else if (fixture.status !== 'scheduled') {
+      console.warn(`[${liga}] sem espnEventId para ${fixture.id} (${fixture.date}) — modal/estatísticas ficarão indisponíveis pra esse jogo até casar.`);
     }
   }
   return matched;

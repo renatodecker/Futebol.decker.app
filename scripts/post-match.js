@@ -49,9 +49,19 @@ function positionGroup(abbrev) {
 
 async function fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir) {
   const now = Date.now();
+  const summariesDir = path.join(rawDir, 'summaries');
+  fs.mkdirSync(summariesDir, { recursive: true });
+
   const candidates = fixtures.matches.filter((m) => {
-    if (m.status === 'finished' || m.status === 'postponed') return false;
+    if (m.status === 'postponed') return false;
     if (!m.espnEventId) return false;
+    if (m.status === 'finished') {
+      // Já finalizado direto pela fonte canônica (ex.: bootstrap em meio à
+      // temporada) — nunca passa por aqui de novo, então o único jeito de
+      // pegar o summary (gols/assistências/cartões) é checar se ainda falta
+      // cachear.
+      return !fs.existsSync(path.join(summariesDir, `${m.espnEventId}.json`));
+    }
     return now - new Date(m.date).getTime() > TWO_HOURS_MS;
   });
 
