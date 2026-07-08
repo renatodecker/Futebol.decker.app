@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T00:51:18.688Z",
+  "updatedAt": "2026-07-08T01:29:49.101Z",
   "table": [
     {
       "pos": 1,
@@ -12,8 +12,14 @@
       "gf": 30,
       "ga": 13,
       "gd": 17,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "D",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores"
     },
     {
       "pos": 2,
@@ -26,8 +32,14 @@
       "gf": 31,
       "ga": 16,
       "gd": 15,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "W",
+        "D",
+        "L",
+        "W"
+      ],
+      "zone": "libertadores"
     },
     {
       "pos": 3,
@@ -40,8 +52,14 @@
       "gf": 28,
       "ga": 23,
       "gd": 5,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "D",
+        "W",
+        "L",
+        "D"
+      ],
+      "zone": "libertadores"
     },
     {
       "pos": 4,
@@ -54,8 +72,14 @@
       "gf": 24,
       "ga": 18,
       "gd": 6,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "L",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores"
     },
     {
       "pos": 5,
@@ -68,8 +92,14 @@
       "gf": 25,
       "ga": 19,
       "gd": 6,
-      "form": [],
-      "zone": null
+      "form": [
+        "W",
+        "L",
+        "W",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores-pre"
     },
     {
       "pos": 6,
@@ -82,8 +112,14 @@
       "gf": 25,
       "ga": 23,
       "gd": 2,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "L",
+        "D",
+        "L",
+        "W"
+      ],
+      "zone": "libertadores-pre"
     },
     {
       "pos": 7,
@@ -96,8 +132,14 @@
       "gf": 24,
       "ga": 24,
       "gd": 0,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "D",
+        "W",
+        "W",
+        "L"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 8,
@@ -110,8 +152,14 @@
       "gf": 23,
       "ga": 20,
       "gd": 3,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "L",
+        "L",
+        "D",
+        "L"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 9,
@@ -124,8 +172,14 @@
       "gf": 22,
       "ga": 23,
       "gd": -1,
-      "form": [],
-      "zone": null
+      "form": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 10,
@@ -138,8 +192,14 @@
       "gf": 18,
       "ga": 19,
       "gd": -1,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "W"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 11,
@@ -152,8 +212,14 @@
       "gf": 24,
       "ga": 28,
       "gd": -4,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "D"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 12,
@@ -166,8 +232,14 @@
       "gf": 31,
       "ga": 31,
       "gd": 0,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "D",
+        "W",
+        "D",
+        "L"
+      ],
+      "zone": "sulamericana"
     },
     {
       "pos": 13,
@@ -180,7 +252,13 @@
       "gf": 21,
       "ga": 25,
       "gd": -4,
-      "form": [],
+      "form": [
+        "W",
+        "D",
+        "L",
+        "W",
+        "L"
+      ],
       "zone": null
     },
     {
@@ -194,7 +272,13 @@
       "gf": 21,
       "ga": 22,
       "gd": -1,
-      "form": [],
+      "form": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "L"
+      ],
       "zone": null
     },
     {
@@ -208,7 +292,13 @@
       "gf": 26,
       "ga": 29,
       "gd": -3,
-      "form": [],
+      "form": [
+        "D",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
       "zone": null
     },
     {
@@ -222,7 +312,13 @@
       "gf": 20,
       "ga": 23,
       "gd": -3,
-      "form": [],
+      "form": [
+        "D",
+        "L",
+        "D",
+        "W",
+        "L"
+      ],
       "zone": null
     },
     {
@@ -236,8 +332,14 @@
       "gf": 22,
       "ga": 29,
       "gd": -7,
-      "form": [],
-      "zone": null
+      "form": [
+        "D",
+        "W",
+        "L",
+        "L",
+        "L"
+      ],
+      "zone": "rebaixamento"
     },
     {
       "pos": 18,
@@ -250,8 +352,14 @@
       "gf": 21,
       "ga": 29,
       "gd": -8,
-      "form": [],
-      "zone": null
+      "form": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "zone": "rebaixamento"
     },
     {
       "pos": 19,
@@ -264,8 +372,14 @@
       "gf": 18,
       "ga": 24,
       "gd": -6,
-      "form": [],
-      "zone": null
+      "form": [
+        "W",
+        "D",
+        "L",
+        "W",
+        "L"
+      ],
+      "zone": "rebaixamento"
     },
     {
       "pos": 20,
@@ -278,9 +392,36 @@
       "gf": 17,
       "ga": 33,
       "gd": -16,
-      "form": [],
-      "zone": null
+      "form": [
+        "L",
+        "D",
+        "L",
+        "L",
+        "L"
+      ],
+      "zone": "rebaixamento"
     }
   ],
-  "zones": []
+  "zones": [
+    {
+      "id": "libertadores",
+      "label": "Libertadores (fase de grupos)",
+      "color": "#2e7d32"
+    },
+    {
+      "id": "libertadores-pre",
+      "label": "Libertadores (pré-fase)",
+      "color": "#66bb6a"
+    },
+    {
+      "id": "sulamericana",
+      "label": "Sul-Americana",
+      "color": "#f9a825"
+    },
+    {
+      "id": "rebaixamento",
+      "label": "Rebaixamento",
+      "color": "#c62828"
+    }
+  ]
 }
