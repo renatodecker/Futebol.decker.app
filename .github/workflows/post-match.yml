@@ -1,0 +1,33 @@
+name: "Post-match"
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # ~23:00 America/Sao_Paulo (UTC-3)
+    - cron: "30 3 * * *" # ~00:30
+    - cron: "0 5 * * *"  # ~02:00
+  workflow_dispatch:
+    inputs:
+      liga:
+        description: "Rodar só uma liga (slug). Vazio = todas as active."
+        required: false
+        default: ""
+
+jobs:
+  post-match:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Rodar post-match
+        run: node scripts/post-match.js ${{ inputs.liga != '' && format('--liga={0}', inputs.liga) || '' }}
+      - name: Commit dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: post-match sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

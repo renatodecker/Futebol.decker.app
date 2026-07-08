@@ -1,5 +1,6 @@
 import * as Theme from './theme.js';
 import { renderStandings } from './standings.js';
+import { initSquadModal } from './squad.js';
 
 const state = {
   leagues: null,
@@ -8,6 +9,8 @@ const state = {
   fixtures: null,
   standings: null,
   meta: null,
+  players: {},
+  stats: { players: {}, teams: {} },
   team: null, // slug do time selecionado (skin), ou null
 };
 
@@ -26,6 +29,16 @@ async function fetchJson(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Falha ao buscar ${url}: HTTP ${res.status}`);
   return res.json();
+}
+
+// players.json/stats.json só existem depois que post-match.js/roster-sync.js
+// rodarem pela primeira vez (Fase 3) — degrada graciosamente até lá.
+async function fetchJsonOptional(url, fallback) {
+  try {
+    return await fetchJson(url);
+  } catch (_) {
+    return fallback;
+  }
 }
 
 function updateQuery(params) {
@@ -140,12 +153,12 @@ function matchCardHtml(m, { showRound = false } = {}) {
   return `
     <div class="match-card ${isLive ? 'is-live' : ''}" data-match="${m.id}">
       ${roundHtml}
-      <div class="team home">
+      <div class="team home" data-open-squad="${m.home}">
         <img src="${home?.badge || ''}" alt="" />
         <span class="team-name">${home?.abbrev || m.home}</span>
       </div>
       <div class="center">${scoreHtml}</div>
-      <div class="team away">
+      <div class="team away" data-open-squad="${m.away}">
         <span class="team-name">${away?.abbrev || m.away}</span>
         <img src="${away?.badge || ''}" alt="" />
       </div>
@@ -179,6 +192,139 @@ function renderClassificacao() {
     legendEl: document.getElementById('zonesLegend'),
     badgeEl: document.getElementById('standingsBadge'),
   }, state.standings, state.teams);
+}
+
+// ---------------------------------------------------------------------
+// Estatísticas
+// ---------------------------------------------------------------------
+
+const statsSortState = { key: 'goals', dir: 'desc' };
+
+function playerStatsRows(teamFilter) {
+  return Object.entries(state.stats.players || {})
+    .map(([pid, s]) => {
+      const identity = state.players[pid];
+      if (!identity) return null;
+      if (teamFilter && identity.team !== teamFilter) return null;
+      return { pid, ...s, identity };
+    })
+    .filter(Boolean);
+}
+
+function sortRows(rows, key, dir) {
+  return [...rows].sort((a, b) => (dir === 'desc' ? b[key] - a[key] : a[key] - b[key]));
+}
+
+function statsRowHtml(row) {
+  const team = state.teams[row.identity.team];
+  return `
+    <tr>
+      <td class="col-team" data-open-squad="${row.identity.team}">
+        <img src="${team?.badge || ''}" alt="" loading="lazy" />
+        <span>${row.identity.shirtName || row.identity.fullName}</span>
+      </td>
+      <td>${row.goals}</td>
+      <td>${row.assists}</td>
+      <td>${row.yellow}</td>
+      <td>${row.red}</td>
+    </tr>
+  `;
+}
+
+function renderStatsFullTable(teamFilter) {
+  const rows = sortRows(playerStatsRows(teamFilter), statsSortState.key, statsSortState.dir);
+  document.getElementById('statsBody').innerHTML = rows.map(statsRowHtml).join('')
+    || '<tr><td colspan="5" class="empty-state">Sem estatísticas ainda.</td></tr>';
+
+  document.querySelectorAll('#statsTable th[data-sort]').forEach((th) => {
+    th.classList.toggle('is-active', th.dataset.sort === statsSortState.key);
+  });
+}
+
+function renderStatsTop20() {
+  const categories = [
+    ['goals', 'Gols'],
+    ['assists', 'Assistências'],
+    ['yellow', 'Cartões amarelos'],
+    ['red', 'Cartões vermelhos'],
+  ];
+  const allRows = playerStatsRows(null);
+  const html = categories.map(([key, label]) => {
+    const top = sortRows(allRows, key, 'desc').slice(0, 20);
+    return `
+      <div class="top20-group">
+        <h4>${label}</h4>
+        <div class="table-scroll">
+          <table class="stats-table">
+            <tbody>${top.map((row) => `
+              <tr>
+                <td class="col-team" data-open-squad="${row.identity.team}">
+                  <img src="${state.teams[row.identity.team]?.badge || ''}" alt="" loading="lazy" />
+                  <span>${row.identity.shirtName || row.identity.fullName}</span>
+                </td>
+                <td>${row[key]}</td>
+              </tr>
+            `).join('')}</tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }).join('');
+  document.getElementById('statsTop20View').innerHTML = html;
+}
+
+function renderTeamStatsBlock(teamFilter) {
+  const block = document.getElementById('statsTeamBlock');
+  if (!teamFilter) {
+    block.hidden = true;
+    return;
+  }
+  const s = state.stats.teams[teamFilter] || { goals: 0, conceded: 0, yellow: 0, red: 0 };
+  block.hidden = false;
+  block.innerHTML = `
+    <div><strong>${s.goals}</strong><span>Gols pró</span></div>
+    <div><strong>${s.conceded}</strong><span>Gols sofridos</span></div>
+    <div><strong>${s.yellow}</strong><span>Cartões amarelos</span></div>
+    <div><strong>${s.red}</strong><span>Cartões vermelhos</span></div>
+  `;
+}
+
+function renderEstatisticas() {
+  const teamFilter = document.getElementById('statsTeamFilter').value || null;
+  renderTeamStatsBlock(teamFilter);
+  renderStatsFullTable(teamFilter);
+  renderStatsTop20();
+}
+
+function refreshStatsTeamOptions() {
+  const teamSelect = document.getElementById('statsTeamFilter');
+  const previous = teamSelect.value;
+  teamSelect.innerHTML = '<option value="">Todos os times</option>'
+    + orderedTeamEntries().map(([slug, team]) => `<option value="${slug}">${team.name}</option>`).join('');
+  if (state.teams[previous]) teamSelect.value = previous;
+}
+
+// Listeners são presos uma única vez (chamado em main()); troca de liga só
+// atualiza as opções do select e re-renderiza os dados via renderEstatisticas.
+function wireEstatisticas() {
+  const teamSelect = document.getElementById('statsTeamFilter');
+  teamSelect.addEventListener('change', renderEstatisticas);
+
+  document.querySelectorAll('#statsTable th[data-sort]').forEach((th) => {
+    th.addEventListener('click', () => {
+      const key = th.dataset.sort;
+      statsSortState.dir = statsSortState.key === key && statsSortState.dir === 'desc' ? 'asc' : 'desc';
+      statsSortState.key = key;
+      renderStatsFullTable(teamSelect.value || null);
+    });
+  });
+
+  const top20Toggle = document.getElementById('statsTop20Toggle');
+  top20Toggle.addEventListener('click', () => {
+    const showingTop20 = top20Toggle.classList.toggle('is-active');
+    document.getElementById('statsFullView').hidden = showingTop20;
+    document.getElementById('statsTop20View').hidden = !showingTop20;
+  });
 }
 
 // ---------------------------------------------------------------------
@@ -291,16 +437,20 @@ async function loadLiga(slug, { resetTeam } = {}) {
   updateHeaderForLiga(cfg);
 
   const base = `data/${slug}`;
-  const [teams, fixtures, standings, meta] = await Promise.all([
+  const [teams, fixtures, standings, meta, players, stats] = await Promise.all([
     fetchJson(`${base}/teams.json`),
     fetchJson(`${base}/fixtures.json`),
     fetchJson(`${base}/standings.json`),
     fetchJson(`${base}/meta.json`),
+    fetchJsonOptional(`${base}/players.json`, {}),
+    fetchJsonOptional(`${base}/stats.json`, { players: {}, teams: {} }),
   ]);
   state.teams = teams;
   state.fixtures = fixtures;
   state.standings = standings;
   state.meta = meta;
+  state.players = players;
+  state.stats = stats;
 
   if (state.team && !teams[state.team]) state.team = null; // ?time= inválido -> default
 
@@ -317,10 +467,22 @@ async function loadLiga(slug, { resetTeam } = {}) {
   renderClassificacao();
   renderRodadas();
   renderMeses();
+  refreshStatsTeamOptions();
+  renderEstatisticas();
 }
 
 async function main() {
   initTabs();
+  wireEstatisticas();
+  initSquadModal(
+    {
+      modalEl: document.getElementById('squadModal'),
+      backdropEl: document.getElementById('squadModalBackdrop'),
+      contentEl: document.getElementById('squadModalContent'),
+    },
+    () => ({ teams: state.teams, players: state.players, stats: state.stats }),
+  );
+
   state.leagues = await fetchJson('data/leagues.json');
   renderLeaguePicker();
 

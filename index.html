@@ -93,7 +93,33 @@
     </section>
 
     <section class="tab-panel" id="tab-estatisticas" data-tab-panel="estatisticas">
-      <p class="empty-state">Estatísticas de jogadores chegam na próxima fase.</p>
+      <div class="stats-controls">
+        <select id="statsTeamFilter">
+          <option value="">Todos os times</option>
+        </select>
+        <button class="toggle-btn" id="statsTop20Toggle">Top 20 por categoria</button>
+      </div>
+
+      <div id="statsTeamBlock" class="team-stats-block" hidden></div>
+
+      <div id="statsFullView">
+        <div class="table-scroll">
+          <table class="stats-table" id="statsTable">
+            <thead>
+              <tr>
+                <th class="col-team">Jogador</th>
+                <th data-sort="goals">Gols</th>
+                <th data-sort="assists">Assist.</th>
+                <th data-sort="yellow">Amarelos</th>
+                <th data-sort="red">Vermelhos</th>
+              </tr>
+            </thead>
+            <tbody id="statsBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="statsTop20View" hidden></div>
     </section>
   </main>
 
