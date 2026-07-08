@@ -1,18 +1,22 @@
+/* Paleta base = identidade decker.app.br (ver decker-app-brand-context.md).
+   --primary/--secondary/--text é a cascata de tema (spec 6.3): decker ->
+   liga -> skin do time; o resto (--bg/--surface/--ink/--border) é o "chrome"
+   neutro do site e não muda com liga/time. */
 :root {
-  --base-primary: #10151c;
-  --base-secondary: #1c2530;
-  --base-text: #f4f6f8;
+  --base-primary: #185FA5;   /* color-blue-strong */
+  --base-secondary: #378ADD; /* color-blue-mid */
+  --base-text: #FFFFFF;
 
   --primary: var(--base-primary);
   --secondary: var(--base-secondary);
   --text: var(--base-text);
 
-  --bg: #0b0e12;
-  --surface: #161b22;
-  --surface-alt: #1c232c;
-  --ink: #e8ecf1;
-  --ink-muted: #93a0b0;
-  --border: #262e39;
+  --bg: #0A0F1E;             /* color-bg-primary — inegociável, não é #000 */
+  --surface: #111827;        /* color-bg-surface — superfícies elevadas, modais */
+  --surface-alt: #0C1F3F;    /* color-bg-secondary — seções alternadas, cards */
+  --ink: #FFFFFF;            /* color-text-primary */
+  --ink-muted: rgba(255, 255, 255, 0.55); /* color-text-secondary */
+  --border: rgba(255, 255, 255, 0.12);    /* color-border-mid */
 
   --radius: 10px;
   --gap: 12px;
@@ -31,7 +35,7 @@ html, body {
   padding: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
@@ -54,7 +58,7 @@ button {
   z-index: 40;
   background: var(--primary);
   color: var(--text);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.06); /* color-border-subtle */
 }
 
 .header-row {
