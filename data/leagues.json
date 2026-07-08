@@ -19,8 +19,8 @@
       "liveTiebreakers": ["pts", "won", "gd", "gf"],
       "zoneBands": [
         { "from": 1, "to": 4, "id": "libertadores", "label": "Libertadores (fase de grupos)", "color": "#2e7d32" },
-        { "from": 5, "to": 6, "id": "libertadores-pre", "label": "Libertadores (pré-fase)", "color": "#66bb6a" },
-        { "from": 7, "to": 12, "id": "sulamericana", "label": "Sul-Americana", "color": "#f9a825" },
+        { "from": 5, "to": 5, "id": "libertadores-pre", "label": "Libertadores (fase preliminar)", "color": "#66bb6a" },
+        { "from": 6, "to": 11, "id": "sulamericana", "label": "Sul-Americana", "color": "#f9a825" },
         { "from": 17, "to": 20, "id": "rebaixamento", "label": "Rebaixamento", "color": "#c62828" }
       ]
     }
