@@ -1,4 +1,4 @@
-name: "Download team badges (Fase 1)"
+name: "Nova liga · 3. Baixar escudos dos times"
 
 on:
   workflow_dispatch:

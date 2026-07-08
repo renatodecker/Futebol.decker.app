@@ -1,4 +1,4 @@
-name: "Post-match"
+name: "Pós-jogo · Estatísticas e elenco (summaries ESPN)"
 
 on:
   schedule:

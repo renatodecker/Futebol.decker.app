@@ -1,4 +1,4 @@
-name: "Daily sync"
+name: "Diário · Fixtures, classificação e casamento com ESPN"
 
 on:
   schedule:

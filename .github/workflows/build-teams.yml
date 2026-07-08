@@ -1,4 +1,4 @@
-name: "Build teams.json (Fase 1 skeleton)"
+name: "Nova liga · 2. Gerar teams.json"
 
 on:
   workflow_dispatch:

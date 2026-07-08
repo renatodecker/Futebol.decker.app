@@ -1,4 +1,4 @@
-name: "Roster sync"
+name: "Semanal · Elenco e identidade dos jogadores"
 
 on:
   schedule:

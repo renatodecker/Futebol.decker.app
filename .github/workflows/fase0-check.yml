@@ -1,4 +1,4 @@
-name: "Fase 0 - Gate de viabilidade"
+name: "Nova liga · 1. Checar viabilidade (ESPN/football-data)"
 
 on:
   workflow_dispatch:
