@@ -1,4 +1,6 @@
-// Render da Classificação (spec 6.2.2). Recálculo ao vivo (6.6) chega na Fase 4.
+// Render da Classificação (spec 6.2.2). Recálculo ao vivo (spec 6.6, Fase 4):
+// quando `standings.table[].posDelta` vem preenchido (ver computeLiveStandings
+// em app.js), mostra as setas ▲▼ comparando com o standings.json oficial.
 
 function pct(row) {
   const maxPts = row.played * 3;
@@ -19,9 +21,11 @@ export function renderStandings({ bodyEl, legendEl, badgeEl }, standings, teams,
   bodyEl.innerHTML = standings.table.map((row) => {
     const team = teams[row.team];
     const color = row.zone ? zoneColor.get(row.zone) : null;
+    const posArrow = row.posDelta > 0 ? '<span class="pos-arrow up">▲</span>'
+      : row.posDelta < 0 ? '<span class="pos-arrow down">▼</span>' : '';
     return `
       <tr class="${row.zone ? 'zone-row' : ''}" style="${color ? `--zone-color:${color}` : ''}" data-team="${row.team}">
-        <td class="col-pos">${row.pos}</td>
+        <td class="col-pos">${row.pos}${posArrow}</td>
         <td class="col-team" data-open-squad="${row.team}">
           <img src="${team?.badge || ''}" alt="" loading="lazy" />
           <span>${team?.name || row.team}</span>

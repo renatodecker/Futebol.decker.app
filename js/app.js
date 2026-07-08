@@ -1,6 +1,8 @@
 import * as Theme from './theme.js';
 import { renderStandings } from './standings.js';
 import { initSquadModal } from './squad.js';
+import { initLive } from './live.js';
+import { initMatchModal } from './modal.js';
 
 const state = {
   leagues: null,
@@ -151,7 +153,7 @@ function matchCardHtml(m, { showRound = false } = {}) {
   const roundHtml = showRound ? `<span class="round-label">Rodada ${m.round}</span>` : '';
 
   return `
-    <div class="match-card ${isLive ? 'is-live' : ''}" data-match="${m.id}">
+    <div class="match-card is-clickable ${isLive ? 'is-live' : ''}" data-match="${m.id}">
       ${roundHtml}
       <div class="team home" data-open-squad="${m.home}">
         <img src="${home?.badge || ''}" alt="" />
@@ -186,12 +188,62 @@ function renderHomeLists() {
 // Classificação
 // ---------------------------------------------------------------------
 
+function isWithinLiveWindow() {
+  const windows = state.meta?.liveWindows || [];
+  const now = Date.now();
+  return windows.some((w) => now >= new Date(w.start).getTime() && now <= new Date(w.end).getTime());
+}
+
+// Recalcula a tabela a partir de fixtures.matches (finished + live), pra
+// mostrar uma classificação "parcial" enquanto há jogos em andamento. Zona e
+// forma continuam vindas do standings.json oficial (não mudam intra-jogo).
+function computeLiveStandings() {
+  const acc = {};
+  for (const slug of Object.keys(state.teams)) {
+    acc[slug] = { team: slug, pts: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
+  }
+  for (const m of state.fixtures.matches) {
+    if ((m.status !== 'finished' && m.status !== 'live') || !m.score) continue;
+    const h = acc[m.home];
+    const a = acc[m.away];
+    if (!h || !a) continue;
+    h.played += 1; a.played += 1;
+    h.gf += m.score.home; h.ga += m.score.away;
+    a.gf += m.score.away; a.ga += m.score.home;
+    if (m.score.home > m.score.away) { h.won += 1; h.pts += 3; a.lost += 1; }
+    else if (m.score.home < m.score.away) { a.won += 1; a.pts += 3; h.lost += 1; }
+    else { h.drawn += 1; a.drawn += 1; h.pts += 1; a.pts += 1; }
+  }
+
+  const tiebreakers = state.leagues[state.liga].rules?.liveTiebreakers || ['pts', 'won', 'gd', 'gf'];
+  const rows = Object.values(acc).map((r) => ({ ...r, gd: r.gf - r.ga }));
+  rows.sort((x, y) => {
+    for (const key of tiebreakers) {
+      if (y[key] !== x[key]) return y[key] - x[key];
+    }
+    return 0;
+  });
+
+  const officialByTeam = new Map((state.standings.table || []).map((r) => [r.team, r]));
+  rows.forEach((r, i) => {
+    r.pos = i + 1;
+    const off = officialByTeam.get(r.team);
+    r.posDelta = off ? off.pos - r.pos : 0; // positivo = subiu
+    r.zone = off?.zone ?? null;
+    r.form = off?.form ?? [];
+  });
+
+  return { table: rows, zones: state.standings.zones || [] };
+}
+
 function renderClassificacao() {
+  const live = isWithinLiveWindow();
+  const data = live ? computeLiveStandings() : state.standings;
   renderStandings({
     bodyEl: document.getElementById('standingsBody'),
     legendEl: document.getElementById('zonesLegend'),
     badgeEl: document.getElementById('standingsBadge'),
-  }, state.standings, state.teams);
+  }, data, state.teams, { partial: live });
 }
 
 // ---------------------------------------------------------------------
@@ -409,6 +461,48 @@ function renderMeses() {
 }
 
 // ---------------------------------------------------------------------
+// Modo live
+// ---------------------------------------------------------------------
+
+let matchModal = null;
+let liveController = null;
+
+function updateLiveBar(liveMatchIds) {
+  const bar = document.getElementById('liveBar');
+  const text = document.getElementById('liveBarText');
+  const count = (liveMatchIds || []).length;
+  if (count === 0) {
+    bar.hidden = true;
+    return;
+  }
+  bar.hidden = false;
+  text.textContent = count === 1 ? '1 jogo ao vivo agora' : `${count} jogos ao vivo agora`;
+}
+
+// Atualiza só o placar/estado dos cards já na tela (Home/Rodadas/Meses
+// compartilham a mesma marcação .match-card[data-match]), sem reconstruir o
+// DOM — isso preserva o estado aberto/fechado das sanfonas de Rodadas/Meses.
+function patchLiveMatchCards() {
+  document.querySelectorAll('.match-card[data-match]').forEach((el) => {
+    const m = state.fixtures.matches.find((x) => x.id === el.dataset.match);
+    if (!m) return;
+    const isLive = m.status === 'live';
+    el.classList.toggle('is-live', isLive);
+    const center = el.querySelector('.center');
+    if (!center || (m.status !== 'finished' && !isLive)) return;
+    const liveBadge = isLive ? '<span class="live-badge"></span>' : '';
+    center.innerHTML = `<span class="score">${liveBadge}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span>`;
+  });
+}
+
+function onLiveUpdate({ liveMatchIds }) {
+  patchLiveMatchCards();
+  renderClassificacao();
+  updateLiveBar(liveMatchIds);
+  matchModal?.refreshIfLive(liveMatchIds);
+}
+
+// ---------------------------------------------------------------------
 // Tabs
 // ---------------------------------------------------------------------
 
@@ -469,6 +563,12 @@ async function loadLiga(slug, { resetTeam } = {}) {
   renderMeses();
   refreshStatsTeamOptions();
   renderEstatisticas();
+
+  liveController?.stop();
+  liveController = initLive(
+    () => ({ liga: state.liga, leagues: state.leagues, fixtures: state.fixtures, meta: state.meta }),
+    onLiveUpdate,
+  );
 }
 
 async function main() {
@@ -481,6 +581,14 @@ async function main() {
       contentEl: document.getElementById('squadModalContent'),
     },
     () => ({ teams: state.teams, players: state.players, stats: state.stats }),
+  );
+  matchModal = initMatchModal(
+    {
+      modalEl: document.getElementById('matchModal'),
+      backdropEl: document.getElementById('matchModalBackdrop'),
+      contentEl: document.getElementById('matchModalContent'),
+    },
+    () => ({ teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga }),
   );
 
   state.leagues = await fetchJson('data/leagues.json');

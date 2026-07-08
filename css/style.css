@@ -741,6 +741,131 @@ button {
   margin-top: 0;
 }
 
+/* ---------- Classificação ao vivo (parcial) ---------- */
+
+.pos-arrow {
+  font-size: 0.6rem;
+  margin-left: 3px;
+}
+
+.pos-arrow.up {
+  color: #2ecc71;
+}
+
+.pos-arrow.down {
+  color: #ff4d4f;
+}
+
+/* ---------- Match modal ---------- */
+
+.match-modal-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.match-modal-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.match-modal-team img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.match-modal-score {
+  text-align: center;
+}
+
+.match-modal-score .big-score {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.match-modal-meta {
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  margin-top: 4px;
+}
+
+.match-modal-timeline {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+  margin-bottom: 16px;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  padding: 4px 0;
+}
+
+.timeline-side {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.timeline-side.home {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.timeline-side.away {
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.timeline-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.timeline-minute {
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  flex: 0 0 auto;
+}
+
+.match-modal-lineups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.lineup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.lineup-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.lineup-jersey {
+  color: var(--ink-muted);
+  min-width: 18px;
+}
+
 /* ---------- Responsive tweaks ---------- */
 
 @media (min-width: 600px) {
