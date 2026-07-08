@@ -70,6 +70,25 @@ function teamSlugByFdId(teams, fdId) {
   return null;
 }
 
+function computeForm(fixtures, teamSlug, lastN = 5) {
+  const played = fixtures.matches
+    .filter((m) => m.status === 'finished' && m.score && (m.home === teamSlug || m.away === teamSlug))
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  return played.slice(-lastN).map((m) => {
+    const isHome = m.home === teamSlug;
+    const gf = isHome ? m.score.home : m.score.away;
+    const ga = isHome ? m.score.away : m.score.home;
+    if (gf > ga) return 'W';
+    if (gf < ga) return 'L';
+    return 'D';
+  });
+}
+
+function zoneForPosition(pos, zoneBands) {
+  const band = zoneBands.find((z) => pos >= z.from && pos <= z.to);
+  return band ? band.id : null;
+}
+
 function teamSlugByEspnId(teams, espnId) {
   for (const [slug, t] of Object.entries(teams)) {
     if (String(t.espnId) === String(espnId)) return slug;
@@ -150,11 +169,9 @@ async function syncFixturesAndStandings(liga, cfg, teams, token) {
   await sleep(FD_SLEEP_MS);
 
   const totalTable = (standingsResp.standings || []).find((s) => s.type === 'TOTAL');
-  const zonesSeen = new Set();
+  const zoneBands = cfg.rules?.zoneBands || [];
   const table = (totalTable?.table || []).map((row) => {
     const slug = teamSlugByFdId(teams, row.team?.id);
-    const zone = row.group || null;
-    if (zone) zonesSeen.add(zone);
     return {
       pos: row.position,
       team: slug,
@@ -166,22 +183,23 @@ async function syncFixturesAndStandings(liga, cfg, teams, token) {
       gf: row.goalsFor,
       ga: row.goalsAgainst,
       gd: row.goalDifference,
-      form: (row.form || '').split(',').filter(Boolean),
-      zone,
+      // football-data (plano free) não manda "form" nem "group"/zona pra
+      // essa competição — calculamos form a partir do nosso próprio
+      // fixtures.json, e zona a partir da faixa de posição configurada em
+      // leagues.json (regra fixa do regulamento, não depende de API).
+      form: computeForm(fixtures, slug),
+      zone: zoneForPosition(row.position, zoneBands),
     };
   });
-  if (zonesSeen.size === 0) {
-    console.warn(`[${liga}] football-data não retornou legendas de zona (group) para esta competição — zones ficará vazio; revisar manualmente se a liga tiver zonas de classificação relevantes.`);
-  }
 
   const standingsPath = path.join(dataDir, 'standings.json');
   const standingsOut = {
     updatedAt: new Date().toISOString(),
     table,
-    zones: Array.from(zonesSeen).map((id) => ({ id, label: id, color: null })),
+    zones: zoneBands.map((z) => ({ id: z.id, label: z.label, color: z.color })),
   };
   fs.writeFileSync(standingsPath, JSON.stringify(standingsOut, null, 2) + '\n');
-  console.log(`[${liga}] standings.json: ${table.length} times, ${zonesSeen.size} zona(s) detectada(s).`);
+  console.log(`[${liga}] standings.json: ${table.length} times, ${zoneBands.length} zona(s) configurada(s).`);
 
   // 3. Scorers (fallback de assistências) --------------------------------
   const scorersResp = await fdGet(`/competitions/${code}/scorers?limit=100`, token);

@@ -193,6 +193,57 @@ function processSummary(json, teams, playersAgg, statsAgg) {
   }
 }
 
+function normalizeName(name) {
+  return (name || '').trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+function identityScore(p) {
+  let score = 0;
+  if (p.birthdate) score += 2;
+  if (p.nationality) score += 1;
+  if (p.fullName && p.fullName === p.fullName.trim()) score += 1;
+  return score;
+}
+
+// A ESPN às vezes cadastra o mesmo jogador com IDs de atleta diferentes em
+// endpoints diferentes (ex.: o roster do time retorna um ID, mas o roster
+// de uma súmula específica retorna outro ID pra essa mesma pessoa) — isso
+// gera entradas duplicadas no elenco. Junta por (time, nome normalizado),
+// somando apps/gols e mantendo a identidade mais completa como canônica.
+function dedupePlayers(playersAgg, statsAgg) {
+  const groups = new Map();
+  for (const [pid, p] of Object.entries(playersAgg)) {
+    const key = `${p.team}|${normalizeName(p.fullName)}`;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(pid);
+  }
+
+  for (const pids of groups.values()) {
+    if (pids.length < 2) continue;
+    pids.sort((a, b) => identityScore(playersAgg[b]) - identityScore(playersAgg[a]));
+    const [keepId, ...dropIds] = pids;
+    const keep = playersAgg[keepId];
+    for (const dropId of dropIds) {
+      const drop = playersAgg[dropId];
+      keep.apps = (keep.apps || 0) + (drop.apps || 0);
+      keep.goals = (keep.goals || 0) + (drop.goals || 0);
+      if (drop.debut && (!keep.debut || drop.debut < keep.debut)) keep.debut = drop.debut;
+      delete playersAgg[dropId];
+
+      const dropStats = statsAgg.players[dropId];
+      if (dropStats) {
+        const keepStats = statsAgg.players[keepId] || { goals: 0, assists: 0, yellow: 0, red: 0 };
+        keepStats.goals += dropStats.goals || 0;
+        keepStats.assists += dropStats.assists || 0;
+        keepStats.yellow += dropStats.yellow || 0;
+        keepStats.red += dropStats.red || 0;
+        statsAgg.players[keepId] = keepStats;
+        delete statsAgg.players[dropId];
+      }
+    }
+  }
+}
+
 function rebuildPlayersAndStats(liga, teams, rawDir, dataDir) {
   const summariesDir = path.join(rawDir, 'summaries');
   fs.mkdirSync(summariesDir, { recursive: true });
@@ -221,6 +272,8 @@ function rebuildPlayersAndStats(liga, teams, rawDir, dataDir) {
       playersAgg[pid] = prior;
     }
   }
+
+  dedupePlayers(playersAgg, statsAgg);
 
   fs.writeFileSync(path.join(dataDir, 'players.json'), JSON.stringify(playersAgg, null, 2) + '\n');
   statsAgg.updatedAt = new Date().toISOString();

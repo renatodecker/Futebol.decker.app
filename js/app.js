@@ -194,9 +194,16 @@ function isWithinLiveWindow() {
   return windows.some((w) => now >= new Date(w.start).getTime() && now <= new Date(w.end).getTime());
 }
 
+function zoneForPosition(pos, zoneBands) {
+  const band = (zoneBands || []).find((z) => pos >= z.from && pos <= z.to);
+  return band ? band.id : null;
+}
+
 // Recalcula a tabela a partir de fixtures.matches (finished + live), pra
-// mostrar uma classificação "parcial" enquanto há jogos em andamento. Zona e
-// forma continuam vindas do standings.json oficial (não mudam intra-jogo).
+// mostrar uma classificação "parcial" enquanto há jogos em andamento. Forma
+// continua vindo do standings.json oficial (não muda intra-jogo), mas a zona
+// é recalculada pela posição ao vivo — senão um time que sobe/desce de zona
+// durante os jogos ainda apareceria pintado com a zona antiga.
 function computeLiveStandings() {
   const acc = {};
   for (const slug of Object.keys(state.teams)) {
@@ -224,12 +231,13 @@ function computeLiveStandings() {
     return 0;
   });
 
+  const zoneBands = state.leagues[state.liga].rules?.zoneBands || [];
   const officialByTeam = new Map((state.standings.table || []).map((r) => [r.team, r]));
   rows.forEach((r, i) => {
     r.pos = i + 1;
     const off = officialByTeam.get(r.team);
     r.posDelta = off ? off.pos - r.pos : 0; // positivo = subiu
-    r.zone = off?.zone ?? null;
+    r.zone = zoneForPosition(r.pos, zoneBands);
     r.form = off?.form ?? [];
   });
 
