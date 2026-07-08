@@ -499,7 +499,7 @@
     "jersey": 14,
     "birthdate": "1986-12-18",
     "nationality": "BRA",
-    "apps": 1,
+    "apps": 2,
     "goals": 0,
     "debut": "2026-05-31"
   },
@@ -4459,8 +4459,8 @@
     "jersey": 33,
     "birthdate": "1989-10-17",
     "nationality": "BRA",
-    "apps": 11,
-    "goals": 2,
+    "apps": 21,
+    "goals": 3,
     "debut": "2026-01-29"
   },
   "p-espn-218931": {
@@ -4510,18 +4510,6 @@
     "apps": 9,
     "goals": 2,
     "debut": "2026-01-29"
-  },
-  "p-espn-218974": {
-    "fullName": "Carlos Eduardo",
-    "shirtName": "C. Eduardo",
-    "team": "mir",
-    "position": "AM-R",
-    "jersey": 96,
-    "birthdate": "1996-10-10",
-    "nationality": "BRA",
-    "apps": 10,
-    "goals": 1,
-    "debut": "2026-02-04"
   },
   "p-espn-325101": {
     "fullName": "Denilson",
@@ -7783,7 +7771,7 @@
     "jersey": 98,
     "birthdate": "1998-03-05",
     "nationality": "BRA",
-    "apps": 6,
+    "apps": 7,
     "goals": 0,
     "debut": "2026-04-26"
   },
@@ -8591,18 +8579,6 @@
     "goals": 0,
     "debut": null
   },
-  "p-espn-214041": {
-    "fullName": "Marcelo Lomba ",
-    "shirtName": "Marcelo Lomba ",
-    "team": "pal",
-    "position": "G",
-    "jersey": 14,
-    "birthdate": null,
-    "nationality": null,
-    "apps": 1,
-    "goals": 0,
-    "debut": "2026-05-31"
-  },
   "p-espn-405272": {
     "fullName": "Victor Gabriel",
     "shirtName": "V. Gabriel",
@@ -8662,18 +8638,6 @@
     "apps": 0,
     "goals": 0,
     "debut": null
-  },
-  "p-espn-3093032": {
-    "fullName": "Anderson Paixão",
-    "shirtName": "A. Paixão",
-    "team": "cha",
-    "position": "G",
-    "jersey": 98,
-    "birthdate": null,
-    "nationality": null,
-    "apps": 1,
-    "goals": 0,
-    "debut": "2026-05-31"
   },
   "p-espn-269645": {
     "fullName": "Matheus",
@@ -9439,18 +9403,6 @@
     "jersey": null,
     "birthdate": "2007-07-25",
     "nationality": "ARG",
-    "apps": 0,
-    "goals": 0,
-    "debut": null
-  },
-  "p-espn-318152": {
-    "fullName": "Renan",
-    "shirtName": "Renan",
-    "team": "cap",
-    "position": "A",
-    "jersey": 50,
-    "birthdate": "2003-01-31",
-    "nationality": "BRA",
     "apps": 0,
     "goals": 0,
     "debut": null
@@ -10362,18 +10314,6 @@
     "position": "M",
     "jersey": 63,
     "birthdate": "2007-06-26",
-    "nationality": "BRA",
-    "apps": 0,
-    "goals": 0,
-    "debut": null
-  },
-  "p-espn-382962": {
-    "fullName": "Vitinho",
-    "shirtName": "Vitinho",
-    "team": "cor",
-    "position": "M",
-    "jersey": 68,
-    "birthdate": "2007-06-18",
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
@@ -11634,18 +11574,6 @@
     "position": "G",
     "jersey": 1,
     "birthdate": "1995-08-15",
-    "nationality": "BRA",
-    "apps": 0,
-    "goals": 0,
-    "debut": null
-  },
-  "p-espn-73678": {
-    "fullName": "Gabriel",
-    "shirtName": "Gabriel",
-    "team": "mir",
-    "position": "D",
-    "jersey": 46,
-    "birthdate": "2007-08-23",
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,

@@ -427,9 +427,9 @@
       "red": 0
     },
     "p-espn-174782": {
-      "goals": 2,
-      "assists": 0,
-      "yellow": 1,
+      "goals": 3,
+      "assists": 1,
+      "yellow": 2,
       "red": 1
     },
     "p-espn-250388": {
@@ -2094,12 +2094,6 @@
       "yellow": 2,
       "red": 0
     },
-    "p-espn-218974": {
-      "goals": 1,
-      "assists": 1,
-      "yellow": 1,
-      "red": 0
-    },
     "p-espn-216254": {
       "goals": 0,
       "assists": 0,
@@ -2853,5 +2847,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-07-08T00:52:22.728Z"
+  "updatedAt": "2026-07-08T01:30:32.504Z"
 }
