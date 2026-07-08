@@ -10,7 +10,8 @@
     "sources": {
       "espnSlug": "bra.1",
       "canonical": "football-data",
-      "canonicalCode": "BSA"
+      "canonicalCode": "BSA",
+      "utcOffsetMinutes": -180
     },
     "rules": {
       "teams": 20,

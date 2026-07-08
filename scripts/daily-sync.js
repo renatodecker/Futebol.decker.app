@@ -191,6 +191,14 @@ async function syncFixturesAndStandings(liga, cfg, teams, token) {
   return { fixtures, standings: standingsOut };
 }
 
+function localBucketDay(isoDate, utcOffsetMinutes) {
+  // ESPN agrupa o scoreboard pelo dia local da partida, não pelo dia UTC:
+  // jogos com kickoff no fim da noite local (ex.: 21:30 no Brasil) cruzam
+  // pra o dia seguinte em UTC, mas a ESPN continua listando no dia local.
+  const shifted = new Date(new Date(isoDate).getTime() + (utcOffsetMinutes || 0) * 60000);
+  return shifted.toISOString().slice(0, 10).replace(/-/g, '');
+}
+
 async function matchEspnEvents(liga, cfg, teams, fixtures) {
   // Casa espnEventId para QUALQUER jogo que ainda não tenha um, usando a
   // própria data do jogo (não uma janela fixa de "próximos 7 dias"): jogos
@@ -199,10 +207,11 @@ async function matchEspnEvents(liga, cfg, teams, fixtures) {
   // frente nunca os alcançaria — post-match.js ficaria pra sempre sem como
   // buscar o summary desses jogos.
   const espnSlug = cfg.sources.espnSlug;
+  const utcOffsetMinutes = cfg.sources.utcOffsetMinutes || 0;
   const targets = fixtures.matches.filter((m) => !m.espnEventId);
   if (targets.length === 0) return 0;
 
-  const dates = new Set(targets.map((m) => m.date.slice(0, 10).replace(/-/g, '')));
+  const dates = new Set(targets.map((m) => localBucketDay(m.date, utcOffsetMinutes)));
   const eventsByDate = new Map();
   for (const day of dates) {
     const url = `${ESPN_SITE_BASE}/${espnSlug}/scoreboard?dates=${day}`;
@@ -215,7 +224,7 @@ async function matchEspnEvents(liga, cfg, teams, fixtures) {
 
   let matched = 0;
   for (const fixture of targets) {
-    const day = fixture.date.slice(0, 10).replace(/-/g, '');
+    const day = localBucketDay(fixture.date, utcOffsetMinutes);
     const events = eventsByDate.get(day) || [];
     const homeEspnId = teams[fixture.home]?.espnId;
     const awayEspnId = teams[fixture.away]?.espnId;
