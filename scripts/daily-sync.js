@@ -315,15 +315,22 @@ async function espnGetJson(url) {
 // Ligas sem fonte canônica (ex.: bra-b — football-data free tier não cobre
 // Série B) não têm um endpoint de "/matches" com a temporada inteira de uma
 // vez, então a única forma de reconstruir o calendário é varrer o scoreboard
-// da ESPN dia a dia (mesmo endpoint já validado na Fase 0), acumulando os
-// eventos vistos.
+// da ESPN. docs/espn-schedule-notes-bra-b.md confirmou que o endpoint aceita
+// range de datas (dates=YYYYMMDD-YYYYMMDD, testado até 14 dias num request
+// só) — varre em blocos de 14 dias em vez de dia a dia, ~26 requests pro ano
+// inteiro em vez de ~365.
+const ESPN_SCAN_CHUNK_DAYS = 14;
+
 async function fetchEspnSeasonEvents(espnSlug, season) {
   const events = new Map();
   const start = Date.UTC(season, 0, 1);
   const end = Date.UTC(season, 11, 31);
-  for (let t = start; t <= end; t += 24 * 60 * 60 * 1000) {
-    const day = new Date(t).toISOString().slice(0, 10).replace(/-/g, '');
-    const json = await espnGetJson(`${ESPN_SITE_BASE}/${espnSlug}/scoreboard?dates=${day}`);
+  const chunkMs = ESPN_SCAN_CHUNK_DAYS * 24 * 60 * 60 * 1000;
+  for (let t = start; t <= end; t += chunkMs) {
+    const chunkEnd = Math.min(t + chunkMs - 24 * 60 * 60 * 1000, end);
+    const fromStr = new Date(t).toISOString().slice(0, 10).replace(/-/g, '');
+    const toStr = new Date(chunkEnd).toISOString().slice(0, 10).replace(/-/g, '');
+    const json = await espnGetJson(`${ESPN_SITE_BASE}/${espnSlug}/scoreboard?dates=${fromStr}-${toStr}`);
     for (const ev of json?.events || []) events.set(ev.id, ev);
     await sleep(ESPN_SCAN_SLEEP_MS);
   }
