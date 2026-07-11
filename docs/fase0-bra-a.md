@@ -1,16 +1,20 @@
 # Fase 0 — gate de viabilidade — Brasileirão Série A (bra-a)
 
-Gerado em: 2026-07-07T22:45:02.603Z
+Gerado em: 2026-07-11T17:17:24.171Z
 espnSlug: `bra.1` | fonte canônica: `football-data` (BSA)
 
 ## 1-5. Summaries ESPN (3 jogo(s) finalizado(s) encontrados)
 
 ### Diagnóstico das requisições ao scoreboard
 
-- Falhas HTTP (não-200 ou erro de rede): 0 / 38
+- Falhas HTTP (não-200 ou erro de rede): 0 / 42
 - Nomes de status vistos nos eventos: STATUS_FULL_TIME
 - Amostra das últimas requisições:
 ```
+20260711 -> http=200 events=0
+20260710 -> http=200 events=0
+20260709 -> http=200 events=0
+20260708 -> http=200 events=0
 20260707 -> http=200 events=0
 20260706 -> http=200 events=0
 20260705 -> http=200 events=0
@@ -22,10 +26,6 @@ espnSlug: `bra.1` | fonte canônica: `football-data` (BSA)
 20260629 -> http=200 events=0
 20260628 -> http=200 events=0
 20260627 -> http=200 events=0
-20260626 -> http=200 events=0
-20260625 -> http=200 events=0
-20260624 -> http=200 events=0
-20260623 -> http=200 events=0
 ```
 
 ### Jogo 401841141 — Red Bull Bragantino 3 x 1 Internacional
@@ -62,7 +62,7 @@ espnSlug: `bra.1` | fonte canônica: `football-data` (BSA)
   "citizenship": "Brazil"
 }
 ```
-- football-data squad: **não testado nesta rodada** (sem `FOOTBALL_DATA_TOKEN` configurado como secret do repositório, ou liga sem fonte canônica). Configurar o secret e rerodar antes de finalizar a decisão de roster.
+- football-data squad: pendente — requer `teams.json` com `fdId` já cruzado (feito na Fase 1, script build-teams.js). Este check cobre apenas o formato ESPN.
 
 ### Internacional (espnId=1936)
 - 40 atletas no elenco. Número de camisa: 40/40. Nacionalidade: 40/40. Posição: 40/40. Nascimento: 37/40.
@@ -78,7 +78,7 @@ espnSlug: `bra.1` | fonte canônica: `football-data` (BSA)
   "citizenship": "Uruguay"
 }
 ```
-- football-data squad: **não testado nesta rodada** (sem `FOOTBALL_DATA_TOKEN` configurado como secret do repositório, ou liga sem fonte canônica). Configurar o secret e rerodar antes de finalizar a decisão de roster.
+- football-data squad: pendente — requer `teams.json` com `fdId` já cruzado (feito na Fase 1, script build-teams.js). Este check cobre apenas o formato ESPN.
 
 ## Decisões
 

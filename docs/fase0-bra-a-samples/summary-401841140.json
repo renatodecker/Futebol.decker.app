@@ -136,8 +136,6 @@
             "awayShootoutScore": "0",
             "gameResult": "W",
             "competitionName": "2026 Brasileiro Serie A ",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "819",
               "uid": "s:600~t:819",
@@ -179,7 +177,9 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A"
           },
           {
             "id": "401865544",
@@ -206,6 +206,8 @@
             "matchNote": "Cerro Porteño advances.",
             "competitionName": "2026 CONMEBOL Libertadores",
             "roundName": "Group Stage",
+            "leagueName": "CONMEBOL Libertadores",
+            "leagueAbbreviation": "CONMEBOL Libertadores",
             "opponent": {
               "id": "2671",
               "uid": "s:600~t:2671",
@@ -247,9 +249,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
-            "leagueName": "CONMEBOL Libertadores",
-            "leagueAbbreviation": "CONMEBOL Libertadores"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png"
           },
           {
             "id": "401841125",
@@ -342,6 +342,8 @@
             "aggregateScore": "4(7)-(1)1",
             "competitionName": "2026 Copa do Brasil",
             "roundName": "Fifth Round",
+            "leagueName": "Copa do Brasil",
+            "leagueAbbreviation": "Copa do Brazil",
             "opponent": {
               "id": "17713",
               "uid": "s:600~t:17713",
@@ -358,9 +360,7 @@
                 }
               ],
               "logos": []
-            },
-            "leagueName": "Copa do Brasil",
-            "leagueAbbreviation": "Copa do Brazil"
+            }
           }
         ]
       },
@@ -565,6 +565,8 @@
             "aggregateScore": "2(2)-(0)1",
             "competitionName": "2026 Copa do Brasil",
             "roundName": "Fifth Round",
+            "leagueName": "Copa do Brasil",
+            "leagueAbbreviation": "Copa do Brazil",
             "opponent": {
               "id": "6086",
               "uid": "s:600~t:6086",
@@ -606,9 +608,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-            "leagueName": "Copa do Brasil",
-            "leagueAbbreviation": "Copa do Brazil"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png"
           },
           {
             "id": "401841111",
@@ -1179,6 +1179,8 @@
           "aggregateScore": "4(7)-(1)1",
           "competitionName": "2026 Copa do Brasil",
           "roundName": "Fifth Round",
+          "leagueName": "Copa do Brasil",
+          "leagueAbbreviation": "Copa do Brazil",
           "opponent": {
             "id": "17713",
             "uid": "s:600~t:17713",
@@ -1195,9 +1197,7 @@
               }
             ],
             "logos": []
-          },
-          "leagueName": "Copa do Brasil",
-          "leagueAbbreviation": "Copa do Brazil"
+          }
         },
         {
           "id": "401841125",
@@ -2119,6 +2119,8 @@
           "awayShootoutScore": "0",
           "gameResult": "W",
           "competitionName": "2019 Brasileirao ",
+          "leagueName": "Brazilian Serie A",
+          "leagueAbbreviation": "Brazil Serie A",
           "opponent": {
             "id": "9318",
             "uid": "s:600~t:9318",
@@ -2160,9 +2162,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-          "leagueName": "Brazilian Serie A",
-          "leagueAbbreviation": "Brazil Serie A"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png"
         },
         {
           "id": "507075",
@@ -14540,7 +14540,6 @@
       }
     ]
   },
-  "videos": [],
   "header": {
     "id": "401841140",
     "uid": "s:600~l:630~e:401841140",
@@ -15072,6 +15071,7 @@
       }
     ]
   },
+  "videos": [],
   "keyEvents": [
     {
       "id": "47791539",

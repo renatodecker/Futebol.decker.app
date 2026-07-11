@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T22:00:10Z",
+  "timestamp": "2026-07-11T17:14:52Z",
   "status": "success",
   "season": {
     "year": 2026,
@@ -7183,7 +7183,7 @@
       "displayWeight": "159 lbs",
       "height": 67,
       "displayHeight": "5' 7\"",
-      "age": 33,
+      "age": 34,
       "dateOfBirth": "1992-07-10T07:00Z",
       "gender": "MALE",
       "links": [
@@ -10051,12 +10051,12 @@
       "fullName": "Ignacio Sosa",
       "displayName": "Ignacio Sosa",
       "shortName": "I. Sosa",
-      "weight": 148,
-      "displayWeight": "148 lbs",
-      "height": 65,
-      "displayHeight": "5' 5\"",
-      "age": 21,
-      "dateOfBirth": "2005-02-11T08:00Z",
+      "weight": 152,
+      "displayWeight": "152 lbs",
+      "height": 69,
+      "displayHeight": "5' 9\"",
+      "age": 22,
+      "dateOfBirth": "2003-08-31T07:00Z",
       "gender": "MALE",
       "links": [
         {
@@ -10263,10 +10263,10 @@
         ]
       },
       "position": {
-        "id": "19",
-        "name": "Forward",
-        "displayName": "Forward",
-        "abbreviation": "F",
+        "id": "10",
+        "name": "Midfielder",
+        "displayName": "Midfielder",
+        "abbreviation": "M",
         "leaf": false
       },
       "injuries": [],

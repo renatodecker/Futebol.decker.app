@@ -70,6 +70,8 @@
             "matchNote": "Red Bull Bragantino advances.",
             "competitionName": "2026 CONMEBOL Sudamericana",
             "roundName": "Group Stage",
+            "leagueName": "CONMEBOL Sudamericana",
+            "leagueAbbreviation": "CONMEBOL Sudamericana",
             "opponent": {
               "id": "6037",
               "uid": "s:600~t:6037",
@@ -111,9 +113,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
-            "leagueName": "CONMEBOL Sudamericana",
-            "leagueAbbreviation": "CONMEBOL Sudamericana"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png"
           },
           {
             "id": "401841131",
@@ -269,6 +269,8 @@
             "awayShootoutScore": "0",
             "gameResult": "W",
             "competitionName": "2026 Brasileiro Serie A ",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "3457",
               "uid": "s:600~t:3457",
@@ -310,9 +312,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png"
           },
           {
             "id": "401866352",
@@ -517,6 +517,8 @@
             "awayShootoutScore": "0",
             "gameResult": "W",
             "competitionName": "2026 Brasileiro Serie A ",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "3454",
               "uid": "s:600~t:3454",
@@ -558,9 +560,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
           },
           {
             "id": "401866355",
@@ -719,6 +719,8 @@
             "awayShootoutScore": "0",
             "gameResult": "W",
             "competitionName": "2026 Brasileiro Serie A ",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "3445",
               "uid": "s:600~t:3445",
@@ -760,9 +762,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
           }
         ]
       }
@@ -1201,8 +1201,6 @@
           "aggregateScore": "2(3)-(2)1",
           "competitionName": "2026 Copa do Brasil",
           "roundName": "Fifth Round",
-          "leagueName": "Copa do Brasil",
-          "leagueAbbreviation": "Copa do Brazil",
           "opponent": {
             "id": "9169",
             "uid": "s:600~t:9169",
@@ -1244,7 +1242,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+          "leagueName": "Copa do Brasil",
+          "leagueAbbreviation": "Copa do Brazil"
         },
         {
           "id": "401841124",
@@ -1400,8 +1400,6 @@
           "awayShootoutScore": "0",
           "gameResult": "W",
           "competitionName": "2026 Brasileiro Serie A ",
-          "leagueName": "Brazilian Serie A",
-          "leagueAbbreviation": "Brazil Serie A",
           "opponent": {
             "id": "3454",
             "uid": "s:600~t:3454",
@@ -1443,7 +1441,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+          "leagueName": "Brazilian Serie A",
+          "leagueAbbreviation": "Brazil Serie A"
         },
         {
           "id": "401865464",
@@ -1470,6 +1470,8 @@
           "matchNote": "Red Bull Bragantino advances.",
           "competitionName": "2026 CONMEBOL Sudamericana",
           "roundName": "Group Stage",
+          "leagueName": "CONMEBOL Sudamericana",
+          "leagueAbbreviation": "CONMEBOL Sudamericana",
           "opponent": {
             "id": "6037",
             "uid": "s:600~t:6037",
@@ -1511,9 +1513,7 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
-          "leagueName": "CONMEBOL Sudamericana",
-          "leagueAbbreviation": "CONMEBOL Sudamericana"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png"
         }
       ]
     },
@@ -1582,8 +1582,6 @@
           "awayShootoutScore": "0",
           "gameResult": "W",
           "competitionName": "2026 Brasileiro Serie A ",
-          "leagueName": "Brazilian Serie A",
-          "leagueAbbreviation": "Brazil Serie A",
           "opponent": {
             "id": "3445",
             "uid": "s:600~t:3445",
@@ -1625,7 +1623,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+          "leagueName": "Brazilian Serie A",
+          "leagueAbbreviation": "Brazil Serie A"
         },
         {
           "id": "401841114",

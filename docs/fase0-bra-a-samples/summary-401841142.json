@@ -70,8 +70,6 @@
             "matchNote": "Vasco da Gama advances.",
             "competitionName": "2026 CONMEBOL Sudamericana",
             "roundName": "Group Stage",
-            "leagueName": "CONMEBOL Sudamericana",
-            "leagueAbbreviation": "CONMEBOL Sudamericana",
             "opponent": {
               "id": "10060",
               "uid": "s:600~t:10060",
@@ -113,7 +111,9 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+            "leagueName": "CONMEBOL Sudamericana",
+            "leagueAbbreviation": "CONMEBOL Sudamericana"
           },
           {
             "id": "401841131",
@@ -136,8 +136,6 @@
             "awayShootoutScore": "0",
             "gameResult": "L",
             "competitionName": "2026 Brasileiro Serie A ",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "6079",
               "uid": "s:600~t:6079",
@@ -179,7 +177,9 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A"
           },
           {
             "id": "401865447",
@@ -272,8 +272,6 @@
             "awayShootoutScore": "0",
             "gameResult": "L",
             "competitionName": "2026 Brasileiro Serie A ",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "1936",
               "uid": "s:600~t:1936",
@@ -315,7 +313,9 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A"
           },
           {
             "id": "401866364",
@@ -342,8 +342,6 @@
             "aggregateScore": "2(4)-(2)2",
             "competitionName": "2026 Copa do Brasil",
             "roundName": "Fifth Round",
-            "leagueName": "Copa do Brasil",
-            "leagueAbbreviation": "Copa do Brazil",
             "opponent": {
               "id": "15424",
               "uid": "s:600~t:15424",
@@ -385,7 +383,9 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png",
+            "leagueName": "Copa do Brasil",
+            "leagueAbbreviation": "Copa do Brazil"
           }
         ]
       },
@@ -524,6 +524,8 @@
             "awayShootoutScore": "0",
             "gameResult": "L",
             "competitionName": "2026 Brasileiro Serie A ",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "874",
               "uid": "s:600~t:874",
@@ -565,9 +567,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png"
           },
           {
             "id": "401865439",
@@ -594,6 +594,8 @@
             "matchNote": "Atlético-MG advances.",
             "competitionName": "2026 CONMEBOL Sudamericana",
             "roundName": "Group Stage",
+            "leagueName": "CONMEBOL Sudamericana",
+            "leagueAbbreviation": "CONMEBOL Sudamericana",
             "opponent": {
               "id": "3372",
               "uid": "s:600~t:3372",
@@ -635,9 +637,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png",
-            "leagueName": "CONMEBOL Sudamericana",
-            "leagueAbbreviation": "CONMEBOL Sudamericana"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/3372.png"
           },
           {
             "id": "401841120",
@@ -660,6 +660,8 @@
             "awayShootoutScore": "0",
             "gameResult": "W",
             "competitionName": "2026 Brasileiro Serie A ",
+            "leagueName": "Brazilian Serie A",
+            "leagueAbbreviation": "Brazil Serie A",
             "opponent": {
               "id": "9169",
               "uid": "s:600~t:9169",
@@ -701,9 +703,7 @@
                 }
               ]
             },
-            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-            "leagueName": "Brazilian Serie A",
-            "leagueAbbreviation": "Brazil Serie A"
+            "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png"
           },
           {
             "id": "401866362",
@@ -2052,8 +2052,6 @@
           "awayShootoutScore": "0",
           "gameResult": "D",
           "competitionName": "2025 Brasileiro Serie A ",
-          "leagueName": "Brazilian Serie A",
-          "leagueAbbreviation": "Brazil Serie A",
           "opponent": {
             "id": "7632",
             "uid": "s:600~t:7632",
@@ -2095,7 +2093,9 @@
               }
             ]
           },
-          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png"
+          "opponentLogo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+          "leagueName": "Brazilian Serie A",
+          "leagueAbbreviation": "Brazil Serie A"
         },
         {
           "id": "699718",
@@ -3750,1368 +3750,6 @@
     }
   ],
   "hasOdds": false,
-  "news": {
-    "header": "Brazil Serie A News",
-    "link": {
-      "language": "en",
-      "rel": [
-        "index",
-        "desktop",
-        "league"
-      ],
-      "href": "https://www.espn.com/football/league/_/name/bra.1",
-      "text": "All Brazil Serie A News",
-      "shortText": "All News",
-      "isExternal": false,
-      "isPremium": false
-    },
-    "articles": [
-      {
-        "id": 49170204,
-        "nowId": "1-49170204",
-        "contentKey": "49170204-1-293-1",
-        "dataSourceIdentifier": "cb13afcd661a2",
-        "type": "Media",
-        "headline": "Burley: Neymar looked sluggish on return for Brazil",
-        "description": "Burley: Neymar looked sluggish on return for Brazil",
-        "lastModified": "2026-06-25T00:49:26Z",
-        "published": "2026-06-25T00:49:26Z",
-        "images": [
-          {
-            "name": "Burley: Neymar looked sluggish on return for Brazil",
-            "caption": "Burley: Neymar looked sluggish on return for Brazil",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/media/motion/2026/0624/dm_260624_COM_SOC_Analysis_Burley_Neymar_looked_sluggish_on_return_for_Brazil_20260624_GLOBAL_FIFA_WORLD/dm_260624_COM_SOC_Analysis_Burley_Neymar_looked_sluggish_on_return_for_Brazil_20260624_GLOBAL_FIFA_WORLD.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 72571,
-            "type": "team",
-            "uid": "s:600~t:205",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
-            "description": "Brazil",
-            "sportId": 600,
-            "teamId": 205,
-            "team": {
-              "id": 205,
-              "description": "Brazil",
-              "abbreviation": "BRA",
-              "shortDisplayName": "Brazil",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 33303,
-            "type": "league",
-            "uid": "s:600~l:606",
-            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
-            "description": "FIFA World Cup",
-            "sportId": 600,
-            "leagueId": 4,
-            "league": {
-              "id": 606,
-              "description": "FIFA World Cup",
-              "abbreviation": "FIFA World Cup",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/worldcup/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/worldcup/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 276557,
-            "type": "athlete",
-            "uid": "s:600~a:132948",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
-            "description": "Neymar",
-            "sportId": 600,
-            "athleteId": 132948,
-            "athlete": {
-              "id": 132948,
-              "description": "Neymar",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193385,
-            "type": "team",
-            "uid": "s:600~t:2674",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
-            "description": "Santos",
-            "sportId": 600,
-            "teamId": 2674,
-            "team": {
-              "id": 2674,
-              "description": "Santos",
-              "abbreviation": "SAN",
-              "shortDisplayName": "Santos",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:600~l:606~e:760465",
-            "guid": "af73ef88-5f05-3f43-8d7d-f7c4ee422d00",
-            "description": "Brazil @ Scotland",
-            "eventId": 760465,
-            "event": {
-              "id": 760465,
-              "sport": "soccer",
-              "league": "fifa.world",
-              "description": "Brazil @ Scotland"
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          },
-          {
-            "type": "guid",
-            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
-          },
-          {
-            "type": "guid",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
-          },
-          {
-            "type": "guid",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "af73ef88-5f05-3f43-8d7d-f7c4ee422d00"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/49170204/neymar-looked-sluggish-return-brazil",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/49170204/neymar-looked-sluggish-return-brazil",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=cb13afcd661a2"
-              }
-            }
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/49170204"
-            },
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/93545a3d-4995-4de5-8ee8-bd8dc74b1f53"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=49170204&videoDSI=cb13afcd661a2"
-          }
-        }
-      },
-      {
-        "id": 49167061,
-        "nowId": "1-49167061",
-        "contentKey": "49167061-1-5-1",
-        "dataSourceIdentifier": "846f47d01a965",
-        "type": "HeadlineNews",
-        "headline": "Cape Verde GK Vozinha seeks new club after World Cup, considers Brazil",
-        "description": "Vozinha, one of the sensations of the World Cup, is looking for a new club.",
-        "lastModified": "2026-06-24T19:19:21Z",
-        "published": "2026-06-24T19:19:21Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "25c398f2c814a",
-            "id": 49137979,
-            "type": "header",
-            "name": "Vozinha  [1296x729]",
-            "credit": "Photo by CHANDAN KHANNA / AFP via Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/0621/r1677300_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Viral Cape Verde goalkeeper Vozinha's 'dream came true'",
-            "caption": "Viral Cape Verde goalkeeper Vozinha's 'dream came true'",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 389249,
-            "type": "athlete",
-            "uid": "s:600~a:181330",
-            "guid": "d807f5c1-5722-194e-97c6-df1ce5a1ab6f",
-            "description": "Vozinha",
-            "sportId": 600,
-            "athleteId": 181330,
-            "athlete": {
-              "id": 181330,
-              "description": "Vozinha",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/181330/vozinha"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/181330/vozinha"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 518441,
-            "type": "topic",
-            "guid": "c20f7f80-f88e-4084-6567-d1bf00c52bf0",
-            "description": "soccer transfers",
-            "sportId": 0,
-            "topicId": 3
-          },
-          {
-            "id": 142461,
-            "type": "team",
-            "uid": "s:600~t:2597",
-            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3",
-            "description": "Cape Verde",
-            "sportId": 600,
-            "teamId": 2597,
-            "team": {
-              "id": 2597,
-              "description": "Cape Verde",
-              "abbreviation": "CPV",
-              "shortDisplayName": "Cape Verde",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 192963,
-            "type": "team",
-            "uid": "s:600~t:12705",
-            "guid": "5a58b031-60d5-6395-87e8-20c8eb42fc0f",
-            "description": "GD Chaves",
-            "sportId": 600,
-            "teamId": 12705,
-            "team": {
-              "id": 12705,
-              "description": "GD Chaves",
-              "abbreviation": "GDC",
-              "shortDisplayName": "GD Chaves",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/12705/gd-chaves"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/12705/gd-chaves"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
-          },
-          {
-            "type": "guid",
-            "guid": "d807f5c1-5722-194e-97c6-df1ce5a1ab6f"
-          },
-          {
-            "type": "guid",
-            "guid": "c20f7f80-f88e-4084-6567-d1bf00c52bf0"
-          },
-          {
-            "type": "guid",
-            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3"
-          },
-          {
-            "type": "guid",
-            "guid": "5a58b031-60d5-6395-87e8-20c8eb42fc0f"
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/soccer/story/_/id/49167061/cape-verde-gk-vozinha-seeks-new-club-world-cup-considers-brazil"
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/soccer/story?storyId=49167061"
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/49167061"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=49167061"
-            }
-          }
-        },
-        "byline": "Associated Press"
-      },
-      {
-        "id": 48908055,
-        "nowId": "1-48908055",
-        "contentKey": "48908055-1-5-1",
-        "dataSourceIdentifier": "4d1b3bc720f1c",
-        "type": "HeadlineNews",
-        "headline": "Neymar injury: Santos dismiss reports of lack of transparency over Brazil star's condition",
-        "description": "Santos have dismissed reports suggesting a lack of transparency from their medical staff regarding Neymar's physical condition and believe the player will be ready to play at the World Cup.",
-        "lastModified": "2026-05-29T08:58:46Z",
-        "published": "2026-05-29T08:58:46Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "7ac0f67c9dbd9",
-            "id": 48908067,
-            "type": "header",
-            "name": "Neymar [1296x729]",
-            "alt": "Neymar looks on.",
-            "credit": "(Photo by NELSON ALMEIDA / AFP via Getty Images)",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/0529/r1665252_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 276557,
-            "type": "athlete",
-            "uid": "s:600~a:132948",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
-            "description": "Neymar",
-            "sportId": 600,
-            "athleteId": 132948,
-            "athlete": {
-              "id": 132948,
-              "description": "Neymar",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 72571,
-            "type": "team",
-            "uid": "s:600~t:205",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
-            "description": "Brazil",
-            "sportId": 600,
-            "teamId": 205,
-            "team": {
-              "id": 205,
-              "description": "Brazil",
-              "abbreviation": "BRA",
-              "shortDisplayName": "Brazil",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193385,
-            "type": "team",
-            "uid": "s:600~t:2674",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
-            "description": "Santos",
-            "sportId": 600,
-            "teamId": 2674,
-            "team": {
-              "id": 2674,
-              "description": "Santos",
-              "abbreviation": "SAN",
-              "shortDisplayName": "Santos",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 702608,
-            "type": "contributor",
-            "guid": "fec4eb72-2649-3b41-a508-b3164b869711",
-            "description": "Adriana Garcia",
-            "slug": "adriana-garcia",
-            "contributor": {
-              "id": 3379,
-              "description": "Adriana Garcia"
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
-          },
-          {
-            "type": "guid",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
-          },
-          {
-            "type": "guid",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          },
-          {
-            "type": "guid",
-            "guid": "fec4eb72-2649-3b41-a508-b3164b869711"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/soccer/story/_/id/48908055/neymar-injury-santos-dismiss-reports-lack-transparency-brazil-star-condition"
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/soccer/story?storyId=48908055"
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/48908055"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=48908055"
-            }
-          }
-        },
-        "byline": "Adriana Garcia"
-      },
-      {
-        "id": 48830016,
-        "nowId": "1-48830016",
-        "contentKey": "48830016-1-5-1",
-        "dataSourceIdentifier": "d441129adeed5",
-        "type": "HeadlineNews",
-        "headline": "Neymar suffers calf injury, to miss Santos games ahead of World Cup",
-        "description": "Neymar has suffered a calf injury that will sideline him for Santos' upcoming matches, but he is expected to be ready next week to join the Brazil national team camp ahead of the World Cup.",
-        "lastModified": "2026-05-21T01:34:01Z",
-        "published": "2026-05-21T01:34:01Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "891e6182c88e0",
-            "id": 48830084,
-            "type": "header",
-            "name": "Neymar Santos injury [1296x729]",
-            "caption": "Neymar required treatment for a calf issue during Sunday's Santos match.",
-            "credit": "Photo by Sebastiao Moreira/EPA/Shutterstock",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/0520/r1661207_1296x729_16-9.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 33303,
-            "type": "league",
-            "uid": "s:600~l:606",
-            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
-            "description": "FIFA World Cup",
-            "sportId": 600,
-            "leagueId": 4,
-            "league": {
-              "id": 606,
-              "description": "FIFA World Cup",
-              "abbreviation": "FIFA World Cup",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/worldcup/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/worldcup/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 72571,
-            "type": "team",
-            "uid": "s:600~t:205",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
-            "description": "Brazil",
-            "sportId": 600,
-            "teamId": 205,
-            "team": {
-              "id": 205,
-              "description": "Brazil",
-              "abbreviation": "BRA",
-              "shortDisplayName": "Brazil",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 276557,
-            "type": "athlete",
-            "uid": "s:600~a:132948",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
-            "description": "Neymar",
-            "sportId": 600,
-            "athleteId": 132948,
-            "athlete": {
-              "id": 132948,
-              "description": "Neymar",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193385,
-            "type": "team",
-            "uid": "s:600~t:2674",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
-            "description": "Santos",
-            "sportId": 600,
-            "teamId": 2674,
-            "team": {
-              "id": 2674,
-              "description": "Santos",
-              "abbreviation": "SAN",
-              "shortDisplayName": "Santos",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
-          },
-          {
-            "type": "guid",
-            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
-          },
-          {
-            "type": "guid",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
-          },
-          {
-            "type": "guid",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/soccer/story/_/id/48830016/neymar-suffers-calf-injury-miss-santos-games-ahead-world-cup"
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/soccer/story?storyId=48830016"
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/48830016"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=48830016"
-            }
-          }
-        },
-        "byline": "ESPN News Services"
-      },
-      {
-        "id": 48804061,
-        "nowId": "1-48804061",
-        "contentKey": "48804061-1-293-1",
-        "dataSourceIdentifier": "d71ea26e299d2",
-        "type": "Media",
-        "headline": "Santos manager explains substitute confusion involving Neymar",
-        "description": "Cuca discusses Neymar's unintended substitution during Santos' 3-0 defeat to Coritiba and states the officiating mistake was not responsible for the final result.",
-        "lastModified": "2026-05-18T10:04:17Z",
-        "published": "2026-05-18T10:04:17Z",
-        "images": [
-          {
-            "name": "Santos manager explains substitute confusion involving Neymar",
-            "caption": "Cuca discusses Neymar's unintended substitution during Santos' 3-0 defeat to Coritiba and states the officiating mistake was not responsible for the final result.",
-            "alt": "",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/media/motion/2026/0518/dm_260518_Santos_manager_explains_substitute_confusion_involving_Neymar/dm_260518_Santos_manager_explains_substitute_confusion_involving_Neymar.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 191811,
-            "type": "team",
-            "uid": "s:600~t:3456",
-            "guid": "38d8da1c-9e43-f8be-d809-35750564c0f6",
-            "description": "Coritiba",
-            "sportId": 600,
-            "teamId": 3456,
-            "team": {
-              "id": 3456,
-              "description": "Coritiba",
-              "abbreviation": "CFC",
-              "shortDisplayName": "Coritiba",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/3456/coritiba"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/3456/coritiba"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 276557,
-            "type": "athlete",
-            "uid": "s:600~a:132948",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
-            "description": "Neymar",
-            "sportId": 600,
-            "athleteId": 132948,
-            "athlete": {
-              "id": 132948,
-              "description": "Neymar",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193385,
-            "type": "team",
-            "uid": "s:600~t:2674",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
-            "description": "Santos",
-            "sportId": 600,
-            "teamId": 2674,
-            "team": {
-              "id": 2674,
-              "description": "Santos",
-              "abbreviation": "SAN",
-              "shortDisplayName": "Santos",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "type": "event",
-            "uid": "s:600~l:630~e:401841123",
-            "guid": "6e1b26d2-1f9c-359c-99ed-22b626df5f4c",
-            "description": "Coritiba @ Santos",
-            "eventId": 401841123,
-            "event": {
-              "id": 401841123,
-              "sport": "soccer",
-              "league": "bra.1",
-              "description": "Coritiba @ Santos"
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          },
-          {
-            "type": "guid",
-            "guid": "38d8da1c-9e43-f8be-d809-35750564c0f6"
-          },
-          {
-            "type": "guid",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
-          },
-          {
-            "type": "guid",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "6e1b26d2-1f9c-359c-99ed-22b626df5f4c"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/video/clip/_/id/48804061/santos-manager-explains-substitute-confusion-involving-neymar",
-            "self": {
-              "href": "https://www.espn.com/video/clip/_/id/48804061/santos-manager-explains-substitute-confusion-involving-neymar",
-              "dsi": {
-                "href": "https://www.espn.com/video/clip?id=d71ea26e299d2"
-              }
-            }
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/video/clips/48804061"
-            },
-            "artwork": {
-              "href": "https://artwork.api.espn.com/artwork/collections/media/f7661496-d90c-4a16-8610-ba1956ee021c"
-            }
-          },
-          "sportscenter": {
-            "href": "sportscenter://x-callback-url/showVideo?videoID=48804061&videoDSI=d71ea26e299d2"
-          }
-        }
-      },
-      {
-        "id": 48739645,
-        "nowId": "1-48739645",
-        "contentKey": "48739645-1-5-1",
-        "dataSourceIdentifier": "6bc76c9375c15",
-        "type": "HeadlineNews",
-        "headline": "'Brilliant' Neymar praised by Santos boss ahead of Brazil's World Cup squad announcement",
-        "description": "Santos coach Cuca praised Neymar following his team's 2-0 league win on Sunday, with Brazil close to announcing their World Cup squad.",
-        "lastModified": "2026-05-11T10:18:53Z",
-        "published": "2026-05-11T10:18:53Z",
-        "images": [
-          {
-            "dataSourceIdentifier": "1c1bd90b8a30d",
-            "id": 48739654,
-            "type": "header",
-            "name": "Neymar Jr. [1296x729]",
-            "caption": "Neymar opened the scoring on the stroke of half-time as Santos saw off Bragantino 2-0.",
-            "credit": "Photo by Miguel Schincariol/Getty Images",
-            "height": 729,
-            "width": 1296,
-            "url": "https://a.espncdn.com/photo/2026/0511/r1656619_1296x729_16-9.jpg"
-          },
-          {
-            "type": "Media",
-            "name": "Laurens: Neymar's situation 'really sad'",
-            "caption": "Julien Laurens reacts to Neymar's current form and discusses his chances of making Brazil's World Cup squad.",
-            "height": 324,
-            "width": 576,
-            "url": "https://a.espncdn.com/media/motion/2026/0423/dm_260423_COM_SOC_ANALYSIS_Laurens_Neymars_situation_really_sad_2026_4_23/dm_260423_COM_SOC_ANALYSIS_Laurens_Neymars_situation_really_sad_2026_4_23.jpg"
-          }
-        ],
-        "categories": [
-          {
-            "id": 409224,
-            "type": "topic",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
-            "description": "news",
-            "sportId": 0,
-            "topicId": 781
-          },
-          {
-            "id": 81497,
-            "type": "league",
-            "uid": "s:600",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
-            "description": "Soccer",
-            "sportId": 600,
-            "leagueId": 600,
-            "league": {
-              "id": 600,
-              "description": "Soccer",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 276557,
-            "type": "athlete",
-            "uid": "s:600~a:132948",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
-            "description": "Neymar",
-            "sportId": 600,
-            "athleteId": 132948,
-            "athlete": {
-              "id": 132948,
-              "description": "Neymar",
-              "links": {
-                "web": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                },
-                "mobile": {
-                  "athletes": {
-                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193898,
-            "type": "league",
-            "uid": "s:600~l:630",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
-            "description": "Brazilian Serie A",
-            "sportId": 600,
-            "leagueId": 85,
-            "league": {
-              "id": 630,
-              "description": "Brazilian Serie A",
-              "abbreviation": "Brazil Serie A",
-              "links": {
-                "web": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                },
-                "mobile": {
-                  "leagues": {
-                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 193385,
-            "type": "team",
-            "uid": "s:600~t:2674",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
-            "description": "Santos",
-            "sportId": 600,
-            "teamId": 2674,
-            "team": {
-              "id": 2674,
-              "description": "Santos",
-              "abbreviation": "SAN",
-              "shortDisplayName": "Santos",
-              "links": {
-                "web": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                },
-                "mobile": {
-                  "teams": {
-                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
-                  }
-                }
-              }
-            }
-          },
-          {
-            "id": 702608,
-            "type": "contributor",
-            "guid": "fec4eb72-2649-3b41-a508-b3164b869711",
-            "description": "Adriana Garcia",
-            "slug": "adriana-garcia",
-            "contributor": {
-              "id": 3379,
-              "description": "Adriana Garcia"
-            }
-          },
-          {
-            "type": "guid",
-            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
-          },
-          {
-            "type": "guid",
-            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
-          },
-          {
-            "type": "guid",
-            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
-          },
-          {
-            "type": "guid",
-            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
-          },
-          {
-            "type": "guid",
-            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
-          },
-          {
-            "type": "guid",
-            "guid": "fec4eb72-2649-3b41-a508-b3164b869711"
-          }
-        ],
-        "premium": false,
-        "links": {
-          "web": {
-            "href": "https://www.espn.com/soccer/story/_/id/48739645/neymar-praised-santos-boss-goal-ahead-brazil-world-cup-squad-announcement"
-          },
-          "mobile": {
-            "href": "http://m.espn.go.com/soccer/story?storyId=48739645"
-          },
-          "api": {
-            "self": {
-              "href": "https://content.core.api.espn.com/v1/sports/news/48739645"
-            }
-          },
-          "app": {
-            "sportscenter": {
-              "href": "sportscenter://x-callback-url/showStory?uid=48739645"
-            }
-          }
-        },
-        "byline": "Adriana Garcia"
-      }
-    ]
-  },
   "rosters": [
     {
       "homeAway": "home",
@@ -14164,6 +12802,1368 @@
       "formation": "3-4-2-1"
     }
   ],
+  "news": {
+    "header": "Brazil Serie A News",
+    "link": {
+      "language": "en",
+      "rel": [
+        "index",
+        "desktop",
+        "league"
+      ],
+      "href": "https://www.espn.com/football/league/_/name/bra.1",
+      "text": "All Brazil Serie A News",
+      "shortText": "All News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    "articles": [
+      {
+        "id": 49170204,
+        "nowId": "1-49170204",
+        "contentKey": "49170204-1-293-1",
+        "dataSourceIdentifier": "cb13afcd661a2",
+        "type": "Media",
+        "headline": "Burley: Neymar looked sluggish on return for Brazil",
+        "description": "Burley: Neymar looked sluggish on return for Brazil",
+        "lastModified": "2026-06-25T00:49:26Z",
+        "published": "2026-06-25T00:49:26Z",
+        "images": [
+          {
+            "name": "Burley: Neymar looked sluggish on return for Brazil",
+            "caption": "Burley: Neymar looked sluggish on return for Brazil",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0624/dm_260624_COM_SOC_Analysis_Burley_Neymar_looked_sluggish_on_return_for_Brazil_20260624_GLOBAL_FIFA_WORLD/dm_260624_COM_SOC_Analysis_Burley_Neymar_looked_sluggish_on_return_for_Brazil_20260624_GLOBAL_FIFA_WORLD.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 72571,
+            "type": "team",
+            "uid": "s:600~t:205",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
+            "description": "Brazil",
+            "sportId": 600,
+            "teamId": 205,
+            "team": {
+              "id": 205,
+              "description": "Brazil",
+              "abbreviation": "BRA",
+              "shortDisplayName": "Brazil",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 276557,
+            "type": "athlete",
+            "uid": "s:600~a:132948",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
+            "description": "Neymar",
+            "sportId": 600,
+            "athleteId": 132948,
+            "athlete": {
+              "id": 132948,
+              "description": "Neymar",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193385,
+            "type": "team",
+            "uid": "s:600~t:2674",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
+            "description": "Santos",
+            "sportId": 600,
+            "teamId": 2674,
+            "team": {
+              "id": 2674,
+              "description": "Santos",
+              "abbreviation": "SAN",
+              "shortDisplayName": "Santos",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "uid": "s:600~l:606~e:760465",
+            "guid": "af73ef88-5f05-3f43-8d7d-f7c4ee422d00",
+            "description": "Brazil @ Scotland",
+            "eventId": 760465,
+            "event": {
+              "id": 760465,
+              "sport": "soccer",
+              "league": "fifa.world",
+              "description": "Brazil @ Scotland"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
+          },
+          {
+            "type": "guid",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "af73ef88-5f05-3f43-8d7d-f7c4ee422d00"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/49170204/neymar-looked-sluggish-return-brazil",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/49170204/neymar-looked-sluggish-return-brazil",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=cb13afcd661a2"
+              }
+            }
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/49170204"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/93545a3d-4995-4de5-8ee8-bd8dc74b1f53"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=49170204&videoDSI=cb13afcd661a2"
+          }
+        }
+      },
+      {
+        "id": 49167061,
+        "nowId": "1-49167061",
+        "contentKey": "49167061-1-5-1",
+        "dataSourceIdentifier": "846f47d01a965",
+        "type": "HeadlineNews",
+        "headline": "Cape Verde GK Vozinha seeks new club after World Cup, considers Brazil",
+        "description": "Vozinha, one of the sensations of the World Cup, is looking for a new club.",
+        "lastModified": "2026-06-24T19:19:21Z",
+        "published": "2026-06-24T19:19:21Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "25c398f2c814a",
+            "id": 49137979,
+            "type": "header",
+            "name": "Vozinha  [1296x729]",
+            "credit": "Photo by CHANDAN KHANNA / AFP via Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0621/r1677300_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Viral Cape Verde goalkeeper Vozinha's 'dream came true'",
+            "caption": "Viral Cape Verde goalkeeper Vozinha's 'dream came true'",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0616/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA/dm_260616_COM_SOC_Presser_Vozinha_Today_the_dream_comes_true_after_Cape_Verde_draw_against_Spain_202606_FIFA.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 389249,
+            "type": "athlete",
+            "uid": "s:600~a:181330",
+            "guid": "d807f5c1-5722-194e-97c6-df1ce5a1ab6f",
+            "description": "Vozinha",
+            "sportId": 600,
+            "athleteId": 181330,
+            "athlete": {
+              "id": 181330,
+              "description": "Vozinha",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/181330/vozinha"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/181330/vozinha"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 518441,
+            "type": "topic",
+            "guid": "c20f7f80-f88e-4084-6567-d1bf00c52bf0",
+            "description": "soccer transfers",
+            "sportId": 0,
+            "topicId": 3
+          },
+          {
+            "id": 142461,
+            "type": "team",
+            "uid": "s:600~t:2597",
+            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3",
+            "description": "Cape Verde",
+            "sportId": 600,
+            "teamId": 2597,
+            "team": {
+              "id": 2597,
+              "description": "Cape Verde",
+              "abbreviation": "CPV",
+              "shortDisplayName": "Cape Verde",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/2597/cape-verde"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 192963,
+            "type": "team",
+            "uid": "s:600~t:12705",
+            "guid": "5a58b031-60d5-6395-87e8-20c8eb42fc0f",
+            "description": "GD Chaves",
+            "sportId": 600,
+            "teamId": 12705,
+            "team": {
+              "id": 12705,
+              "description": "GD Chaves",
+              "abbreviation": "GDC",
+              "shortDisplayName": "GD Chaves",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/12705/gd-chaves"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/12705/gd-chaves"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
+          },
+          {
+            "type": "guid",
+            "guid": "d807f5c1-5722-194e-97c6-df1ce5a1ab6f"
+          },
+          {
+            "type": "guid",
+            "guid": "c20f7f80-f88e-4084-6567-d1bf00c52bf0"
+          },
+          {
+            "type": "guid",
+            "guid": "d4df09fe-4066-fc4a-ab3d-03e0e19653f3"
+          },
+          {
+            "type": "guid",
+            "guid": "5a58b031-60d5-6395-87e8-20c8eb42fc0f"
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/soccer/story/_/id/49167061/cape-verde-gk-vozinha-seeks-new-club-world-cup-considers-brazil"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/soccer/story?storyId=49167061"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/49167061"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=49167061"
+            }
+          }
+        },
+        "byline": "Associated Press"
+      },
+      {
+        "id": 48908055,
+        "nowId": "1-48908055",
+        "contentKey": "48908055-1-5-1",
+        "dataSourceIdentifier": "4d1b3bc720f1c",
+        "type": "HeadlineNews",
+        "headline": "Neymar injury: Santos dismiss reports of lack of transparency over Brazil star's condition",
+        "description": "Santos have dismissed reports suggesting a lack of transparency from their medical staff regarding Neymar's physical condition and believe the player will be ready to play at the World Cup.",
+        "lastModified": "2026-05-29T08:58:46Z",
+        "published": "2026-05-29T08:58:46Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "7ac0f67c9dbd9",
+            "id": 48908067,
+            "type": "header",
+            "name": "Neymar [1296x729]",
+            "alt": "Neymar looks on.",
+            "credit": "(Photo by NELSON ALMEIDA / AFP via Getty Images)",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0529/r1665252_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 276557,
+            "type": "athlete",
+            "uid": "s:600~a:132948",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
+            "description": "Neymar",
+            "sportId": 600,
+            "athleteId": 132948,
+            "athlete": {
+              "id": 132948,
+              "description": "Neymar",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72571,
+            "type": "team",
+            "uid": "s:600~t:205",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
+            "description": "Brazil",
+            "sportId": 600,
+            "teamId": 205,
+            "team": {
+              "id": 205,
+              "description": "Brazil",
+              "abbreviation": "BRA",
+              "shortDisplayName": "Brazil",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193385,
+            "type": "team",
+            "uid": "s:600~t:2674",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
+            "description": "Santos",
+            "sportId": 600,
+            "teamId": 2674,
+            "team": {
+              "id": 2674,
+              "description": "Santos",
+              "abbreviation": "SAN",
+              "shortDisplayName": "Santos",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702608,
+            "type": "contributor",
+            "guid": "fec4eb72-2649-3b41-a508-b3164b869711",
+            "description": "Adriana Garcia",
+            "slug": "adriana-garcia",
+            "contributor": {
+              "id": 3379,
+              "description": "Adriana Garcia"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
+          },
+          {
+            "type": "guid",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
+          },
+          {
+            "type": "guid",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          },
+          {
+            "type": "guid",
+            "guid": "fec4eb72-2649-3b41-a508-b3164b869711"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/soccer/story/_/id/48908055/neymar-injury-santos-dismiss-reports-lack-transparency-brazil-star-condition"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/soccer/story?storyId=48908055"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/48908055"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=48908055"
+            }
+          }
+        },
+        "byline": "Adriana Garcia"
+      },
+      {
+        "id": 48830016,
+        "nowId": "1-48830016",
+        "contentKey": "48830016-1-5-1",
+        "dataSourceIdentifier": "d441129adeed5",
+        "type": "HeadlineNews",
+        "headline": "Neymar suffers calf injury, to miss Santos games ahead of World Cup",
+        "description": "Neymar has suffered a calf injury that will sideline him for Santos' upcoming matches, but he is expected to be ready next week to join the Brazil national team camp ahead of the World Cup.",
+        "lastModified": "2026-05-21T01:34:01Z",
+        "published": "2026-05-21T01:34:01Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "891e6182c88e0",
+            "id": 48830084,
+            "type": "header",
+            "name": "Neymar Santos injury [1296x729]",
+            "caption": "Neymar required treatment for a calf issue during Sunday's Santos match.",
+            "credit": "Photo by Sebastiao Moreira/EPA/Shutterstock",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0520/r1661207_1296x729_16-9.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 33303,
+            "type": "league",
+            "uid": "s:600~l:606",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2",
+            "description": "FIFA World Cup",
+            "sportId": 600,
+            "leagueId": 4,
+            "league": {
+              "id": 606,
+              "description": "FIFA World Cup",
+              "abbreviation": "FIFA World Cup",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/worldcup/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 72571,
+            "type": "team",
+            "uid": "s:600~t:205",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7",
+            "description": "Brazil",
+            "sportId": 600,
+            "teamId": 205,
+            "team": {
+              "id": 205,
+              "description": "Brazil",
+              "abbreviation": "BRA",
+              "shortDisplayName": "Brazil",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/team/_/id/205/brazil"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 276557,
+            "type": "athlete",
+            "uid": "s:600~a:132948",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
+            "description": "Neymar",
+            "sportId": 600,
+            "athleteId": 132948,
+            "athlete": {
+              "id": 132948,
+              "description": "Neymar",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193385,
+            "type": "team",
+            "uid": "s:600~t:2674",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
+            "description": "Santos",
+            "sportId": 600,
+            "teamId": 2674,
+            "team": {
+              "id": 2674,
+              "description": "Santos",
+              "abbreviation": "SAN",
+              "shortDisplayName": "Santos",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "34f478c4-cf9a-35da-abd5-33db021e09d2"
+          },
+          {
+            "type": "guid",
+            "guid": "2a051c42-4444-8263-799a-6cdd866bd8f7"
+          },
+          {
+            "type": "guid",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
+          },
+          {
+            "type": "guid",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/soccer/story/_/id/48830016/neymar-suffers-calf-injury-miss-santos-games-ahead-world-cup"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/soccer/story?storyId=48830016"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/48830016"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=48830016"
+            }
+          }
+        },
+        "byline": "ESPN News Services"
+      },
+      {
+        "id": 48804061,
+        "nowId": "1-48804061",
+        "contentKey": "48804061-1-293-1",
+        "dataSourceIdentifier": "d71ea26e299d2",
+        "type": "Media",
+        "headline": "Santos manager explains substitute confusion involving Neymar",
+        "description": "Cuca discusses Neymar's unintended substitution during Santos' 3-0 defeat to Coritiba and states the officiating mistake was not responsible for the final result.",
+        "lastModified": "2026-05-18T10:04:17Z",
+        "published": "2026-05-18T10:04:17Z",
+        "images": [
+          {
+            "name": "Santos manager explains substitute confusion involving Neymar",
+            "caption": "Cuca discusses Neymar's unintended substitution during Santos' 3-0 defeat to Coritiba and states the officiating mistake was not responsible for the final result.",
+            "alt": "",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0518/dm_260518_Santos_manager_explains_substitute_confusion_involving_Neymar/dm_260518_Santos_manager_explains_substitute_confusion_involving_Neymar.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 191811,
+            "type": "team",
+            "uid": "s:600~t:3456",
+            "guid": "38d8da1c-9e43-f8be-d809-35750564c0f6",
+            "description": "Coritiba",
+            "sportId": 600,
+            "teamId": 3456,
+            "team": {
+              "id": 3456,
+              "description": "Coritiba",
+              "abbreviation": "CFC",
+              "shortDisplayName": "Coritiba",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/3456/coritiba"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/3456/coritiba"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 276557,
+            "type": "athlete",
+            "uid": "s:600~a:132948",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
+            "description": "Neymar",
+            "sportId": 600,
+            "athleteId": 132948,
+            "athlete": {
+              "id": 132948,
+              "description": "Neymar",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193385,
+            "type": "team",
+            "uid": "s:600~t:2674",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
+            "description": "Santos",
+            "sportId": 600,
+            "teamId": 2674,
+            "team": {
+              "id": 2674,
+              "description": "Santos",
+              "abbreviation": "SAN",
+              "shortDisplayName": "Santos",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "type": "event",
+            "uid": "s:600~l:630~e:401841123",
+            "guid": "6e1b26d2-1f9c-359c-99ed-22b626df5f4c",
+            "description": "Coritiba @ Santos",
+            "eventId": 401841123,
+            "event": {
+              "id": 401841123,
+              "sport": "soccer",
+              "league": "bra.1",
+              "description": "Coritiba @ Santos"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          },
+          {
+            "type": "guid",
+            "guid": "38d8da1c-9e43-f8be-d809-35750564c0f6"
+          },
+          {
+            "type": "guid",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
+          },
+          {
+            "type": "guid",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "6e1b26d2-1f9c-359c-99ed-22b626df5f4c"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/video/clip/_/id/48804061/santos-manager-explains-substitute-confusion-involving-neymar",
+            "self": {
+              "href": "https://www.espn.com/video/clip/_/id/48804061/santos-manager-explains-substitute-confusion-involving-neymar",
+              "dsi": {
+                "href": "https://www.espn.com/video/clip?id=d71ea26e299d2"
+              }
+            }
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/video/clips/48804061"
+            },
+            "artwork": {
+              "href": "https://artwork.api.espn.com/artwork/collections/media/f7661496-d90c-4a16-8610-ba1956ee021c"
+            }
+          },
+          "sportscenter": {
+            "href": "sportscenter://x-callback-url/showVideo?videoID=48804061&videoDSI=d71ea26e299d2"
+          }
+        }
+      },
+      {
+        "id": 48739645,
+        "nowId": "1-48739645",
+        "contentKey": "48739645-1-5-1",
+        "dataSourceIdentifier": "6bc76c9375c15",
+        "type": "HeadlineNews",
+        "headline": "'Brilliant' Neymar praised by Santos boss ahead of Brazil's World Cup squad announcement",
+        "description": "Santos coach Cuca praised Neymar following his team's 2-0 league win on Sunday, with Brazil close to announcing their World Cup squad.",
+        "lastModified": "2026-05-11T10:18:53Z",
+        "published": "2026-05-11T10:18:53Z",
+        "images": [
+          {
+            "dataSourceIdentifier": "1c1bd90b8a30d",
+            "id": 48739654,
+            "type": "header",
+            "name": "Neymar Jr. [1296x729]",
+            "caption": "Neymar opened the scoring on the stroke of half-time as Santos saw off Bragantino 2-0.",
+            "credit": "Photo by Miguel Schincariol/Getty Images",
+            "height": 729,
+            "width": 1296,
+            "url": "https://a.espncdn.com/photo/2026/0511/r1656619_1296x729_16-9.jpg"
+          },
+          {
+            "type": "Media",
+            "name": "Laurens: Neymar's situation 'really sad'",
+            "caption": "Julien Laurens reacts to Neymar's current form and discusses his chances of making Brazil's World Cup squad.",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/media/motion/2026/0423/dm_260423_COM_SOC_ANALYSIS_Laurens_Neymars_situation_really_sad_2026_4_23/dm_260423_COM_SOC_ANALYSIS_Laurens_Neymars_situation_really_sad_2026_4_23.jpg"
+          }
+        ],
+        "categories": [
+          {
+            "id": 409224,
+            "type": "topic",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe",
+            "description": "news",
+            "sportId": 0,
+            "topicId": 781
+          },
+          {
+            "id": 81497,
+            "type": "league",
+            "uid": "s:600",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259",
+            "description": "Soccer",
+            "sportId": 600,
+            "leagueId": 600,
+            "league": {
+              "id": 600,
+              "description": "Soccer",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 276557,
+            "type": "athlete",
+            "uid": "s:600~a:132948",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d",
+            "description": "Neymar",
+            "sportId": 600,
+            "athleteId": 132948,
+            "athlete": {
+              "id": 132948,
+              "description": "Neymar",
+              "links": {
+                "web": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                },
+                "mobile": {
+                  "athletes": {
+                    "href": "https://www.espn.com/soccer/player/_/id/132948/neymar"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193898,
+            "type": "league",
+            "uid": "s:600~l:630",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf",
+            "description": "Brazilian Serie A",
+            "sportId": 600,
+            "leagueId": 85,
+            "league": {
+              "id": 630,
+              "description": "Brazilian Serie A",
+              "abbreviation": "Brazil Serie A",
+              "links": {
+                "web": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                },
+                "mobile": {
+                  "leagues": {
+                    "href": "https://www.espn.com/soccer/league/_/name/bra.1"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 193385,
+            "type": "team",
+            "uid": "s:600~t:2674",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6",
+            "description": "Santos",
+            "sportId": 600,
+            "teamId": 2674,
+            "team": {
+              "id": 2674,
+              "description": "Santos",
+              "abbreviation": "SAN",
+              "shortDisplayName": "Santos",
+              "links": {
+                "web": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                },
+                "mobile": {
+                  "teams": {
+                    "href": "https://www.espn.com/soccer/club/_/id/2674/santos"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "id": 702608,
+            "type": "contributor",
+            "guid": "fec4eb72-2649-3b41-a508-b3164b869711",
+            "description": "Adriana Garcia",
+            "slug": "adriana-garcia",
+            "contributor": {
+              "id": 3379,
+              "description": "Adriana Garcia"
+            }
+          },
+          {
+            "type": "guid",
+            "guid": "52313677-19f8-b106-ec91-d8d17e6087fe"
+          },
+          {
+            "type": "guid",
+            "guid": "119cfa41-71d4-39bf-a790-6273a52b0259"
+          },
+          {
+            "type": "guid",
+            "guid": "dacc5245-132e-26d2-1e61-fe996765eb0d"
+          },
+          {
+            "type": "guid",
+            "guid": "0c80bf98-2cac-3f77-b916-ef5468df0fcf"
+          },
+          {
+            "type": "guid",
+            "guid": "67bedbec-8a18-f506-db7d-7eb762a626f6"
+          },
+          {
+            "type": "guid",
+            "guid": "fec4eb72-2649-3b41-a508-b3164b869711"
+          }
+        ],
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/soccer/story/_/id/48739645/neymar-praised-santos-boss-goal-ahead-brazil-world-cup-squad-announcement"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/soccer/story?storyId=48739645"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/48739645"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=48739645"
+            }
+          }
+        },
+        "byline": "Adriana Garcia"
+      }
+    ]
+  },
   "videos": [],
   "header": {
     "id": "401841142",
