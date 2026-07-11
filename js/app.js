@@ -80,11 +80,19 @@ function renderLeaguePicker() {
     });
   });
 
+}
+
+// Presa uma única vez (chamado só em main()) — { once: true } aqui fazia o
+// botão parar de responder depois do primeiro clique, deixando o seletor de
+// liga "travado" assim que havia mais de uma liga active pra trocar.
+function wireLeaguePickerToggle() {
   document.getElementById('leaguePickerToggle').addEventListener('click', () => {
-    const expanded = document.getElementById('leaguePickerToggle').getAttribute('aria-expanded') === 'true';
+    const toggle = document.getElementById('leaguePickerToggle');
+    const picker = document.getElementById('leaguePicker');
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
     picker.hidden = expanded;
-    document.getElementById('leaguePickerToggle').setAttribute('aria-expanded', String(!expanded));
-  }, { once: true });
+    toggle.setAttribute('aria-expanded', String(!expanded));
+  });
 }
 
 function updateHeaderForLiga(cfg) {
@@ -271,7 +279,7 @@ function matchCardHtml(m, { showRound = false } = {}) {
   const isLive = m.status === 'live';
   const liveBadge = '<span class="live-badge"></span>';
   const scoreHtml = m.status === 'finished' || isLive
-    ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span>`
+    ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date}</span>`
     : `<span class="datetime">${date}<br>${time}</span>`;
   const roundHtml = showRound ? `<span class="round-label">Rodada ${m.round}</span>` : '';
 
@@ -626,7 +634,8 @@ function patchLiveMatchCards() {
     const center = el.querySelector('.center');
     if (!center || (m.status !== 'finished' && !isLive)) return;
     const liveBadge = isLive ? '<span class="live-badge"></span>' : '';
-    center.innerHTML = `<span class="score">${liveBadge}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span>`;
+    const { date } = fmtDateTime(m.date);
+    center.innerHTML = `<span class="score">${liveBadge}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date}</span>`;
   });
 }
 
@@ -730,6 +739,7 @@ async function main() {
 
   state.leagues = await fetchJson('data/leagues.json');
   renderLeaguePicker();
+  wireLeaguePickerToggle();
 
   const requested = qs.get('liga');
   const firstActive = Object.keys(state.leagues).find((k) => state.leagues[k].status === 'active');

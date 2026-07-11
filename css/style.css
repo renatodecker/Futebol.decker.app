@@ -471,6 +471,14 @@ button {
   font-size: 1rem;
 }
 
+.match-card .score-date {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: var(--ink-muted);
+  margin-top: 2px;
+}
+
 .match-card .datetime,
 .match-card .venue {
   font-size: 0.7rem;
