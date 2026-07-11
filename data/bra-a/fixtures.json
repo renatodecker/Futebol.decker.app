@@ -2514,6 +2514,17 @@
       "venue": null
     },
     {
+      "id": "r4-bah-cha",
+      "round": 4,
+      "date": "2026-07-17T22:30:00Z",
+      "home": "bah",
+      "away": "cha",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401879459",
+      "venue": null
+    },
+    {
       "id": "r19-flu-bra",
       "round": 19,
       "date": "2026-07-17T23:00:00Z",
@@ -2533,17 +2544,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841155",
-      "venue": null
-    },
-    {
-      "id": "r4-bah-cha",
-      "round": 4,
-      "date": "2026-07-17T23:30:00Z",
-      "home": "bah",
-      "away": "cha",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401879459",
       "venue": null
     },
     {
