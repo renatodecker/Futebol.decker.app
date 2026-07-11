@@ -461,7 +461,8 @@
       "status": "postponed",
       "score": null,
       "espnEventId": "401841006",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r4-bra-cap",
@@ -2677,7 +2678,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841149",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-vit-vas",
@@ -2688,7 +2690,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841157",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r4-bah-cha",
@@ -2699,7 +2702,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401879459",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-flu-bra",
@@ -2710,7 +2714,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841153",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-mir-gre",
@@ -2721,7 +2726,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841155",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-cam-bah",
@@ -2732,7 +2738,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841148",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-cfc-pal",
@@ -2743,7 +2750,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841152",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-cha-fla",
@@ -2754,7 +2762,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841150",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-int-cru",
@@ -2765,7 +2774,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841154",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-sao-cap",
@@ -2776,7 +2786,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841156",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r4-bot-vit",
@@ -2787,7 +2798,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401879458",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r19-cor-rem",
@@ -2798,7 +2810,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841151",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-cap-int",
@@ -2809,7 +2822,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841158",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-san-cha",
@@ -2820,7 +2834,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841161",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-vas-mir",
@@ -2831,7 +2846,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841160",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-bah-cor",
@@ -2842,7 +2858,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841159",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-cru-bot",
@@ -2853,7 +2870,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841167",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-bra-cfc",
@@ -2864,7 +2882,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841163",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-fla-sao",
@@ -2875,7 +2894,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841166",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-gre-flu",
@@ -2886,7 +2906,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841165",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-pal-cam",
@@ -2897,7 +2918,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841164",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r20-rem-vit",
@@ -2908,7 +2930,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841162",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-cam-bra",
@@ -2919,7 +2942,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841168",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-bot-gre",
@@ -2930,7 +2954,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841176",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-cha-vas",
@@ -2941,7 +2966,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841175",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-sao-san",
@@ -2952,7 +2978,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841169",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-int-fla",
@@ -2963,7 +2990,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841171",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-mir-rem",
@@ -2974,7 +3002,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841170",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-flu-bah",
@@ -2985,7 +3014,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841177",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-vit-pal",
@@ -2996,7 +3026,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841172",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-cor-cap",
@@ -3007,7 +3038,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841174",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r21-cfc-cru",
@@ -3018,7 +3050,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841173",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-gre-sao",
@@ -3029,7 +3062,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841181",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-rem-cam",
@@ -3040,7 +3074,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841178",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-cfc-cha",
@@ -3051,7 +3086,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841184",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-bot-flu",
@@ -3062,7 +3098,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841185",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-cru-mir",
@@ -3073,7 +3110,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841183",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-bah-vas",
@@ -3084,7 +3122,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841186",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-pal-int",
@@ -3095,7 +3134,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841180",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-bra-cor",
@@ -3106,7 +3146,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841179",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-san-cap",
@@ -3117,7 +3158,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841182",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r22-fla-vit",
@@ -3128,7 +3170,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841187",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-cam-gre",
@@ -3139,7 +3182,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841195",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-flu-pal",
@@ -3150,7 +3194,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841192",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-cap-bra",
@@ -3161,7 +3206,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841196",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-sao-cfc",
@@ -3172,7 +3218,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841189",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-cha-bah",
@@ -3183,7 +3230,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841194",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-vas-san",
@@ -3194,7 +3242,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841188",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-mir-fla",
@@ -3205,7 +3254,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841190",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-vit-bot",
@@ -3216,7 +3266,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841197",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-cor-cru",
@@ -3227,7 +3278,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841193",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r23-int-rem",
@@ -3238,7 +3290,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841191",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-flu-rem",
@@ -3249,7 +3302,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841205",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-int-cam",
@@ -3260,7 +3314,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841204",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-cru-fla",
@@ -3271,7 +3326,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841206",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-bra-gre",
@@ -3282,7 +3338,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841202",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-pal-vas",
@@ -3293,7 +3350,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841203",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-vit-bah",
@@ -3304,7 +3362,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841200",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-cha-sao",
@@ -3315,7 +3374,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841199",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-san-mir",
@@ -3326,7 +3386,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841201",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-cfc-cor",
@@ -3337,7 +3398,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841207",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r24-bot-cap",
@@ -3348,7 +3410,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841198",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-cap-flu",
@@ -3359,7 +3422,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841208",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-cam-vit",
@@ -3370,7 +3434,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841216",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-bah-int",
@@ -3381,7 +3446,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841215",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-cor-san",
@@ -3392,7 +3458,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841214",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-fla-bot",
@@ -3403,7 +3470,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841213",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-gre-cha",
@@ -3414,7 +3482,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841217",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-mir-pal",
@@ -3425,7 +3494,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841211",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-rem-cfc",
@@ -3436,7 +3506,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841210",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-sao-bra",
@@ -3447,7 +3518,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841209",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r25-vas-cru",
@@ -3458,7 +3530,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841212",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-bot-pal",
@@ -3469,7 +3542,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841221",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-bra-bah",
@@ -3480,7 +3554,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841224",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-cor-cha",
@@ -3491,7 +3566,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841220",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-cfc-mir",
@@ -3502,7 +3578,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841219",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-cru-cap",
@@ -3513,7 +3590,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841218",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-flu-vas",
@@ -3524,7 +3602,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841227",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-int-san",
@@ -3535,7 +3614,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841223",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-rem-fla",
@@ -3546,7 +3626,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841225",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-sao-cam",
@@ -3557,7 +3638,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841226",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r26-vit-gre",
@@ -3568,7 +3650,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841222",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-pal-sao",
@@ -3579,7 +3662,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841234",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-san-cru",
@@ -3590,7 +3674,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841233",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-cam-flu",
@@ -3601,7 +3686,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841231",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-bah-rem",
@@ -3612,7 +3698,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841230",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-bot-bra",
@@ -3623,7 +3710,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841229",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-cha-int",
@@ -3634,7 +3722,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841228",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-cfc-cap",
@@ -3645,7 +3734,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841232",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-fla-cor",
@@ -3656,7 +3746,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841237",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-gre-vas",
@@ -3667,7 +3758,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841236",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r27-mir-vit",
@@ -3678,7 +3770,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841235",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-cap-bah",
@@ -3689,7 +3782,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841238",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-cam-cha",
@@ -3700,7 +3794,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841239",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-cor-flu",
@@ -3711,7 +3806,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841240",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-fla-bra",
@@ -3722,7 +3818,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841241",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-gre-pal",
@@ -3733,7 +3830,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841246",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-mir-bot",
@@ -3744,7 +3842,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841245",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-rem-san",
@@ -3755,7 +3854,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841244",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-sao-int",
@@ -3766,7 +3866,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841243",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-vas-cfc",
@@ -3777,7 +3878,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841247",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r28-vit-cru",
@@ -3788,7 +3890,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841242",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-cap-cam",
@@ -3799,7 +3902,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841256",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-bot-vas",
@@ -3810,7 +3914,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841257",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-bra-mir",
@@ -3821,7 +3926,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841253",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-cru-sao",
@@ -3832,7 +3938,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841249",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-flu-cfc",
@@ -3843,7 +3950,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841248",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-int-cor",
@@ -3854,7 +3962,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841255",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-pal-bah",
@@ -3865,7 +3974,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841254",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-rem-gre",
@@ -3876,7 +3986,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841252",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-san-fla",
@@ -3887,7 +3998,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841251",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r29-vit-cha",
@@ -3898,7 +4010,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841250",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-cam-san",
@@ -3909,7 +4022,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841258",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-bah-mir",
@@ -3920,7 +4034,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841266",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-bra-cru",
@@ -3931,7 +4046,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841260",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-cha-cap",
@@ -3942,7 +4058,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841265",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-cfc-bot",
@@ -3953,7 +4070,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841264",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-fla-flu",
@@ -3964,7 +4082,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841263",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-gre-int",
@@ -3975,7 +4094,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841267",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-pal-cor",
@@ -3986,7 +4106,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841261",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-sao-vit",
@@ -3997,7 +4118,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841259",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r30-vas-rem",
@@ -4008,7 +4130,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841262",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-cap-pal",
@@ -4019,7 +4142,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841271",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-cam-cfc",
@@ -4030,7 +4154,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841270",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-bah-fla",
@@ -4041,7 +4166,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841269",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-bot-cha",
@@ -4052,7 +4178,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841268",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-cor-vit",
@@ -4063,7 +4190,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841272",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-flu-san",
@@ -4074,7 +4202,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841277",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-gre-cru",
@@ -4085,7 +4214,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841276",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-mir-int",
@@ -4096,7 +4226,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841275",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-rem-bra",
@@ -4107,7 +4238,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841274",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r31-sao-vas",
@@ -4118,7 +4250,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841273",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-cha-flu",
@@ -4129,7 +4262,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841278",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-cfc-gre",
@@ -4140,7 +4274,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841279",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-cru-rem",
@@ -4151,7 +4286,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841287",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-fla-cam",
@@ -4162,7 +4298,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841286",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-int-bot",
@@ -4173,7 +4310,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841285",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-mir-sao",
@@ -4184,7 +4322,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841284",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-pal-bra",
@@ -4195,7 +4334,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841283",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-san-bah",
@@ -4206,7 +4346,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841282",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-vas-cor",
@@ -4217,7 +4358,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841281",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r32-vit-cap",
@@ -4228,7 +4370,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841280",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-cam-cru",
@@ -4239,7 +4382,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841288",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-bah-sao",
@@ -4250,7 +4394,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841296",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-bra-cha",
@@ -4261,7 +4406,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841291",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-cor-mir",
@@ -4272,7 +4418,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841295",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-cfc-vit",
@@ -4283,7 +4430,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841294",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-flu-int",
@@ -4294,7 +4442,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841289",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-gre-cap",
@@ -4305,7 +4454,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841290",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-rem-bot",
@@ -4316,7 +4466,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841297",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-san-pal",
@@ -4327,7 +4478,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841293",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r33-vas-fla",
@@ -4338,7 +4490,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841292",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-cap-vas",
@@ -4349,7 +4502,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841306",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-bot-cam",
@@ -4360,7 +4514,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841305",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-bra-san",
@@ -4371,7 +4526,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841299",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-cha-mir",
@@ -4382,7 +4538,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841304",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-cru-bah",
@@ -4393,7 +4550,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841303",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-fla-gre",
@@ -4404,7 +4562,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841307",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-int-cfc",
@@ -4415,7 +4574,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841301",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-pal-rem",
@@ -4426,7 +4586,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841300",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-sao-cor",
@@ -4437,7 +4598,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841298",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r34-vit-flu",
@@ -4448,7 +4610,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841302",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-cor-bot",
@@ -4459,7 +4622,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841316",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-cfc-san",
@@ -4470,7 +4634,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841315",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-cru-pal",
@@ -4481,7 +4646,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841314",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-fla-cap",
@@ -4492,7 +4658,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841313",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-gre-bah",
@@ -4503,7 +4670,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841312",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-mir-cam",
@@ -4514,7 +4682,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841311",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-rem-cha",
@@ -4525,7 +4694,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841310",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-sao-flu",
@@ -4536,7 +4706,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841309",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-vas-int",
@@ -4547,7 +4718,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841308",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r35-vit-bra",
@@ -4558,7 +4730,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841317",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-cap-rem",
@@ -4569,7 +4742,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841318",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-cam-cor",
@@ -4580,7 +4754,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841319",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-bah-cfc",
@@ -4591,7 +4766,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841327",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-bot-sao",
@@ -4602,7 +4778,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841326",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-bra-vas",
@@ -4613,7 +4790,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841321",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-cha-cru",
@@ -4624,7 +4802,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841325",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-flu-mir",
@@ -4635,7 +4814,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841324",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-int-vit",
@@ -4646,7 +4826,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841323",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-pal-fla",
@@ -4657,7 +4838,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841322",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r36-san-gre",
@@ -4668,7 +4850,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841320",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-cam-vas",
@@ -4679,7 +4862,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841328",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-bot-bah",
@@ -4690,7 +4874,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841336",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-cha-pal",
@@ -4701,7 +4886,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841335",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-cor-gre",
@@ -4712,7 +4898,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841334",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-cfc-fla",
@@ -4723,7 +4910,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841333",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-flu-cru",
@@ -4734,7 +4922,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841337",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-int-bra",
@@ -4745,7 +4934,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841331",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-mir-cap",
@@ -4756,7 +4946,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841330",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-sao-rem",
@@ -4767,7 +4958,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841329",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r37-vit-san",
@@ -4778,7 +4970,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841332",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-cap-sao",
@@ -4789,7 +4982,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841338",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-bah-cam",
@@ -4800,7 +4994,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841339",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-bra-flu",
@@ -4811,7 +5006,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841344",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-cru-int",
@@ -4822,7 +5018,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841340",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-fla-cha",
@@ -4833,7 +5030,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841341",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-gre-mir",
@@ -4844,7 +5042,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841347",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-pal-cfc",
@@ -4855,7 +5054,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841343",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-rem-cor",
@@ -4866,7 +5066,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841345",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-san-bot",
@@ -4877,7 +5078,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841346",
-      "venue": null
+      "venue": null,
+      "attendance": null
     },
     {
       "id": "r38-vas-vit",
@@ -4888,7 +5090,8 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841342",
-      "venue": null
+      "venue": null,
+      "attendance": null
     }
   ]
 }
