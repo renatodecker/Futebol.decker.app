@@ -141,6 +141,124 @@ function selectTeamSkin(slug) {
   renderTeamFrame();
 }
 
+// ---------------------------------------------------------------------
+// Home: destaques do campeonato (logo, artilheiros, líderes, curiosidades)
+// ---------------------------------------------------------------------
+
+function renderLeagueHero() {
+  const cfg = state.leagues[state.liga];
+  document.getElementById('leagueHero').innerHTML = `
+    ${cfg.logo ? `<img src="${cfg.logo}" alt="${cfg.name}" class="league-hero-logo" />` : ''}
+    <div class="league-hero-text">
+      <h1>${cfg.name}</h1>
+      <span>Temporada ${cfg.season}</span>
+    </div>
+  `;
+}
+
+function topScorers(n) {
+  return Object.entries(state.stats.players || {})
+    .map(([pid, s]) => {
+      const identity = state.players[pid];
+      if (!identity) return null;
+      return { pid, ...s, identity };
+    })
+    .filter((r) => r && r.goals > 0)
+    .sort((a, b) => b.goals - a.goals)
+    .slice(0, n);
+}
+
+function topStandings(n) {
+  return [...(state.standings.table || [])].sort((a, b) => a.pos - b.pos).slice(0, n);
+}
+
+function biggestWin() {
+  return state.fixtures.matches
+    .filter((m) => m.status === 'finished' && m.score)
+    .reduce((best, m) => {
+      const diff = Math.abs(m.score.home - m.score.away);
+      return (!best || diff > best.diff) ? { ...m, diff } : best;
+    }, null);
+}
+
+function biggestAttendance() {
+  return state.fixtures.matches
+    .filter((m) => typeof m.attendance === 'number' && m.attendance > 0)
+    .reduce((best, m) => (!best || m.attendance > best.attendance ? m : best), null);
+}
+
+function highlightListHtml(items) {
+  return `<ol class="highlight-list">${items.map(({ team, name, value }) => `
+    <li data-open-squad="${team}">
+      <img src="${state.teams[team]?.badge || ''}" alt="" loading="lazy" />
+      <span class="highlight-name">${name}</span>
+      <strong>${value}</strong>
+    </li>
+  `).join('')}</ol>`;
+}
+
+function renderHighlights() {
+  const scorers = topScorers(5);
+  const leaders = topStandings(5);
+  const win = biggestWin();
+  const attendanceRecord = biggestAttendance();
+
+  const scorersHtml = scorers.length ? `
+    <div class="highlight-card">
+      <h3>Artilheiros</h3>
+      ${highlightListHtml(scorers.map((r) => ({
+        team: r.identity.team,
+        name: r.identity.shirtName || r.identity.fullName,
+        value: r.goals,
+      })))}
+    </div>
+  ` : '';
+
+  const leadersHtml = leaders.length ? `
+    <div class="highlight-card">
+      <h3>Líderes</h3>
+      ${highlightListHtml(leaders.map((r) => ({
+        team: r.team,
+        name: state.teams[r.team]?.name || r.team,
+        value: `${r.pts} pts`,
+      })))}
+    </div>
+  ` : '';
+
+  const facts = [];
+  if (win) {
+    const home = state.teams[win.home];
+    const away = state.teams[win.away];
+    facts.push(`Maior goleada: <strong>${home?.abbrev || win.home} ${win.score.home} x ${win.score.away} ${away?.abbrev || win.away}</strong> (Rodada ${win.round})`);
+  }
+  if (attendanceRecord) {
+    const home = state.teams[attendanceRecord.home];
+    const away = state.teams[attendanceRecord.away];
+    facts.push(`Maior público: <strong>${fmtAttendance(attendanceRecord.attendance)}</strong> em ${home?.abbrev || attendanceRecord.home} x ${away?.abbrev || attendanceRecord.away}${attendanceRecord.venue ? ` (${attendanceRecord.venue})` : ''}`);
+  }
+  const curiosidadesHtml = facts.length ? `
+    <div class="highlight-card">
+      <h3>Curiosidades</h3>
+      <ul class="highlight-facts">${facts.map((f) => `<li>${f}</li>`).join('')}</ul>
+    </div>
+  ` : '';
+
+  document.getElementById('highlightsGrid').innerHTML = scorersHtml + leadersHtml + curiosidadesHtml
+    || '<p class="empty-state">Destaques em breve.</p>';
+}
+
+function fmtAttendance(n) {
+  return new Intl.NumberFormat('pt-BR').format(n);
+}
+
+function venueLineHtml(m) {
+  if (!m.venue) return '<span></span>';
+  const attendance = typeof m.attendance === 'number' && m.attendance > 0
+    ? ` · público: ${fmtAttendance(m.attendance)}`
+    : '';
+  return `<span class="venue">🏟️ ${m.venue}${attendance}</span>`;
+}
+
 function matchCardHtml(m, { showRound = false } = {}) {
   const home = state.teams[m.home];
   const away = state.teams[m.away];
@@ -163,6 +281,10 @@ function matchCardHtml(m, { showRound = false } = {}) {
       <div class="team away" data-open-squad="${m.away}">
         <span class="team-name">${away?.abbrev || m.away}</span>
         <img src="${away?.badge || ''}" alt="" />
+      </div>
+      <div class="match-card-footer">
+        ${venueLineHtml(m)}
+        <span class="match-card-link">Ver detalhes ›</span>
       </div>
     </div>
   `;
@@ -564,8 +686,10 @@ async function loadLiga(slug, { resetTeam } = {}) {
   document.getElementById('skinResetBtn').hidden = !state.team;
   document.getElementById('skinResetBtn').onclick = () => selectTeamSkin(null);
 
+  renderLeagueHero();
   renderTeamFrame();
   renderHomeLists();
+  renderHighlights();
   renderClassificacao();
   renderRodadas();
   renderMeses();

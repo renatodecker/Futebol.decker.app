@@ -14,7 +14,8 @@
         "away": 2
       },
       "espnEventId": "401840808",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 25770
     },
     {
       "id": "r1-cfc-bra",
@@ -28,7 +29,8 @@
         "away": 1
       },
       "espnEventId": "401840977",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 19535
     },
     {
       "id": "r1-int-cap",
@@ -42,7 +44,8 @@
         "away": 1
       },
       "espnEventId": "401840814",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 17264
     },
     {
       "id": "r1-vit-rem",
@@ -56,7 +59,8 @@
         "away": 0
       },
       "espnEventId": "401840812",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 16511
     },
     {
       "id": "r1-flu-gre",
@@ -70,7 +74,8 @@
         "away": 1
       },
       "espnEventId": "401840813",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 22986
     },
     {
       "id": "r1-cha-san",
@@ -84,7 +89,8 @@
         "away": 2
       },
       "espnEventId": "401840810",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 17551
     },
     {
       "id": "r1-cor-bah",
@@ -98,7 +104,8 @@
         "away": 2
       },
       "espnEventId": "401840811",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 13577
     },
     {
       "id": "r1-sao-fla",
@@ -112,7 +119,8 @@
         "away": 1
       },
       "espnEventId": "401840976",
-      "venue": null
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "attendance": 27203
     },
     {
       "id": "r1-mir-vas",
@@ -126,7 +134,8 @@
         "away": 1
       },
       "espnEventId": "401840975",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 5883
     },
     {
       "id": "r1-bot-cru",
@@ -140,7 +149,8 @@
         "away": 0
       },
       "espnEventId": "401840809",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 16901
     },
     {
       "id": "r2-bra-cam",
@@ -154,7 +164,8 @@
         "away": 0
       },
       "espnEventId": "401840984",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 3459
     },
     {
       "id": "r2-fla-int",
@@ -168,7 +179,8 @@
         "away": 1
       },
       "espnEventId": "401840978",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 56421
     },
     {
       "id": "r2-rem-mir",
@@ -182,7 +194,8 @@
         "away": 2
       },
       "espnEventId": "401840985",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 21118
     },
     {
       "id": "r2-san-sao",
@@ -196,7 +209,8 @@
         "away": 1
       },
       "espnEventId": "401840986",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 10280
     },
     {
       "id": "r2-gre-bot",
@@ -210,7 +224,8 @@
         "away": 3
       },
       "espnEventId": "401840987",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 18340
     },
     {
       "id": "r2-pal-vit",
@@ -224,7 +239,8 @@
         "away": 1
       },
       "espnEventId": "401840983",
-      "venue": null
+      "venue": "Arena Barueri",
+      "attendance": 8953
     },
     {
       "id": "r2-bah-flu",
@@ -238,7 +254,8 @@
         "away": 1
       },
       "espnEventId": "401840980",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 40310
     },
     {
       "id": "r2-vas-cha",
@@ -252,7 +269,8 @@
         "away": 1
       },
       "espnEventId": "401840982",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 15702
     },
     {
       "id": "r2-cru-cfc",
@@ -266,7 +284,8 @@
         "away": 2
       },
       "espnEventId": "401840979",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 15270
     },
     {
       "id": "r3-vit-fla",
@@ -280,7 +299,8 @@
         "away": 2
       },
       "espnEventId": "401840993",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 26983
     },
     {
       "id": "r3-cha-cfc",
@@ -294,7 +314,8 @@
         "away": 3
       },
       "espnEventId": "401840989",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 10578
     },
     {
       "id": "r3-mir-cru",
@@ -308,7 +329,8 @@
         "away": 2
       },
       "espnEventId": "401840996",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 5134
     },
     {
       "id": "r3-cam-rem",
@@ -322,7 +344,8 @@
         "away": 3
       },
       "espnEventId": "401840990",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 16056
     },
     {
       "id": "r3-sao-gre",
@@ -336,7 +359,8 @@
         "away": 0
       },
       "espnEventId": "401840995",
-      "venue": null
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "attendance": 18491
     },
     {
       "id": "r3-vas-bah",
@@ -350,7 +374,8 @@
         "away": 1
       },
       "espnEventId": "401840994",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 11477
     },
     {
       "id": "r3-cap-san",
@@ -364,7 +389,8 @@
         "away": 1
       },
       "espnEventId": "401840991",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 26387
     },
     {
       "id": "r3-flu-bot",
@@ -378,7 +404,8 @@
         "away": 0
       },
       "espnEventId": "401840992",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 30397
     },
     {
       "id": "r3-cor-bra",
@@ -392,7 +419,8 @@
         "away": 0
       },
       "espnEventId": "401840988",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 26985
     },
     {
       "id": "r3-int-pal",
@@ -406,7 +434,8 @@
         "away": 3
       },
       "espnEventId": "401840997",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 20486
     },
     {
       "id": "r2-cap-cor",
@@ -420,7 +449,8 @@
         "away": 1
       },
       "espnEventId": "401840981",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 16804
     },
     {
       "id": "r4-fla-mir",
@@ -445,7 +475,8 @@
         "away": 1
       },
       "espnEventId": "401841003",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 2378
     },
     {
       "id": "r4-rem-int",
@@ -459,7 +490,8 @@
         "away": 1
       },
       "espnEventId": "401841007",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 21687
     },
     {
       "id": "r4-cfc-sao",
@@ -473,7 +505,8 @@
         "away": 1
       },
       "espnEventId": "401841000",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 27515
     },
     {
       "id": "r4-cru-cor",
@@ -487,7 +520,8 @@
         "away": 1
       },
       "espnEventId": "401841001",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 20267
     },
     {
       "id": "r4-gre-cam",
@@ -501,7 +535,8 @@
         "away": 1
       },
       "espnEventId": "401841005",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 15437
     },
     {
       "id": "r4-pal-flu",
@@ -515,7 +550,8 @@
         "away": 1
       },
       "espnEventId": "401841004",
-      "venue": null
+      "venue": "Arena Barueri",
+      "attendance": 10329
     },
     {
       "id": "r4-san-vas",
@@ -529,7 +565,8 @@
         "away": 1
       },
       "espnEventId": "401841002",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 8808
     },
     {
       "id": "r5-mir-san",
@@ -543,7 +580,8 @@
         "away": 2
       },
       "espnEventId": "401841010",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 8152
     },
     {
       "id": "r5-cam-int",
@@ -557,7 +595,8 @@
         "away": 0
       },
       "espnEventId": "401841015",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 10132
     },
     {
       "id": "r5-bah-vit",
@@ -571,7 +610,8 @@
         "away": 1
       },
       "espnEventId": "401841014",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 43421
     },
     {
       "id": "r5-cor-cfc",
@@ -585,7 +625,8 @@
         "away": 2
       },
       "espnEventId": "401841013",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 34759
     },
     {
       "id": "r5-fla-cru",
@@ -599,7 +640,8 @@
         "away": 0
       },
       "espnEventId": "401841017",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 47214
     },
     {
       "id": "r5-rem-flu",
@@ -613,7 +655,8 @@
         "away": 2
       },
       "espnEventId": "401841009",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 26528
     },
     {
       "id": "r5-vas-pal",
@@ -627,7 +670,8 @@
         "away": 1
       },
       "espnEventId": "401841012",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 17291
     },
     {
       "id": "r5-sao-cha",
@@ -641,7 +685,8 @@
         "away": 0
       },
       "espnEventId": "401841008",
-      "venue": null
+      "venue": "Estádio do Canindé",
+      "attendance": 13493
     },
     {
       "id": "r5-gre-bra",
@@ -655,7 +700,8 @@
         "away": 1
       },
       "espnEventId": "401841011",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 19236
     },
     {
       "id": "r6-vit-cam",
@@ -669,7 +715,8 @@
         "away": 0
       },
       "espnEventId": "401841027",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 16421
     },
     {
       "id": "r6-bot-fla",
@@ -683,7 +730,8 @@
         "away": 3
       },
       "espnEventId": "401841026",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 16176
     },
     {
       "id": "r6-flu-cap",
@@ -697,7 +745,8 @@
         "away": 2
       },
       "espnEventId": "401841022",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 24675
     },
     {
       "id": "r6-int-bah",
@@ -711,7 +760,8 @@
         "away": 1
       },
       "espnEventId": "401841021",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 17230
     },
     {
       "id": "r6-san-cor",
@@ -725,7 +775,8 @@
         "away": 1
       },
       "espnEventId": "401841018",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 15008
     },
     {
       "id": "r6-cfc-rem",
@@ -739,7 +790,8 @@
         "away": 0
       },
       "espnEventId": "401841024",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 28300
     },
     {
       "id": "r6-pal-mir",
@@ -753,7 +805,8 @@
         "away": 0
       },
       "espnEventId": "401841020",
-      "venue": null
+      "venue": "Allianz Parque",
+      "attendance": 35360
     },
     {
       "id": "r6-bra-sao",
@@ -767,7 +820,8 @@
         "away": 2
       },
       "espnEventId": "401841019",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 5400
     },
     {
       "id": "r6-cru-vas",
@@ -781,7 +835,8 @@
         "away": 3
       },
       "espnEventId": "401841023",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 22352
     },
     {
       "id": "r6-cha-gre",
@@ -795,7 +850,8 @@
         "away": 1
       },
       "espnEventId": "401841025",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 19307
     },
     {
       "id": "r7-bah-bra",
@@ -809,7 +865,8 @@
         "away": 0
       },
       "espnEventId": "401841037",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 29732
     },
     {
       "id": "r7-pal-bot",
@@ -823,7 +880,8 @@
         "away": 1
       },
       "espnEventId": "401841032",
-      "venue": null
+      "venue": "Allianz Parque",
+      "attendance": 29450
     },
     {
       "id": "r7-cap-cru",
@@ -837,7 +895,8 @@
         "away": 1
       },
       "espnEventId": "401841028",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 20084
     },
     {
       "id": "r7-cam-sao",
@@ -851,7 +910,8 @@
         "away": 0
       },
       "espnEventId": "401841029",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 36830
     },
     {
       "id": "r7-mir-cfc",
@@ -865,7 +925,8 @@
         "away": 1
       },
       "espnEventId": "401841033",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 4129
     },
     {
       "id": "r7-san-int",
@@ -879,7 +940,8 @@
         "away": 2
       },
       "espnEventId": "401841031",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 10031
     },
     {
       "id": "r7-vas-flu",
@@ -893,7 +955,8 @@
         "away": 2
       },
       "espnEventId": "401841030",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 28940
     },
     {
       "id": "r7-gre-vit",
@@ -907,7 +970,8 @@
         "away": 0
       },
       "espnEventId": "401841034",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 19963
     },
     {
       "id": "r7-fla-rem",
@@ -921,7 +985,8 @@
         "away": 0
       },
       "espnEventId": "401841035",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 62075
     },
     {
       "id": "r7-cha-cor",
@@ -935,7 +1000,8 @@
         "away": 0
       },
       "espnEventId": "401841036",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 18031
     },
     {
       "id": "r8-bra-bot",
@@ -949,7 +1015,8 @@
         "away": 2
       },
       "espnEventId": "401841047",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 4089
     },
     {
       "id": "r8-flu-cam",
@@ -963,7 +1030,8 @@
         "away": 0
       },
       "espnEventId": "401841044",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 22025
     },
     {
       "id": "r8-sao-pal",
@@ -977,7 +1045,8 @@
         "away": 1
       },
       "espnEventId": "401841040",
-      "venue": null
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "attendance": 54210
     },
     {
       "id": "r8-cap-cfc",
@@ -991,7 +1060,8 @@
         "away": 0
       },
       "espnEventId": "401841038",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 31376
     },
     {
       "id": "r8-cru-san",
@@ -1005,7 +1075,8 @@
         "away": 0
       },
       "espnEventId": "401841045",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 43252
     },
     {
       "id": "r8-rem-bah",
@@ -1019,7 +1090,8 @@
         "away": 1
       },
       "espnEventId": "401841041",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 22447
     },
     {
       "id": "r8-vas-gre",
@@ -1033,7 +1105,8 @@
         "away": 1
       },
       "espnEventId": "401841039",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 20650
     },
     {
       "id": "r8-int-cha",
@@ -1047,7 +1120,8 @@
         "away": 0
       },
       "espnEventId": "401841043",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 17428
     },
     {
       "id": "r8-vit-mir",
@@ -1061,7 +1135,8 @@
         "away": 0
       },
       "espnEventId": "401841042",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 17837
     },
     {
       "id": "r8-cor-fla",
@@ -1075,7 +1150,8 @@
         "away": 1
       },
       "espnEventId": "401841046",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 41896
     },
     {
       "id": "r5-cap-bot",
@@ -1089,7 +1165,8 @@
         "away": 1
       },
       "espnEventId": "401841016",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 21967
     },
     {
       "id": "r9-bot-mir",
@@ -1103,7 +1180,8 @@
         "away": 2
       },
       "espnEventId": "401841057",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 6781
     },
     {
       "id": "r9-int-sao",
@@ -1117,7 +1195,8 @@
         "away": 1
       },
       "espnEventId": "401841053",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 14780
     },
     {
       "id": "r9-bah-cap",
@@ -1131,7 +1210,8 @@
         "away": 0
       },
       "espnEventId": "401841056",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 29213
     },
     {
       "id": "r9-cru-vit",
@@ -1145,7 +1225,8 @@
         "away": 0
       },
       "espnEventId": "401841055",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 23907
     },
     {
       "id": "r9-cfc-vas",
@@ -1159,7 +1240,8 @@
         "away": 1
       },
       "espnEventId": "401841048",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 27224
     },
     {
       "id": "r9-flu-cor",
@@ -1173,7 +1255,8 @@
         "away": 1
       },
       "espnEventId": "401841054",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 24701
     },
     {
       "id": "r9-cha-cam",
@@ -1187,7 +1270,8 @@
         "away": 4
       },
       "espnEventId": "401841049",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 10614
     },
     {
       "id": "r9-san-rem",
@@ -1201,7 +1285,8 @@
         "away": 0
       },
       "espnEventId": "401841050",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 12242
     },
     {
       "id": "r9-bra-fla",
@@ -1215,7 +1300,8 @@
         "away": 0
       },
       "espnEventId": "401841051",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 5854
     },
     {
       "id": "r9-pal-gre",
@@ -1229,7 +1315,8 @@
         "away": 1
       },
       "espnEventId": "401841052",
-      "venue": null
+      "venue": "Arena Barueri",
+      "attendance": 13572
     },
     {
       "id": "r10-sao-cru",
@@ -1243,7 +1330,8 @@
         "away": 1
       },
       "espnEventId": "401841059",
-      "venue": null
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "attendance": 36650
     },
     {
       "id": "r10-cfc-flu",
@@ -1257,7 +1345,8 @@
         "away": 1
       },
       "espnEventId": "401841063",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 24565
     },
     {
       "id": "r10-vas-bot",
@@ -1271,7 +1360,8 @@
         "away": 2
       },
       "espnEventId": "401841062",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 20072
     },
     {
       "id": "r10-cha-vit",
@@ -1285,7 +1375,8 @@
         "away": 1
       },
       "espnEventId": "401841065",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 9484
     },
     {
       "id": "r10-cam-cap",
@@ -1299,7 +1390,8 @@
         "away": 1
       },
       "espnEventId": "401841058",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 29356
     },
     {
       "id": "r10-fla-san",
@@ -1313,7 +1405,8 @@
         "away": 1
       },
       "espnEventId": "401841067",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 68615
     },
     {
       "id": "r10-bah-pal",
@@ -1327,7 +1420,8 @@
         "away": 2
       },
       "espnEventId": "401841066",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 41387
     },
     {
       "id": "r10-cor-int",
@@ -1341,7 +1435,8 @@
         "away": 1
       },
       "espnEventId": "401841064",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 32213
     },
     {
       "id": "r10-mir-bra",
@@ -1355,7 +1450,8 @@
         "away": 1
       },
       "espnEventId": "401841060",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 3597
     },
     {
       "id": "r10-gre-rem",
@@ -1369,7 +1465,8 @@
         "away": 0
       },
       "espnEventId": "401841061",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 23251
     },
     {
       "id": "r11-rem-vas",
@@ -1383,7 +1480,8 @@
         "away": 1
       },
       "espnEventId": "401841075",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 35305
     },
     {
       "id": "r11-vit-sao",
@@ -1397,7 +1495,8 @@
         "away": 0
       },
       "espnEventId": "401841073",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 17891
     },
     {
       "id": "r11-mir-bah",
@@ -1411,7 +1510,8 @@
         "away": 2
       },
       "espnEventId": "401841076",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 4276
     },
     {
       "id": "r11-san-cam",
@@ -1425,7 +1525,8 @@
         "away": 0
       },
       "espnEventId": "401841074",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 12175
     },
     {
       "id": "r11-int-gre",
@@ -1439,7 +1540,8 @@
         "away": 0
       },
       "espnEventId": "401841077",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 40562
     },
     {
       "id": "r11-cap-cha",
@@ -1453,7 +1555,8 @@
         "away": 0
       },
       "espnEventId": "401841071",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 24146
     },
     {
       "id": "r11-bot-cfc",
@@ -1467,7 +1570,8 @@
         "away": 2
       },
       "espnEventId": "401841070",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 14695
     },
     {
       "id": "r11-flu-fla",
@@ -1481,7 +1585,8 @@
         "away": 2
       },
       "espnEventId": "401841072",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 44833
     },
     {
       "id": "r11-cor-pal",
@@ -1495,7 +1600,8 @@
         "away": 0
       },
       "espnEventId": "401841069",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 46263
     },
     {
       "id": "r11-cru-bra",
@@ -1509,7 +1615,8 @@
         "away": 1
       },
       "espnEventId": "401841068",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 38674
     },
     {
       "id": "r12-cha-bot",
@@ -1523,7 +1630,8 @@
         "away": 4
       },
       "espnEventId": "401841078",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 10184
     },
     {
       "id": "r12-vas-sao",
@@ -1537,7 +1645,8 @@
         "away": 1
       },
       "espnEventId": "401841081",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 20067
     },
     {
       "id": "r12-vit-cor",
@@ -1551,7 +1660,8 @@
         "away": 0
       },
       "espnEventId": "401841080",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 21709
     },
     {
       "id": "r12-cru-gre",
@@ -1565,7 +1675,8 @@
         "away": 0
       },
       "espnEventId": "401841087",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 28279
     },
     {
       "id": "r12-int-mir",
@@ -1579,7 +1690,8 @@
         "away": 2
       },
       "espnEventId": "401841085",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 30601
     },
     {
       "id": "r12-cfc-cam",
@@ -1593,7 +1705,8 @@
         "away": 0
       },
       "espnEventId": "401841079",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 28305
     },
     {
       "id": "r12-san-flu",
@@ -1607,7 +1720,8 @@
         "away": 3
       },
       "espnEventId": "401841082",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 14179
     },
     {
       "id": "r12-bra-rem",
@@ -1621,7 +1735,8 @@
         "away": 2
       },
       "espnEventId": "401841083",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 4163
     },
     {
       "id": "r12-pal-cap",
@@ -1635,7 +1750,8 @@
         "away": 0
       },
       "espnEventId": "401841084",
-      "venue": null
+      "venue": "Allianz Parque",
+      "attendance": 39714
     },
     {
       "id": "r12-fla-bah",
@@ -1649,7 +1765,8 @@
         "away": 0
       },
       "espnEventId": "401841086",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 64565
     },
     {
       "id": "r13-bah-san",
@@ -1663,7 +1780,8 @@
         "away": 2
       },
       "espnEventId": "401841095",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 33894
     },
     {
       "id": "r13-bot-int",
@@ -1677,7 +1795,8 @@
         "away": 2
       },
       "espnEventId": "401841094",
-      "venue": null
+      "venue": "Arena BRB Mané Garrincha",
+      "attendance": 16332
     },
     {
       "id": "r13-rem-cru",
@@ -1691,7 +1810,8 @@
         "away": 1
       },
       "espnEventId": "401841093",
-      "venue": null
+      "venue": "Estadio Evandro Almeida (Baenao)",
+      "attendance": 12993
     },
     {
       "id": "r13-sao-mir",
@@ -1705,7 +1825,8 @@
         "away": 0
       },
       "espnEventId": "401841092",
-      "venue": null
+      "venue": "Estádio Brinco de Ouro da Princesa",
+      "attendance": 15706
     },
     {
       "id": "r13-cor-vas",
@@ -1719,7 +1840,8 @@
         "away": 0
       },
       "espnEventId": "401841089",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 41977
     },
     {
       "id": "r13-gre-cfc",
@@ -1733,7 +1855,8 @@
         "away": 0
       },
       "espnEventId": "401841091",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 35164
     },
     {
       "id": "r13-cap-vit",
@@ -1747,7 +1870,8 @@
         "away": 1
       },
       "espnEventId": "401841088",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 17428
     },
     {
       "id": "r13-bra-pal",
@@ -1761,7 +1885,8 @@
         "away": 1
       },
       "espnEventId": "401841097",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 6166
     },
     {
       "id": "r13-cam-fla",
@@ -1775,7 +1900,8 @@
         "away": 4
       },
       "espnEventId": "401841096",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 28148
     },
     {
       "id": "r13-flu-cha",
@@ -1789,7 +1915,8 @@
         "away": 1
       },
       "espnEventId": "401841090",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 13885
     },
     {
       "id": "r14-bot-rem",
@@ -1803,7 +1930,8 @@
         "away": 2
       },
       "espnEventId": "401841107",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 22116
     },
     {
       "id": "r14-pal-san",
@@ -1817,7 +1945,8 @@
         "away": 1
       },
       "espnEventId": "401841102",
-      "venue": null
+      "venue": "Allianz Parque",
+      "attendance": 41282
     },
     {
       "id": "r14-vit-cfc",
@@ -1831,7 +1960,8 @@
         "away": 1
       },
       "espnEventId": "401841100",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 17848
     },
     {
       "id": "r14-cap-gre",
@@ -1845,7 +1975,8 @@
         "away": 0
       },
       "espnEventId": "401841106",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 25859
     },
     {
       "id": "r14-cru-cam",
@@ -1859,7 +1990,8 @@
         "away": 3
       },
       "espnEventId": "401841098",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 53921
     },
     {
       "id": "r14-fla-vas",
@@ -1873,7 +2005,8 @@
         "away": 2
       },
       "espnEventId": "401841105",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 61872
     },
     {
       "id": "r14-sao-bah",
@@ -1887,7 +2020,8 @@
         "away": 2
       },
       "espnEventId": "401841101",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 9390
     },
     {
       "id": "r14-cha-bra",
@@ -1901,7 +2035,8 @@
         "away": 2
       },
       "espnEventId": "401841099",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 8065
     },
     {
       "id": "r14-int-flu",
@@ -1915,7 +2050,8 @@
         "away": 0
       },
       "espnEventId": "401841104",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 17092
     },
     {
       "id": "r14-mir-cor",
@@ -1929,7 +2065,8 @@
         "away": 1
       },
       "espnEventId": "401841103",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 9943
     },
     {
       "id": "r15-cfc-int",
@@ -1943,7 +2080,8 @@
         "away": 2
       },
       "espnEventId": "401841114",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 15878
     },
     {
       "id": "r15-flu-vit",
@@ -1957,7 +2095,8 @@
         "away": 2
       },
       "espnEventId": "401841113",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 17670
     },
     {
       "id": "r15-bah-cru",
@@ -1971,7 +2110,8 @@
         "away": 2
       },
       "espnEventId": "401841116",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 30309
     },
     {
       "id": "r15-cam-bot",
@@ -1985,7 +2125,8 @@
         "away": 1
       },
       "espnEventId": "401841108",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 33043
     },
     {
       "id": "r15-rem-pal",
@@ -1999,7 +2140,8 @@
         "away": 1
       },
       "espnEventId": "401841110",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 40629
     },
     {
       "id": "r15-cor-sao",
@@ -2013,7 +2155,8 @@
         "away": 2
       },
       "espnEventId": "401841115",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 37366
     },
     {
       "id": "r15-mir-cha",
@@ -2027,7 +2170,8 @@
         "away": 1
       },
       "espnEventId": "401841111",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 2343
     },
     {
       "id": "r15-san-bra",
@@ -2041,7 +2185,8 @@
         "away": 0
       },
       "espnEventId": "401841109",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 6291
     },
     {
       "id": "r15-gre-fla",
@@ -2055,7 +2200,8 @@
         "away": 1
       },
       "espnEventId": "401841117",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 30617
     },
     {
       "id": "r15-vas-cap",
@@ -2069,7 +2215,8 @@
         "away": 0
       },
       "espnEventId": "401841112",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 13917
     },
     {
       "id": "r16-cam-mir",
@@ -2083,7 +2230,8 @@
         "away": 1
       },
       "espnEventId": "401841120",
-      "venue": null
+      "venue": "Arena MRV",
+      "attendance": 20027
     },
     {
       "id": "r16-int-vas",
@@ -2097,7 +2245,8 @@
         "away": 1
       },
       "espnEventId": "401841126",
-      "venue": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 21688
     },
     {
       "id": "r16-flu-sao",
@@ -2111,7 +2260,8 @@
         "away": 1
       },
       "espnEventId": "401841127",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 28218
     },
     {
       "id": "r16-pal-cru",
@@ -2125,7 +2275,8 @@
         "away": 1
       },
       "espnEventId": "401841125",
-      "venue": null
+      "venue": "Arena Barueri",
+      "attendance": 27657
     },
     {
       "id": "r16-san-cfc",
@@ -2139,7 +2290,8 @@
         "away": 3
       },
       "espnEventId": "401841123",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 45662
     },
     {
       "id": "r16-bah-gre",
@@ -2153,7 +2305,8 @@
         "away": 1
       },
       "espnEventId": "401841119",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 26800
     },
     {
       "id": "r16-bot-cor",
@@ -2167,7 +2320,8 @@
         "away": 1
       },
       "espnEventId": "401841118",
-      "venue": null
+      "venue": "Joao Havelange Stadium",
+      "attendance": 17556
     },
     {
       "id": "r16-bra-vit",
@@ -2181,7 +2335,8 @@
         "away": 0
       },
       "espnEventId": "401841124",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 1733
     },
     {
       "id": "r16-cha-rem",
@@ -2195,7 +2350,8 @@
         "away": 3
       },
       "espnEventId": "401841122",
-      "venue": null
+      "venue": "Arena Condá",
+      "attendance": 9202
     },
     {
       "id": "r16-cap-fla",
@@ -2209,7 +2365,8 @@
         "away": 1
       },
       "espnEventId": "401841121",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 33549
     },
     {
       "id": "r17-sao-bot",
@@ -2223,7 +2380,8 @@
         "away": 1
       },
       "espnEventId": "401841132",
-      "venue": null
+      "venue": "Estádio Cícero Pompeu de Toledo",
+      "attendance": 25338
     },
     {
       "id": "r17-vit-int",
@@ -2237,7 +2395,8 @@
         "away": 0
       },
       "espnEventId": "401841130",
-      "venue": null
+      "venue": "Estadio Manoel Barradas",
+      "attendance": 24802
     },
     {
       "id": "r17-gre-san",
@@ -2251,7 +2410,8 @@
         "away": 2
       },
       "espnEventId": "401841135",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 37113
     },
     {
       "id": "r17-mir-flu",
@@ -2265,7 +2425,8 @@
         "away": 0
       },
       "espnEventId": "401841134",
-      "venue": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 7085
     },
     {
       "id": "r17-fla-pal",
@@ -2279,7 +2440,8 @@
         "away": 3
       },
       "espnEventId": "401841136",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 71205
     },
     {
       "id": "r17-cru-cha",
@@ -2293,7 +2455,8 @@
         "away": 1
       },
       "espnEventId": "401841137",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 44625
     },
     {
       "id": "r17-rem-cap",
@@ -2307,7 +2470,8 @@
         "away": 2
       },
       "espnEventId": "401841133",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r17-cor-cam",
@@ -2321,7 +2485,8 @@
         "away": 0
       },
       "espnEventId": "401841128",
-      "venue": null
+      "venue": "Neo Química Arena",
+      "attendance": 42508
     },
     {
       "id": "r17-vas-bra",
@@ -2335,7 +2500,8 @@
         "away": 3
       },
       "espnEventId": "401841131",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 13805
     },
     {
       "id": "r17-cfc-bah",
@@ -2349,7 +2515,8 @@
         "away": 2
       },
       "espnEventId": "401841129",
-      "venue": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r18-cap-mir",
@@ -2363,7 +2530,8 @@
         "away": 0
       },
       "espnEventId": "401841138",
-      "venue": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r18-fla-cfc",
@@ -2377,7 +2545,8 @@
         "away": 0
       },
       "espnEventId": "401841144",
-      "venue": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r18-bah-bot",
@@ -2391,7 +2560,8 @@
         "away": 1
       },
       "espnEventId": "401841146",
-      "venue": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r18-gre-cor",
@@ -2405,7 +2575,8 @@
         "away": 3
       },
       "espnEventId": "401841139",
-      "venue": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r18-san-vit",
@@ -2419,7 +2590,8 @@
         "away": 1
       },
       "espnEventId": "401841143",
-      "venue": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r18-bra-int",
@@ -2433,7 +2605,8 @@
         "away": 1
       },
       "espnEventId": "401841141",
-      "venue": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r18-pal-cha",
@@ -2447,7 +2620,8 @@
         "away": 0
       },
       "espnEventId": "401841140",
-      "venue": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r18-vas-cam",
@@ -2461,7 +2635,8 @@
         "away": 1
       },
       "espnEventId": "401841142",
-      "venue": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r18-cru-flu",
@@ -2475,7 +2650,8 @@
         "away": 1
       },
       "espnEventId": "401841145",
-      "venue": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r18-rem-sao",
@@ -2489,7 +2665,8 @@
         "away": 0
       },
       "espnEventId": "401841147",
-      "venue": null
+      "venue": "Mangueirão",
+      "attendance": 25649
     },
     {
       "id": "r19-bot-san",

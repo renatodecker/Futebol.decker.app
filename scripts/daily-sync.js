@@ -153,7 +153,10 @@ async function syncFixturesAndStandings(liga, cfg, teams, token) {
       status,
       score,
       espnEventId: prior?.espnEventId ?? null,
-      venue: fm.venue || prior?.venue || null,
+      // venue: a súmula ESPN (post-match.js) manda no nome do estádio quando
+      // disponível — mais completo que o texto cru da fonte canônica.
+      venue: prior?.venue || fm.venue || null,
+      attendance: prior?.attendance ?? null,
     });
   }
   if (unmatchedTeams > 0) {

@@ -14,6 +14,41 @@ function fmtDateTime(iso) {
   };
 }
 
+function fmtAttendance(n) {
+  return new Intl.NumberFormat('pt-BR').format(n);
+}
+
+// Agrupa o abbreviation detalhado da posição na súmula ESPN (ex.: "CD-L",
+// "AM-R", "LB") nos 4 grupos usados na ordenação titular (spec: posição, depois
+// número). "SUB" é o valor da ESPN pra quem está/ficou no banco sem posição
+// de campo conhecida — fica por último.
+const POSITION_GROUP_ORDER = { G: 0, D: 1, M: 2, A: 3, SUB: 4 };
+const DEFENDER_ABBREVS = new Set(['D', 'LB', 'RB', 'SW']);
+const MIDFIELDER_ABBREVS = new Set(['M', 'DM', 'AM', 'AM-L', 'AM-R', 'LM', 'RM']);
+const FORWARD_ABBREVS = new Set(['F', 'RF', 'LF', 'RCF']);
+
+function positionGroup(abbrev) {
+  if (!abbrev) return 'M';
+  if (abbrev === 'G') return 'G';
+  if (abbrev === 'SUB') return 'SUB';
+  if (abbrev.startsWith('CD')) return 'D';
+  if (abbrev.startsWith('CM')) return 'M';
+  if (abbrev.startsWith('CF')) return 'A';
+  if (DEFENDER_ABBREVS.has(abbrev)) return 'D';
+  if (MIDFIELDER_ABBREVS.has(abbrev)) return 'M';
+  if (FORWARD_ABBREVS.has(abbrev)) return 'A';
+  return 'M';
+}
+
+function sortByPositionThenJersey(players) {
+  return [...players].sort((a, b) => {
+    const ga = POSITION_GROUP_ORDER[positionGroup(a.position?.abbreviation)] ?? 5;
+    const gb = POSITION_GROUP_ORDER[positionGroup(b.position?.abbreviation)] ?? 5;
+    if (ga !== gb) return ga - gb;
+    return (Number(a.jersey) || 99) - (Number(b.jersey) || 99);
+  });
+}
+
 async function fetchSummary(liga, espnSlug, espnEventId, isLive) {
   if (!espnEventId) return null;
   if (!isLive) {
@@ -38,7 +73,7 @@ function eventIcon(kind) {
     case 'goal': return '⚽';
     case 'yellow': return '🟨';
     case 'red': return '🟥';
-    case 'sub': return '⇄';
+    case 'sub': return '<span class="sub-swap-icon"><span class="sub-in">▲</span><span class="sub-out">▼</span></span>';
     default: return '•';
   }
 }
@@ -70,7 +105,9 @@ function extractTimeline(summary, homeEspnId, awayEspnId) {
     } else if (slug === 'red-card' || slug === 'yellow-red-card') {
       items.push({ minute, kind: 'red', text: actorName || '', side });
     } else if (slug === 'substitution') {
-      items.push({ minute, kind: 'sub', text: `▲${actorName || '?'} ▼${otherName || '?'}`, side });
+      const inText = `<span class="sub-in">▲${actorName || '?'}</span>`;
+      const outText = `<span class="sub-out">▼${otherName || '?'}</span>`;
+      items.push({ minute, kind: 'sub', text: `${inText} ${outText}`, side });
     }
   }
   return items;
@@ -94,18 +131,27 @@ function timelineRowHtml(item) {
 function extractLineup(summary, espnTeamId) {
   const rosterEntry = (summary?.rosters || []).find((r) => String(r.team?.id) === String(espnTeamId));
   const players = rosterEntry?.roster || [];
-  const starters = players.filter((p) => p.starter).sort((a, b) => (a.jersey ?? 99) - (b.jersey ?? 99));
-  const bench = players.filter((p) => !p.starter).sort((a, b) => (a.jersey ?? 99) - (b.jersey ?? 99));
+  const starters = sortByPositionThenJersey(players.filter((p) => p.starter));
+  const bench = sortByPositionThenJersey(players.filter((p) => !p.starter));
   return { starters, bench };
 }
 
 function lineupListHtml(players) {
-  return players.map((p) => `
-    <li>
-      <span class="lineup-jersey">${p.jersey ?? '—'}</span>
-      <span>${p.athlete?.shortName || p.athlete?.displayName || '?'}</span>
-    </li>
-  `).join('') || '<li class="empty-state">—</li>';
+  return players.map((p) => {
+    const name = p.athlete?.shortName || p.athlete?.displayName || '?';
+    const badge = p.subbedOut
+      ? '<span class="sub-badge sub-out" title="Saiu">▼ saiu</span>'
+      : p.subbedIn
+        ? '<span class="sub-badge sub-in" title="Entrou">▲ entrou</span>'
+        : '';
+    return `
+      <li>
+        <span class="lineup-jersey">${p.jersey ?? '—'}</span>
+        <span class="lineup-name">${name}</span>
+        ${badge}
+      </li>
+    `;
+  }).join('') || '<li class="empty-state">—</li>';
 }
 
 function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary) {
@@ -119,18 +165,31 @@ function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary) {
     ? extractTimeline(summary, home?.espnId, away?.espnId).map(timelineRowHtml).join('')
     : '';
 
-  const lineupsHtml = summary ? `
-    <div class="match-modal-lineups">
-      <div>
-        <h4 class="squad-position-label">Titulares — ${home?.abbrev || m.home}</h4>
-        <ul class="lineup-list">${lineupListHtml(extractLineup(summary, home?.espnId).starters)}</ul>
+  const lineupsHtml = summary ? (() => {
+    const homeLineup = extractLineup(summary, home?.espnId);
+    const awayLineup = extractLineup(summary, away?.espnId);
+    return `
+      <div class="match-modal-lineups">
+        <div>
+          <h4 class="squad-position-label">Titulares — ${home?.abbrev || m.home}</h4>
+          <ul class="lineup-list">${lineupListHtml(homeLineup.starters)}</ul>
+          <h4 class="squad-position-label">Reservas — ${home?.abbrev || m.home}</h4>
+          <ul class="lineup-list">${lineupListHtml(homeLineup.bench)}</ul>
+        </div>
+        <div>
+          <h4 class="squad-position-label">Titulares — ${away?.abbrev || m.away}</h4>
+          <ul class="lineup-list">${lineupListHtml(awayLineup.starters)}</ul>
+          <h4 class="squad-position-label">Reservas — ${away?.abbrev || m.away}</h4>
+          <ul class="lineup-list">${lineupListHtml(awayLineup.bench)}</ul>
+        </div>
       </div>
-      <div>
-        <h4 class="squad-position-label">Titulares — ${away?.abbrev || m.away}</h4>
-        <ul class="lineup-list">${lineupListHtml(extractLineup(summary, away?.espnId).starters)}</ul>
-      </div>
-    </div>
-  ` : '';
+    `;
+  })() : '';
+
+  const metaParts = [`Rodada ${m.round}`];
+  if (m.venue) metaParts.push(`🏟️ ${m.venue}`);
+  if (typeof m.attendance === 'number' && m.attendance > 0) metaParts.push(`público: ${fmtAttendance(m.attendance)}`);
+  if (isLive && m.liveClock) metaParts.push(m.liveClock);
 
   contentEl.innerHTML = `
     <button class="squad-close-btn" id="matchModalCloseBtn" aria-label="Fechar">✕</button>
@@ -143,17 +202,35 @@ function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary) {
         ${showScore
           ? `<div class="big-score">${isLive ? '<span class="live-badge"></span>' : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</div>`
           : `<div class="big-score">${date}<br>${time}</div>`}
-        <div class="match-modal-meta">Rodada ${m.round}${isLive && m.liveClock ? ` · ${m.liveClock}` : ''}</div>
+        <div class="match-modal-meta">${metaParts.join(' · ')}</div>
       </div>
       <div class="match-modal-team away">
         <span>${away?.name || m.away}</span>
         <img src="${away?.badge || ''}" alt="" />
       </div>
     </div>
-    ${summary
-      ? `<div class="match-modal-timeline">${timelineHtml || '<p class="empty-state">Sem lances registrados.</p>'}</div>${lineupsHtml}`
-      : '<p class="empty-state">Detalhes da partida ainda não disponíveis.</p>'}
+    ${summary ? `
+      <div class="match-modal-tabs">
+        <button class="match-modal-tab-btn is-active" data-modal-tab="details">Detalhes</button>
+        <button class="match-modal-tab-btn" data-modal-tab="lineups">Escalação</button>
+      </div>
+      <div class="match-modal-tab-panel is-active" data-modal-tab-panel="details">
+        <div class="match-modal-timeline">${timelineHtml || '<p class="empty-state">Sem lances registrados.</p>'}</div>
+      </div>
+      <div class="match-modal-tab-panel" data-modal-tab-panel="lineups">
+        ${lineupsHtml}
+      </div>
+    ` : '<p class="empty-state">Detalhes da partida ainda não disponíveis.</p>'}
   `;
+
+  contentEl.querySelectorAll('.match-modal-tab-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      contentEl.querySelectorAll('.match-modal-tab-btn').forEach((b) => b.classList.remove('is-active'));
+      contentEl.querySelectorAll('.match-modal-tab-panel').forEach((p) => p.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      contentEl.querySelector(`[data-modal-tab-panel="${btn.dataset.modalTab}"]`).classList.add('is-active');
+    });
+  });
 }
 
 export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {

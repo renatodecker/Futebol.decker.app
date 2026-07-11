@@ -296,6 +296,113 @@ button {
   object-fit: contain;
 }
 
+/* ---------- Home: hero da liga + destaques ---------- */
+
+.league-hero {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  margin-bottom: 4px;
+}
+
+.league-hero-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.league-hero-text h1 {
+  margin: 0;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.league-hero-text span {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 720px) {
+  .highlights-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.highlight-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+}
+
+.highlight-card h3 {
+  margin: 0 0 8px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink-muted);
+}
+
+.highlight-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: highlight;
+}
+
+.highlight-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.highlight-list li::before {
+  counter-increment: highlight;
+  content: counter(highlight);
+  color: var(--ink-muted);
+  font-size: 0.75rem;
+  width: 14px;
+  flex: 0 0 auto;
+}
+
+.highlight-list img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.highlight-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.highlight-facts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 /* ---------- Match cards ---------- */
 
 .match-list {
@@ -382,6 +489,32 @@ button {
   background: #ff4d4f;
   margin-right: 4px;
   animation: pulse 1.4s infinite;
+}
+
+.match-card-footer {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border);
+  font-size: 0.7rem;
+}
+
+.match-card-footer .venue {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.match-card-link {
+  flex: 0 0 auto;
+  color: var(--secondary);
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .empty-state {
@@ -800,11 +933,70 @@ button {
   margin-top: 4px;
 }
 
+.match-modal-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.match-modal-tab-btn {
+  flex: 1;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--ink-muted);
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.match-modal-tab-btn.is-active {
+  background: var(--primary);
+  color: var(--text);
+  border-color: transparent;
+}
+
+.match-modal-tab-panel {
+  display: none;
+}
+
+.match-modal-tab-panel.is-active {
+  display: block;
+}
+
 .match-modal-timeline {
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 10px 0;
   margin-bottom: 16px;
+}
+
+.sub-in {
+  color: #2ecc71;
+}
+
+.sub-out {
+  color: #ff4d4f;
+}
+
+.sub-swap-icon {
+  display: inline-flex;
+  gap: 1px;
+  font-size: 0.85em;
+}
+
+.sub-badge {
+  font-size: 0.65rem;
+  font-weight: 600;
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.sub-badge.sub-in {
+  color: #2ecc71;
+}
+
+.sub-badge.sub-out {
+  color: #ff4d4f;
 }
 
 .timeline-row {
@@ -868,6 +1060,13 @@ button {
 .lineup-jersey {
   color: var(--ink-muted);
   min-width: 18px;
+}
+
+.lineup-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* ---------- Responsive tweaks ---------- */

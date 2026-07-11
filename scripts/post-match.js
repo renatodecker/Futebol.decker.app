@@ -90,10 +90,40 @@ async function fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir) {
     const away = comp.competitors?.find((c) => c.homeAway === 'away');
     m.status = 'finished';
     m.score = { home: Number(home?.score ?? 0), away: Number(away?.score ?? 0) };
+    applyVenueInfo(m, json);
     updated += 1;
     await sleep(250);
   }
   return updated;
+}
+
+// Estádio + público (spec: indicativo de estádio/público em cards e no modal
+// de partida) vêm do gameInfo da súmula ESPN, não da fonte canônica — só
+// existem depois que o summary foi cacheado.
+function applyVenueInfo(m, summaryJson) {
+  const gameInfo = summaryJson?.gameInfo;
+  const venueName = gameInfo?.venue?.fullName || null;
+  if (venueName) m.venue = venueName;
+  if (typeof gameInfo?.attendance === 'number') m.attendance = gameInfo.attendance;
+}
+
+// Backfill sem rede: preenche venue/attendance de jogos já finalizados cujo
+// summary já está em cache mas ainda não tinha sido lido pra esses campos
+// (ex.: summaries baixados antes desse campo existir).
+function backfillVenueFromCache(fixtures, summariesDir) {
+  let filled = 0;
+  for (const m of fixtures.matches) {
+    if (!m.espnEventId) continue;
+    if (m.venue && typeof m.attendance === 'number') continue;
+    const cachePath = path.join(summariesDir, `${m.espnEventId}.json`);
+    if (!fs.existsSync(cachePath)) continue;
+    const summary = loadJson(cachePath, null);
+    if (!summary) continue;
+    const before = `${m.venue}|${m.attendance}`;
+    applyVenueInfo(m, summary);
+    if (`${m.venue}|${m.attendance}` !== before) filled += 1;
+  }
+  return filled;
 }
 
 function processSummary(json, teams, playersAgg, statsAgg) {
@@ -299,10 +329,11 @@ async function syncLeague(liga, cfg) {
   }
 
   const updated = await fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir);
-  if (updated > 0) {
+  const backfilled = backfillVenueFromCache(fixtures, path.join(rawDir, 'summaries'));
+  if (updated > 0 || backfilled > 0) {
     fs.writeFileSync(fixturesPath, JSON.stringify(fixtures, null, 2) + '\n');
   }
-  console.log(`[${liga}] ${updated} jogo(s) marcado(s) finished nesta rodada.`);
+  console.log(`[${liga}] ${updated} jogo(s) marcado(s) finished nesta rodada. ${backfilled} jogo(s) com venue/attendance preenchido(s) do cache.`);
 
   rebuildPlayersAndStats(liga, teams, rawDir, dataDir);
 
