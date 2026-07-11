@@ -6,9 +6,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/cri.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#F7D117",
+      "secondary": "#000000",
+      "text": "#000000"
     }
   },
   "vil": {
@@ -18,9 +18,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/vil.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C8202B",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "nov": {
@@ -30,9 +30,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/nov.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#F7D117",
+      "text": "#FFFFFF"
     }
   },
   "juv": {
@@ -42,9 +42,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/juv.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#0B7A2E",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "for": {
@@ -54,9 +54,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/for.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#0C68B0",
+      "secondary": "#ED1C24",
+      "text": "#FFFFFF"
     }
   },
   "ope": {
@@ -66,9 +66,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/ope.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "spo": {
@@ -78,9 +78,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/spo.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C8102E",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     }
   },
   "ber": {
@@ -90,9 +90,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/ber.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#FFCB05",
+      "secondary": "#000000",
+      "text": "#000000"
     }
   },
   "goi": {
@@ -102,9 +102,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/goi.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#006B3F",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "cui": {
@@ -114,9 +114,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/cui.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#00733A",
+      "secondary": "#FFC20E",
+      "text": "#FFFFFF"
     }
   },
   "acm": {
@@ -126,9 +126,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/acm.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "nau": {
@@ -138,9 +138,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/nau.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#CC0000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "ago": {
@@ -150,9 +150,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/ago.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#DA291C",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     }
   },
   "bfc": {
@@ -162,9 +162,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/bfc.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#D2232A",
+      "secondary": "#000000",
+      "text": "#FFFFFF"
     }
   },
   "crb": {
@@ -174,9 +174,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/crb.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#C8202E",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "lon": {
@@ -186,9 +186,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/lon.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#0B6DAE",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "cea": {
@@ -198,9 +198,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/cea.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "ava": {
@@ -210,9 +210,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/ava.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#004B8D",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "pon": {
@@ -222,9 +222,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/pon.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   },
   "amg": {
@@ -234,9 +234,9 @@
     "fdId": null,
     "badge": "/img/badges/bra-b/amg.png",
     "skin": {
-      "primary": null,
-      "secondary": null,
-      "text": null
+      "primary": "#006B3D",
+      "secondary": "#FFFFFF",
+      "text": "#FFFFFF"
     }
   }
 }
