@@ -81,7 +81,11 @@ async function syncTeamRoster(espnSlug, teamSlug, espnId, players, seenThisRun) 
       shirtName: athlete.shortName || athlete.displayName,
       team: prior.team ?? teamSlug, // súmula (post-match) é quem decide o time atual quando existir
       position: positionGroup(athlete.position?.abbreviation),
-      jersey: athlete.jersey ? Number(athlete.jersey) : null,
+      // súmula também manda no número (spec 4.4): o roster do time na ESPN
+      // pode ficar defasado numa troca de camisa no meio da temporada — a
+      // súmula mais recente processada por post-match.js é sempre a mais
+      // atual de verdade (foi o número que o jogador vestiu em campo).
+      jersey: prior.jersey ?? (athlete.jersey ? Number(athlete.jersey) : null),
       birthdate: athlete.dateOfBirth ? athlete.dateOfBirth.slice(0, 10) : null,
       nationality: nationalityCode(athlete.citizenship),
       apps: prior.apps ?? 0,
