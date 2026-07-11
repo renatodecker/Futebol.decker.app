@@ -147,11 +147,16 @@ function selectTeamSkin(slug) {
 
 function renderLeagueHero() {
   const cfg = state.leagues[state.liga];
+  // season pode não existir ainda em leagues.json pra ligas recém-ativadas
+  // (bra-a é a única com o campo hoje) — cai pro season de fixtures.json, e
+  // some a linha de temporada de vez se nenhum dos dois tiver o dado, em vez
+  // de imprimir "Temporada undefined".
+  const season = cfg.season ?? state.fixtures?.season ?? null;
   document.getElementById('leagueHero').innerHTML = `
     ${cfg.logo ? `<img src="${cfg.logo}" alt="${cfg.name}" class="league-hero-logo" />` : ''}
     <div class="league-hero-text">
       <h1>${cfg.name}</h1>
-      <span>Temporada ${cfg.season}</span>
+      ${season ? `<span>Temporada ${season}</span>` : ''}
     </div>
   `;
 }
