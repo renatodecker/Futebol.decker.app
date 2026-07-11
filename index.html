@@ -24,13 +24,12 @@
           <span class="brand-name">futebol<span class="brand-dot">.</span>decker</span>
         </a>
       </div>
-      <button class="league-picker-toggle" id="leaguePickerToggle" aria-expanded="false" aria-controls="leaguePicker">
+      <button class="league-picker-toggle" id="leaguePickerToggle" aria-haspopup="dialog" aria-controls="leagueModal">
         <img id="currentLeagueLogo" class="league-logo" alt="" />
         <span id="currentLeagueName">Carregando…</span>
         <span class="chevron">▾</span>
       </button>
     </div>
-    <div class="league-picker" id="leaguePicker" hidden></div>
   </header>
 
   <nav class="live-bar" id="liveBar" hidden>
@@ -140,6 +139,15 @@
   <div class="squad-modal" id="matchModal" hidden>
     <div class="squad-modal-backdrop" id="matchModalBackdrop"></div>
     <div class="squad-modal-content" id="matchModalContent"></div>
+  </div>
+
+  <div class="squad-modal" id="leagueModal" hidden>
+    <div class="squad-modal-backdrop" id="leagueModalBackdrop"></div>
+    <div class="squad-modal-content league-modal-content" id="leagueModalContent">
+      <button class="squad-close-btn" id="leagueModalCloseBtn" aria-label="Fechar">✕</button>
+      <h3 class="league-modal-title">Escolher campeonato</h3>
+      <div class="league-modal-list" id="leagueModalList"></div>
+    </div>
   </div>
 
   <script type="module" src="js/theme.js"></script>

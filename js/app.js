@@ -56,42 +56,51 @@ function updateQuery(params) {
 // Seletor de liga
 // ---------------------------------------------------------------------
 
+// Seletor de liga é um modal (mesmo padrão visual do elenco/partida) em vez
+// de um dropdown embutido no header: com o botão no canto direito e a lista
+// de ligas ocupando a largura inteira abaixo, o dropdown ficava visualmente
+// desconectado de onde o usuário clicou — um modal centralizado (ou bottom
+// sheet no mobile) sempre aparece ancorado corretamente, em qualquer largura.
 function renderLeaguePicker() {
-  const picker = document.getElementById('leaguePicker');
+  const list = document.getElementById('leagueModalList');
   const entries = Object.entries(state.leagues).filter(([, cfg]) => cfg.status !== 'hidden');
-  picker.innerHTML = entries.map(([slug, cfg]) => {
+  list.innerHTML = entries.map(([slug, cfg]) => {
     const disabled = cfg.status !== 'active';
+    const isCurrent = slug === state.liga;
     return `
-      <button class="league-option" data-liga="${slug}" ${disabled ? 'disabled' : ''}>
-        ${cfg.logo ? `<img src="${cfg.logo}" alt="" />` : ''}
-        <span>${cfg.shortName || cfg.name}</span>
-        ${disabled ? '<span class="soon-badge">em breve</span>' : ''}
+      <button class="league-modal-option ${isCurrent ? 'is-active' : ''}" data-liga="${slug}" ${disabled ? 'disabled' : ''}>
+        ${cfg.logo ? `<img src="${cfg.logo}" alt="" />` : '<span class="league-modal-option-noimg"></span>'}
+        <span class="league-modal-option-name">${cfg.shortName || cfg.name}</span>
+        ${disabled ? '<span class="soon-badge">em breve</span>' : isCurrent ? '<span class="league-modal-check">✓</span>' : ''}
       </button>
     `;
   }).join('');
 
-  picker.querySelectorAll('.league-option:not([disabled])').forEach((btn) => {
+  list.querySelectorAll('.league-modal-option:not([disabled])').forEach((btn) => {
     btn.addEventListener('click', () => {
-      picker.hidden = true;
-      document.getElementById('leaguePickerToggle').setAttribute('aria-expanded', 'false');
+      closeLeagueModal();
       if (btn.dataset.liga !== state.liga) {
         loadLiga(btn.dataset.liga, { resetTeam: true });
       }
     });
   });
-
 }
 
-// Presa uma única vez (chamado só em main()) — { once: true } aqui fazia o
-// botão parar de responder depois do primeiro clique, deixando o seletor de
-// liga "travado" assim que havia mais de uma liga active pra trocar.
-function wireLeaguePickerToggle() {
-  document.getElementById('leaguePickerToggle').addEventListener('click', () => {
-    const toggle = document.getElementById('leaguePickerToggle');
-    const picker = document.getElementById('leaguePicker');
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    picker.hidden = expanded;
-    toggle.setAttribute('aria-expanded', String(!expanded));
+function openLeagueModal() {
+  document.getElementById('leagueModal').hidden = false;
+}
+
+function closeLeagueModal() {
+  document.getElementById('leagueModal').hidden = true;
+}
+
+// Presa uma única vez (chamado só em main()).
+function wireLeagueModal() {
+  document.getElementById('leaguePickerToggle').addEventListener('click', openLeagueModal);
+  document.getElementById('leagueModalCloseBtn').addEventListener('click', closeLeagueModal);
+  document.getElementById('leagueModalBackdrop').addEventListener('click', closeLeagueModal);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !document.getElementById('leagueModal').hidden) closeLeagueModal();
   });
 }
 
@@ -673,6 +682,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
   state.team = resetTeam ? null : (qs.get('time') || null);
   updateQuery({ liga: slug, time: state.team });
   updateHeaderForLiga(cfg);
+  renderLeaguePicker();
 
   const base = `data/${slug}`;
   const [teams, fixtures, standings, meta, players, stats] = await Promise.all([
@@ -739,7 +749,7 @@ async function main() {
 
   state.leagues = await fetchJson('data/leagues.json');
   renderLeaguePicker();
-  wireLeaguePickerToggle();
+  wireLeagueModal();
 
   const requested = qs.get('liga');
   const firstActive = Object.keys(state.leagues).find((k) => state.leagues[k].status === 'active');
