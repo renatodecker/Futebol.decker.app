@@ -30,7 +30,7 @@
     "shortName": "Série B",
     "country": "BR",
     "season": 2026,
-    "status": "planned",
+    "status": "active",
     "logo": "/img/leagues/bra-b.png",
     "identity": { "primary": "#0D3B66", "secondary": "#F2C230", "text": "#FFFFFF" },
     "sources": {
