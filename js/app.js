@@ -1,8 +1,12 @@
-import * as Theme from './theme.js';
-import { renderStandings } from './standings.js';
-import { initSquadModal } from './squad.js';
-import { initLive } from './live.js';
-import { initMatchModal } from './modal.js';
+// Query string de cache-busting (?v=...) tem que bater exatamente com a das
+// tags <script> em index.html — senão o módulo acaba carregado duas vezes
+// sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
+// com sua própria instância/cache.
+import * as Theme from './theme.js?v=20260711c';
+import { renderStandings } from './standings.js?v=20260711c';
+import { initSquadModal } from './squad.js?v=20260711c';
+import { initLive } from './live.js?v=20260711c';
+import { initMatchModal } from './modal.js?v=20260711c';
 
 const state = {
   leagues: null,

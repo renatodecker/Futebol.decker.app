@@ -8,7 +8,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
-  <link rel="stylesheet" href="css/style.css" />
+  <!-- ?v= é cache-busting manual: bump sempre que css/style.css ou js/*.js
+       mudar, senão o navegador/CDN pode continuar servindo a versão antiga
+       desses arquivos por um bom tempo mesmo depois do deploy (o site não
+       tem build com hash de conteúdo no nome do arquivo). -->
+  <link rel="stylesheet" href="css/style.css?v=20260711c" />
 </head>
 <body>
   <header class="site-header">
@@ -150,8 +154,8 @@
     </div>
   </div>
 
-  <script type="module" src="js/theme.js"></script>
-  <script type="module" src="js/standings.js"></script>
-  <script type="module" src="js/app.js"></script>
+  <script type="module" src="js/theme.js?v=20260711c"></script>
+  <script type="module" src="js/standings.js?v=20260711c"></script>
+  <script type="module" src="js/app.js?v=20260711c"></script>
 </body>
 </html>
