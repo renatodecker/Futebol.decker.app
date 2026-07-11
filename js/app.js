@@ -2,11 +2,11 @@
 // tags <script> em index.html — senão o módulo acaba carregado duas vezes
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
-import * as Theme from './theme.js?v=20260711d';
-import { renderStandings } from './standings.js?v=20260711d';
-import { initSquadModal } from './squad.js?v=20260711d';
-import { initLive } from './live.js?v=20260711d';
-import { initMatchModal } from './modal.js?v=20260711d';
+import * as Theme from './theme.js?v=20260711e';
+import { renderStandings } from './standings.js?v=20260711e';
+import { initSquadModal } from './squad.js?v=20260711e';
+import { initLive } from './live.js?v=20260711e';
+import { initMatchModal } from './modal.js?v=20260711e';
 
 const state = {
   leagues: null,
@@ -21,6 +21,44 @@ const state = {
 };
 
 const qs = new URLSearchParams(location.search);
+
+// ---------------------------------------------------------------------
+// Debug de livetiming via URL (não afeta produção — só ativa com os
+// parâmetros presentes):
+//   ?debugNow=2026-07-12T21:30:00Z  -> finge que "agora" é esse instante pra
+//     decidir se está dentro da janela ao vivo (meta.liveWindows) — útil pra
+//     testar a borda do gate (antes/depois do kickoff) sem esperar o horário
+//     real. Só funciona se a janela daquele dia já existir em meta.json.
+//   ?debugForceLive=r19-fla-pal  -> força essa partida (por id) como 'live'
+//     na hora, direto em memória — não depende de horário nem de dado real
+//     da ESPN, serve pra testar o visual (badge, barra "Ao vivo", parcial da
+//     classificação, auto-refresh do modal) sem precisar de jogo real rolando.
+//   ?debugClock=78'  -> texto do cronômetro usado junto com debugForceLive
+//     (default "45'").
+// Nunca grava nada — tudo em memória, some com F5 sem os parâmetros.
+function debugNowMs() {
+  const raw = qs.get('debugNow');
+  if (!raw) return null;
+  const t = new Date(raw).getTime();
+  return Number.isNaN(t) ? null : t;
+}
+
+function debugForceLiveId() {
+  return qs.get('debugForceLive');
+}
+
+function applyDebugForceLive() {
+  const matchId = debugForceLiveId();
+  if (!matchId || !state.fixtures) return;
+  const m = state.fixtures.matches.find((x) => x.id === matchId);
+  if (!m) {
+    console.warn(`debugForceLive: partida "${matchId}" não encontrada em fixtures.matches.`);
+    return;
+  }
+  m.status = 'live';
+  m.liveClock = qs.get('debugClock') || "45'";
+  if (!m.score) m.score = { home: 0, away: 0 };
+}
 
 function fmtDateTime(iso) {
   const d = new Date(iso);
@@ -339,8 +377,9 @@ function renderHomeLists() {
 // ---------------------------------------------------------------------
 
 function isWithinLiveWindow() {
+  if (debugForceLiveId()) return true; // debug: partida forçada não depende da janela real
   const windows = state.meta?.liveWindows || [];
-  const now = Date.now();
+  const now = debugNowMs() ?? Date.now();
   return windows.some((w) => now >= new Date(w.start).getTime() && now <= new Date(w.end).getTime());
 }
 
@@ -596,7 +635,7 @@ function renderMeses() {
     days.get(day).push(m);
   }
   const months = [...byMonth.keys()].sort();
-  const nowYm = new Date().toISOString().slice(0, 7);
+  const nowYm = new Date(debugNowMs() ?? Date.now()).toISOString().slice(0, 7);
 
   const groups = months.map((ym) => {
     const days = byMonth.get(ym);
@@ -705,6 +744,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
   state.meta = meta;
   state.players = players;
   state.stats = stats;
+  applyDebugForceLive();
 
   if (state.team && !teams[state.team]) state.team = null; // ?time= inválido -> default
 
@@ -728,7 +768,13 @@ async function loadLiga(slug, { resetTeam } = {}) {
 
   liveController?.stop();
   liveController = initLive(
-    () => ({ liga: state.liga, leagues: state.leagues, fixtures: state.fixtures, meta: state.meta }),
+    () => ({
+      liga: state.liga,
+      leagues: state.leagues,
+      fixtures: state.fixtures,
+      meta: state.meta,
+      now: debugNowMs() ?? undefined,
+    }),
     onLiveUpdate,
   );
 }

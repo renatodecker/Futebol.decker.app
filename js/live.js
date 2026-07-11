@@ -49,17 +49,23 @@ export function initLive(getState, onUpdate) {
 
   async function tick() {
     if (stopped) return;
-    const { liga, leagues, fixtures, meta } = getState();
+    const { liga, leagues, fixtures, meta, now } = getState();
     const cfg = liga ? leagues?.[liga] : null;
+    const effectiveNow = now ?? Date.now();
 
-    if (!cfg || !fixtures || !meta || !isWithinAnyWindow(meta.liveWindows)) {
-      onUpdate({ liveMatchIds: [] });
+    if (!cfg || !fixtures || !meta || !isWithinAnyWindow(meta.liveWindows, effectiveNow)) {
+      // Mesmo fora da janela, reporta o que já está marcado 'live' em memória
+      // (ex.: ?debugForceLive) em vez de sempre [] — só nunca acontece
+      // organicamente fora de debug, já que 'live' nunca é persistido em
+      // fixtures.json.
+      const liveMatchIds = fixtures ? fixtures.matches.filter((m) => m.status === 'live').map((m) => m.id) : [];
+      onUpdate({ liveMatchIds });
       schedule(IDLE_CHECK_MS);
       return;
     }
 
     try {
-      const day = localBucketDay(new Date(), cfg.sources?.utcOffsetMinutes || 0);
+      const day = localBucketDay(new Date(effectiveNow), cfg.sources?.utcOffsetMinutes || 0);
       const res = await fetch(`${ESPN_SITE_BASE}/${cfg.sources.espnSlug}/scoreboard?dates=${day}`);
       if (res.ok) {
         const json = await res.json();
