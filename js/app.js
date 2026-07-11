@@ -2,11 +2,11 @@
 // tags <script> em index.html — senão o módulo acaba carregado duas vezes
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
-import * as Theme from './theme.js?v=20260711c';
-import { renderStandings } from './standings.js?v=20260711c';
-import { initSquadModal } from './squad.js?v=20260711c';
-import { initLive } from './live.js?v=20260711c';
-import { initMatchModal } from './modal.js?v=20260711c';
+import * as Theme from './theme.js?v=20260711d';
+import { renderStandings } from './standings.js?v=20260711d';
+import { initSquadModal } from './squad.js?v=20260711d';
+import { initLive } from './live.js?v=20260711d';
+import { initMatchModal } from './modal.js?v=20260711d';
 
 const state = {
   leagues: null,
@@ -285,20 +285,22 @@ function venueLineHtml(m) {
   return `<span class="venue">🏟️ ${m.venue}${attendance}</span>`;
 }
 
-function matchCardHtml(m, { showRound = false } = {}) {
+// Regra geral: todo card de jogo (Home, Rodadas, Meses) sempre mostra rodada,
+// data, horário e local — sem depender de qual aba está renderizando, pra não
+// ter card "incompleto" em lugar nenhum.
+function matchCardHtml(m) {
   const home = state.teams[m.home];
   const away = state.teams[m.away];
   const { date, time } = fmtDateTime(m.date);
   const isLive = m.status === 'live';
   const liveBadge = '<span class="live-badge"></span>';
   const scoreHtml = m.status === 'finished' || isLive
-    ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date}</span>`
+    ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date} · ${time}</span>`
     : `<span class="datetime">${date}<br>${time}</span>`;
-  const roundHtml = showRound ? `<span class="round-label">Rodada ${m.round}</span>` : '';
 
   return `
     <div class="match-card is-clickable ${isLive ? 'is-live' : ''}" data-match="${m.id}">
-      ${roundHtml}
+      <span class="round-label">Rodada ${m.round}</span>
       <div class="team home" data-open-squad="${m.home}">
         <img src="${home?.badge || ''}" alt="" />
         <span class="team-name">${home?.abbrev || m.home}</span>
@@ -605,7 +607,7 @@ function renderMeses() {
       const matches = days.get(day).sort((a, b) => new Date(a.date) - new Date(b.date));
       const dayLabel = new Intl.DateTimeFormat('pt-BR', { weekday: 'long', day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' })
         .format(new Date(`${day}T12:00:00Z`));
-      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map((m) => matchCardHtml(m, { showRound: true })).join('')}`;
+      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map(matchCardHtml).join('')}`;
     }).join('');
     return [ym, label.charAt(0).toUpperCase() + label.slice(1), body];
   });
@@ -647,8 +649,8 @@ function patchLiveMatchCards() {
     const center = el.querySelector('.center');
     if (!center || (m.status !== 'finished' && !isLive)) return;
     const liveBadge = isLive ? '<span class="live-badge"></span>' : '';
-    const { date } = fmtDateTime(m.date);
-    center.innerHTML = `<span class="score">${liveBadge}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date}</span>`;
+    const { date, time } = fmtDateTime(m.date);
+    center.innerHTML = `<span class="score">${liveBadge}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date} · ${time}</span>`;
   });
 }
 
