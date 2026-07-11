@@ -278,6 +278,17 @@ button {
   margin-top: 4px;
 }
 
+.section-title-live {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ff4d4f;
+}
+
+.section-title-live .live-dot {
+  background: #ff4d4f;
+}
+
 /* ---------- Home: team skin frame ---------- */
 
 .skin-reset-row {

@@ -2,11 +2,11 @@
 // tags <script> em index.html — senão o módulo acaba carregado duas vezes
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
-import * as Theme from './theme.js?v=20260711e';
-import { renderStandings } from './standings.js?v=20260711e';
-import { initSquadModal } from './squad.js?v=20260711e';
-import { initLive } from './live.js?v=20260711e';
-import { initMatchModal } from './modal.js?v=20260711e';
+import * as Theme from './theme.js?v=20260711f';
+import { renderStandings } from './standings.js?v=20260711f';
+import { initSquadModal } from './squad.js?v=20260711f';
+import { initLive } from './live.js?v=20260711f';
+import { initMatchModal } from './modal.js?v=20260711f';
 
 const state = {
   leagues: null,
@@ -372,6 +372,24 @@ function renderHomeLists() {
     || '<p class="empty-state">Nenhum jogo agendado.</p>';
 }
 
+// Seção "Ao vivo" na Home, acima de "Últimos resultados" — só aparece
+// enquanto há jogo com status 'live' (nunca persistido, só existe em memória
+// via live.js ou via ?debugForceLive). Reconstrói do zero a cada chamada
+// (chamado no load inicial e a cada tick de onLiveUpdate), diferente do
+// patchLiveMatchCards, que só atualiza placar de cards já existentes — aqui
+// o próprio conjunto de jogos pode entrar/sair a qualquer momento.
+function renderLiveMatches() {
+  const section = document.getElementById('liveMatchesSection');
+  const live = state.fixtures.matches
+    .filter((m) => m.status === 'live')
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+
+  section.hidden = live.length === 0;
+  if (live.length > 0) {
+    document.getElementById('liveMatches').innerHTML = live.map(matchCardHtml).join('');
+  }
+}
+
 // ---------------------------------------------------------------------
 // Classificação
 // ---------------------------------------------------------------------
@@ -695,6 +713,7 @@ function patchLiveMatchCards() {
 
 function onLiveUpdate({ liveMatchIds }) {
   patchLiveMatchCards();
+  renderLiveMatches();
   renderClassificacao();
   updateLiveBar(liveMatchIds);
   matchModal?.refreshIfLive(liveMatchIds);
@@ -758,6 +777,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
 
   renderLeagueHero();
   renderTeamFrame();
+  renderLiveMatches();
   renderHomeLists();
   renderHighlights();
   renderClassificacao();

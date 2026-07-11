@@ -12,7 +12,7 @@
        mudar, senão o navegador/CDN pode continuar servindo a versão antiga
        desses arquivos por um bom tempo mesmo depois do deploy (o site não
        tem build com hash de conteúdo no nome do arquivo). -->
-  <link rel="stylesheet" href="css/style.css?v=20260711e" />
+  <link rel="stylesheet" href="css/style.css?v=20260711f" />
 </head>
 <body>
   <header class="site-header">
@@ -62,6 +62,14 @@
 
       <h2 class="section-title">Destaques do campeonato</h2>
       <div class="highlights-grid" id="highlightsGrid"></div>
+
+      <div id="liveMatchesSection" hidden>
+        <h2 class="section-title section-title-live">
+          <span class="live-dot"></span>
+          Ao vivo
+        </h2>
+        <div class="match-list" id="liveMatches"></div>
+      </div>
 
       <h2 class="section-title">Últimos resultados</h2>
       <div class="match-list" id="recentResults"></div>
@@ -154,8 +162,8 @@
     </div>
   </div>
 
-  <script type="module" src="js/theme.js?v=20260711e"></script>
-  <script type="module" src="js/standings.js?v=20260711e"></script>
-  <script type="module" src="js/app.js?v=20260711e"></script>
+  <script type="module" src="js/theme.js?v=20260711f"></script>
+  <script type="module" src="js/standings.js?v=20260711f"></script>
+  <script type="module" src="js/app.js?v=20260711f"></script>
 </body>
 </html>
