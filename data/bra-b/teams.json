@@ -1,0 +1,302 @@
+{
+  "cri": {
+    "name": "Criciúma",
+    "abbrev": "CRI",
+    "espnId": "9971",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/cri.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "vil": {
+    "name": "Vila Nova",
+    "abbrev": "VIL",
+    "espnId": "9973",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/vil.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "nov": {
+    "name": "Novorizontino",
+    "abbrev": "NOV",
+    "espnId": "18127",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/nov.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "juv": {
+    "name": "Juventude",
+    "abbrev": "JUV",
+    "espnId": "6270",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/juv.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "for": {
+    "name": "Fortaleza",
+    "abbrev": "FOR",
+    "espnId": "6272",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/for.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "ope": {
+    "name": "Operário PR",
+    "abbrev": "OPE",
+    "espnId": "18187",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/ope.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "spo": {
+    "name": "Sport",
+    "abbrev": "SPO",
+    "espnId": "7635",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/spo.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "ber": {
+    "name": "São Bernardo",
+    "abbrev": "BER",
+    "espnId": "11268",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/ber.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "goi": {
+    "name": "Goiás",
+    "abbrev": "GOI",
+    "espnId": "3395",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/goi.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "cui": {
+    "name": "Cuiabá",
+    "abbrev": "CUI",
+    "espnId": "17313",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/cui.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "acm": {
+    "name": "Athletic",
+    "abbrev": "ACMG",
+    "espnId": "20851",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/acm.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "nau": {
+    "name": "Náutico",
+    "abbrev": "NAU",
+    "espnId": "7633",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/nau.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "ago": {
+    "name": "Atlético Goianiense",
+    "abbrev": "AGO",
+    "espnId": "10357",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/ago.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "bfc": {
+    "name": "Botafogo-SP",
+    "abbrev": "BFC",
+    "espnId": "10281",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/bfc.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "crb": {
+    "name": "CRB",
+    "abbrev": "CRB",
+    "espnId": "9970",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/crb.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "lon": {
+    "name": "Londrina",
+    "abbrev": "LON",
+    "espnId": "17333",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/lon.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "cea": {
+    "name": "Ceará",
+    "abbrev": "CEA",
+    "espnId": "9969",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/cea.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "ava": {
+    "name": "Avaí",
+    "abbrev": "AVA",
+    "espnId": "9966",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/ava.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "pon": {
+    "name": "Ponte Preta",
+    "abbrev": "PON",
+    "espnId": "3459",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/pon.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  },
+  "amg": {
+    "name": "América Mineiro",
+    "abbrev": "AMG",
+    "espnId": "6154",
+    "fdId": null,
+    "fdName": null,
+    "badge": "/img/badges/bra-b/amg.png",
+    "badgeSourceEspn": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+    "skin": {
+      "primary": null,
+      "secondary": null,
+      "text": null
+    },
+    "_reviewNeeded": "fdId não casou automaticamente — cruzar manualmente com football-data.org. Preencher cores skin (revisão manual, contraste AA) e baixar badge."
+  }
+}
