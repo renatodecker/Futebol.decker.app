@@ -61,17 +61,20 @@ function positionGroup(abbrev) {
   }
 }
 
-async function syncTeamRoster(espnSlug, teamSlug, espnId, players) {
+async function syncTeamRoster(espnSlug, teamSlug, espnId, players, seenThisRun) {
   const url = `${ESPN_SITE_BASE}/${espnSlug}/teams/${espnId}/roster`;
   const res = await fetch(url);
   if (res.status !== 200) {
     console.warn(`Falha ao buscar roster ESPN de ${teamSlug} (HTTP ${res.status}).`);
-    return 0;
+    return null; // null = falha de rede, diferente de "0 atletas" — não pode implicar elenco vazio
   }
   const json = await res.json();
   let count = 0;
   for (const athlete of json.athletes || []) {
     const pid = `p-espn-${athlete.id}`;
+    if (!seenThisRun.has(pid)) seenThisRun.set(pid, new Set());
+    seenThisRun.get(pid).add(teamSlug);
+
     const prior = players[pid] || {};
     players[pid] = {
       fullName: athlete.fullName,
@@ -84,10 +87,31 @@ async function syncTeamRoster(espnSlug, teamSlug, espnId, players) {
       apps: prior.apps ?? 0,
       goals: prior.goals ?? 0,
       debut: prior.debut ?? null,
+      active: prior.active ?? true,
     };
     count += 1;
   }
   return count;
+}
+
+// Marca como inativo (saiu do clube/já vendido) quem não aparece mais no
+// roster atual do time que players.json diz ser o dele — squad.js usa isso
+// pra tirar o jogador do elenco exibido sem apagar apps/gols já contabilizados
+// na temporada. Roda depois de buscar TODOS os times da liga, então o roster
+// atual de cada clube já está completo em `seenThisRun`.
+// `failedTeams`: times cujo fetch falhou nesta rodada (rede/HTTP) — seus
+// jogadores ficam de fora da reavaliação, senão uma falha pontual da ESPN
+// esvaziaria o elenco inteiro do time por engano.
+function applyActiveFlags(players, seenThisRun, failedTeams) {
+  let deactivated = 0;
+  for (const [pid, p] of Object.entries(players)) {
+    if (failedTeams.has(p.team)) continue;
+    const seenTeams = seenThisRun.get(pid);
+    const active = seenTeams ? seenTeams.has(p.team) : false;
+    if (p.active && !active) deactivated += 1;
+    p.active = active;
+  }
+  return deactivated;
 }
 
 async function main() {
@@ -107,13 +131,23 @@ async function main() {
     }
     const playersPath = path.join(ROOT, 'data', slug, 'players.json');
     const players = loadJson(playersPath, {});
+    const seenThisRun = new Map();
+    const failedTeams = new Set();
 
     let total = 0;
     for (const [teamSlug, team] of Object.entries(teams)) {
-      const n = await syncTeamRoster(cfg.sources.espnSlug, teamSlug, team.espnId, players);
-      total += n;
-      console.log(`[${slug}] ${teamSlug}: ${n} atletas.`);
+      const n = await syncTeamRoster(cfg.sources.espnSlug, teamSlug, team.espnId, players, seenThisRun);
+      if (n === null) {
+        failedTeams.add(teamSlug);
+      } else {
+        total += n;
+        console.log(`[${slug}] ${teamSlug}: ${n} atletas.`);
+      }
       await sleep(7000); // rate limit / educado com a ESPN
+    }
+    const deactivated = applyActiveFlags(players, seenThisRun, failedTeams);
+    if (deactivated > 0) {
+      console.log(`[${slug}] ${deactivated} jogador(es) marcado(s) como fora do elenco atual (transferido/vendido).`);
     }
     fs.writeFileSync(playersPath, JSON.stringify(players, null, 2) + '\n');
     console.log(`[${slug}] players.json: ${Object.keys(players).length} jogadores registrados (${total} nesta rodada).`);

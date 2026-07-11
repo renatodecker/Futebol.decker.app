@@ -33,7 +33,12 @@ function playerRowHtml(pid, p) {
 export function renderSquad({ contentEl }, teamSlug, teams, players, stats) {
   const team = teams[teamSlug];
   const teamStats = stats?.teams?.[teamSlug] || { goals: 0, conceded: 0, yellow: 0, red: 0 };
-  const roster = Object.entries(players || {}).filter(([, p]) => p.team === teamSlug);
+  // active === false = já saiu do clube (roster-sync não encontra mais o
+  // jogador no roster atual do time) — fica fora do elenco exibido, mas os
+  // gols/jogos que ele fez nesta temporada continuam contando em stats.json.
+  // Sem o "!== false" excluiria por engano quem post-match.js ainda não
+  // tocou (nunca sincronizado, active undefined).
+  const roster = Object.entries(players || {}).filter(([, p]) => p.team === teamSlug && p.active !== false);
 
   const byPosition = new Map(POSITION_ORDER.map((p) => [p, []]));
   for (const [pid, p] of roster) {

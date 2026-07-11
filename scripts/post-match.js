@@ -41,14 +41,30 @@ function teamSlugByEspnId(teams, espnId) {
   return null;
 }
 
+// A súmula ESPN (roster de cada partida) usa abreviações bem mais granulares
+// (ex.: "CD-L", "AM-R", "LB", "SUB") do que o roster do time (endpoint usado
+// por roster-sync.js, que já vem simplificado em G/D/M/F). Sem esse mapa,
+// qualquer abreviação fora de G/D/M/F passava direto pro campo `position` do
+// jogador (ex.: "CD-R"), e squad.js — que só reconhece G/D/M/A — jogava esse
+// jogador pro balde de meio-campo por default (bug: zagueiros aparecendo como
+// meio-campistas). "SUB" (reserva não utilizado nesse jogo específico) não
+// informa posição de fato — devolve null pra não sobrescrever uma posição já
+// conhecida (de um summary anterior ou do roster-sync).
+const CANONICAL_POSITIONS = new Set(['G', 'D', 'M', 'A']);
+const DEFENDER_ABBREVS = new Set(['D', 'LB', 'RB', 'SW']);
+const MIDFIELDER_ABBREVS = new Set(['M', 'DM', 'AM', 'AM-L', 'AM-R', 'LM', 'RM']);
+const FORWARD_ABBREVS = new Set(['F', 'RF', 'LF', 'RCF']);
+
 function positionGroup(abbrev) {
-  switch (abbrev) {
-    case 'G': return 'G';
-    case 'D': return 'D';
-    case 'M': return 'M';
-    case 'F': return 'A';
-    default: return abbrev || null;
-  }
+  if (!abbrev || abbrev === 'SUB') return null;
+  if (abbrev === 'G') return 'G';
+  if (abbrev.startsWith('CD')) return 'D';
+  if (abbrev.startsWith('CM')) return 'M';
+  if (abbrev.startsWith('CF')) return 'A';
+  if (DEFENDER_ABBREVS.has(abbrev)) return 'D';
+  if (MIDFIELDER_ABBREVS.has(abbrev)) return 'M';
+  if (FORWARD_ABBREVS.has(abbrev)) return 'A';
+  return null;
 }
 
 async function fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir) {
@@ -290,13 +306,23 @@ function rebuildPlayersAndStats(liga, teams, rawDir, dataDir) {
     processSummary(summary, teams, playersAgg, statsAgg);
   }
 
-  // Identidade (birthdate/nationality) vem do roster-sync semanal e não deve
-  // ser apagada por este rebuild, que só enxerga dados de súmula.
+  // Identidade (birthdate/nationality/active) vem do roster-sync semanal e não
+  // deve ser apagada por este rebuild, que só enxerga dados de súmula.
   const priorPlayers = loadJson(path.join(dataDir, 'players.json'), {});
   for (const [pid, prior] of Object.entries(priorPlayers)) {
     if (playersAgg[pid]) {
       playersAgg[pid].birthdate = prior.birthdate ?? null;
       playersAgg[pid].nationality = prior.nationality ?? null;
+      // Jogador que nunca teve uma súmula com posição granular reconhecida
+      // (ex.: sempre "SUB" por nunca ter entrado em campo) cai pra identidade
+      // do roster-sync em vez de ficar sem posição — mas só se o valor prévio
+      // já for um dos 4 grupos canônicos (registros antigos, de antes desse
+      // mapeamento existir, podem ter abreviação crua tipo "CD-R"/"SUB").
+      const priorPosition = CANONICAL_POSITIONS.has(prior.position) ? prior.position : null;
+      playersAgg[pid].position = playersAgg[pid].position || priorPosition;
+      // "active" (ainda no elenco atual do clube) é decidido pelo roster-sync
+      // semanal, não pela súmula — default true até o primeiro roster-sync.
+      playersAgg[pid].active = prior.active ?? true;
     } else {
       // Jogador registrado (roster-sync) que ainda não estreou: mantém.
       playersAgg[pid] = prior;
