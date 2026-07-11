@@ -1,0 +1,5055 @@
+{
+  "season": 2026,
+  "currentRound": 17,
+  "matches": [
+    {
+      "id": "r1-vil-crb",
+      "round": 1,
+      "date": "2026-03-21T20:00Z",
+      "home": "vil",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "espnEventId": "401860064",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-cea-ber",
+      "round": 1,
+      "date": "2026-03-21T21:00Z",
+      "home": "cea",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860070",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-ope-ago",
+      "round": 1,
+      "date": "2026-03-21T21:15Z",
+      "home": "ope",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860065",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-bfc-for",
+      "round": 1,
+      "date": "2026-03-21T22:15Z",
+      "home": "bfc",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "espnEventId": "401860071",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-cui-spo",
+      "round": 1,
+      "date": "2026-03-21T23:30Z",
+      "home": "cui",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860069",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-ava-juv",
+      "round": 1,
+      "date": "2026-03-22T19:00Z",
+      "home": "ava",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860063",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-nau-cri",
+      "round": 1,
+      "date": "2026-03-22T19:00Z",
+      "home": "nau",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860066",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-acm-pon",
+      "round": 1,
+      "date": "2026-03-22T21:00Z",
+      "home": "acm",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860062",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-goi-amg",
+      "round": 1,
+      "date": "2026-03-22T21:00Z",
+      "home": "goi",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "espnEventId": "401860068",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r1-nov-lon",
+      "round": 1,
+      "date": "2026-03-22T23:00Z",
+      "home": "nov",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "espnEventId": "401860067",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-juv-nov",
+      "round": 2,
+      "date": "2026-03-31T21:30Z",
+      "home": "juv",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860081",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-for-cui",
+      "round": 2,
+      "date": "2026-03-31T22:00Z",
+      "home": "for",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860077",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-amg-bfc",
+      "round": 2,
+      "date": "2026-04-01T21:00Z",
+      "home": "amg",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860072",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-ago-nau",
+      "round": 2,
+      "date": "2026-04-01T22:00Z",
+      "home": "ago",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860080",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-lon-goi",
+      "round": 2,
+      "date": "2026-04-01T22:00Z",
+      "home": "lon",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "espnEventId": "401860075",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-spo-vil",
+      "round": 2,
+      "date": "2026-04-01T22:00Z",
+      "home": "spo",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860073",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-pon-cea",
+      "round": 2,
+      "date": "2026-04-02T00:00Z",
+      "home": "pon",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860074",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-crb-ava",
+      "round": 2,
+      "date": "2026-04-02T00:30Z",
+      "home": "crb",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860079",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-cri-acm",
+      "round": 2,
+      "date": "2026-04-02T00:30Z",
+      "home": "cri",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860078",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r2-ber-ope",
+      "round": 2,
+      "date": "2026-04-02T22:00Z",
+      "home": "ber",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860076",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-for-juv",
+      "round": 3,
+      "date": "2026-04-04T19:00Z",
+      "home": "for",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860091",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-cui-cea",
+      "round": 3,
+      "date": "2026-04-04T21:00Z",
+      "home": "cui",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "espnEventId": "401860087",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-nau-pon",
+      "round": 3,
+      "date": "2026-04-04T21:00Z",
+      "home": "nau",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860082",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-vil-ago",
+      "round": 3,
+      "date": "2026-04-04T23:00Z",
+      "home": "vil",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860086",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-lon-spo",
+      "round": 3,
+      "date": "2026-04-04T23:30Z",
+      "home": "lon",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860084",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-ava-ope",
+      "round": 3,
+      "date": "2026-04-05T19:00Z",
+      "home": "ava",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860089",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-nov-crb",
+      "round": 3,
+      "date": "2026-04-05T21:00Z",
+      "home": "nov",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860083",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-acm-amg",
+      "round": 3,
+      "date": "2026-04-05T23:00Z",
+      "home": "acm",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860090",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-bfc-ber",
+      "round": 3,
+      "date": "2026-04-05T23:30Z",
+      "home": "bfc",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860088",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r3-goi-cri",
+      "round": 3,
+      "date": "2026-04-07T00:00Z",
+      "home": "goi",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860085",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-cri-bfc",
+      "round": 4,
+      "date": "2026-04-10T23:30Z",
+      "home": "cri",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860096",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-juv-goi",
+      "round": 4,
+      "date": "2026-04-11T19:00Z",
+      "home": "juv",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860095",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-pon-vil",
+      "round": 4,
+      "date": "2026-04-11T21:00Z",
+      "home": "pon",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860093",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-spo-ava",
+      "round": 4,
+      "date": "2026-04-11T21:00Z",
+      "home": "spo",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "espnEventId": "401860092",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-cea-nau",
+      "round": 4,
+      "date": "2026-04-11T23:30Z",
+      "home": "cea",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860097",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-amg-nov",
+      "round": 4,
+      "date": "2026-04-12T21:00Z",
+      "home": "amg",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "espnEventId": "401860100",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-ope-cui",
+      "round": 4,
+      "date": "2026-04-12T21:00Z",
+      "home": "ope",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860094",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-ber-for",
+      "round": 4,
+      "date": "2026-04-12T21:00Z",
+      "home": "ber",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860101",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-crb-acm",
+      "round": 4,
+      "date": "2026-04-12T23:00Z",
+      "home": "crb",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "espnEventId": "401860098",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-ago-lon",
+      "round": 4,
+      "date": "2026-04-12T23:30Z",
+      "home": "ago",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860099",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-amg-spo",
+      "round": 5,
+      "date": "2026-04-18T21:00Z",
+      "home": "amg",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860102",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-nau-ber",
+      "round": 5,
+      "date": "2026-04-18T21:00Z",
+      "home": "nau",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "espnEventId": "401860105",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-vil-ope",
+      "round": 5,
+      "date": "2026-04-18T21:30Z",
+      "home": "vil",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860104",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-ava-pon",
+      "round": 5,
+      "date": "2026-04-18T23:30Z",
+      "home": "ava",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860103",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-crb-juv",
+      "round": 5,
+      "date": "2026-04-18T23:45Z",
+      "home": "crb",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860110",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-bfc-ago",
+      "round": 5,
+      "date": "2026-04-19T19:00Z",
+      "home": "bfc",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860111",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-lon-cea",
+      "round": 5,
+      "date": "2026-04-19T19:00Z",
+      "home": "lon",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860107",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-goi-cui",
+      "round": 5,
+      "date": "2026-04-19T21:00Z",
+      "home": "goi",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "espnEventId": "401860108",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-for-cri",
+      "round": 5,
+      "date": "2026-04-19T23:00Z",
+      "home": "for",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "espnEventId": "401860109",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r5-nov-acm",
+      "round": 5,
+      "date": "2026-04-19T23:00Z",
+      "home": "nov",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860106",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-cui-bfc",
+      "round": 6,
+      "date": "2026-04-23T00:30Z",
+      "home": "cui",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860117",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-pon-amg",
+      "round": 6,
+      "date": "2026-04-24T23:00Z",
+      "home": "pon",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860114",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-spo-nov",
+      "round": 6,
+      "date": "2026-04-25T23:30Z",
+      "home": "spo",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860113",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-juv-lon",
+      "round": 6,
+      "date": "2026-04-26T00:00Z",
+      "home": "juv",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860121",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-ber-goi",
+      "round": 6,
+      "date": "2026-04-26T19:00Z",
+      "home": "ber",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860116",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-cea-vil",
+      "round": 6,
+      "date": "2026-04-26T21:00Z",
+      "home": "cea",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "espnEventId": "401860119",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-ope-for",
+      "round": 6,
+      "date": "2026-04-26T21:00Z",
+      "home": "ope",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860115",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-ago-ava",
+      "round": 6,
+      "date": "2026-04-26T23:30Z",
+      "home": "ago",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860120",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-cri-crb",
+      "round": 6,
+      "date": "2026-04-26T23:30Z",
+      "home": "cri",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "espnEventId": "401860118",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r6-acm-nau",
+      "round": 6,
+      "date": "2026-04-27T22:00Z",
+      "home": "acm",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860112",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-bfc-nau",
+      "round": 7,
+      "date": "2026-05-02T19:00Z",
+      "home": "bfc",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860130",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-cui-cri",
+      "round": 7,
+      "date": "2026-05-02T21:30Z",
+      "home": "cui",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860131",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-for-goi",
+      "round": 7,
+      "date": "2026-05-02T23:30Z",
+      "home": "for",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
+      "espnEventId": "401860123",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-ope-lon",
+      "round": 7,
+      "date": "2026-05-03T19:00Z",
+      "home": "ope",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401860122",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-ber-pon",
+      "round": 7,
+      "date": "2026-05-03T19:00Z",
+      "home": "ber",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401860125",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-spo-cea",
+      "round": 7,
+      "date": "2026-05-03T21:00Z",
+      "home": "spo",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860126",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-ago-juv",
+      "round": 7,
+      "date": "2026-05-03T21:30Z",
+      "home": "ago",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860128",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-amg-crb",
+      "round": 7,
+      "date": "2026-05-03T23:30Z",
+      "home": "amg",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860127",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-ava-nov",
+      "round": 7,
+      "date": "2026-05-03T23:30Z",
+      "home": "ava",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "espnEventId": "401860129",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r7-vil-acm",
+      "round": 7,
+      "date": "2026-05-04T22:00Z",
+      "home": "vil",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860124",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-goi-vil",
+      "round": 8,
+      "date": "2026-05-09T19:00Z",
+      "home": "goi",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860133",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-acm-cui",
+      "round": 8,
+      "date": "2026-05-09T21:00Z",
+      "home": "acm",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860139",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-pon-spo",
+      "round": 8,
+      "date": "2026-05-09T21:30Z",
+      "home": "pon",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "espnEventId": "401860135",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-cea-ago",
+      "round": 8,
+      "date": "2026-05-09T22:00Z",
+      "home": "cea",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860141",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-crb-ope",
+      "round": 8,
+      "date": "2026-05-09T23:30Z",
+      "home": "crb",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401860137",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-juv-cri",
+      "round": 8,
+      "date": "2026-05-10T00:15Z",
+      "home": "juv",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860132",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-nau-amg",
+      "round": 8,
+      "date": "2026-05-10T19:00Z",
+      "home": "nau",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
+      "espnEventId": "401860134",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-ava-for",
+      "round": 8,
+      "date": "2026-05-10T21:30Z",
+      "home": "ava",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860138",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-nov-bfc",
+      "round": 8,
+      "date": "2026-05-10T22:30Z",
+      "home": "nov",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860136",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r8-lon-ber",
+      "round": 8,
+      "date": "2026-05-12T22:30Z",
+      "home": "lon",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
+      "espnEventId": "401860140",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-ope-nau",
+      "round": 9,
+      "date": "2026-05-16T19:00Z",
+      "home": "ope",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 6
+      },
+      "espnEventId": "401860143",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-ber-amg",
+      "round": 9,
+      "date": "2026-05-16T19:00Z",
+      "home": "ber",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860150",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-goi-bfc",
+      "round": 9,
+      "date": "2026-05-16T21:30Z",
+      "home": "goi",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860144",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-cui-nov",
+      "round": 9,
+      "date": "2026-05-16T23:30Z",
+      "home": "cui",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860145",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-acm-juv",
+      "round": 9,
+      "date": "2026-05-17T19:00Z",
+      "home": "acm",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860148",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-vil-ava",
+      "round": 9,
+      "date": "2026-05-17T21:00Z",
+      "home": "vil",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860151",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-cea-for",
+      "round": 9,
+      "date": "2026-05-17T21:30Z",
+      "home": "cea",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860147",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-cri-ago",
+      "round": 9,
+      "date": "2026-05-17T21:30Z",
+      "home": "cri",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860146",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-spo-crb",
+      "round": 9,
+      "date": "2026-05-17T23:30Z",
+      "home": "spo",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860149",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r9-pon-lon",
+      "round": 9,
+      "date": "2026-05-18T22:00Z",
+      "home": "pon",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
+      "espnEventId": "401860142",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-nau-cui",
+      "round": 10,
+      "date": "2026-05-22T22:00Z",
+      "home": "nau",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860158",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-nov-cea",
+      "round": 10,
+      "date": "2026-05-23T19:00Z",
+      "home": "nov",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860157",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-for-lon",
+      "round": 10,
+      "date": "2026-05-23T21:30Z",
+      "home": "for",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401860155",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-juv-spo",
+      "round": 10,
+      "date": "2026-05-23T23:30Z",
+      "home": "juv",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860156",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-ago-ber",
+      "round": 10,
+      "date": "2026-05-24T19:00Z",
+      "home": "ago",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860161",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-crb-pon",
+      "round": 10,
+      "date": "2026-05-24T19:30Z",
+      "home": "crb",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
+      "espnEventId": "401860154",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-amg-vil",
+      "round": 10,
+      "date": "2026-05-24T21:30Z",
+      "home": "amg",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860160",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-ava-goi",
+      "round": 10,
+      "date": "2026-05-24T22:00Z",
+      "home": "ava",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "espnEventId": "401860152",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-ope-cri",
+      "round": 10,
+      "date": "2026-05-24T23:30Z",
+      "home": "ope",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860159",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r10-bfc-acm",
+      "round": 10,
+      "date": "2026-05-25T22:00Z",
+      "home": "bfc",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860153",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-juv-amg",
+      "round": 11,
+      "date": "2026-05-30T00:00Z",
+      "home": "juv",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401860167",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-ago-goi",
+      "round": 11,
+      "date": "2026-05-30T19:00Z",
+      "home": "ago",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873876",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-ava-cri",
+      "round": 11,
+      "date": "2026-05-30T19:00Z",
+      "home": "ava",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860164",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-acm-for",
+      "round": 11,
+      "date": "2026-05-30T21:00Z",
+      "home": "acm",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860162",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-spo-nau",
+      "round": 11,
+      "date": "2026-05-30T23:30Z",
+      "home": "spo",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860170",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-lon-vil",
+      "round": 11,
+      "date": "2026-05-31T14:00Z",
+      "home": "lon",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860168",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-ber-nov",
+      "round": 11,
+      "date": "2026-05-31T14:00Z",
+      "home": "ber",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401860166",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-cea-ope",
+      "round": 11,
+      "date": "2026-05-31T19:00Z",
+      "home": "cea",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860165",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-cui-crb",
+      "round": 11,
+      "date": "2026-05-31T23:30Z",
+      "home": "cui",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401860171",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r11-pon-bfc",
+      "round": 11,
+      "date": "2026-06-01T22:00Z",
+      "home": "pon",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401860169",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-ope-juv",
+      "round": 12,
+      "date": "2026-06-05T23:00Z",
+      "home": "ope",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401873965",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-cri-lon",
+      "round": 12,
+      "date": "2026-06-06T14:00Z",
+      "home": "cri",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873959",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-crb-ber",
+      "round": 12,
+      "date": "2026-06-07T19:00Z",
+      "home": "crb",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
+      "espnEventId": "401873940",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-amg-ago",
+      "round": 12,
+      "date": "2026-06-08T23:00Z",
+      "home": "amg",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401873960",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-vil-bfc",
+      "round": 12,
+      "date": "2026-06-08T23:00Z",
+      "home": "vil",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873942",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-nau-for",
+      "round": 12,
+      "date": "2026-06-09T22:00Z",
+      "home": "nau",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401860175",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-pon-cui",
+      "round": 12,
+      "date": "2026-06-09T22:00Z",
+      "home": "pon",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860173",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-cea-ava",
+      "round": 12,
+      "date": "2026-06-10T23:00Z",
+      "home": "cea",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401873943",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-goi-nov",
+      "round": 12,
+      "date": "2026-06-10T23:00Z",
+      "home": "goi",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
+      "espnEventId": "401873961",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r12-spo-acm",
+      "round": 12,
+      "date": "2026-06-11T00:00Z",
+      "home": "spo",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873941",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-ago-crb",
+      "round": 13,
+      "date": "2026-06-12T22:00Z",
+      "home": "ago",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "espnEventId": "401860189",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-juv-pon",
+      "round": 13,
+      "date": "2026-06-14T14:00Z",
+      "home": "juv",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401873967",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-ber-spo",
+      "round": 13,
+      "date": "2026-06-14T14:00Z",
+      "home": "ber",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401873947",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-acm-goi",
+      "round": 13,
+      "date": "2026-06-14T19:00Z",
+      "home": "acm",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873962",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-cui-vil",
+      "round": 13,
+      "date": "2026-06-14T20:00Z",
+      "home": "cui",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873963",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-bfc-ope",
+      "round": 13,
+      "date": "2026-06-14T22:00Z",
+      "home": "bfc",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401873976",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-nov-nau",
+      "round": 13,
+      "date": "2026-06-14T22:00Z",
+      "home": "nov",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "espnEventId": "401873944",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-cri-cea",
+      "round": 13,
+      "date": "2026-06-16T00:00Z",
+      "home": "cri",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873946",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-lon-ava",
+      "round": 13,
+      "date": "2026-06-16T00:00Z",
+      "home": "lon",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
+      "espnEventId": "401873964",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r13-for-amg",
+      "round": 13,
+      "date": "2026-06-16T23:00Z",
+      "home": "for",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "espnEventId": "401873948",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-spo-ago",
+      "round": 14,
+      "date": "2026-06-19T00:00Z",
+      "home": "spo",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873945",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-lon-acm",
+      "round": 14,
+      "date": "2026-06-20T14:00Z",
+      "home": "lon",
+      "away": "acm",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401873952",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-cea-bfc",
+      "round": 14,
+      "date": "2026-06-20T22:00Z",
+      "home": "cea",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873966",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-vil-nau",
+      "round": 14,
+      "date": "2026-06-20T22:00Z",
+      "home": "vil",
+      "away": "nau",
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 3
+      },
+      "espnEventId": "401873974",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-ava-cui",
+      "round": 14,
+      "date": "2026-06-21T14:00Z",
+      "home": "ava",
+      "away": "cui",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873983",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-crb-for",
+      "round": 14,
+      "date": "2026-06-21T19:00Z",
+      "home": "crb",
+      "away": "for",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
+      "espnEventId": "401873968",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-ber-juv",
+      "round": 14,
+      "date": "2026-06-21T20:00Z",
+      "home": "ber",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873975",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-goi-ope",
+      "round": 14,
+      "date": "2026-06-21T21:30Z",
+      "home": "goi",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
+      "espnEventId": "401873951",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-pon-nov",
+      "round": 14,
+      "date": "2026-06-22T23:00Z",
+      "home": "pon",
+      "away": "nov",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
+      "espnEventId": "401873949",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r14-amg-cri",
+      "round": 14,
+      "date": "2026-06-23T23:00Z",
+      "home": "amg",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873969",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-cui-lon",
+      "round": 15,
+      "date": "2026-06-25T23:30Z",
+      "home": "cui",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
+      "espnEventId": "401873972",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-nov-vil",
+      "round": 15,
+      "date": "2026-06-26T22:00Z",
+      "home": "nov",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401860204",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-ope-amg",
+      "round": 15,
+      "date": "2026-06-27T14:00Z",
+      "home": "ope",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873953",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-cri-ber",
+      "round": 15,
+      "date": "2026-06-27T19:00Z",
+      "home": "cri",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873970",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-acm-ava",
+      "round": 15,
+      "date": "2026-06-28T19:00Z",
+      "home": "acm",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873982",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-ago-pon",
+      "round": 15,
+      "date": "2026-06-28T19:00Z",
+      "home": "ago",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401873950",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-juv-cea",
+      "round": 15,
+      "date": "2026-06-28T19:00Z",
+      "home": "juv",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401874002",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-for-spo",
+      "round": 15,
+      "date": "2026-06-28T21:30Z",
+      "home": "for",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401873971",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-nau-goi",
+      "round": 15,
+      "date": "2026-06-28T21:30Z",
+      "home": "nau",
+      "away": "goi",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873973",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r15-bfc-crb",
+      "round": 15,
+      "date": "2026-06-30T23:00Z",
+      "home": "bfc",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873978",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-cui-amg",
+      "round": 16,
+      "date": "2026-07-02T23:00Z",
+      "home": "cui",
+      "away": "amg",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873977",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-for-pon",
+      "round": 16,
+      "date": "2026-07-03T00:00Z",
+      "home": "for",
+      "away": "pon",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401873979",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-cri-spo",
+      "round": 16,
+      "date": "2026-07-04T19:00Z",
+      "home": "cri",
+      "away": "spo",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401873994",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-lon-crb",
+      "round": 16,
+      "date": "2026-07-04T19:00Z",
+      "home": "lon",
+      "away": "crb",
+      "status": "finished",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
+      "espnEventId": "401874008",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-nov-ago",
+      "round": 16,
+      "date": "2026-07-04T19:00Z",
+      "home": "nov",
+      "away": "ago",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
+      "espnEventId": "401873997",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-goi-cea",
+      "round": 16,
+      "date": "2026-07-04T23:00Z",
+      "home": "goi",
+      "away": "cea",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
+      "espnEventId": "401873981",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-nau-juv",
+      "round": 16,
+      "date": "2026-07-05T23:30Z",
+      "home": "nau",
+      "away": "juv",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "espnEventId": "401873980",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-bfc-ava",
+      "round": 16,
+      "date": "2026-07-06T22:00Z",
+      "home": "bfc",
+      "away": "ava",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
+      "espnEventId": "401873996",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-vil-ber",
+      "round": 16,
+      "date": "2026-07-06T22:00Z",
+      "home": "vil",
+      "away": "ber",
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
+      "espnEventId": "401873995",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r16-acm-ope",
+      "round": 16,
+      "date": "2026-07-07T23:00Z",
+      "home": "acm",
+      "away": "ope",
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
+      "espnEventId": "401873987",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-pon-cri",
+      "round": 17,
+      "date": "2026-07-08T23:00Z",
+      "home": "pon",
+      "away": "cri",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401873986",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-juv-vil",
+      "round": 17,
+      "date": "2026-07-10T22:00Z",
+      "home": "juv",
+      "away": "vil",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
+      "espnEventId": "401860231",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-spo-bfc",
+      "round": 17,
+      "date": "2026-07-10T23:00Z",
+      "home": "spo",
+      "away": "bfc",
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
+      "espnEventId": "401860223",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-ope-nov",
+      "round": 17,
+      "date": "2026-07-12T14:00Z",
+      "home": "ope",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874004",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-ava-nau",
+      "round": 17,
+      "date": "2026-07-12T19:00Z",
+      "home": "ava",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401873984",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-ber-cui",
+      "round": 17,
+      "date": "2026-07-12T19:00Z",
+      "home": "ber",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874001",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-ago-for",
+      "round": 17,
+      "date": "2026-07-12T21:00Z",
+      "home": "ago",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401873998",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-crb-goi",
+      "round": 17,
+      "date": "2026-07-12T22:00Z",
+      "home": "crb",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874000",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-amg-lon",
+      "round": 17,
+      "date": "2026-07-13T22:00Z",
+      "home": "amg",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401873999",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r17-cea-acm",
+      "round": 17,
+      "date": "2026-07-13T23:30Z",
+      "home": "cea",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874003",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-crb-nau",
+      "round": 18,
+      "date": "2026-07-16T23:00Z",
+      "home": "crb",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401873985",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-amg-cea",
+      "round": 18,
+      "date": "2026-07-17T22:00Z",
+      "home": "amg",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860235",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-juv-cui",
+      "round": 18,
+      "date": "2026-07-17T22:00Z",
+      "home": "juv",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860241",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-ber-ava",
+      "round": 18,
+      "date": "2026-07-17T22:00Z",
+      "home": "ber",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860237",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-for-nov",
+      "round": 18,
+      "date": "2026-07-18T00:00Z",
+      "home": "for",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860236",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-lon-bfc",
+      "round": 18,
+      "date": "2026-07-18T00:00Z",
+      "home": "lon",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874009",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-cri-vil",
+      "round": 18,
+      "date": "2026-07-18T19:00Z",
+      "home": "cri",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874006",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-pon-goi",
+      "round": 18,
+      "date": "2026-07-18T19:00Z",
+      "home": "pon",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874005",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-spo-ope",
+      "round": 18,
+      "date": "2026-07-18T19:00Z",
+      "home": "spo",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401874007",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r18-ago-acm",
+      "round": 18,
+      "date": "2026-07-18T21:00Z",
+      "home": "ago",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401873988",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-ava-amg",
+      "round": 19,
+      "date": "2026-07-21T22:30Z",
+      "home": "ava",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860243",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-nov-cri",
+      "round": 19,
+      "date": "2026-07-21T22:30Z",
+      "home": "nov",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860247",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-vil-for",
+      "round": 19,
+      "date": "2026-07-22T00:35Z",
+      "home": "vil",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860244",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-cea-crb",
+      "round": 19,
+      "date": "2026-07-22T22:30Z",
+      "home": "cea",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860250",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-ope-pon",
+      "round": 19,
+      "date": "2026-07-22T22:30Z",
+      "home": "ope",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860245",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-goi-spo",
+      "round": 19,
+      "date": "2026-07-22T23:30Z",
+      "home": "goi",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860248",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-nau-lon",
+      "round": 19,
+      "date": "2026-07-23T00:30Z",
+      "home": "nau",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860246",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-acm-ber",
+      "round": 19,
+      "date": "2026-07-23T22:30Z",
+      "home": "acm",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860242",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-cui-ago",
+      "round": 19,
+      "date": "2026-07-23T23:30Z",
+      "home": "cui",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860249",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r19-bfc-juv",
+      "round": 19,
+      "date": "2026-07-24T00:30Z",
+      "home": "bfc",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860251",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-cri-nau",
+      "round": 20,
+      "date": "2026-07-26T19:00Z",
+      "home": "cri",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860258",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-ber-cea",
+      "round": 20,
+      "date": "2026-07-26T19:00Z",
+      "home": "ber",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860256",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-amg-goi",
+      "round": 20,
+      "date": "2026-07-26T21:30Z",
+      "home": "amg",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860252",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-lon-nov",
+      "round": 20,
+      "date": "2026-07-26T21:30Z",
+      "home": "lon",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860255",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-ago-ope",
+      "round": 20,
+      "date": "2026-07-27T22:30Z",
+      "home": "ago",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860260",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-crb-vil",
+      "round": 20,
+      "date": "2026-07-27T22:30Z",
+      "home": "crb",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860259",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-spo-cui",
+      "round": 20,
+      "date": "2026-07-27T22:30Z",
+      "home": "spo",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860257",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-juv-ava",
+      "round": 20,
+      "date": "2026-07-28T22:30Z",
+      "home": "juv",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860254",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-pon-acm",
+      "round": 20,
+      "date": "2026-07-28T22:30Z",
+      "home": "pon",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860261",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r20-for-bfc",
+      "round": 20,
+      "date": "2026-07-29T00:35Z",
+      "home": "for",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860253",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-ope-ber",
+      "round": 21,
+      "date": "2026-08-07T22:30Z",
+      "home": "ope",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860264",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-cea-pon",
+      "round": 21,
+      "date": "2026-08-07T23:30Z",
+      "home": "cea",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860269",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-vil-spo",
+      "round": 21,
+      "date": "2026-08-08T19:00Z",
+      "home": "vil",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860263",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-bfc-amg",
+      "round": 21,
+      "date": "2026-08-08T21:30Z",
+      "home": "bfc",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860270",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-acm-cri",
+      "round": 21,
+      "date": "2026-08-09T14:00Z",
+      "home": "acm",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860262",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-nau-ago",
+      "round": 21,
+      "date": "2026-08-09T19:00Z",
+      "home": "nau",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860265",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-nov-juv",
+      "round": 21,
+      "date": "2026-08-09T19:00Z",
+      "home": "nov",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860271",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-cui-for",
+      "round": 21,
+      "date": "2026-08-09T21:00Z",
+      "home": "cui",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860268",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-goi-lon",
+      "round": 21,
+      "date": "2026-08-10T22:30Z",
+      "home": "goi",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860267",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-ava-crb",
+      "round": 21,
+      "date": "2026-08-11T22:30Z",
+      "home": "ava",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860266",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-pon-nau",
+      "round": 22,
+      "date": "2026-08-14T22:30Z",
+      "home": "pon",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860273",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-spo-lon",
+      "round": 22,
+      "date": "2026-08-14T23:30Z",
+      "home": "spo",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860274",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-ago-vil",
+      "round": 22,
+      "date": "2026-08-15T19:00Z",
+      "home": "ago",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860280",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-cri-goi",
+      "round": 22,
+      "date": "2026-08-15T19:00Z",
+      "home": "cri",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860277",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-cea-cui",
+      "round": 22,
+      "date": "2026-08-15T21:30Z",
+      "home": "cea",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860278",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-juv-for",
+      "round": 22,
+      "date": "2026-08-15T21:30Z",
+      "home": "juv",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860276",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-ope-ava",
+      "round": 22,
+      "date": "2026-08-16T14:00Z",
+      "home": "ope",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860275",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-ber-bfc",
+      "round": 22,
+      "date": "2026-08-16T19:00Z",
+      "home": "ber",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860272",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-amg-acm",
+      "round": 22,
+      "date": "2026-08-16T21:30Z",
+      "home": "amg",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860281",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-crb-nov",
+      "round": 22,
+      "date": "2026-08-16T21:30Z",
+      "home": "crb",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860279",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-lon-ago",
+      "round": 23,
+      "date": "2026-08-18T22:30Z",
+      "home": "lon",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860285",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-nau-cea",
+      "round": 23,
+      "date": "2026-08-19T00:30Z",
+      "home": "nau",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860283",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-goi-juv",
+      "round": 23,
+      "date": "2026-08-19T00:35Z",
+      "home": "goi",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860291",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-ava-spo",
+      "round": 23,
+      "date": "2026-08-19T22:30Z",
+      "home": "ava",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860290",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-for-ber",
+      "round": 23,
+      "date": "2026-08-19T22:30Z",
+      "home": "for",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860287",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-cui-ope",
+      "round": 23,
+      "date": "2026-08-19T23:30Z",
+      "home": "cui",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860288",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-vil-pon",
+      "round": 23,
+      "date": "2026-08-19T23:30Z",
+      "home": "vil",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860282",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-bfc-cri",
+      "round": 23,
+      "date": "2026-08-20T00:30Z",
+      "home": "bfc",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860289",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-acm-crb",
+      "round": 23,
+      "date": "2026-08-20T22:30Z",
+      "home": "acm",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860286",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-nov-amg",
+      "round": 23,
+      "date": "2026-08-20T23:30Z",
+      "home": "nov",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860284",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-cea-lon",
+      "round": 24,
+      "date": "2026-08-22T21:00Z",
+      "home": "cea",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860299",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-cui-goi",
+      "round": 24,
+      "date": "2026-08-22T21:30Z",
+      "home": "cui",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860297",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-pon-ava",
+      "round": 24,
+      "date": "2026-08-23T19:00Z",
+      "home": "pon",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860293",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-ber-nau",
+      "round": 24,
+      "date": "2026-08-23T19:00Z",
+      "home": "ber",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860292",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-ope-vil",
+      "round": 24,
+      "date": "2026-08-23T21:00Z",
+      "home": "ope",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860295",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-cri-for",
+      "round": 24,
+      "date": "2026-08-23T21:30Z",
+      "home": "cri",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860298",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-acm-nov",
+      "round": 24,
+      "date": "2026-08-24T22:30Z",
+      "home": "acm",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860301",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-spo-amg",
+      "round": 24,
+      "date": "2026-08-24T22:30Z",
+      "home": "spo",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860294",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-ago-bfc",
+      "round": 24,
+      "date": "2026-08-25T22:30Z",
+      "home": "ago",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860300",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r24-juv-crb",
+      "round": 24,
+      "date": "2026-08-25T22:30Z",
+      "home": "juv",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860296",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-amg-pon",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "amg",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860302",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-ava-ago",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "ava",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860303",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-bfc-cui",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "bfc",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860304",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-crb-cri",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "crb",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860305",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-for-ope",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "for",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860311",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-goi-ber",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "goi",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860307",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-lon-juv",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "lon",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860308",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-nau-acm",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "nau",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860310",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-nov-spo",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "nov",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860309",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-vil-cea",
+      "round": 25,
+      "date": "2026-08-28T18:00Z",
+      "home": "vil",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860306",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-acm-vil",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "acm",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860320",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-cea-spo",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "cea",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860313",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-crb-amg",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "crb",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860321",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-cri-cui",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "cri",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860312",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-goi-for",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "goi",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860319",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-juv-ago",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "juv",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860318",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-lon-ope",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "lon",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860317",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-nau-bfc",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "nau",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860315",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-nov-ava",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "nov",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860316",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-pon-ber",
+      "round": 26,
+      "date": "2026-09-04T18:00Z",
+      "home": "pon",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860314",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-amg-nau",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "amg",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860322",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-ago-cea",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "ago",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860330",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-bfc-nov",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "bfc",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860329",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-cri-juv",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "cri",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860328",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-cui-acm",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "cui",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860327",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-for-ava",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "for",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860331",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-ope-crb",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "ope",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860325",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-ber-lon",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "ber",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860323",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-spo-pon",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "spo",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860324",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-vil-goi",
+      "round": 27,
+      "date": "2026-09-08T18:00Z",
+      "home": "vil",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860326",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-amg-ber",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "amg",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860335",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-ago-cri",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "ago",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860334",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-ava-vil",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "ava",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860333",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-bfc-goi",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "bfc",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860332",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-crb-spo",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "crb",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860336",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-for-cea",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "for",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860341",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-juv-acm",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "juv",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860340",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-lon-pon",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "lon",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860339",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-nau-ope",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "nau",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860337",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-nov-cui",
+      "round": 28,
+      "date": "2026-09-11T18:00Z",
+      "home": "nov",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860338",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-acm-bfc",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "acm",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860342",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-cea-nov",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "cea",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860343",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-cri-ope",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "cri",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860351",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-cui-nau",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "cui",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860350",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-goi-ava",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "goi",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860349",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-lon-for",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "lon",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860348",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-pon-crb",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "pon",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860347",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-ber-ago",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "ber",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860345",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-spo-juv",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "spo",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860346",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r29-vil-amg",
+      "round": 29,
+      "date": "2026-09-18T18:00Z",
+      "home": "vil",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860344",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-amg-juv",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "amg",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860352",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-bfc-pon",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "bfc",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860360",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-crb-cui",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "crb",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860359",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-cri-ava",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "cri",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860358",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-for-acm",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "for",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860353",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-goi-ago",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "goi",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860354",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-nau-spo",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "nau",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860361",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-nov-ber",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "nov",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860355",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-ope-cea",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "ope",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860357",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-vil-lon",
+      "round": 30,
+      "date": "2026-09-25T18:00Z",
+      "home": "vil",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860356",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-acm-spo",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "acm",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860367",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-ago-amg",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "ago",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860368",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-ava-cea",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "ava",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860369",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-bfc-vil",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "bfc",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860370",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-cui-pon",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "cui",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860371",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-for-nau",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "for",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860363",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-juv-ope",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "juv",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860362",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-lon-cri",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "lon",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860366",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-nov-goi",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "nov",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860365",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-ber-crb",
+      "round": 31,
+      "date": "2026-10-02T18:00Z",
+      "home": "ber",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860364",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-amg-for",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "amg",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860379",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-ava-lon",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "ava",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860374",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-cea-cri",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "cea",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860378",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-crb-ago",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "crb",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860375",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-goi-acm",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "goi",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860377",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-nau-nov",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "nau",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860381",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-ope-bfc",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "ope",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860373",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-pon-juv",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "pon",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860372",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-spo-ber",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "spo",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860380",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r32-vil-cui",
+      "round": 32,
+      "date": "2026-10-06T18:00Z",
+      "home": "vil",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860376",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-acm-lon",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "acm",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860390",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-ago-spo",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "ago",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860389",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-bfc-cea",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "bfc",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860388",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-cri-amg",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "cri",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860387",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-cui-ava",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "cui",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860386",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-for-crb",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "for",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860385",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-juv-ber",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "juv",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860384",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-nau-vil",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "nau",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860382",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-nov-pon",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "nov",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860383",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-ope-goi",
+      "round": 33,
+      "date": "2026-10-09T18:00Z",
+      "home": "ope",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860391",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-amg-ope",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "amg",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860395",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-ava-acm",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "ava",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860394",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-cea-juv",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "cea",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860392",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-crb-bfc",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "crb",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860393",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-goi-nau",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "goi",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860401",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-lon-cui",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "lon",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860397",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-pon-ago",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "pon",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860398",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-ber-cri",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "ber",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860400",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-spo-for",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "spo",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860399",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r34-vil-nov",
+      "round": 34,
+      "date": "2026-10-16T18:00Z",
+      "home": "vil",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860396",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-amg-cui",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "amg",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860405",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-ago-nov",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "ago",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860404",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-ava-bfc",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "ava",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860403",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-cea-goi",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "cea",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860406",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-crb-lon",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "crb",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860402",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-juv-nau",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "juv",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860411",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-ope-acm",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "ope",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860410",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-pon-for",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "pon",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860409",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-ber-vil",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "ber",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860407",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r35-spo-cri",
+      "round": 35,
+      "date": "2026-10-23T18:00Z",
+      "home": "spo",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860408",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-acm-cea",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "acm",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860412",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-bfc-spo",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "bfc",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860413",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-cri-pon",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "cri",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860414",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-cui-ber",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "cui",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860415",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-for-ago",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "for",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860420",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-goi-crb",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "goi",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860419",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-lon-amg",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "lon",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860418",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-nau-ava",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "nau",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860421",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-nov-ope",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "nov",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860417",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r36-vil-juv",
+      "round": 36,
+      "date": "2026-10-30T18:00Z",
+      "home": "vil",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860416",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-acm-ago",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "acm",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860422",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-ava-ber",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "ava",
+      "away": "ber",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860423",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-bfc-lon",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "bfc",
+      "away": "lon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860431",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-cea-amg",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "cea",
+      "away": "amg",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860430",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-cui-juv",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "cui",
+      "away": "juv",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860429",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-goi-pon",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "goi",
+      "away": "pon",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860428",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-nau-crb",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "nau",
+      "away": "crb",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860426",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-nov-for",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "nov",
+      "away": "for",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860427",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-ope-spo",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "ope",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860425",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-vil-cri",
+      "round": 37,
+      "date": "2026-11-06T20:00Z",
+      "home": "vil",
+      "away": "cri",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860424",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-amg-ava",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "amg",
+      "away": "ava",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860432",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-ago-cui",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "ago",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860440",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-crb-cea",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "crb",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860439",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-cri-nov",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "cri",
+      "away": "nov",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860438",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-for-vil",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "for",
+      "away": "vil",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860437",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-juv-bfc",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "juv",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860441",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-lon-nau",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "lon",
+      "away": "nau",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860435",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-pon-ope",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "pon",
+      "away": "ope",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860434",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-ber-acm",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "ber",
+      "away": "acm",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860436",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r38-spo-goi",
+      "round": 38,
+      "date": "2026-11-14T20:00Z",
+      "home": "spo",
+      "away": "goi",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860433",
+      "venue": null,
+      "attendance": null
+    }
+  ]
+}
