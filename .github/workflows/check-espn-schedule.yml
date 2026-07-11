@@ -1,0 +1,33 @@
+name: "Diagnóstico · ESPN scoreboard tem rodada/matchday?"
+
+on:
+  workflow_dispatch:
+    inputs:
+      liga:
+        description: "Slug da liga (ex.: bra-b)"
+        required: false
+        default: "bra-b"
+      date:
+        description: "Data pra testar (YYYYMMDD). Vazio = hoje."
+        required: false
+        default: ""
+
+jobs:
+  check-espn-schedule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Rodar diagnóstico
+        run: node scripts/check-espn-schedule.js --liga=${{ inputs.liga || 'bra-b' }} ${{ inputs.date != '' && format('--date={0}', inputs.date) || '' }}
+      - name: Commit resultado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || git commit -m "docs: espn schedule/round check for ${{ inputs.liga || 'bra-b' }}"
+          git push

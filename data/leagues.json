@@ -29,8 +29,25 @@
     "name": "Brasileirão Série B",
     "shortName": "Série B",
     "country": "BR",
+    "season": 2026,
     "status": "planned",
-    "sources": { "espnSlug": "bra.2", "canonical": null }
+    "logo": "/img/leagues/bra-b.png",
+    "identity": { "primary": "#0D3B66", "secondary": "#F2C230", "text": "#FFFFFF" },
+    "sources": {
+      "espnSlug": "bra.2",
+      "canonical": null,
+      "canonicalCode": null,
+      "utcOffsetMinutes": -180
+    },
+    "rules": {
+      "teams": 20,
+      "rounds": 38,
+      "liveTiebreakers": ["pts", "won", "gd", "gf"],
+      "zoneBands": [
+        { "from": 1, "to": 4, "id": "acesso", "label": "Acesso à Série A", "color": "#2e7d32" },
+        { "from": 17, "to": 20, "id": "rebaixamento", "label": "Rebaixamento", "color": "#c62828" }
+      ]
+    }
   },
   "eng-1": {
     "name": "Premier League",
