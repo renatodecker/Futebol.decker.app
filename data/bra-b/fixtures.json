@@ -14,8 +14,8 @@
         "away": 2
       },
       "espnEventId": "401860064",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 2485
     },
     {
       "id": "r1-cea-ber",
@@ -29,8 +29,8 @@
         "away": 1
       },
       "espnEventId": "401860070",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 8680
     },
     {
       "id": "r1-ope-ago",
@@ -44,8 +44,8 @@
         "away": 0
       },
       "espnEventId": "401860065",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 3535
     },
     {
       "id": "r1-bfc-for",
@@ -59,8 +59,8 @@
         "away": 0
       },
       "espnEventId": "401860071",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 2754
     },
     {
       "id": "r1-cui-spo",
@@ -74,8 +74,8 @@
         "away": 0
       },
       "espnEventId": "401860069",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 3211
     },
     {
       "id": "r1-ava-juv",
@@ -89,8 +89,8 @@
         "away": 0
       },
       "espnEventId": "401860063",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 5099
     },
     {
       "id": "r1-nau-cri",
@@ -104,8 +104,8 @@
         "away": 1
       },
       "espnEventId": "401860066",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 7442
     },
     {
       "id": "r1-acm-pon",
@@ -119,8 +119,8 @@
         "away": 1
       },
       "espnEventId": "401860062",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 3217
     },
     {
       "id": "r1-goi-amg",
@@ -134,8 +134,8 @@
         "away": 1
       },
       "espnEventId": "401860068",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 6377
     },
     {
       "id": "r1-nov-lon",
@@ -149,8 +149,8 @@
         "away": 3
       },
       "espnEventId": "401860067",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 1282
     },
     {
       "id": "r2-juv-nov",
@@ -164,8 +164,8 @@
         "away": 0
       },
       "espnEventId": "401860081",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 3542
     },
     {
       "id": "r2-for-cui",
@@ -179,8 +179,8 @@
         "away": 0
       },
       "espnEventId": "401860077",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 7679
     },
     {
       "id": "r2-amg-bfc",
@@ -194,8 +194,8 @@
         "away": 2
       },
       "espnEventId": "401860072",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 1148
     },
     {
       "id": "r2-ago-nau",
@@ -209,8 +209,8 @@
         "away": 2
       },
       "espnEventId": "401860080",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 1762
     },
     {
       "id": "r2-lon-goi",
@@ -224,8 +224,8 @@
         "away": 2
       },
       "espnEventId": "401860075",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 4421
     },
     {
       "id": "r2-spo-vil",
@@ -239,8 +239,8 @@
         "away": 1
       },
       "espnEventId": "401860073",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 4576
     },
     {
       "id": "r2-pon-cea",
@@ -254,8 +254,8 @@
         "away": 1
       },
       "espnEventId": "401860074",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 4057
     },
     {
       "id": "r2-crb-ava",
@@ -269,8 +269,8 @@
         "away": 1
       },
       "espnEventId": "401860079",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 3268
     },
     {
       "id": "r2-cri-acm",
@@ -284,8 +284,8 @@
         "away": 1
       },
       "espnEventId": "401860078",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 7482
     },
     {
       "id": "r2-ber-ope",
@@ -299,8 +299,8 @@
         "away": 2
       },
       "espnEventId": "401860076",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 495
     },
     {
       "id": "r3-for-juv",
@@ -314,8 +314,8 @@
         "away": 1
       },
       "espnEventId": "401860091",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 7437
     },
     {
       "id": "r3-cui-cea",
@@ -329,8 +329,8 @@
         "away": 2
       },
       "espnEventId": "401860087",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 2195
     },
     {
       "id": "r3-nau-pon",
@@ -344,8 +344,8 @@
         "away": 0
       },
       "espnEventId": "401860082",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 5724
     },
     {
       "id": "r3-vil-ago",
@@ -359,8 +359,8 @@
         "away": 1
       },
       "espnEventId": "401860086",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 5389
     },
     {
       "id": "r3-lon-spo",
@@ -374,8 +374,8 @@
         "away": 2
       },
       "espnEventId": "401860084",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 4363
     },
     {
       "id": "r3-ava-ope",
@@ -389,8 +389,8 @@
         "away": 0
       },
       "espnEventId": "401860089",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 4390
     },
     {
       "id": "r3-nov-crb",
@@ -404,8 +404,8 @@
         "away": 1
       },
       "espnEventId": "401860083",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 1037
     },
     {
       "id": "r3-acm-amg",
@@ -419,8 +419,8 @@
         "away": 1
       },
       "espnEventId": "401860090",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 2708
     },
     {
       "id": "r3-bfc-ber",
@@ -434,8 +434,8 @@
         "away": 2
       },
       "espnEventId": "401860088",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 2543
     },
     {
       "id": "r3-goi-cri",
@@ -449,8 +449,8 @@
         "away": 0
       },
       "espnEventId": "401860085",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 5588
     },
     {
       "id": "r4-cri-bfc",
@@ -464,8 +464,8 @@
         "away": 0
       },
       "espnEventId": "401860096",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 9580
     },
     {
       "id": "r4-juv-goi",
@@ -479,8 +479,8 @@
         "away": 0
       },
       "espnEventId": "401860095",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 4219
     },
     {
       "id": "r4-pon-vil",
@@ -494,8 +494,8 @@
         "away": 1
       },
       "espnEventId": "401860093",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 4139
     },
     {
       "id": "r4-spo-ava",
@@ -509,8 +509,8 @@
         "away": 2
       },
       "espnEventId": "401860092",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 10715
     },
     {
       "id": "r4-cea-nau",
@@ -524,8 +524,8 @@
         "away": 0
       },
       "espnEventId": "401860097",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 14032
     },
     {
       "id": "r4-amg-nov",
@@ -539,8 +539,8 @@
         "away": 3
       },
       "espnEventId": "401860100",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 1332
     },
     {
       "id": "r4-ope-cui",
@@ -554,8 +554,8 @@
         "away": 0
       },
       "espnEventId": "401860094",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 3512
     },
     {
       "id": "r4-ber-for",
@@ -569,8 +569,8 @@
         "away": 1
       },
       "espnEventId": "401860101",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 961
     },
     {
       "id": "r4-crb-acm",
@@ -584,8 +584,8 @@
         "away": 3
       },
       "espnEventId": "401860098",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 2970
     },
     {
       "id": "r4-ago-lon",
@@ -599,8 +599,8 @@
         "away": 1
       },
       "espnEventId": "401860099",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 1834
     },
     {
       "id": "r5-amg-spo",
@@ -614,8 +614,8 @@
         "away": 0
       },
       "espnEventId": "401860102",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 2351
     },
     {
       "id": "r5-nau-ber",
@@ -629,8 +629,8 @@
         "away": 3
       },
       "espnEventId": "401860105",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 7316
     },
     {
       "id": "r5-vil-ope",
@@ -644,8 +644,8 @@
         "away": 1
       },
       "espnEventId": "401860104",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 5336
     },
     {
       "id": "r5-ava-pon",
@@ -659,8 +659,8 @@
         "away": 2
       },
       "espnEventId": "401860103",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 6185
     },
     {
       "id": "r5-crb-juv",
@@ -674,8 +674,8 @@
         "away": 1
       },
       "espnEventId": "401860110",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 2980
     },
     {
       "id": "r5-bfc-ago",
@@ -689,8 +689,8 @@
         "away": 1
       },
       "espnEventId": "401860111",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 2722
     },
     {
       "id": "r5-lon-cea",
@@ -704,8 +704,8 @@
         "away": 0
       },
       "espnEventId": "401860107",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 3515
     },
     {
       "id": "r5-goi-cui",
@@ -719,8 +719,8 @@
         "away": 2
       },
       "espnEventId": "401860108",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 6499
     },
     {
       "id": "r5-for-cri",
@@ -734,8 +734,8 @@
         "away": 2
       },
       "espnEventId": "401860109",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Presidente Vargas",
+      "attendance": 7604
     },
     {
       "id": "r5-nov-acm",
@@ -749,8 +749,8 @@
         "away": 1
       },
       "espnEventId": "401860106",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 1239
     },
     {
       "id": "r6-cui-bfc",
@@ -764,8 +764,8 @@
         "away": 1
       },
       "espnEventId": "401860117",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 1278
     },
     {
       "id": "r6-pon-amg",
@@ -779,8 +779,8 @@
         "away": 0
       },
       "espnEventId": "401860114",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 4353
     },
     {
       "id": "r6-spo-nov",
@@ -794,8 +794,8 @@
         "away": 0
       },
       "espnEventId": "401860113",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 12749
     },
     {
       "id": "r6-juv-lon",
@@ -809,8 +809,8 @@
         "away": 0
       },
       "espnEventId": "401860121",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 3206
     },
     {
       "id": "r6-ber-goi",
@@ -824,8 +824,8 @@
         "away": 0
       },
       "espnEventId": "401860116",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 813
     },
     {
       "id": "r6-cea-vil",
@@ -839,8 +839,8 @@
         "away": 3
       },
       "espnEventId": "401860119",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 10599
     },
     {
       "id": "r6-ope-for",
@@ -854,8 +854,8 @@
         "away": 0
       },
       "espnEventId": "401860115",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 2171
     },
     {
       "id": "r6-ago-ava",
@@ -869,8 +869,8 @@
         "away": 1
       },
       "espnEventId": "401860120",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 2084
     },
     {
       "id": "r6-cri-crb",
@@ -884,8 +884,8 @@
         "away": 1
       },
       "espnEventId": "401860118",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 7012
     },
     {
       "id": "r6-acm-nau",
@@ -899,8 +899,8 @@
         "away": 1
       },
       "espnEventId": "401860112",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 2700
     },
     {
       "id": "r7-bfc-nau",
@@ -914,8 +914,8 @@
         "away": 1
       },
       "espnEventId": "401860130",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 3636
     },
     {
       "id": "r7-cui-cri",
@@ -929,8 +929,8 @@
         "away": 1
       },
       "espnEventId": "401860131",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 1743
     },
     {
       "id": "r7-for-goi",
@@ -944,8 +944,8 @@
         "away": 1
       },
       "espnEventId": "401860123",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 19050
     },
     {
       "id": "r7-ope-lon",
@@ -959,8 +959,8 @@
         "away": 0
       },
       "espnEventId": "401860122",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 3084
     },
     {
       "id": "r7-ber-pon",
@@ -974,8 +974,8 @@
         "away": 0
       },
       "espnEventId": "401860125",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 846
     },
     {
       "id": "r7-spo-cea",
@@ -989,8 +989,8 @@
         "away": 0
       },
       "espnEventId": "401860126",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 15655
     },
     {
       "id": "r7-ago-juv",
@@ -1004,8 +1004,8 @@
         "away": 0
       },
       "espnEventId": "401860128",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 2558
     },
     {
       "id": "r7-amg-crb",
@@ -1019,8 +1019,8 @@
         "away": 2
       },
       "espnEventId": "401860127",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 1231
     },
     {
       "id": "r7-ava-nov",
@@ -1034,8 +1034,8 @@
         "away": 3
       },
       "espnEventId": "401860129",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 3937
     },
     {
       "id": "r7-vil-acm",
@@ -1049,8 +1049,8 @@
         "away": 1
       },
       "espnEventId": "401860124",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 8717
     },
     {
       "id": "r8-goi-vil",
@@ -1064,8 +1064,8 @@
         "away": 0
       },
       "espnEventId": "401860133",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 10469
     },
     {
       "id": "r8-acm-cui",
@@ -1079,8 +1079,8 @@
         "away": 0
       },
       "espnEventId": "401860139",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 3004
     },
     {
       "id": "r8-pon-spo",
@@ -1094,8 +1094,8 @@
         "away": 3
       },
       "espnEventId": "401860135",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 4803
     },
     {
       "id": "r8-cea-ago",
@@ -1109,8 +1109,8 @@
         "away": 1
       },
       "espnEventId": "401860141",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 6268
     },
     {
       "id": "r8-crb-ope",
@@ -1124,8 +1124,8 @@
         "away": 0
       },
       "espnEventId": "401860137",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 2607
     },
     {
       "id": "r8-juv-cri",
@@ -1139,8 +1139,8 @@
         "away": 0
       },
       "espnEventId": "401860132",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 2865
     },
     {
       "id": "r8-nau-amg",
@@ -1154,8 +1154,8 @@
         "away": 0
       },
       "espnEventId": "401860134",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 7450
     },
     {
       "id": "r8-ava-for",
@@ -1169,8 +1169,8 @@
         "away": 0
       },
       "espnEventId": "401860138",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 5270
     },
     {
       "id": "r8-nov-bfc",
@@ -1184,8 +1184,8 @@
         "away": 0
       },
       "espnEventId": "401860136",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 353
     },
     {
       "id": "r8-lon-ber",
@@ -1199,8 +1199,8 @@
         "away": 3
       },
       "espnEventId": "401860140",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 2113
     },
     {
       "id": "r9-ope-nau",
@@ -1214,8 +1214,8 @@
         "away": 6
       },
       "espnEventId": "401860143",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 2527
     },
     {
       "id": "r9-ber-amg",
@@ -1229,8 +1229,8 @@
         "away": 1
       },
       "espnEventId": "401860150",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 949
     },
     {
       "id": "r9-goi-bfc",
@@ -1244,8 +1244,8 @@
         "away": 0
       },
       "espnEventId": "401860144",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 4978
     },
     {
       "id": "r9-cui-nov",
@@ -1259,8 +1259,8 @@
         "away": 0
       },
       "espnEventId": "401860145",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 1506
     },
     {
       "id": "r9-acm-juv",
@@ -1274,8 +1274,8 @@
         "away": 1
       },
       "espnEventId": "401860148",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 2973
     },
     {
       "id": "r9-vil-ava",
@@ -1289,8 +1289,8 @@
         "away": 0
       },
       "espnEventId": "401860151",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 5290
     },
     {
       "id": "r9-cea-for",
@@ -1304,8 +1304,8 @@
         "away": 1
       },
       "espnEventId": "401860147",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 20362
     },
     {
       "id": "r9-cri-ago",
@@ -1319,8 +1319,8 @@
         "away": 1
       },
       "espnEventId": "401860146",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 7792
     },
     {
       "id": "r9-spo-crb",
@@ -1334,8 +1334,8 @@
         "away": 2
       },
       "espnEventId": "401860149",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 18444
     },
     {
       "id": "r9-pon-lon",
@@ -1349,8 +1349,8 @@
         "away": 4
       },
       "espnEventId": "401860142",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 2843
     },
     {
       "id": "r10-nau-cui",
@@ -1364,8 +1364,8 @@
         "away": 0
       },
       "espnEventId": "401860158",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 11703
     },
     {
       "id": "r10-nov-cea",
@@ -1379,8 +1379,8 @@
         "away": 1
       },
       "espnEventId": "401860157",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 1117
     },
     {
       "id": "r10-for-lon",
@@ -1394,8 +1394,8 @@
         "away": 0
       },
       "espnEventId": "401860155",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 7666
     },
     {
       "id": "r10-juv-spo",
@@ -1409,8 +1409,8 @@
         "away": 1
       },
       "espnEventId": "401860156",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 3328
     },
     {
       "id": "r10-ago-ber",
@@ -1424,8 +1424,8 @@
         "away": 1
       },
       "espnEventId": "401860161",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 2941
     },
     {
       "id": "r10-crb-pon",
@@ -1439,8 +1439,8 @@
         "away": 2
       },
       "espnEventId": "401860154",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r10-amg-vil",
@@ -1454,8 +1454,8 @@
         "away": 2
       },
       "espnEventId": "401860160",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 1602
     },
     {
       "id": "r10-ava-goi",
@@ -1469,8 +1469,8 @@
         "away": 2
       },
       "espnEventId": "401860152",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 3473
     },
     {
       "id": "r10-ope-cri",
@@ -1484,8 +1484,8 @@
         "away": 1
       },
       "espnEventId": "401860159",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r10-bfc-acm",
@@ -1499,8 +1499,8 @@
         "away": 2
       },
       "espnEventId": "401860153",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r11-juv-amg",
@@ -1514,8 +1514,8 @@
         "away": 0
       },
       "espnEventId": "401860167",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r11-ago-goi",
@@ -1529,8 +1529,8 @@
         "away": 1
       },
       "espnEventId": "401873876",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 3699
     },
     {
       "id": "r11-ava-cri",
@@ -1544,8 +1544,8 @@
         "away": 2
       },
       "espnEventId": "401860164",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r11-acm-for",
@@ -1559,8 +1559,8 @@
         "away": 0
       },
       "espnEventId": "401860162",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r11-spo-nau",
@@ -1574,8 +1574,8 @@
         "away": 0
       },
       "espnEventId": "401860170",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r11-lon-vil",
@@ -1589,8 +1589,8 @@
         "away": 1
       },
       "espnEventId": "401860168",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r11-ber-nov",
@@ -1604,8 +1604,8 @@
         "away": 1
       },
       "espnEventId": "401860166",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r11-cea-ope",
@@ -1619,8 +1619,8 @@
         "away": 2
       },
       "espnEventId": "401860165",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r11-cui-crb",
@@ -1634,8 +1634,8 @@
         "away": 0
       },
       "espnEventId": "401860171",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r11-pon-bfc",
@@ -1649,8 +1649,8 @@
         "away": 0
       },
       "espnEventId": "401860169",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r12-ope-juv",
@@ -1664,8 +1664,8 @@
         "away": 1
       },
       "espnEventId": "401873965",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r12-cri-lon",
@@ -1679,8 +1679,8 @@
         "away": 0
       },
       "espnEventId": "401873959",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r12-crb-ber",
@@ -1694,8 +1694,8 @@
         "away": 3
       },
       "espnEventId": "401873940",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r12-amg-ago",
@@ -1709,8 +1709,8 @@
         "away": 2
       },
       "espnEventId": "401873960",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 1023
     },
     {
       "id": "r12-vil-bfc",
@@ -1724,8 +1724,8 @@
         "away": 0
       },
       "espnEventId": "401873942",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 7572
     },
     {
       "id": "r12-nau-for",
@@ -1739,8 +1739,8 @@
         "away": 1
       },
       "espnEventId": "401860175",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r12-pon-cui",
@@ -1754,8 +1754,8 @@
         "away": 2
       },
       "espnEventId": "401860173",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r12-cea-ava",
@@ -1769,8 +1769,8 @@
         "away": 1
       },
       "espnEventId": "401873943",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Presidente Vargas",
+      "attendance": 3488
     },
     {
       "id": "r12-goi-nov",
@@ -1784,8 +1784,8 @@
         "away": 4
       },
       "espnEventId": "401873961",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 5371
     },
     {
       "id": "r12-spo-acm",
@@ -1799,8 +1799,8 @@
         "away": 1
       },
       "espnEventId": "401873941",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 13724
     },
     {
       "id": "r13-ago-crb",
@@ -1814,8 +1814,8 @@
         "away": 3
       },
       "espnEventId": "401860189",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 1489
     },
     {
       "id": "r13-juv-pon",
@@ -1829,8 +1829,8 @@
         "away": 0
       },
       "espnEventId": "401873967",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r13-ber-spo",
@@ -1844,8 +1844,8 @@
         "away": 0
       },
       "espnEventId": "401873947",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r13-acm-goi",
@@ -1859,8 +1859,8 @@
         "away": 1
       },
       "espnEventId": "401873962",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r13-cui-vil",
@@ -1874,8 +1874,8 @@
         "away": 0
       },
       "espnEventId": "401873963",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r13-bfc-ope",
@@ -1889,8 +1889,8 @@
         "away": 1
       },
       "espnEventId": "401873976",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 718
     },
     {
       "id": "r13-nov-nau",
@@ -1904,8 +1904,8 @@
         "away": 2
       },
       "espnEventId": "401873944",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 1191
     },
     {
       "id": "r13-cri-cea",
@@ -1919,8 +1919,8 @@
         "away": 1
       },
       "espnEventId": "401873946",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r13-lon-ava",
@@ -1934,8 +1934,8 @@
         "away": 2
       },
       "espnEventId": "401873964",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r13-for-amg",
@@ -1949,8 +1949,8 @@
         "away": 3
       },
       "espnEventId": "401873948",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r14-spo-ago",
@@ -1964,8 +1964,8 @@
         "away": 1
       },
       "espnEventId": "401873945",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 13151
     },
     {
       "id": "r14-lon-acm",
@@ -1979,8 +1979,8 @@
         "away": 0
       },
       "espnEventId": "401873952",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r14-cea-bfc",
@@ -1994,8 +1994,8 @@
         "away": 1
       },
       "espnEventId": "401873966",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Presidente Vargas",
+      "attendance": 0
     },
     {
       "id": "r14-vil-nau",
@@ -2009,8 +2009,8 @@
         "away": 3
       },
       "espnEventId": "401873974",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 6544
     },
     {
       "id": "r14-ava-cui",
@@ -2024,8 +2024,8 @@
         "away": 0
       },
       "espnEventId": "401873983",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 4459
     },
     {
       "id": "r14-crb-for",
@@ -2039,8 +2039,8 @@
         "away": 1
       },
       "espnEventId": "401873968",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r14-ber-juv",
@@ -2054,8 +2054,8 @@
         "away": 1
       },
       "espnEventId": "401873975",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r14-goi-ope",
@@ -2069,8 +2069,8 @@
         "away": 3
       },
       "espnEventId": "401873951",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 0
     },
     {
       "id": "r14-pon-nov",
@@ -2084,8 +2084,8 @@
         "away": 2
       },
       "espnEventId": "401873949",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r14-amg-cri",
@@ -2099,8 +2099,8 @@
         "away": 1
       },
       "espnEventId": "401873969",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r15-cui-lon",
@@ -2114,8 +2114,8 @@
         "away": 2
       },
       "espnEventId": "401873972",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 844
     },
     {
       "id": "r15-nov-vil",
@@ -2129,8 +2129,8 @@
         "away": 1
       },
       "espnEventId": "401860204",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r15-ope-amg",
@@ -2144,8 +2144,8 @@
         "away": 0
       },
       "espnEventId": "401873953",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r15-cri-ber",
@@ -2159,8 +2159,8 @@
         "away": 0
       },
       "espnEventId": "401873970",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r15-acm-ava",
@@ -2174,8 +2174,8 @@
         "away": 0
       },
       "espnEventId": "401873982",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r15-ago-pon",
@@ -2189,8 +2189,8 @@
         "away": 0
       },
       "espnEventId": "401873950",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 2364
     },
     {
       "id": "r15-juv-cea",
@@ -2204,8 +2204,8 @@
         "away": 0
       },
       "espnEventId": "401874002",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r15-for-spo",
@@ -2219,8 +2219,8 @@
         "away": 1
       },
       "espnEventId": "401873971",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 8339
     },
     {
       "id": "r15-nau-goi",
@@ -2234,8 +2234,8 @@
         "away": 1
       },
       "espnEventId": "401873973",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r15-bfc-crb",
@@ -2249,8 +2249,8 @@
         "away": 1
       },
       "espnEventId": "401873978",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r16-cui-amg",
@@ -2264,8 +2264,8 @@
         "away": 0
       },
       "espnEventId": "401873977",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r16-for-pon",
@@ -2279,8 +2279,8 @@
         "away": 0
       },
       "espnEventId": "401873979",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r16-cri-spo",
@@ -2294,8 +2294,8 @@
         "away": 0
       },
       "espnEventId": "401873994",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r16-lon-crb",
@@ -2309,8 +2309,8 @@
         "away": 0
       },
       "espnEventId": "401874008",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r16-nov-ago",
@@ -2324,8 +2324,8 @@
         "away": 0
       },
       "espnEventId": "401873997",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r16-goi-cea",
@@ -2339,8 +2339,8 @@
         "away": 0
       },
       "espnEventId": "401873981",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 3455
     },
     {
       "id": "r16-nau-juv",
@@ -2354,8 +2354,8 @@
         "away": 0
       },
       "espnEventId": "401873980",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r16-bfc-ava",
@@ -2369,8 +2369,8 @@
         "away": 1
       },
       "espnEventId": "401873996",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r16-vil-ber",
@@ -2384,8 +2384,8 @@
         "away": 1
       },
       "espnEventId": "401873995",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 10000
     },
     {
       "id": "r16-acm-ope",
@@ -2399,8 +2399,8 @@
         "away": 1
       },
       "espnEventId": "401873987",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r17-pon-cri",
@@ -2414,8 +2414,8 @@
         "away": 2
       },
       "espnEventId": "401873986",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 1363
     },
     {
       "id": "r17-juv-vil",
@@ -2429,8 +2429,8 @@
         "away": 0
       },
       "espnEventId": "401860231",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r17-spo-bfc",
@@ -2444,8 +2444,8 @@
         "away": 3
       },
       "espnEventId": "401860223",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r17-ope-nov",
