@@ -36,13 +36,13 @@
     "apps": 15,
     "goals": 1,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-245858": {
     "fullName": "Renan Lodi",
     "shirtName": "R. Lodi",
     "team": "cam",
-    "position": "M",
+    "position": "D",
     "jersey": 16,
     "birthdate": "1998-04-08",
     "nationality": "BRA",
@@ -108,13 +108,13 @@
     "shirtName": "Hulk",
     "team": "cam",
     "position": "A",
-    "jersey": 7,
+    "jersey": null,
     "birthdate": "1986-07-25",
     "nationality": "BRA",
     "apps": 12,
     "goals": 1,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-178349": {
     "fullName": "Dudu",
@@ -133,7 +133,7 @@
     "fullName": "Bernard",
     "shirtName": "Bernard",
     "team": "cam",
-    "position": "A",
+    "position": "M",
     "jersey": 11,
     "birthdate": "1992-09-08",
     "nationality": "BRA",
@@ -146,7 +146,7 @@
     "fullName": "Hendel Dos Santos",
     "shirtName": "H. Dos Santos",
     "team": "cam",
-    "position": null,
+    "position": "M",
     "jersey": 38,
     "birthdate": "2008-04-03",
     "nationality": "BRA",
@@ -172,7 +172,7 @@
     "fullName": "Gabriel Delfim",
     "shirtName": "G. Delfim",
     "team": "cam",
-    "position": null,
+    "position": "G",
     "jersey": 1,
     "birthdate": "2002-07-10",
     "nationality": "BRA",
@@ -185,7 +185,7 @@
     "fullName": "Natanael",
     "shirtName": "Natanael",
     "team": "cam",
-    "position": "M",
+    "position": "D",
     "jersey": 2,
     "birthdate": "2002-01-05",
     "nationality": "BRA",
@@ -211,7 +211,7 @@
     "fullName": "Mamady Cissé",
     "shirtName": "M. Cissé",
     "team": "cam",
-    "position": null,
+    "position": "M",
     "jersey": 39,
     "birthdate": "2007-01-01",
     "nationality": "GUI",
@@ -250,7 +250,7 @@
     "fullName": "Gustavo Scarpa",
     "shirtName": "G. Scarpa",
     "team": "cam",
-    "position": "A",
+    "position": "M",
     "jersey": 10,
     "birthdate": "1994-01-05",
     "nationality": "BRA",
@@ -263,7 +263,7 @@
     "fullName": "Reiner",
     "shirtName": "Reiner",
     "team": "cam",
-    "position": "A",
+    "position": "M",
     "jersey": 19,
     "birthdate": "2002-01-19",
     "nationality": "BRA",
@@ -276,7 +276,7 @@
     "fullName": "Vitão",
     "shirtName": "Vitão",
     "team": "cam",
-    "position": null,
+    "position": "D",
     "jersey": 40,
     "birthdate": "2008-03-04",
     "nationality": "BRA",
@@ -289,7 +289,7 @@
     "fullName": "Alexsander",
     "shirtName": "Alexsander",
     "team": "cam",
-    "position": null,
+    "position": "M",
     "jersey": 5,
     "birthdate": "2003-10-08",
     "nationality": "BRA",
@@ -432,7 +432,7 @@
     "fullName": "Allan Andrade",
     "shirtName": "A. Andrade",
     "team": "pal",
-    "position": "M",
+    "position": "A",
     "jersey": 40,
     "birthdate": "2004-04-19",
     "nationality": "BRA",
@@ -445,7 +445,7 @@
     "fullName": "Riquelme",
     "shirtName": "Riquelme",
     "team": "pal",
-    "position": null,
+    "position": "A",
     "jersey": 37,
     "birthdate": "2006-09-15",
     "nationality": "BRA",
@@ -478,13 +478,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-387989": {
     "fullName": "Larson",
     "shirtName": "Larson",
     "team": "pal",
-    "position": null,
+    "position": "M",
     "jersey": 48,
     "birthdate": "2005-07-10",
     "nationality": "BRA",
@@ -602,7 +602,7 @@
     "shirtName": "Gabriel",
     "team": "vit",
     "position": "G",
-    "jersey": 22,
+    "jersey": 12,
     "birthdate": "1992-09-27",
     "nationality": "BRA",
     "apps": 4,
@@ -634,7 +634,7 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-253010": {
     "fullName": "Riccieli",
@@ -705,7 +705,7 @@
     "fullName": "Aitor Cantalapiedra",
     "shirtName": "A. Cantalapiedra",
     "team": "vit",
-    "position": "M",
+    "position": "A",
     "jersey": 17,
     "birthdate": "1996-02-10",
     "nationality": "ESP",
@@ -718,7 +718,7 @@
     "fullName": "Matheus",
     "shirtName": "Matheus",
     "team": "vit",
-    "position": "A",
+    "position": "M",
     "jersey": 10,
     "birthdate": "1997-10-18",
     "nationality": "BRA",
@@ -744,7 +744,7 @@
     "fullName": "José Breno",
     "shirtName": "José Breno",
     "team": "vit",
-    "position": null,
+    "position": "M",
     "jersey": 55,
     "birthdate": "2004-06-06",
     "nationality": "BRA",
@@ -783,7 +783,7 @@
     "fullName": "Yuri Sena",
     "shirtName": "Y. Sena",
     "team": "vit",
-    "position": null,
+    "position": "G",
     "jersey": 71,
     "birthdate": "2001-01-03",
     "nationality": "BRA",
@@ -809,7 +809,7 @@
     "fullName": "Osvaldo",
     "shirtName": "Osvaldo",
     "team": "vit",
-    "position": null,
+    "position": "A",
     "jersey": 11,
     "birthdate": "1987-04-11",
     "nationality": "BRA",
@@ -829,7 +829,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-05",
-    "active": true
+    "active": false
   },
   "p-espn-339115": {
     "fullName": "Dudu",
@@ -894,7 +894,7 @@
     "apps": 7,
     "goals": 0,
     "debut": "2026-03-22",
-    "active": true
+    "active": false
   },
   "p-espn-206952": {
     "fullName": "Marcelo Rangel",
@@ -907,7 +907,7 @@
     "apps": 17,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-265535": {
     "fullName": "Léo Andrade",
@@ -920,7 +920,7 @@
     "apps": 4,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-157743": {
     "fullName": "Marllon",
@@ -933,7 +933,7 @@
     "apps": 18,
     "goals": 1,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-357480": {
     "fullName": "Kayky",
@@ -946,7 +946,7 @@
     "apps": 7,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-285280": {
     "fullName": "João",
@@ -959,7 +959,7 @@
     "apps": 6,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-186832": {
     "fullName": "Yago Pikachu",
@@ -972,7 +972,7 @@
     "apps": 17,
     "goals": 2,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-276661": {
     "fullName": "Zé Ricardo",
@@ -985,7 +985,7 @@
     "apps": 16,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-301543": {
     "fullName": "Patrick de Paula",
@@ -998,7 +998,7 @@
     "apps": 6,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-290720": {
     "fullName": "João Pedro",
@@ -1011,7 +1011,7 @@
     "apps": 6,
     "goals": 1,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-301188": {
     "fullName": "Alef Manga",
@@ -1024,7 +1024,7 @@
     "apps": 18,
     "goals": 4,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-252833": {
     "fullName": "Jaderson",
@@ -1037,7 +1037,7 @@
     "apps": 10,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-194623": {
     "fullName": "Dodô",
@@ -1050,7 +1050,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-217422": {
     "fullName": "Klaus",
@@ -1063,7 +1063,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-198362": {
     "fullName": "Patrick",
@@ -1076,7 +1076,7 @@
     "apps": 15,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-190380": {
     "fullName": "Victor Cantillo",
@@ -1089,7 +1089,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-338668": {
     "fullName": "Eduardo",
@@ -1102,7 +1102,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-202607": {
     "fullName": "Jorge",
@@ -1115,7 +1115,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-304826": {
     "fullName": "Marcelinho",
@@ -1128,7 +1128,7 @@
     "apps": 15,
     "goals": 2,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-269643": {
     "fullName": "Ygor Vinhas",
@@ -1141,7 +1141,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-252538": {
     "fullName": "Giovanni Confreste",
@@ -1154,7 +1154,7 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-184206": {
     "fullName": "Sergio Rochet",
@@ -1238,7 +1238,7 @@
     "fullName": "Alexander Bernabei",
     "shirtName": "A. Bernabei",
     "team": "int",
-    "position": "M",
+    "position": "D",
     "jersey": 26,
     "birthdate": "2000-09-24",
     "nationality": "ARG",
@@ -1258,7 +1258,7 @@
     "apps": 17,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-197052": {
     "fullName": "Rafael Borré",
@@ -1277,7 +1277,7 @@
     "fullName": "Alan Patrick",
     "shirtName": "Alan Patrick",
     "team": "int",
-    "position": "A",
+    "position": "M",
     "jersey": 10,
     "birthdate": "1991-05-13",
     "nationality": "BRA",
@@ -1329,7 +1329,7 @@
     "fullName": "Rodrigo Villagra",
     "shirtName": "R. Villagra",
     "team": "int",
-    "position": "D",
+    "position": "M",
     "jersey": 5,
     "birthdate": "2001-02-14",
     "nationality": "ARG",
@@ -1342,7 +1342,7 @@
     "fullName": "João Victor",
     "shirtName": "João Victor",
     "team": "int",
-    "position": null,
+    "position": "A",
     "jersey": 44,
     "birthdate": "2007-07-27",
     "nationality": "BRA",
@@ -1381,7 +1381,7 @@
     "fullName": "Raykkonen",
     "shirtName": "Raykkonen",
     "team": "int",
-    "position": null,
+    "position": "A",
     "jersey": 48,
     "birthdate": "2008-07-13",
     "nationality": "BRA",
@@ -1394,7 +1394,7 @@
     "fullName": "João Bezerra",
     "shirtName": "João Bezerra",
     "team": "int",
-    "position": null,
+    "position": "A",
     "jersey": 49,
     "birthdate": "2009-06-29",
     "nationality": "BRA",
@@ -1407,7 +1407,7 @@
     "fullName": "Allex",
     "shirtName": "Allex",
     "team": "int",
-    "position": "D",
+    "position": "M",
     "jersey": 31,
     "birthdate": "2006-05-04",
     "nationality": "BRA",
@@ -1420,7 +1420,7 @@
     "fullName": "Brian Aguirre",
     "shirtName": "B. Aguirre",
     "team": "int",
-    "position": "D",
+    "position": "A",
     "jersey": 35,
     "birthdate": "2003-01-06",
     "nationality": "ARG",
@@ -1433,7 +1433,7 @@
     "fullName": "Alisson",
     "shirtName": "Alisson",
     "team": "int",
-    "position": null,
+    "position": "D",
     "jersey": 30,
     "birthdate": "2008-07-31",
     "nationality": "BRA",
@@ -1447,7 +1447,7 @@
     "shirtName": "Anthoni",
     "team": "int",
     "position": "G",
-    "jersey": 12,
+    "jersey": 24,
     "birthdate": "2002-01-23",
     "nationality": "BRA",
     "apps": 7,
@@ -1486,7 +1486,7 @@
     "shirtName": "A. Dias",
     "team": "cap",
     "position": "D",
-    "jersey": 4,
+    "jersey": 65,
     "birthdate": "2007-04-10",
     "nationality": "BRA",
     "apps": 17,
@@ -1499,7 +1499,7 @@
     "shirtName": "C. Terán",
     "team": "cap",
     "position": "D",
-    "jersey": 22,
+    "jersey": 13,
     "birthdate": "2000-09-24",
     "nationality": "COL",
     "apps": 12,
@@ -1511,8 +1511,8 @@
     "fullName": "Leonardo Derik",
     "shirtName": "Leonardo Derik",
     "team": "cap",
-    "position": "M",
-    "jersey": 6,
+    "position": "D",
+    "jersey": 61,
     "birthdate": "2005-07-24",
     "nationality": "BRA",
     "apps": 10,
@@ -1524,7 +1524,7 @@
     "fullName": "Gastón Benavídez",
     "shirtName": "G. Benavídez",
     "team": "cap",
-    "position": "M",
+    "position": "D",
     "jersey": 29,
     "birthdate": "1995-10-23",
     "nationality": "ARG",
@@ -1550,7 +1550,7 @@
     "fullName": "Bruno Zapelli",
     "shirtName": "B. Zapelli",
     "team": "cap",
-    "position": "A",
+    "position": "M",
     "jersey": 10,
     "birthdate": "2002-05-16",
     "nationality": "ARG",
@@ -1615,7 +1615,7 @@
     "fullName": "Gilberto Junior",
     "shirtName": "Gilberto Junior",
     "team": "cap",
-    "position": "M",
+    "position": "D",
     "jersey": 2,
     "birthdate": "2005-03-27",
     "nationality": "BRA",
@@ -1635,13 +1635,13 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-361393": {
     "fullName": "Matheus Rocha",
     "shirtName": "Matheus Rocha",
     "team": "cap",
-    "position": null,
+    "position": "G",
     "jersey": 42,
     "birthdate": "2005-01-10",
     "nationality": "BRA",
@@ -1667,7 +1667,7 @@
     "fullName": "Diogo Riquelme",
     "shirtName": "Diogo Riquelme",
     "team": "cap",
-    "position": null,
+    "position": "M",
     "jersey": 63,
     "birthdate": "2005-04-23",
     "nationality": "BRA",
@@ -1680,7 +1680,7 @@
     "fullName": "Mycael",
     "shirtName": "Mycael",
     "team": "cap",
-    "position": null,
+    "position": "G",
     "jersey": 1,
     "birthdate": "2004-03-12",
     "nationality": "BRA",
@@ -1706,7 +1706,7 @@
     "fullName": "Leozinho",
     "shirtName": "Leozinho",
     "team": "cap",
-    "position": null,
+    "position": "A",
     "jersey": 21,
     "birthdate": "1998-12-05",
     "nationality": "BRA",
@@ -1719,7 +1719,7 @@
     "fullName": "Eduardo",
     "shirtName": "Eduardo",
     "team": "cap",
-    "position": "A",
+    "position": "M",
     "jersey": 53,
     "birthdate": "2006-01-01",
     "nationality": "BRA",
@@ -1732,8 +1732,8 @@
     "fullName": "João Cruz",
     "shirtName": "João Cruz",
     "team": "cap",
-    "position": "A",
-    "jersey": 8,
+    "position": "M",
+    "jersey": 57,
     "birthdate": "2006-05-12",
     "nationality": "BRA",
     "apps": 12,
@@ -1752,7 +1752,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-364880": {
     "fullName": "Pedro Luccas",
@@ -1862,7 +1862,7 @@
     "fullName": "Joaquín Lavega",
     "shirtName": "J. Lavega",
     "team": "cfc",
-    "position": "M",
+    "position": "A",
     "jersey": 7,
     "birthdate": "2005-02-03",
     "nationality": "URU",
@@ -1875,7 +1875,7 @@
     "fullName": "Lucas Ronier",
     "shirtName": "Lucas Ronier",
     "team": "cfc",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "2004-11-26",
     "nationality": "BRA",
@@ -1908,13 +1908,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-295072": {
     "fullName": "Fabinho",
     "shirtName": "Fabinho",
     "team": "cfc",
-    "position": null,
+    "position": "A",
     "jersey": 28,
     "birthdate": "1999-11-18",
     "nationality": "BRA",
@@ -1927,7 +1927,7 @@
     "fullName": "Benassi",
     "shirtName": "Benassi",
     "team": "cfc",
-    "position": null,
+    "position": "G",
     "jersey": 67,
     "birthdate": "2003-12-17",
     "nationality": "BRA",
@@ -1940,7 +1940,7 @@
     "fullName": "Fernando Sobral",
     "shirtName": "F. Sobral",
     "team": "cfc",
-    "position": null,
+    "position": "M",
     "jersey": 88,
     "birthdate": "1994-12-17",
     "nationality": "BRA",
@@ -1953,7 +1953,7 @@
     "fullName": "João Almeida",
     "shirtName": "João Almeida",
     "team": "cfc",
-    "position": null,
+    "position": "D",
     "jersey": 16,
     "birthdate": "2006-01-16",
     "nationality": "BRA",
@@ -1966,7 +1966,7 @@
     "fullName": "Breno",
     "shirtName": "Breno",
     "team": "cfc",
-    "position": "M",
+    "position": "A",
     "jersey": 77,
     "birthdate": "1996-01-24",
     "nationality": "BRA",
@@ -1993,7 +1993,7 @@
     "shirtName": "Wallison Luiz",
     "team": "cfc",
     "position": "M",
-    "jersey": 8,
+    "jersey": 70,
     "birthdate": "1997-09-23",
     "nationality": "BRA",
     "apps": 12,
@@ -2025,13 +2025,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-316781": {
     "fullName": "Vini Paulista",
     "shirtName": "Vini Paulista",
     "team": "cfc",
-    "position": "M",
+    "position": "A",
     "jersey": 36,
     "birthdate": "2001-03-22",
     "nationality": "BRA",
@@ -2077,7 +2077,7 @@
     "apps": 16,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-257335": {
     "fullName": "Alix Vinicius",
@@ -2161,7 +2161,7 @@
     "fullName": "Eduardo Sasha",
     "shirtName": "Eduardo Sasha",
     "team": "bra",
-    "position": "M",
+    "position": "A",
     "jersey": 8,
     "birthdate": "1992-02-24",
     "nationality": "BRA",
@@ -2174,7 +2174,7 @@
     "fullName": "Henry Mosquera",
     "shirtName": "H. Mosquera",
     "team": "bra",
-    "position": "M",
+    "position": "A",
     "jersey": 30,
     "birthdate": "2001-11-15",
     "nationality": "COL",
@@ -2241,7 +2241,7 @@
     "team": "bra",
     "position": "M",
     "jersey": 15,
-    "birthdate": "2005-02-11",
+    "birthdate": "2003-08-31",
     "nationality": "URU",
     "apps": 14,
     "goals": 0,
@@ -2291,7 +2291,7 @@
     "fullName": "Vinicinho",
     "shirtName": "Vinicinho",
     "team": "bra",
-    "position": "M",
+    "position": "A",
     "jersey": 17,
     "birthdate": "2004-02-20",
     "nationality": "BRA",
@@ -2317,7 +2317,7 @@
     "fullName": "Fernando",
     "shirtName": "Fernando",
     "team": "bra",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1999-03-01",
     "nationality": "BRA",
@@ -2343,7 +2343,7 @@
     "fullName": "Davi Gomes",
     "shirtName": "Davi Gomes",
     "team": "bra",
-    "position": null,
+    "position": "M",
     "jersey": 27,
     "birthdate": "2005-06-06",
     "nationality": "BRA",
@@ -2460,7 +2460,7 @@
     "fullName": "John Kennedy",
     "shirtName": "J. Kennedy",
     "team": "flu",
-    "position": "M",
+    "position": "A",
     "jersey": 9,
     "birthdate": "2002-05-18",
     "nationality": "BRA",
@@ -2473,7 +2473,7 @@
     "fullName": "Kevin Serna",
     "shirtName": "K. Serna",
     "team": "flu",
-    "position": "M",
+    "position": "A",
     "jersey": 90,
     "birthdate": "1997-12-17",
     "nationality": "COL",
@@ -2486,7 +2486,7 @@
     "fullName": "Agustín Canobbio",
     "shirtName": "A. Canobbio",
     "team": "flu",
-    "position": "M",
+    "position": "A",
     "jersey": 17,
     "birthdate": "1998-10-01",
     "nationality": "URU",
@@ -2506,7 +2506,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-05",
-    "active": true
+    "active": false
   },
   "p-espn-207269": {
     "fullName": "Guilherme Arana",
@@ -2558,13 +2558,13 @@
     "apps": 3,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-255327": {
     "fullName": "Vitor Eudes",
     "shirtName": "Vitor Eudes",
     "team": "flu",
-    "position": null,
+    "position": "G",
     "jersey": 98,
     "birthdate": "1998-10-21",
     "nationality": "BRA",
@@ -2577,7 +2577,7 @@
     "fullName": "Igor Rabello",
     "shirtName": "I. Rabello",
     "team": "flu",
-    "position": null,
+    "position": "D",
     "jersey": 21,
     "birthdate": "1995-04-28",
     "nationality": "BRA",
@@ -2603,7 +2603,7 @@
     "fullName": "Otávio",
     "shirtName": "Otávio",
     "team": "flu",
-    "position": null,
+    "position": "M",
     "jersey": 94,
     "birthdate": "1994-05-04",
     "nationality": "BRA",
@@ -2682,7 +2682,7 @@
     "shirtName": "G. Martins",
     "team": "gre",
     "position": "D",
-    "jersey": 6,
+    "jersey": 53,
     "birthdate": "2002-08-11",
     "nationality": "BRA",
     "apps": 11,
@@ -2720,7 +2720,7 @@
     "fullName": "Edenilson",
     "shirtName": "Edenilson",
     "team": "bot",
-    "position": "A",
+    "position": "M",
     "jersey": 88,
     "birthdate": "1989-12-18",
     "nationality": "BRA",
@@ -2740,7 +2740,7 @@
     "apps": 10,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-213879": {
     "fullName": "Dodi",
@@ -2772,7 +2772,7 @@
     "fullName": "Francis Amuzu",
     "shirtName": "F. Amuzu",
     "team": "gre",
-    "position": "M",
+    "position": "A",
     "jersey": 9,
     "birthdate": "1999-08-23",
     "nationality": "GHA",
@@ -2785,7 +2785,7 @@
     "fullName": "Mateus Tetê",
     "shirtName": "M. Tetê",
     "team": "gre",
-    "position": "M",
+    "position": "A",
     "jersey": 21,
     "birthdate": "2000-02-15",
     "nationality": "BRA",
@@ -2798,8 +2798,8 @@
     "fullName": "Willian",
     "shirtName": "Willian",
     "team": "gre",
-    "position": "A",
-    "jersey": 10,
+    "position": "M",
+    "jersey": 88,
     "birthdate": "1988-08-09",
     "nationality": "BRA",
     "apps": 8,
@@ -2818,7 +2818,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-204873": {
     "fullName": "Franco Cristaldo",
@@ -2831,13 +2831,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-24388": {
     "fullName": "Cristian Pavón",
     "shirtName": "C. Pavón",
     "team": "gre",
-    "position": "D",
+    "position": "A",
     "jersey": 7,
     "birthdate": "1996-01-21",
     "nationality": "ARG",
@@ -2870,13 +2870,13 @@
     "apps": 13,
     "goals": 1,
     "debut": "2026-02-26",
-    "active": true
+    "active": false
   },
   "p-espn-317014": {
     "fullName": "Gabriel Grando",
     "shirtName": "G. Grando",
     "team": "gre",
-    "position": null,
+    "position": "G",
     "jersey": 12,
     "birthdate": "2000-03-29",
     "nationality": "BRA",
@@ -2889,7 +2889,7 @@
     "fullName": "José Enamorado",
     "shirtName": "J. Enamorado",
     "team": "gre",
-    "position": "M",
+    "position": "A",
     "jersey": 99,
     "birthdate": "1999-01-13",
     "nationality": "COL",
@@ -2909,7 +2909,7 @@
     "apps": 5,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-95558": {
     "fullName": "Caio Paulista",
@@ -2928,7 +2928,7 @@
     "fullName": "Tiaguinho",
     "shirtName": "Tiaguinho",
     "team": "gre",
-    "position": null,
+    "position": "M",
     "jersey": 39,
     "birthdate": "2008-02-02",
     "nationality": "BRA",
@@ -3006,7 +3006,7 @@
     "fullName": "Walter Clar",
     "shirtName": "W. Clar",
     "team": "cha",
-    "position": "M",
+    "position": "D",
     "jersey": 37,
     "birthdate": "1994-09-27",
     "nationality": "PAR",
@@ -3019,7 +3019,7 @@
     "fullName": "Marcos Vinicius",
     "shirtName": "Marcos Vinicius",
     "team": "cha",
-    "position": "M",
+    "position": "D",
     "jersey": 2,
     "birthdate": "1997-03-26",
     "nationality": "BRA",
@@ -3045,7 +3045,7 @@
     "fullName": "Giovanni Augusto",
     "shirtName": "Giovanni Augusto",
     "team": "cha",
-    "position": "A",
+    "position": "M",
     "jersey": 10,
     "birthdate": "1989-09-05",
     "nationality": "BRA",
@@ -3058,7 +3058,7 @@
     "fullName": "Rafael Cavalheira",
     "shirtName": "R. Cavalheira",
     "team": "cha",
-    "position": "M",
+    "position": "A",
     "jersey": 99,
     "birthdate": "1999-05-26",
     "nationality": "BRA",
@@ -3071,7 +3071,7 @@
     "fullName": "Italo",
     "shirtName": "Italo",
     "team": "cha",
-    "position": "M",
+    "position": "A",
     "jersey": 77,
     "birthdate": "2002-10-13",
     "nationality": "BRA",
@@ -3084,7 +3084,7 @@
     "fullName": "Marcinho",
     "shirtName": "Marcinho",
     "team": "cha",
-    "position": "M",
+    "position": "A",
     "jersey": 7,
     "birthdate": "1995-06-08",
     "nationality": "BRA",
@@ -3182,13 +3182,13 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-03-16",
-    "active": true
+    "active": false
   },
   "p-espn-379742": {
     "fullName": "Robert Santos",
     "shirtName": "Robert Santos",
     "team": "cha",
-    "position": null,
+    "position": "A",
     "jersey": 8,
     "birthdate": "2003-07-20",
     "nationality": "BRA",
@@ -3201,7 +3201,7 @@
     "fullName": "Rubens Tadeu Hartmann Ricoldi",
     "shirtName": "R. Hartmann Ricoldi",
     "team": "cha",
-    "position": null,
+    "position": "M",
     "jersey": 70,
     "birthdate": "2003-03-28",
     "nationality": "BRA",
@@ -3227,7 +3227,7 @@
     "fullName": "Kauan",
     "shirtName": "Kauan",
     "team": "cha",
-    "position": null,
+    "position": "D",
     "jersey": 21,
     "birthdate": "2003-04-07",
     "nationality": "BRA",
@@ -3286,7 +3286,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-01-28",
-    "active": true
+    "active": false
   },
   "p-espn-399409": {
     "fullName": "Vinicius Lira",
@@ -3384,7 +3384,7 @@
     "shirtName": "G. Caballero",
     "team": "san",
     "position": "A",
-    "jersey": 17,
+    "jersey": null,
     "birthdate": "2001-09-21",
     "nationality": "PAR",
     "apps": 1,
@@ -3396,7 +3396,7 @@
     "fullName": "Benjamín Rollheiser",
     "shirtName": "B. Rollheiser",
     "team": "san",
-    "position": "M",
+    "position": "A",
     "jersey": 32,
     "birthdate": "2000-03-24",
     "nationality": "ARG",
@@ -3409,7 +3409,7 @@
     "fullName": "Mateus Xavier",
     "shirtName": "Mateus Xavier",
     "team": "san",
-    "position": null,
+    "position": "A",
     "jersey": 47,
     "birthdate": "2007-06-29",
     "nationality": "BRA",
@@ -3448,7 +3448,7 @@
     "fullName": "Fernando Pradella Rocha",
     "shirtName": "F. Pradella Rocha",
     "team": "san",
-    "position": null,
+    "position": "A",
     "jersey": 55,
     "birthdate": "2008-07-03",
     "nationality": "BRA",
@@ -3494,13 +3494,13 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-407480": {
     "fullName": "Robinho Junior",
     "shirtName": "Robinho Junior",
     "team": "san",
-    "position": null,
+    "position": "A",
     "jersey": 7,
     "birthdate": "2007-12-17",
     "nationality": "BRA",
@@ -3533,7 +3533,7 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-03-22",
-    "active": true
+    "active": false
   },
   "p-espn-319270": {
     "fullName": "Zé Ivaldo",
@@ -3669,7 +3669,7 @@
     "fullName": "Memphis Depay",
     "shirtName": "M. Depay",
     "team": "cor",
-    "position": "M",
+    "position": "A",
     "jersey": 10,
     "birthdate": "1994-02-13",
     "nationality": "NET",
@@ -3721,7 +3721,7 @@
     "fullName": "Kayke Ferrari",
     "shirtName": "Kayke Ferrari",
     "team": "cor",
-    "position": "M",
+    "position": "A",
     "jersey": 31,
     "birthdate": "2004-04-28",
     "nationality": "BRA",
@@ -3747,7 +3747,7 @@
     "fullName": "Vitinho",
     "shirtName": "Vitinho",
     "team": "cor",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1993-10-09",
     "nationality": "BRA",
@@ -3773,7 +3773,7 @@
     "fullName": "Dieguinho",
     "shirtName": "Dieguinho",
     "team": "cor",
-    "position": null,
+    "position": "M",
     "jersey": 61,
     "birthdate": "2007-09-16",
     "nationality": "BRA",
@@ -3786,7 +3786,7 @@
     "fullName": "Felipe Longo",
     "shirtName": "Felipe Longo",
     "team": "cor",
-    "position": null,
+    "position": "G",
     "jersey": 40,
     "birthdate": "2005-03-05",
     "nationality": "BRA",
@@ -3825,7 +3825,7 @@
     "fullName": "Hugo",
     "shirtName": "Hugo",
     "team": "cor",
-    "position": null,
+    "position": "D",
     "jersey": 46,
     "birthdate": "1997-08-29",
     "nationality": "BRA",
@@ -3852,7 +3852,7 @@
     "shirtName": "Ronaldo",
     "team": "bah",
     "position": "G",
-    "jersey": 1,
+    "jersey": 96,
     "birthdate": "1996-08-22",
     "nationality": "BRA",
     "apps": 8,
@@ -3917,7 +3917,7 @@
     "shirtName": "N. Acevedo",
     "team": "bah",
     "position": "M",
-    "jersey": 5,
+    "jersey": 26,
     "birthdate": "1999-04-14",
     "nationality": "URU",
     "apps": 15,
@@ -4008,7 +4008,7 @@
     "shirtName": "Caio Alexandre",
     "team": "bah",
     "position": "M",
-    "jersey": 8,
+    "jersey": 19,
     "birthdate": "1999-02-24",
     "nationality": "BRA",
     "apps": 11,
@@ -4046,20 +4046,20 @@
     "fullName": "João Paulo",
     "shirtName": "João Paulo",
     "team": "bah",
-    "position": null,
-    "jersey": 34,
+    "position": "G",
+    "jersey": null,
     "birthdate": "1995-06-29",
     "nationality": "BRA",
     "apps": 2,
     "goals": 0,
     "debut": "2026-03-22",
-    "active": true
+    "active": false
   },
   "p-espn-400315": {
     "fullName": "Dell",
     "shirtName": "Dell",
     "team": "bah",
-    "position": null,
+    "position": "A",
     "jersey": 89,
     "birthdate": "2008-06-09",
     "nationality": "BRA",
@@ -4092,7 +4092,7 @@
     "apps": 6,
     "goals": 0,
     "debut": "2026-02-12",
-    "active": true
+    "active": false
   },
   "p-espn-252800": {
     "fullName": "Iago",
@@ -4111,7 +4111,7 @@
     "fullName": "Kaue Furquim",
     "shirtName": "Kaue Furquim",
     "team": "bah",
-    "position": null,
+    "position": "M",
     "jersey": 57,
     "birthdate": "2009-02-27",
     "nationality": "BRA",
@@ -4242,7 +4242,7 @@
     "shirtName": "Marcos Antonio",
     "team": "sao",
     "position": "M",
-    "jersey": 8,
+    "jersey": 20,
     "birthdate": "2000-06-13",
     "nationality": "BRA",
     "apps": 12,
@@ -4255,7 +4255,7 @@
     "shirtName": "D. Bobadilla",
     "team": "sao",
     "position": "M",
-    "jersey": 16,
+    "jersey": 21,
     "birthdate": "2001-07-11",
     "nationality": "PAR",
     "apps": 14,
@@ -4280,7 +4280,7 @@
     "fullName": "Luciano",
     "shirtName": "Luciano",
     "team": "sao",
-    "position": "M",
+    "position": "A",
     "jersey": 10,
     "birthdate": "1993-05-18",
     "nationality": "BRA",
@@ -4294,7 +4294,7 @@
     "shirtName": "Cédric",
     "team": "sao",
     "position": "D",
-    "jersey": 21,
+    "jersey": 6,
     "birthdate": "1991-08-31",
     "nationality": "POR",
     "apps": 8,
@@ -4332,7 +4332,7 @@
     "fullName": "Ferreira",
     "shirtName": "Ferreira",
     "team": "sao",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1997-12-31",
     "nationality": "BRA",
@@ -4358,7 +4358,7 @@
     "fullName": "Lucas Moura",
     "shirtName": "L. Moura",
     "team": "sao",
-    "position": "M",
+    "position": "A",
     "jersey": 7,
     "birthdate": "1992-08-13",
     "nationality": "BRA",
@@ -4397,7 +4397,7 @@
     "fullName": "Pedro Ferreira",
     "shirtName": "P. Ferreira",
     "team": "sao",
-    "position": null,
+    "position": "M",
     "jersey": 46,
     "birthdate": "2007-04-24",
     "nationality": "BRA",
@@ -4417,13 +4417,13 @@
     "apps": 4,
     "goals": 1,
     "debut": "2026-04-04",
-    "active": true
+    "active": false
   },
   "p-espn-399076": {
     "fullName": "Lucca Marques",
     "shirtName": "L. Marques",
     "team": "sao",
-    "position": "M",
+    "position": "A",
     "jersey": 45,
     "birthdate": "2007-06-14",
     "nationality": "BRA",
@@ -4436,7 +4436,7 @@
     "fullName": "Carlos Coronel",
     "shirtName": "C. Coronel",
     "team": "sao",
-    "position": null,
+    "position": "G",
     "jersey": 31,
     "birthdate": "1996-12-29",
     "nationality": "PAR",
@@ -4553,7 +4553,7 @@
     "fullName": "Pedro",
     "shirtName": "Pedro",
     "team": "fla",
-    "position": "M",
+    "position": "A",
     "jersey": 9,
     "birthdate": "1997-06-20",
     "nationality": "BRA",
@@ -4566,7 +4566,7 @@
     "fullName": "Everton",
     "shirtName": "Everton",
     "team": "fla",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1996-03-22",
     "nationality": "BRA",
@@ -4579,7 +4579,7 @@
     "fullName": "Gonzalo Plata",
     "shirtName": "G. Plata",
     "team": "fla",
-    "position": "M",
+    "position": "A",
     "jersey": 19,
     "birthdate": "2000-11-01",
     "nationality": "ECU",
@@ -4605,7 +4605,7 @@
     "fullName": "Guilherme Gomes",
     "shirtName": "G. Gomes",
     "team": "fla",
-    "position": null,
+    "position": "M",
     "jersey": 47,
     "birthdate": "2006-02-02",
     "nationality": "BRA",
@@ -4631,7 +4631,7 @@
     "fullName": "Douglas Telles",
     "shirtName": "D. Telles",
     "team": "fla",
-    "position": null,
+    "position": "A",
     "jersey": 81,
     "birthdate": "2007-06-01",
     "nationality": "BRA",
@@ -4644,7 +4644,7 @@
     "fullName": "Daniel Sales",
     "shirtName": "D. Sales",
     "team": "fla",
-    "position": null,
+    "position": "D",
     "jersey": 51,
     "birthdate": "2006-06-23",
     "nationality": "BRA",
@@ -4683,7 +4683,7 @@
     "fullName": "Andrew",
     "shirtName": "Andrew",
     "team": "fla",
-    "position": null,
+    "position": "G",
     "jersey": 42,
     "birthdate": "2001-07-01",
     "nationality": "BRA",
@@ -4709,7 +4709,7 @@
     "fullName": "Pablo Lucio",
     "shirtName": "P. Lucio",
     "team": "fla",
-    "position": null,
+    "position": "M",
     "jersey": 56,
     "birthdate": "2007-04-12",
     "nationality": "BRA",
@@ -4846,7 +4846,7 @@
     "apps": 6,
     "goals": 0,
     "debut": "2026-01-29",
-    "active": true
+    "active": false
   },
   "p-espn-338053": {
     "fullName": "Renato Marques",
@@ -4865,7 +4865,7 @@
     "fullName": "Alesson",
     "shirtName": "Alesson",
     "team": "mir",
-    "position": "M",
+    "position": "A",
     "jersey": 77,
     "birthdate": "1999-02-16",
     "nationality": "BRA",
@@ -4878,7 +4878,7 @@
     "fullName": "Negueba",
     "shirtName": "Negueba",
     "team": "mir",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1999-12-03",
     "nationality": "BRA",
@@ -4904,7 +4904,7 @@
     "fullName": "Everton",
     "shirtName": "Everton",
     "team": "mir",
-    "position": null,
+    "position": "A",
     "jersey": 17,
     "birthdate": "1997-03-17",
     "nationality": "BRA",
@@ -4930,7 +4930,7 @@
     "fullName": "Antonio Galeano",
     "shirtName": "A. Galeano",
     "team": "mir",
-    "position": "M",
+    "position": "A",
     "jersey": 27,
     "birthdate": "2000-03-22",
     "nationality": "PAR",
@@ -4976,7 +4976,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-147148": {
     "fullName": "Lucas Mugni",
@@ -4989,7 +4989,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-273399": {
     "fullName": "Nathan Fogaça",
@@ -5008,7 +5008,7 @@
     "fullName": "Alex Muralha",
     "shirtName": "Alex Muralha",
     "team": "mir",
-    "position": null,
+    "position": "G",
     "jersey": 23,
     "birthdate": "1989-11-10",
     "nationality": "BRA",
@@ -5028,7 +5028,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-01-29",
-    "active": true
+    "active": false
   },
   "p-espn-205464": {
     "fullName": "Léo Jardim",
@@ -5106,7 +5106,7 @@
     "apps": 3,
     "goals": 1,
     "debut": "2026-01-29",
-    "active": true
+    "active": false
   },
   "p-espn-201717": {
     "fullName": "Thiago Mendes",
@@ -5138,8 +5138,8 @@
     "fullName": "Johan Rojas",
     "shirtName": "J. Rojas",
     "team": "vas",
-    "position": "M",
-    "jersey": 10,
+    "position": "A",
+    "jersey": 29,
     "birthdate": "2002-09-20",
     "nationality": "COL",
     "apps": 15,
@@ -5151,7 +5151,7 @@
     "fullName": "Andrés Gómez",
     "shirtName": "A. Gómez",
     "team": "vas",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "2002-09-12",
     "nationality": "COL",
@@ -5177,7 +5177,7 @@
     "fullName": "Daniel Fuzato",
     "shirtName": "D. Fuzato",
     "team": "vas",
-    "position": null,
+    "position": "G",
     "jersey": 13,
     "birthdate": "1997-07-04",
     "nationality": "BRA",
@@ -5216,7 +5216,7 @@
     "fullName": "JP",
     "shirtName": "JP",
     "team": "vas",
-    "position": null,
+    "position": "M",
     "jersey": 98,
     "birthdate": "2005-04-19",
     "nationality": "BRA",
@@ -5242,7 +5242,7 @@
     "fullName": "Andrey Fernandes",
     "shirtName": "Andrey Fernandes",
     "team": "vas",
-    "position": null,
+    "position": "A",
     "jersey": 74,
     "birthdate": "2008-02-05",
     "nationality": "BRA",
@@ -5262,7 +5262,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-318087": {
     "fullName": "Matheus França",
@@ -5275,7 +5275,7 @@
     "apps": 3,
     "goals": 0,
     "debut": "2026-01-29",
-    "active": true
+    "active": false
   },
   "p-espn-269924": {
     "fullName": "Hugo Moura",
@@ -5301,7 +5301,7 @@
     "apps": 2,
     "goals": 0,
     "debut": "2026-01-29",
-    "active": true
+    "active": false
   },
   "p-espn-317383": {
     "fullName": "Alan Saldivia",
@@ -5320,8 +5320,8 @@
     "fullName": "João Vitor",
     "shirtName": "João Vitor",
     "team": "vas",
-    "position": null,
-    "jersey": 60,
+    "position": "A",
+    "jersey": null,
     "birthdate": "2008-11-12",
     "nationality": "BRA",
     "apps": 2,
@@ -5340,13 +5340,13 @@
     "apps": 10,
     "goals": 0,
     "debut": "2026-01-30",
-    "active": true
+    "active": false
   },
   "p-espn-357362": {
     "fullName": "Newton",
     "shirtName": "Newton",
     "team": "bot",
-    "position": "D",
+    "position": "M",
     "jersey": 28,
     "birthdate": "2000-03-12",
     "nationality": "BRA",
@@ -5366,7 +5366,7 @@
     "apps": 12,
     "goals": 1,
     "debut": "2026-01-30",
-    "active": true
+    "active": false
   },
   "p-espn-359977": {
     "fullName": "Mateo Ponte",
@@ -5399,7 +5399,7 @@
     "shirtName": "D. Santos",
     "team": "bot",
     "position": "M",
-    "jersey": 8,
+    "jersey": 35,
     "birthdate": "2001-04-29",
     "nationality": "BRA",
     "apps": 12,
@@ -5451,7 +5451,7 @@
     "shirtName": "Á. Montoro",
     "team": "bot",
     "position": "M",
-    "jersey": 10,
+    "jersey": 8,
     "birthdate": "2007-04-17",
     "nationality": "ARG",
     "apps": 15,
@@ -5476,7 +5476,7 @@
     "fullName": "José Kadir",
     "shirtName": "J. Kadir",
     "team": "bot",
-    "position": "M",
+    "position": "A",
     "jersey": 37,
     "birthdate": "2007-07-18",
     "nationality": "PAN",
@@ -5496,13 +5496,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-310822": {
     "fullName": "Leo Linck",
     "shirtName": "L. Linck",
     "team": "bot",
-    "position": null,
+    "position": "G",
     "jersey": 24,
     "birthdate": "2001-03-03",
     "nationality": "BRA",
@@ -5515,7 +5515,7 @@
     "fullName": "Arthur Novaes",
     "shirtName": "Arthur Novaes",
     "team": "bot",
-    "position": null,
+    "position": "M",
     "jersey": 48,
     "birthdate": "2008-09-16",
     "nationality": "BRA",
@@ -5542,7 +5542,7 @@
     "shirtName": "K. Toledo",
     "team": "bot",
     "position": "M",
-    "jersey": 59,
+    "jersey": 49,
     "birthdate": "2006-04-15",
     "nationality": "BRA",
     "apps": 3,
@@ -5567,7 +5567,7 @@
     "fullName": "Arthur Izaque",
     "shirtName": "Arthur Izaque",
     "team": "bot",
-    "position": null,
+    "position": "A",
     "jersey": 39,
     "birthdate": "2007-06-29",
     "nationality": "BRA",
@@ -5606,7 +5606,7 @@
     "fullName": "Nathan Fernandes",
     "shirtName": "N. Fernandes",
     "team": "bot",
-    "position": null,
+    "position": "A",
     "jersey": 16,
     "birthdate": "2005-02-16",
     "nationality": "BRA",
@@ -5619,7 +5619,7 @@
     "fullName": "Artur",
     "shirtName": "Artur",
     "team": "sao",
-    "position": "M",
+    "position": "A",
     "jersey": 37,
     "birthdate": "1998-02-15",
     "nationality": "BRA",
@@ -5678,7 +5678,7 @@
     "apps": 16,
     "goals": 0,
     "debut": "2026-01-30",
-    "active": true
+    "active": false
   },
   "p-espn-108342": {
     "fullName": "Fagner",
@@ -5736,7 +5736,7 @@
     "fullName": "Wanderson",
     "shirtName": "Wanderson",
     "team": "cru",
-    "position": "M",
+    "position": "A",
     "jersey": 94,
     "birthdate": "1994-10-07",
     "nationality": "BRA",
@@ -5762,7 +5762,7 @@
     "fullName": "Keny Arroyo",
     "shirtName": "K. Arroyo",
     "team": "cru",
-    "position": "M",
+    "position": "A",
     "jersey": 99,
     "birthdate": "2006-02-14",
     "nationality": "ECU",
@@ -5821,7 +5821,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-399455": {
     "fullName": "Kauã Prates",
@@ -5834,13 +5834,13 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-06",
-    "active": true
+    "active": false
   },
   "p-espn-383096": {
     "fullName": "Kaique Kenji",
     "shirtName": "Kaique Kenji",
     "team": "cru",
-    "position": "M",
+    "position": "A",
     "jersey": 70,
     "birthdate": "2006-01-30",
     "nationality": "BRA",
@@ -5879,7 +5879,7 @@
     "fullName": "Neyser Villareal",
     "shirtName": "N. Villareal",
     "team": "cru",
-    "position": "A",
+    "position": "M",
     "jersey": 22,
     "birthdate": "2005-04-24",
     "nationality": "COL",
@@ -5944,7 +5944,7 @@
     "fullName": "Wallace Yan",
     "shirtName": "W. Yan",
     "team": "fla",
-    "position": null,
+    "position": "A",
     "jersey": 64,
     "birthdate": "2005-02-08",
     "nationality": "BRA",
@@ -5970,7 +5970,7 @@
     "fullName": "Diego Esser",
     "shirtName": "D. Esser",
     "team": "int",
-    "position": null,
+    "position": "G",
     "jersey": 32,
     "birthdate": "2005-04-13",
     "nationality": "BRA",
@@ -5990,13 +5990,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-213239": {
     "fullName": "Thiago Maia",
     "shirtName": "T. Maia",
     "team": "int",
-    "position": null,
+    "position": "M",
     "jersey": 29,
     "birthdate": "1997-03-23",
     "nationality": "BRA",
@@ -6022,7 +6022,7 @@
     "fullName": "José Herrera",
     "shirtName": "J. Herrera",
     "team": "bra",
-    "position": "M",
+    "position": "A",
     "jersey": 32,
     "birthdate": "2003-04-16",
     "nationality": "ARG",
@@ -6048,7 +6048,7 @@
     "fullName": "Ángelo Preciado",
     "shirtName": "Á. Preciado",
     "team": "cam",
-    "position": "M",
+    "position": "D",
     "jersey": 23,
     "birthdate": "1998-02-18",
     "nationality": "ECU",
@@ -6074,7 +6074,7 @@
     "fullName": "Pedro Cobra",
     "shirtName": "Pedro Cobra",
     "team": "cam",
-    "position": null,
+    "position": "G",
     "jersey": 46,
     "birthdate": "2006-05-15",
     "nationality": "BRA",
@@ -6094,7 +6094,7 @@
     "apps": 15,
     "goals": 1,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-200775": {
     "fullName": "Vitor Bueno",
@@ -6107,7 +6107,7 @@
     "apps": 11,
     "goals": 2,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-314825": {
     "fullName": "Diego Hernández",
@@ -6120,7 +6120,7 @@
     "apps": 9,
     "goals": 0,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-336954": {
     "fullName": "Nicolás Ferreira",
@@ -6133,7 +6133,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-03-12",
-    "active": true
+    "active": false
   },
   "p-espn-317381": {
     "fullName": "Franco Catarozzi",
@@ -6146,7 +6146,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-201793": {
     "fullName": "José Welison",
@@ -6159,7 +6159,7 @@
     "apps": 15,
     "goals": 0,
     "debut": "2026-02-04",
-    "active": true
+    "active": false
   },
   "p-espn-227931": {
     "fullName": "Braian Cufré",
@@ -6172,7 +6172,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-25",
-    "active": true
+    "active": false
   },
   "p-espn-398996": {
     "fullName": "Rafael Monti",
@@ -6185,7 +6185,7 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-03-12",
-    "active": true
+    "active": false
   },
   "p-espn-235539": {
     "fullName": "Igor Cariús",
@@ -6198,13 +6198,13 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-02-11",
-    "active": true
+    "active": false
   },
   "p-espn-198273": {
     "fullName": "Chico",
     "shirtName": "Chico",
     "team": "mir",
-    "position": null,
+    "position": "M",
     "jersey": 10,
     "birthdate": "1991-05-16",
     "nationality": "BRA",
@@ -6217,7 +6217,7 @@
     "fullName": "Lucas Oliveira",
     "shirtName": "L. Oliveira",
     "team": "mir",
-    "position": "M",
+    "position": "D",
     "jersey": 2,
     "birthdate": "1996-02-02",
     "nationality": "BRA",
@@ -6256,7 +6256,7 @@
     "fullName": "Rony",
     "shirtName": "Rony",
     "team": "san",
-    "position": "M",
+    "position": "A",
     "jersey": 11,
     "birthdate": "1995-05-11",
     "nationality": "BRA",
@@ -6295,7 +6295,7 @@
     "fullName": "Luan",
     "shirtName": "Luan",
     "team": "sao",
-    "position": null,
+    "position": "M",
     "jersey": 33,
     "birthdate": "1999-03-14",
     "nationality": "BRA",
@@ -6308,7 +6308,7 @@
     "fullName": "Lucas Evangelista",
     "shirtName": "L. Evangelista",
     "team": "pal",
-    "position": "A",
+    "position": "M",
     "jersey": 30,
     "birthdate": "1995-02-06",
     "nationality": "BRA",
@@ -6321,8 +6321,8 @@
     "fullName": "Bruno Rodrigues",
     "shirtName": "B. Rodrigues",
     "team": "cru",
-    "position": "M",
-    "jersey": 9,
+    "position": "A",
+    "jersey": 20,
     "birthdate": "1997-03-07",
     "nationality": "BRA",
     "apps": 9,
@@ -6334,7 +6334,7 @@
     "fullName": "Pablo",
     "shirtName": "Pablo",
     "team": "vit",
-    "position": null,
+    "position": "M",
     "jersey": 62,
     "birthdate": "2003-08-03",
     "nationality": "BRA",
@@ -6348,7 +6348,7 @@
     "shirtName": "E. Martínez",
     "team": "vit",
     "position": "M",
-    "jersey": 6,
+    "jersey": 32,
     "birthdate": "1994-06-04",
     "nationality": "ARG",
     "apps": 14,
@@ -6367,7 +6367,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-199101": {
     "fullName": "Fabián Balbuena",
@@ -6399,7 +6399,7 @@
     "fullName": "Roger",
     "shirtName": "Roger",
     "team": "gre",
-    "position": null,
+    "position": "M",
     "jersey": 47,
     "birthdate": "2008-04-29",
     "nationality": "BRA",
@@ -6412,7 +6412,7 @@
     "fullName": "Gabriel Da Silva Abdias",
     "shirtName": "G. Da Silva Abdias",
     "team": "bot",
-    "position": null,
+    "position": "D",
     "jersey": 36,
     "birthdate": "2006-06-19",
     "nationality": "BRA",
@@ -6425,7 +6425,7 @@
     "fullName": "Marcos Vinagre",
     "shirtName": "M. Vinagre",
     "team": "bot",
-    "position": null,
+    "position": "D",
     "jersey": 64,
     "birthdate": "2007-02-15",
     "nationality": "BRA",
@@ -6438,7 +6438,7 @@
     "fullName": "Mateo Sanabria",
     "shirtName": "M. Sanabria",
     "team": "bah",
-    "position": "M",
+    "position": "A",
     "jersey": 23,
     "birthdate": "2004-03-31",
     "nationality": "ARG",
@@ -6458,13 +6458,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-403159": {
     "fullName": "Wesley Natã",
     "shirtName": "Wesley Natã",
     "team": "flu",
-    "position": null,
+    "position": "A",
     "jersey": 34,
     "birthdate": "2008-04-18",
     "nationality": "BRA",
@@ -6477,7 +6477,7 @@
     "fullName": "Matheus Reis",
     "shirtName": "Matheus Reis",
     "team": "flu",
-    "position": null,
+    "position": "A",
     "jersey": 15,
     "birthdate": "2007-04-02",
     "nationality": "MEX",
@@ -6503,7 +6503,7 @@
     "fullName": "Lucas Freitas",
     "shirtName": "Lucas Freitas",
     "team": "vas",
-    "position": null,
+    "position": "D",
     "jersey": 43,
     "birthdate": "2001-01-20",
     "nationality": "BRA",
@@ -6516,7 +6516,7 @@
     "fullName": "Adson",
     "shirtName": "Adson",
     "team": "vas",
-    "position": "M",
+    "position": "A",
     "jersey": 28,
     "birthdate": "2000-10-06",
     "nationality": "BRA",
@@ -6529,7 +6529,7 @@
     "fullName": "Marino Hinestroza",
     "shirtName": "M. Hinestroza",
     "team": "vas",
-    "position": "M",
+    "position": "A",
     "jersey": 18,
     "birthdate": "2002-07-08",
     "nationality": "COL",
@@ -6562,13 +6562,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-418723": {
     "fullName": "Vinicius Eduardo De Almeida Gomes Da Silva",
     "shirtName": "V. De Almeida Gomes Da Silva",
     "team": "cha",
-    "position": null,
+    "position": "D",
     "jersey": 35,
     "birthdate": "2005-02-18",
     "nationality": "BRA",
@@ -6581,7 +6581,7 @@
     "fullName": "Lucas Villalba",
     "shirtName": "L. Villalba",
     "team": "cru",
-    "position": "M",
+    "position": "D",
     "jersey": 25,
     "birthdate": "1994-08-19",
     "nationality": "ARG",
@@ -6607,7 +6607,7 @@
     "fullName": "Enzo Vágner",
     "shirtName": "Enzo Vágner",
     "team": "cfc",
-    "position": null,
+    "position": "A",
     "jersey": 14,
     "birthdate": "2006-07-28",
     "nationality": "BRA",
@@ -6621,7 +6621,7 @@
     "shirtName": "P. Rangel",
     "team": "cfc",
     "position": "G",
-    "jersey": 22,
+    "jersey": 12,
     "birthdate": "2000-06-29",
     "nationality": "BRA",
     "apps": 15,
@@ -6633,7 +6633,7 @@
     "fullName": "Gustavo",
     "shirtName": "Gustavo",
     "team": "cfc",
-    "position": null,
+    "position": "M",
     "jersey": 39,
     "birthdate": "2002-09-11",
     "nationality": "BRA",
@@ -6646,7 +6646,7 @@
     "fullName": "Keno",
     "shirtName": "Keno",
     "team": "cfc",
-    "position": null,
+    "position": "A",
     "jersey": 20,
     "birthdate": "1989-09-10",
     "nationality": "BRA",
@@ -6666,7 +6666,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-198392": {
     "fullName": "Marinho",
@@ -6685,7 +6685,7 @@
     "fullName": "Edenilson",
     "shirtName": "Edenilson",
     "team": "vit",
-    "position": "D",
+    "position": "M",
     "jersey": 26,
     "birthdate": "2005-06-17",
     "nationality": "BRA",
@@ -6698,7 +6698,7 @@
     "fullName": "Lucas",
     "shirtName": "Lucas",
     "team": "vit",
-    "position": null,
+    "position": "A",
     "jersey": 20,
     "birthdate": "1999-08-27",
     "nationality": "BRA",
@@ -6750,7 +6750,7 @@
     "fullName": "Kainã",
     "shirtName": "Kainã",
     "team": "cha",
-    "position": null,
+    "position": "G",
     "jersey": 34,
     "birthdate": "2005-05-17",
     "nationality": "BRA",
@@ -6770,13 +6770,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-414352": {
     "fullName": "Rayan Lelis",
     "shirtName": "R. Lelis",
     "team": "cru",
-    "position": null,
+    "position": "A",
     "jersey": 57,
     "birthdate": "2007-01-19",
     "nationality": "BRA",
@@ -6796,13 +6796,13 @@
     "apps": 6,
     "goals": 1,
     "debut": "2026-02-11",
-    "active": true
+    "active": false
   },
   "p-espn-383087": {
     "fullName": "Marcelo",
     "shirtName": "Marcelo",
     "team": "cru",
-    "position": null,
+    "position": "G",
     "jersey": 24,
     "birthdate": "2006-02-12",
     "nationality": "BRA",
@@ -6835,7 +6835,7 @@
     "apps": 3,
     "goals": 0,
     "debut": "2026-02-11",
-    "active": true
+    "active": false
   },
   "p-espn-250733": {
     "fullName": "Claudio Spinelli",
@@ -6867,7 +6867,7 @@
     "fullName": "Luiz Gustavo",
     "shirtName": "L. Gustavo",
     "team": "bah",
-    "position": null,
+    "position": "D",
     "jersey": 43,
     "birthdate": "2006-04-12",
     "nationality": "BRA",
@@ -6893,7 +6893,7 @@
     "fullName": "Wálter Kannemann",
     "shirtName": "W. Kannemann",
     "team": "gre",
-    "position": null,
+    "position": "D",
     "jersey": 4,
     "birthdate": "1991-03-14",
     "nationality": "ARG",
@@ -6906,7 +6906,7 @@
     "fullName": "Gabriel Mec",
     "shirtName": "Gabriel Mec",
     "team": "gre",
-    "position": "M",
+    "position": "A",
     "jersey": 37,
     "birthdate": "2008-04-11",
     "nationality": "BRA",
@@ -6919,7 +6919,7 @@
     "fullName": "Chiqueti",
     "shirtName": "Chiqueti",
     "team": "cap",
-    "position": null,
+    "position": "M",
     "jersey": 47,
     "birthdate": "2005-02-09",
     "nationality": "BRA",
@@ -6945,7 +6945,7 @@
     "fullName": "Bruninho",
     "shirtName": "Bruninho",
     "team": "cap",
-    "position": "A",
+    "position": "M",
     "jersey": 48,
     "birthdate": "2008-08-16",
     "nationality": "BRA",
@@ -6997,7 +6997,7 @@
     "fullName": "Moisés",
     "shirtName": "Moisés",
     "team": "san",
-    "position": "M",
+    "position": "A",
     "jersey": 21,
     "birthdate": "1996-09-02",
     "nationality": "BRA",
@@ -7023,7 +7023,7 @@
     "fullName": "Yeferson Soteldo",
     "shirtName": "Y. Soteldo",
     "team": "flu",
-    "position": "M",
+    "position": "A",
     "jersey": 7,
     "birthdate": "1997-06-30",
     "nationality": "VEN",
@@ -7062,7 +7062,7 @@
     "fullName": "Wallace Davi",
     "shirtName": "Wallace Davi",
     "team": "bot",
-    "position": null,
+    "position": "M",
     "jersey": 55,
     "birthdate": "2007-05-10",
     "nationality": "BRA",
@@ -7089,7 +7089,7 @@
     "shirtName": "João Pedro",
     "team": "cor",
     "position": "D",
-    "jersey": 4,
+    "jersey": 47,
     "birthdate": "2003-12-31",
     "nationality": "BRA",
     "apps": 2,
@@ -7114,7 +7114,7 @@
     "fullName": "Yuri Leles",
     "shirtName": "Yuri Leles",
     "team": "bra",
-    "position": null,
+    "position": "M",
     "jersey": 28,
     "birthdate": "2007-04-17",
     "nationality": "BRA",
@@ -7127,7 +7127,7 @@
     "fullName": "Kayky Chagas",
     "shirtName": "Kayky Chagas",
     "team": "int",
-    "position": null,
+    "position": "A",
     "jersey": 11,
     "birthdate": "2003-06-11",
     "nationality": "BRA",
@@ -7153,7 +7153,7 @@
     "fullName": "Filipinho",
     "shirtName": "Filipinho",
     "team": "cap",
-    "position": "M",
+    "position": "D",
     "jersey": 5,
     "birthdate": "2001-10-18",
     "nationality": "BRA",
@@ -7166,7 +7166,7 @@
     "fullName": "Luiz Gustavo",
     "shirtName": "Luiz Gustavo",
     "team": "cor",
-    "position": null,
+    "position": "M",
     "jersey": 54,
     "birthdate": "2006-01-02",
     "nationality": "BRA",
@@ -7179,7 +7179,7 @@
     "fullName": "Gustavo Reis",
     "shirtName": "G. Reis",
     "team": "bra",
-    "position": null,
+    "position": "G",
     "jersey": 56,
     "birthdate": "2005-06-10",
     "nationality": "BRA",
@@ -7199,7 +7199,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-246711": {
     "fullName": "Carlinhos",
@@ -7212,7 +7212,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-301185": {
     "fullName": "Jajá",
@@ -7225,7 +7225,7 @@
     "apps": 14,
     "goals": 4,
     "debut": "2026-02-25",
-    "active": true
+    "active": false
   },
   "p-espn-202493": {
     "fullName": "Ivan",
@@ -7238,13 +7238,13 @@
     "apps": 1,
     "goals": 0,
     "debut": "2026-05-31",
-    "active": true
+    "active": false
   },
   "p-espn-382898": {
     "fullName": "Pedro Kauã",
     "shirtName": "Pedro Kauã",
     "team": "int",
-    "position": null,
+    "position": "D",
     "jersey": 46,
     "birthdate": "2006-03-29",
     "nationality": "BRA",
@@ -7257,7 +7257,7 @@
     "fullName": "Matheus Bahia",
     "shirtName": "M. Bahia",
     "team": "int",
-    "position": "M",
+    "position": "D",
     "jersey": 6,
     "birthdate": "1999-08-11",
     "nationality": "BRA",
@@ -7309,7 +7309,7 @@
     "fullName": "Felipe Negrucci",
     "shirtName": "F. Negrucci",
     "team": "sao",
-    "position": null,
+    "position": "M",
     "jersey": 30,
     "birthdate": "2004-05-14",
     "nationality": "BRA",
@@ -7322,7 +7322,7 @@
     "fullName": "Walace",
     "shirtName": "Walace",
     "team": "cru",
-    "position": null,
+    "position": "M",
     "jersey": 5,
     "birthdate": "1995-04-04",
     "nationality": "BRA",
@@ -7374,7 +7374,7 @@
     "fullName": "Felipe Anderson",
     "shirtName": "Felipe Anderson",
     "team": "pal",
-    "position": "A",
+    "position": "M",
     "jersey": 7,
     "birthdate": "1993-04-15",
     "nationality": "BRA",
@@ -7387,7 +7387,7 @@
     "fullName": "Keven Samuel",
     "shirtName": "Keven Samuel",
     "team": "flu",
-    "position": null,
+    "position": "A",
     "jersey": 39,
     "birthdate": "2007-01-26",
     "nationality": "BRA",
@@ -7413,7 +7413,7 @@
     "fullName": "Jeferson Forneck",
     "shirtName": "J. Forneck",
     "team": "gre",
-    "position": null,
+    "position": "M",
     "jersey": 40,
     "birthdate": "2006-12-14",
     "nationality": "BRA",
@@ -7426,7 +7426,7 @@
     "fullName": "Riquelme Freitas",
     "shirtName": "R. Freitas",
     "team": "gre",
-    "position": null,
+    "position": "M",
     "jersey": 65,
     "birthdate": "2006-08-13",
     "nationality": "BRA",
@@ -7569,7 +7569,7 @@
     "fullName": "Patrick Silva",
     "shirtName": "Patrick Silva",
     "team": "cam",
-    "position": null,
+    "position": "M",
     "jersey": 20,
     "birthdate": "2004-03-19",
     "nationality": "BRA",
@@ -7582,7 +7582,7 @@
     "fullName": "David Martins",
     "shirtName": "D. Martins",
     "team": "bah",
-    "position": null,
+    "position": "M",
     "jersey": 63,
     "birthdate": "2007-09-15",
     "nationality": "BRA",
@@ -7595,7 +7595,7 @@
     "fullName": "Wendel Passos",
     "shirtName": "W. Passos",
     "team": "bah",
-    "position": null,
+    "position": "M",
     "jersey": 67,
     "birthdate": "2006-02-28",
     "nationality": "BRA",
@@ -7608,7 +7608,7 @@
     "fullName": "Marcos Victor",
     "shirtName": "Marcos Victor",
     "team": "bah",
-    "position": null,
+    "position": "D",
     "jersey": 44,
     "birthdate": "2001-12-26",
     "nationality": "BRA",
@@ -7634,7 +7634,7 @@
     "fullName": "Anderson Bispo Dos Santos",
     "shirtName": "A. Bispo Dos Santos",
     "team": "vit",
-    "position": null,
+    "position": "A",
     "jersey": 28,
     "birthdate": "2002-09-28",
     "nationality": "BRA",
@@ -7660,7 +7660,7 @@
     "fullName": "Zakaria Labyad",
     "shirtName": "Z. Labyad",
     "team": "cor",
-    "position": null,
+    "position": "A",
     "jersey": 52,
     "birthdate": "1993-03-09",
     "nationality": "MOR",
@@ -7673,7 +7673,7 @@
     "fullName": "Keiller",
     "shirtName": "Keiller",
     "team": "cfc",
-    "position": null,
+    "position": "G",
     "jersey": 13,
     "birthdate": "1996-10-29",
     "nationality": "BRA",
@@ -7686,7 +7686,7 @@
     "fullName": "Luiz Araújo",
     "shirtName": "L. Araújo",
     "team": "fla",
-    "position": "M",
+    "position": "A",
     "jersey": 7,
     "birthdate": "1996-06-02",
     "nationality": "BRA",
@@ -7699,7 +7699,7 @@
     "fullName": "Murilo Rhikman",
     "shirtName": "M. Rhikman",
     "team": "cru",
-    "position": null,
+    "position": "M",
     "jersey": 35,
     "birthdate": "2006-03-13",
     "nationality": "BRA",
@@ -7732,7 +7732,7 @@
     "apps": 14,
     "goals": 0,
     "debut": "2026-03-12",
-    "active": true
+    "active": false
   },
   "p-espn-116395": {
     "fullName": "Rodrigo Castillo",
@@ -7764,7 +7764,7 @@
     "fullName": "Marcelo Pitaluga",
     "shirtName": "M. Pitaluga",
     "team": "flu",
-    "position": null,
+    "position": "G",
     "jersey": 27,
     "birthdate": "2002-12-20",
     "nationality": "BRA",
@@ -7797,7 +7797,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-270578": {
     "fullName": "André Silva",
@@ -7816,7 +7816,7 @@
     "fullName": "Nicolas",
     "shirtName": "Nicolas",
     "team": "sao",
-    "position": null,
+    "position": "D",
     "jersey": 56,
     "birthdate": "2007-04-08",
     "nationality": "BRA",
@@ -7946,7 +7946,7 @@
     "fullName": "Caio Valle",
     "shirtName": "C. Valle",
     "team": "bot",
-    "position": null,
+    "position": "M",
     "jersey": 45,
     "birthdate": "2007-10-11",
     "nationality": "BRA",
@@ -7959,8 +7959,8 @@
     "fullName": "Júnior Santos",
     "shirtName": "J. Santos",
     "team": "bot",
-    "position": "M",
-    "jersey": 7,
+    "position": "A",
+    "jersey": 17,
     "birthdate": "1994-10-11",
     "nationality": "BRA",
     "apps": 9,
@@ -7972,7 +7972,7 @@
     "fullName": "Dyogo Alves",
     "shirtName": "D. Alves",
     "team": "fla",
-    "position": null,
+    "position": "G",
     "jersey": 49,
     "birthdate": "2004-01-09",
     "nationality": "BRA",
@@ -7998,7 +7998,7 @@
     "fullName": "Kaio",
     "shirtName": "Kaio",
     "team": "cor",
-    "position": "M",
+    "position": "A",
     "jersey": 37,
     "birthdate": "2004-02-15",
     "nationality": "BRA",
@@ -8011,7 +8011,7 @@
     "fullName": "Julio Fidelis",
     "shirtName": "J. Fidelis",
     "team": "flu",
-    "position": null,
+    "position": "D",
     "jersey": 46,
     "birthdate": "2006-11-06",
     "nationality": "BRA",
@@ -8044,13 +8044,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-398521": {
     "fullName": "Walace",
     "shirtName": "Walace",
     "team": "vas",
-    "position": null,
+    "position": "D",
     "jersey": 64,
     "birthdate": "2005-03-07",
     "nationality": "BRA",
@@ -8089,7 +8089,7 @@
     "fullName": "Claudinho",
     "shirtName": "Claudinho",
     "team": "cap",
-    "position": "M",
+    "position": "D",
     "jersey": 26,
     "birthdate": "2005-10-26",
     "nationality": "BRA",
@@ -8102,7 +8102,7 @@
     "fullName": "Rhuan Gabriel",
     "shirtName": "Rhuan Gabriel",
     "team": "cru",
-    "position": null,
+    "position": "M",
     "jersey": 40,
     "birthdate": "2006-02-06",
     "nationality": "BRA",
@@ -8115,7 +8115,7 @@
     "fullName": "Martin Braithwaite",
     "shirtName": "M. Braithwaite",
     "team": "gre",
-    "position": "M",
+    "position": "A",
     "jersey": 22,
     "birthdate": "1991-06-05",
     "nationality": "DEN",
@@ -8128,7 +8128,7 @@
     "fullName": "Diego Tarzia",
     "shirtName": "D. Tarzia",
     "team": "vit",
-    "position": "M",
+    "position": "D",
     "jersey": 12,
     "birthdate": "2003-04-26",
     "nationality": "ARG",
@@ -8154,7 +8154,7 @@
     "fullName": "Gean",
     "shirtName": "Gean",
     "team": "vit",
-    "position": null,
+    "position": "D",
     "jersey": 59,
     "birthdate": "2007-06-11",
     "nationality": "BRA",
@@ -8174,7 +8174,7 @@
     "apps": 6,
     "goals": 3,
     "debut": "2026-03-19",
-    "active": true
+    "active": false
   },
   "p-espn-274517": {
     "fullName": "Gabriel Poveda",
@@ -8187,13 +8187,13 @@
     "apps": 10,
     "goals": 0,
     "debut": "2026-03-22",
-    "active": true
+    "active": false
   },
   "p-espn-417809": {
     "fullName": "Caio Suassuna",
     "shirtName": "Caio Suassuna",
     "team": "bah",
-    "position": null,
+    "position": "A",
     "jersey": 90,
     "birthdate": "2007-03-23",
     "nationality": "BRA",
@@ -8206,7 +8206,7 @@
     "fullName": "Sidney",
     "shirtName": "Sidney",
     "team": "bah",
-    "position": null,
+    "position": "M",
     "jersey": 55,
     "birthdate": "2006-03-12",
     "nationality": "BRA",
@@ -8219,7 +8219,7 @@
     "fullName": "Rafael Gonzaga",
     "shirtName": "Rafael Gonzaga",
     "team": "san",
-    "position": null,
+    "position": "D",
     "jersey": 38,
     "birthdate": "2008-02-07",
     "nationality": "BRA",
@@ -8232,7 +8232,7 @@
     "fullName": "Caio Roque",
     "shirtName": "Caio Roque",
     "team": "bot",
-    "position": null,
+    "position": "D",
     "jersey": 27,
     "birthdate": "2002-01-09",
     "nationality": "BRA",
@@ -8245,7 +8245,7 @@
     "fullName": "Kauan",
     "shirtName": "Kauan",
     "team": "int",
-    "position": null,
+    "position": "G",
     "jersey": 22,
     "birthdate": "2003-04-27",
     "nationality": "BRA",
@@ -8258,7 +8258,7 @@
     "fullName": "Clayton",
     "shirtName": "Clayton",
     "team": "int",
-    "position": null,
+    "position": "D",
     "jersey": 20,
     "birthdate": "2000-04-04",
     "nationality": "BRA",
@@ -8271,7 +8271,7 @@
     "fullName": "Tetê",
     "shirtName": "Tetê",
     "team": "sao",
-    "position": null,
+    "position": "A",
     "jersey": 34,
     "birthdate": "2007-04-14",
     "nationality": "BRA",
@@ -8284,7 +8284,7 @@
     "fullName": "João Moreira",
     "shirtName": "J. Moreira",
     "team": "sao",
-    "position": null,
+    "position": "D",
     "jersey": 15,
     "birthdate": "2004-05-21",
     "nationality": "BRA",
@@ -8297,7 +8297,7 @@
     "fullName": "Young",
     "shirtName": "Young",
     "team": "sao",
-    "position": null,
+    "position": "G",
     "jersey": 50,
     "birthdate": "2002-03-07",
     "nationality": "BRA",
@@ -8336,7 +8336,7 @@
     "fullName": "Isaac",
     "shirtName": "Isaac",
     "team": "cap",
-    "position": null,
+    "position": "A",
     "jersey": 11,
     "birthdate": "2004-04-24",
     "nationality": "BRA",
@@ -8349,7 +8349,7 @@
     "fullName": "Gabriel Leite",
     "shirtName": "G. Leite",
     "team": "cfc",
-    "position": null,
+    "position": "G",
     "jersey": 87,
     "birthdate": "1987-12-28",
     "nationality": "BRA",
@@ -8362,7 +8362,7 @@
     "fullName": "Riquelme Avellar",
     "shirtName": "R. Avellar",
     "team": "vas",
-    "position": null,
+    "position": "D",
     "jersey": 82,
     "birthdate": "2006-03-08",
     "nationality": "BRA",
@@ -8388,7 +8388,7 @@
     "fullName": "Germán Cano",
     "shirtName": "G. Cano",
     "team": "flu",
-    "position": null,
+    "position": "A",
     "jersey": 14,
     "birthdate": "1988-01-02",
     "nationality": "ARG",
@@ -8427,7 +8427,7 @@
     "fullName": "Kevin Ramírez",
     "shirtName": "K. Ramírez",
     "team": "cha",
-    "position": null,
+    "position": "A",
     "jersey": 94,
     "birthdate": "1994-04-01",
     "nationality": "URU",
@@ -8440,7 +8440,7 @@
     "fullName": "Cauã Soares",
     "shirtName": "Cauã Soares",
     "team": "cam",
-    "position": null,
+    "position": "A",
     "jersey": 29,
     "birthdate": "2008-06-30",
     "nationality": "BRA",
@@ -8460,7 +8460,7 @@
     "apps": 10,
     "goals": 0,
     "debut": "2026-04-02",
-    "active": true
+    "active": false
   },
   "p-espn-280678": {
     "fullName": "Matheus Alexandre",
@@ -8473,7 +8473,7 @@
     "apps": 7,
     "goals": 0,
     "debut": "2026-04-05",
-    "active": true
+    "active": false
   },
   "p-espn-359364": {
     "fullName": "David Francisco",
@@ -8486,7 +8486,7 @@
     "apps": 6,
     "goals": 0,
     "debut": "2026-04-02",
-    "active": true
+    "active": false
   },
   "p-espn-217550": {
     "fullName": "Cristian Tassano",
@@ -8499,13 +8499,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-402695": {
     "fullName": "Erick Machado",
     "shirtName": "E. Machado",
     "team": "pal",
-    "position": null,
+    "position": "M",
     "jersey": 45,
     "birthdate": "2007-01-21",
     "nationality": "BRA",
@@ -8531,7 +8531,7 @@
     "fullName": "David Alves",
     "shirtName": "David Alves",
     "team": "cfc",
-    "position": null,
+    "position": "A",
     "jersey": 33,
     "birthdate": "2008-02-04",
     "nationality": "BRA",
@@ -8544,7 +8544,7 @@
     "fullName": "Wemerson Do Carmo Silva",
     "shirtName": "W. Do Carmo Silva",
     "team": "cha",
-    "position": null,
+    "position": "M",
     "jersey": 38,
     "birthdate": "2001-02-16",
     "nationality": "BRA",
@@ -8557,7 +8557,7 @@
     "fullName": "Rodrigo Falcão",
     "shirtName": "R. Falcão",
     "team": "san",
-    "position": null,
+    "position": "G",
     "jersey": 67,
     "birthdate": "2005-03-23",
     "nationality": "BRA",
@@ -8570,7 +8570,7 @@
     "fullName": "Iago Machado",
     "shirtName": "Iago Machado",
     "team": "cor",
-    "position": null,
+    "position": "D",
     "jersey": 55,
     "birthdate": "2009-02-17",
     "nationality": "BRA",
@@ -8583,7 +8583,7 @@
     "fullName": "Luiz Benedetti",
     "shirtName": "L. Benedetti",
     "team": "pal",
-    "position": null,
+    "position": "D",
     "jersey": 43,
     "birthdate": "2006-06-07",
     "nationality": "BRA",
@@ -8596,7 +8596,7 @@
     "fullName": "Jhuan Nunes",
     "shirtName": "Jhuan Nunes",
     "team": "bra",
-    "position": null,
+    "position": "A",
     "jersey": 67,
     "birthdate": "2007-06-03",
     "nationality": "BRA",
@@ -8622,7 +8622,7 @@
     "fullName": "Kauan Santos",
     "shirtName": "K. Santos",
     "team": "vit",
-    "position": null,
+    "position": "D",
     "jersey": 18,
     "birthdate": "2007-03-15",
     "nationality": "BRA",
@@ -8668,13 +8668,13 @@
     "apps": 3,
     "goals": 0,
     "debut": "2026-04-12",
-    "active": true
+    "active": false
   },
   "p-espn-400275": {
     "fullName": "Luiz Felipe",
     "shirtName": "Luiz Felipe",
     "team": "fla",
-    "position": null,
+    "position": "M",
     "jersey": 75,
     "birthdate": "2008-02-08",
     "nationality": "BRA",
@@ -8687,7 +8687,7 @@
     "fullName": "Jacaré",
     "shirtName": "Jacaré",
     "team": "cor",
-    "position": null,
+    "position": "D",
     "jersey": 59,
     "birthdate": "2007-01-03",
     "nationality": "BRA",
@@ -8700,7 +8700,7 @@
     "fullName": "Igor Felisberto",
     "shirtName": "I. Felisberto",
     "team": "sao",
-    "position": null,
+    "position": "D",
     "jersey": 40,
     "birthdate": "2007-03-07",
     "nationality": "BRA",
@@ -8713,7 +8713,7 @@
     "fullName": "Benjamin Arhin",
     "shirtName": "B. Arhin",
     "team": "int",
-    "position": null,
+    "position": "M",
     "jersey": 33,
     "birthdate": "2006-05-29",
     "nationality": "GHA",
@@ -8726,7 +8726,7 @@
     "fullName": "Riquelme",
     "shirtName": "Riquelme",
     "team": "flu",
-    "position": null,
+    "position": "A",
     "jersey": 28,
     "birthdate": "2007-03-13",
     "nationality": "BRA",
@@ -8752,7 +8752,7 @@
     "fullName": "Iuri Jean Carlo Neres Dos Santos",
     "shirtName": "I. Neres Dos Santos",
     "team": "bah",
-    "position": null,
+    "position": "G",
     "jersey": 91,
     "birthdate": null,
     "nationality": "BRA",
@@ -8765,7 +8765,7 @@
     "fullName": "João Pedro",
     "shirtName": "João Pedro",
     "team": "san",
-    "position": null,
+    "position": "G",
     "jersey": 79,
     "birthdate": "2008-03-18",
     "nationality": "BRA",
@@ -8778,7 +8778,7 @@
     "fullName": "Alex Santana",
     "shirtName": "A. Santana",
     "team": "cor",
-    "position": null,
+    "position": "M",
     "jersey": 80,
     "birthdate": "1995-05-13",
     "nationality": "BRA",
@@ -8791,7 +8791,7 @@
     "fullName": "Wendell Sacramento",
     "shirtName": "W. Sacramento",
     "team": "vit",
-    "position": null,
+    "position": "M",
     "jersey": 41,
     "birthdate": "2005-08-31",
     "nationality": "BRA",
@@ -8804,7 +8804,7 @@
     "fullName": "Paulinho",
     "shirtName": "Paulinho",
     "team": "pal",
-    "position": null,
+    "position": "A",
     "jersey": 10,
     "birthdate": "2000-07-15",
     "nationality": "BRA",
@@ -8817,7 +8817,7 @@
     "fullName": "Samuel Mendes",
     "shirtName": "Samuel Mendes",
     "team": "san",
-    "position": null,
+    "position": "M",
     "jersey": 81,
     "birthdate": "2008-01-30",
     "nationality": "BRA",
@@ -8837,13 +8837,13 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-307933": {
     "fullName": "Vanderlan",
     "shirtName": "Vanderlan",
     "team": "bra",
-    "position": null,
+    "position": "D",
     "jersey": 12,
     "birthdate": "2002-09-07",
     "nationality": "BRA",
@@ -8856,7 +8856,7 @@
     "fullName": "Breno de Moraes",
     "shirtName": "Breno de Moraes",
     "team": "bra",
-    "position": null,
+    "position": "D",
     "jersey": 46,
     "birthdate": "2008-06-25",
     "nationality": "BRA",
@@ -8869,7 +8869,7 @@
     "fullName": "Thomazella",
     "shirtName": "Thomazella",
     "team": "mir",
-    "position": null,
+    "position": "G",
     "jersey": 90,
     "birthdate": "1990-08-15",
     "nationality": "BRA",
@@ -8882,7 +8882,7 @@
     "fullName": "Nícollas",
     "shirtName": "Nícollas",
     "team": "cor",
-    "position": null,
+    "position": "A",
     "jersey": 67,
     "birthdate": "2008-06-13",
     "nationality": "BRA",
@@ -8908,7 +8908,7 @@
     "fullName": "Luiz Felipe De Morais Francisco",
     "shirtName": "L. De Morais Francisco",
     "team": "int",
-    "position": null,
+    "position": "D",
     "jersey": 53,
     "birthdate": null,
     "nationality": "BRA",
@@ -8921,7 +8921,7 @@
     "fullName": "Marquinhos",
     "shirtName": "Marquinhos",
     "team": "cru",
-    "position": null,
+    "position": "A",
     "jersey": 7,
     "birthdate": "2003-04-07",
     "nationality": "BRA",
@@ -8934,7 +8934,7 @@
     "fullName": "Johnny Monteiro Góes",
     "shirtName": "J. Monteiro Góes",
     "team": "fla",
-    "position": null,
+    "position": "D",
     "jersey": 77,
     "birthdate": "2007-03-27",
     "nationality": "BRA",
@@ -8947,7 +8947,7 @@
     "fullName": "Ramon Rique",
     "shirtName": "Ramon Rique",
     "team": "vas",
-    "position": null,
+    "position": "M",
     "jersey": 83,
     "birthdate": "2007-10-02",
     "nationality": "BRA",
@@ -8960,7 +8960,7 @@
     "fullName": "Pablo",
     "shirtName": "Pablo",
     "team": "vas",
-    "position": null,
+    "position": "G",
     "jersey": 37,
     "birthdate": "2003-02-11",
     "nationality": "BRA",
@@ -8973,7 +8973,7 @@
     "fullName": "Hugo",
     "shirtName": "Hugo",
     "team": "sao",
-    "position": null,
+    "position": "D",
     "jersey": 38,
     "birthdate": "2004-01-19",
     "nationality": "BRA",
@@ -8986,7 +8986,7 @@
     "fullName": "Vitor Ramon",
     "shirtName": "Vitor Ramon",
     "team": "gre",
-    "position": null,
+    "position": "D",
     "jersey": 32,
     "birthdate": "2008-01-15",
     "nationality": "BRA",
@@ -9012,7 +9012,7 @@
     "fullName": "Cauan De Jesus",
     "shirtName": "C. De Jesus",
     "team": "vit",
-    "position": null,
+    "position": "M",
     "jersey": 70,
     "birthdate": "2006-10-03",
     "nationality": "BRA",
@@ -9025,7 +9025,7 @@
     "fullName": "Gustavo Santana",
     "shirtName": "G. Santana",
     "team": "sao",
-    "position": null,
+    "position": "M",
     "jersey": 43,
     "birthdate": "2005-09-02",
     "nationality": "BRA",
@@ -9038,7 +9038,7 @@
     "fullName": "Mathías Villasanti",
     "shirtName": "M. Villasanti",
     "team": "gre",
-    "position": null,
+    "position": "M",
     "jersey": 20,
     "birthdate": "1997-01-24",
     "nationality": "PAR",
@@ -9051,7 +9051,7 @@
     "fullName": "João Alencar",
     "shirtName": "João Alencar",
     "team": "san",
-    "position": null,
+    "position": "D",
     "jersey": 42,
     "birthdate": "2007-06-25",
     "nationality": "BRA",
@@ -9064,7 +9064,7 @@
     "fullName": "Davizinho",
     "shirtName": "Davizinho",
     "team": "san",
-    "position": null,
+    "position": "A",
     "jersey": 27,
     "birthdate": "2008-07-27",
     "nationality": "BRA",
@@ -9077,7 +9077,7 @@
     "fullName": "Arthur Monteiro",
     "shirtName": "Arthur Monteiro",
     "team": "cap",
-    "position": null,
+    "position": "D",
     "jersey": 36,
     "birthdate": "2009-09-10",
     "nationality": "BRA",
@@ -9090,7 +9090,7 @@
     "fullName": "Victor Vinicius Teodoro Ferraz",
     "shirtName": "V. Teodoro Ferraz",
     "team": "cap",
-    "position": null,
+    "position": "D",
     "jersey": 32,
     "birthdate": "2007-04-19",
     "nationality": "BRA",
@@ -9103,7 +9103,7 @@
     "fullName": "Lukas Zuccarello",
     "shirtName": "L. Zuccarello",
     "team": "vas",
-    "position": null,
+    "position": "M",
     "jersey": 86,
     "birthdate": "2006-12-02",
     "nationality": "BRA",
@@ -9116,7 +9116,7 @@
     "fullName": "Bruno Lopes",
     "shirtName": "B. Lopes",
     "team": "vas",
-    "position": null,
+    "position": "A",
     "jersey": 72,
     "birthdate": "2007-07-25",
     "nationality": "BRA",
@@ -9129,7 +9129,7 @@
     "fullName": "Weimar Vivas",
     "shirtName": "W. Vivas",
     "team": "bra",
-    "position": null,
+    "position": "D",
     "jersey": 54,
     "birthdate": "2006-10-17",
     "nationality": "COL",
@@ -9142,7 +9142,7 @@
     "fullName": "Filipe",
     "shirtName": "Filipe",
     "team": "bra",
-    "position": null,
+    "position": "A",
     "jersey": 59,
     "birthdate": "2006-02-13",
     "nationality": "BRA",
@@ -9168,8 +9168,8 @@
     "fullName": "João Victor",
     "shirtName": "João Victor",
     "team": "fla",
-    "position": null,
-    "jersey": 61,
+    "position": "D",
+    "jersey": 71,
     "birthdate": "2007-01-01",
     "nationality": "BRA",
     "apps": 1,
@@ -9181,7 +9181,7 @@
     "fullName": "Alan Santos",
     "shirtName": "Alan Santos",
     "team": "fla",
-    "position": null,
+    "position": "A",
     "jersey": 59,
     "birthdate": "2007-05-10",
     "nationality": "BRA",
@@ -9194,7 +9194,7 @@
     "fullName": "Joshua",
     "shirtName": "Joshua",
     "team": "fla",
-    "position": null,
+    "position": "M",
     "jersey": 79,
     "birthdate": "2007-05-26",
     "nationality": "BRA",
@@ -9207,7 +9207,7 @@
     "fullName": "Daniel Carvalho Marinho Da Silva",
     "shirtName": "D. Carvalho Marinho Da Silva",
     "team": "fla",
-    "position": null,
+    "position": "D",
     "jersey": 87,
     "birthdate": "2009-03-31",
     "nationality": "BRA",
@@ -9220,7 +9220,7 @@
     "fullName": "Gabriel Menegon",
     "shirtName": "G. Menegon",
     "team": "gre",
-    "position": null,
+    "position": "G",
     "jersey": 31,
     "birthdate": "2008-10-14",
     "nationality": "BRA",
@@ -9233,7 +9233,7 @@
     "fullName": "Victor",
     "shirtName": "Victor",
     "team": "bah",
-    "position": null,
+    "position": "G",
     "jersey": 61,
     "birthdate": "2006-05-03",
     "nationality": "BRA",
@@ -9246,7 +9246,7 @@
     "fullName": "Anthony",
     "shirtName": "Anthony",
     "team": "bot",
-    "position": null,
+    "position": "D",
     "jersey": 26,
     "birthdate": "2005-07-12",
     "nationality": "BRA",
@@ -9259,7 +9259,7 @@
     "fullName": "Pepê Fermino",
     "shirtName": "Pepê Fermino",
     "team": "san",
-    "position": null,
+    "position": "M",
     "jersey": 20,
     "birthdate": "2007-02-12",
     "nationality": "BRA",
@@ -9272,7 +9272,7 @@
     "fullName": "Fintelman",
     "shirtName": "Fintelman",
     "team": "vit",
-    "position": null,
+    "position": "G",
     "jersey": 35,
     "birthdate": "2001-07-20",
     "nationality": "BRA",
@@ -9285,7 +9285,7 @@
     "fullName": "Yuri",
     "shirtName": "Yuri",
     "team": "bra",
-    "position": null,
+    "position": "M",
     "jersey": 41,
     "birthdate": "2006-09-06",
     "nationality": "BRA",
@@ -9298,7 +9298,7 @@
     "fullName": "Victor Gabriel",
     "shirtName": "V. Gabriel",
     "team": "pal",
-    "position": null,
+    "position": "M",
     "jersey": 47,
     "birthdate": "2006-11-22",
     "nationality": "BRA",
@@ -9311,7 +9311,7 @@
     "fullName": "Rafael Coutinho",
     "shirtName": "R. Coutinho",
     "team": "pal",
-    "position": null,
+    "position": "M",
     "jersey": 55,
     "birthdate": "2006-03-24",
     "nationality": "BRA",
@@ -9324,7 +9324,7 @@
     "fullName": "Eduardo",
     "shirtName": "Eduardo",
     "team": "pal",
-    "position": null,
+    "position": "A",
     "jersey": 41,
     "birthdate": "2009-12-07",
     "nationality": "BRA",
@@ -9337,7 +9337,7 @@
     "fullName": "Mohamed Kone",
     "shirtName": "M. Kone",
     "team": "pal",
-    "position": null,
+    "position": "D",
     "jersey": 44,
     "birthdate": "2007-10-20",
     "nationality": null,
@@ -9350,7 +9350,7 @@
     "fullName": "Kauan Lima",
     "shirtName": "Kauan Lima",
     "team": "pal",
-    "position": null,
+    "position": "G",
     "jersey": 72,
     "birthdate": "2007-02-14",
     "nationality": "BRA",
@@ -9363,8 +9363,8 @@
     "fullName": "Matheus",
     "shirtName": "Matheus",
     "team": "cha",
-    "position": null,
-    "jersey": 30,
+    "position": "G",
+    "jersey": null,
     "birthdate": "1999-06-23",
     "nationality": "BRA",
     "apps": 0,
@@ -9376,7 +9376,7 @@
     "fullName": "Robert",
     "shirtName": "Robert",
     "team": "cam",
-    "position": null,
+    "position": "G",
     "jersey": 31,
     "birthdate": "2005-02-03",
     "nationality": "BRA",
@@ -9389,7 +9389,7 @@
     "fullName": "Davi Schuindt",
     "shirtName": "D. Schuindt",
     "team": "flu",
-    "position": null,
+    "position": "D",
     "jersey": 40,
     "birthdate": "2004-04-26",
     "nationality": "BRA",
@@ -9409,7 +9409,7 @@
     "apps": 0,
     "goals": 0,
     "debut": null,
-    "active": true
+    "active": false
   },
   "p-espn-332352": {
     "fullName": "Kaique",
@@ -9421,7 +9421,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
@@ -9433,7 +9434,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421505": {
     "fullName": "Luiz Fernando",
@@ -9445,7 +9447,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-332351": {
     "fullName": "Kaiky Naves",
@@ -9457,7 +9460,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402698": {
     "fullName": "Thiago Soares",
@@ -9469,7 +9473,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-413749": {
     "fullName": "Derick",
@@ -9481,7 +9486,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-413761": {
     "fullName": "Luccas Ramon",
@@ -9493,7 +9499,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421486": {
     "fullName": "Luis Saboia",
@@ -9505,7 +9512,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421503": {
     "fullName": "André Lucas",
@@ -9517,7 +9525,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-408185": {
     "fullName": "Guilherme Nogueira",
@@ -9529,7 +9538,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421504": {
     "fullName": "Ruan Yago",
@@ -9541,7 +9551,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421506": {
     "fullName": "Isaac",
@@ -9553,7 +9564,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421507": {
     "fullName": "João Paulo",
@@ -9565,7 +9577,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-387779": {
     "fullName": "Juliano Viana Papille",
@@ -9577,7 +9590,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-412292": {
     "fullName": "Heittor",
@@ -9589,7 +9603,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421498": {
     "fullName": "Juan Gabriel",
@@ -9601,7 +9616,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421538": {
     "fullName": "Kauã",
@@ -9613,7 +9629,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-399456": {
     "fullName": "Leó Nannetti",
@@ -9625,7 +9642,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-415444": {
     "fullName": "Gabriel Laizo  Werneck",
@@ -9637,7 +9655,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-371495": {
     "fullName": "Da Mata",
@@ -9649,7 +9668,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-389773": {
     "fullName": "Gusttavo Sousa",
@@ -9661,7 +9681,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421502": {
     "fullName": "Ernest Muñoz",
@@ -9673,7 +9694,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-357117": {
     "fullName": "Lorran",
@@ -9685,7 +9707,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-359450": {
     "fullName": "Rayan Lucas",
@@ -9697,7 +9720,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-399720": {
     "fullName": "Lucas Santos",
@@ -9709,7 +9733,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402709": {
     "fullName": "Jhefinho",
@@ -9721,7 +9746,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-409577": {
     "fullName": "Kaio Nóbrega",
@@ -9733,7 +9759,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-419154": {
     "fullName": "Gabriel Amancio",
@@ -9745,7 +9772,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421508": {
     "fullName": "Juan Sayago",
@@ -9757,7 +9785,8 @@
     "nationality": "ARG",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402708": {
     "fullName": "João",
@@ -9769,7 +9798,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-414359": {
     "fullName": "Josmar",
@@ -9781,7 +9811,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-415443": {
     "fullName": "Gustavo Rodrigues Nunes",
@@ -9793,7 +9824,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-333936": {
     "fullName": "Lelê",
@@ -9805,7 +9837,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-315456": {
     "fullName": "Gustavo Ramalho",
@@ -9817,7 +9850,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398661": {
     "fullName": "Gustavo Felix",
@@ -9829,7 +9863,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421386": {
     "fullName": "Antônio Carlos",
@@ -9841,7 +9876,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398657": {
     "fullName": "Breno",
@@ -9853,7 +9889,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398663": {
     "fullName": "Kaio Borges",
@@ -9865,7 +9902,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421388": {
     "fullName": "Gorgulho",
@@ -9877,7 +9915,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-207912": {
     "fullName": "David Terans",
@@ -9889,7 +9928,8 @@
     "nationality": "URU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-358065": {
     "fullName": "Agner",
@@ -9901,7 +9941,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-403160": {
     "fullName": "Vagno",
@@ -9913,7 +9954,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404205": {
     "fullName": "Naarã",
@@ -9925,7 +9967,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421385": {
     "fullName": "Peter",
@@ -9937,7 +9980,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421389": {
     "fullName": "Paulo Guilherme",
@@ -9949,7 +9993,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421390": {
     "fullName": "Ruan Sales",
@@ -9961,7 +10006,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-357484": {
     "fullName": "João Pedro Silverio Lourenco",
@@ -9973,7 +10019,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-379485": {
     "fullName": "Isack Pelé",
@@ -9985,7 +10032,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421387": {
     "fullName": "Enzo",
@@ -9997,7 +10045,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-382868": {
     "fullName": "Maksym Voronov",
@@ -10009,7 +10058,8 @@
     "nationality": "UKR",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-403290": {
     "fullName": "Carlos Eduardo Souza De Barros",
@@ -10021,7 +10071,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-249088": {
     "fullName": "Dudu",
@@ -10033,7 +10084,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-272240": {
     "fullName": "Hayen Palacios",
@@ -10045,7 +10097,8 @@
     "nationality": "COL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417346": {
     "fullName": "Gustavo Veiga",
@@ -10057,7 +10110,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417506": {
     "fullName": "Murilo Camargo",
@@ -10069,7 +10123,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-268187": {
     "fullName": "Alejandro García",
@@ -10081,7 +10136,8 @@
     "nationality": "COL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-382862": {
     "fullName": "Guilherme Back",
@@ -10093,7 +10149,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417347": {
     "fullName": "Kauan Stabelini",
@@ -10105,7 +10162,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417348": {
     "fullName": "Lucas Marezi",
@@ -10117,7 +10175,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418052": {
     "fullName": "Benjamín Brito",
@@ -10129,7 +10188,8 @@
     "nationality": "ARG",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-380149": {
     "fullName": "Lucas Amorim",
@@ -10141,7 +10201,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-382869": {
     "fullName": "Sorriso",
@@ -10153,7 +10214,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418051": {
     "fullName": "Juliano Santini",
@@ -10165,7 +10227,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-302628": {
     "fullName": "Thiago Borbas",
@@ -10177,7 +10240,8 @@
     "nationality": "URU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-287767": {
     "fullName": "Fabrício",
@@ -10189,7 +10253,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-361620": {
     "fullName": "Fernando Costa",
@@ -10201,7 +10266,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421628": {
     "fullName": "Rafael Monteiro",
@@ -10213,7 +10279,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-302225": {
     "fullName": "Guzmán Rodríguez",
@@ -10225,7 +10292,8 @@
     "nationality": "URU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-285233": {
     "fullName": "Ignacio Laquintana",
@@ -10237,7 +10305,8 @@
     "nationality": "URU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-289910": {
     "fullName": "Bruno Conceicão",
@@ -10249,7 +10318,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-291053": {
     "fullName": "João Neto",
@@ -10261,7 +10331,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381277": {
     "fullName": "Rafael Lima",
@@ -10273,7 +10344,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381282": {
     "fullName": "Gabriel Lopes",
@@ -10285,7 +10357,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404204": {
     "fullName": "Luis Gustavo",
@@ -10297,7 +10370,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421627": {
     "fullName": "Chrystian Delfino",
@@ -10309,7 +10383,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421629": {
     "fullName": "Vini Krygsman",
@@ -10321,7 +10396,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-319950": {
     "fullName": "Bruno Gonçalves",
@@ -10333,7 +10409,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417982": {
     "fullName": "Fabio",
@@ -10345,7 +10422,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400316": {
     "fullName": "Dodô",
@@ -10357,7 +10435,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400318": {
     "fullName": "Fredi Lippert",
@@ -10369,7 +10448,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418962": {
     "fullName": "Gerald",
@@ -10381,7 +10461,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-360136": {
     "fullName": "Roger Gabriel",
@@ -10393,7 +10474,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400322": {
     "fullName": "Pedrinho",
@@ -10405,7 +10487,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417811": {
     "fullName": "Victor Hugo",
@@ -10417,7 +10500,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-387949": {
     "fullName": "Ruan Pablo",
@@ -10429,7 +10513,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400320": {
     "fullName": "João Coni",
@@ -10441,7 +10526,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-410922": {
     "fullName": "Lyan Araujo Santos",
@@ -10453,7 +10539,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418963": {
     "fullName": "Ryan Nascimento",
@@ -10465,7 +10552,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-377787": {
     "fullName": "Éberth",
@@ -10477,7 +10565,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-349559": {
     "fullName": "Geovane Santana Meurer",
@@ -10489,7 +10578,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-384026": {
     "fullName": "Thiago Azaf",
@@ -10501,7 +10591,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402818": {
     "fullName": "Tissi",
@@ -10513,7 +10604,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404711": {
     "fullName": "Alejandro Ararat",
@@ -10525,7 +10617,8 @@
     "nationality": "COL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417362": {
     "fullName": "Miguel Silva",
@@ -10537,7 +10630,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-236410": {
     "fullName": "Rodrigo Rodrigues",
@@ -10549,7 +10643,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-384025": {
     "fullName": "Matheus Dias",
@@ -10561,7 +10656,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-380459": {
     "fullName": "Felipe Preis",
@@ -10573,7 +10669,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383059": {
     "fullName": "João Pedro",
@@ -10585,7 +10682,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-358242": {
     "fullName": "Matheus Souza",
@@ -10597,7 +10695,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-371525": {
     "fullName": "Isac",
@@ -10609,7 +10708,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383052": {
     "fullName": "Guilherme Reis",
@@ -10621,7 +10721,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-386050": {
     "fullName": "Igão",
@@ -10633,7 +10734,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421413": {
     "fullName": "Felipe Oliveira",
@@ -10645,7 +10747,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-371433": {
     "fullName": "Matheus Ferreira",
@@ -10657,7 +10760,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-399079": {
     "fullName": "Bezerra",
@@ -10669,7 +10773,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421412": {
     "fullName": "Robert William",
@@ -10681,7 +10786,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-380969": {
     "fullName": "Juan Potes",
@@ -10693,7 +10799,8 @@
     "nationality": "COL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383041": {
     "fullName": "Paulo Sérgio",
@@ -10705,7 +10812,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383042": {
     "fullName": "Ryan Francisco",
@@ -10717,7 +10825,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421415": {
     "fullName": "Brenno",
@@ -10729,7 +10838,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398930": {
     "fullName": "Kaio",
@@ -10741,7 +10851,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-318189": {
     "fullName": "Rômulo",
@@ -10753,7 +10864,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-337868": {
     "fullName": "Julio Vargas",
@@ -10765,7 +10877,8 @@
     "nationality": "PAR",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-379721": {
     "fullName": "Samuel Barros",
@@ -10777,7 +10890,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-401051": {
     "fullName": "Wanderson Junior De Souza Vaz",
@@ -10789,7 +10903,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-407412": {
     "fullName": "Lucas Souza",
@@ -10801,7 +10916,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-415445": {
     "fullName": "Pedro Francisco Fachinetti Dos Santos",
@@ -10813,7 +10929,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417567": {
     "fullName": "Luís Gustavo",
@@ -10825,7 +10942,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-379501": {
     "fullName": "Igor Toledo",
@@ -10837,7 +10955,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398929": {
     "fullName": "Eric",
@@ -10849,7 +10968,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421541": {
     "fullName": "Mateus Romero",
@@ -10861,7 +10981,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383035": {
     "fullName": "Lucas Louback",
@@ -10873,7 +10994,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-410939": {
     "fullName": "Gabriel Veneno",
@@ -10885,7 +11007,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-413673": {
     "fullName": "Wallysson Da Silva",
@@ -10897,7 +11020,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417574": {
     "fullName": "Murillo Fernandes",
@@ -10909,7 +11033,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421540": {
     "fullName": "Riquelme Henrique",
@@ -10921,7 +11046,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421542": {
     "fullName": "João Teixeira",
@@ -10933,7 +11059,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-284998": {
     "fullName": "Matheus Donelli",
@@ -10945,7 +11072,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-376482": {
     "fullName": "Matheus Corrêa",
@@ -10957,7 +11085,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421612": {
     "fullName": "Gustavo Milani",
@@ -10969,7 +11098,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-379516": {
     "fullName": "Guilherme Pellegrin Almeida",
@@ -10981,7 +11111,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-415446": {
     "fullName": "Yago Veloso",
@@ -10993,7 +11124,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421614": {
     "fullName": "Caua Ribeiro",
@@ -11005,7 +11137,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421618": {
     "fullName": "Levi Dias",
@@ -11017,7 +11150,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421619": {
     "fullName": "João Vitor",
@@ -11029,7 +11163,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-379848": {
     "fullName": "Luiz Eduardo",
@@ -11041,7 +11176,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417419": {
     "fullName": "Luiz Fabio",
@@ -11053,7 +11189,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421613": {
     "fullName": "Pedro Thomas",
@@ -11065,7 +11202,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421615": {
     "fullName": "Guilherme Caraguá",
@@ -11077,7 +11215,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421616": {
     "fullName": "Guilherme Pires",
@@ -11089,7 +11228,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-382961": {
     "fullName": "Luiz Fernando",
@@ -11101,7 +11241,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400447": {
     "fullName": "Nicolas Araújo",
@@ -11113,7 +11254,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421609": {
     "fullName": "Christian Santos",
@@ -11125,7 +11267,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421617": {
     "fullName": "Kayque",
@@ -11137,7 +11280,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404611": {
     "fullName": "Vitor Lamounier",
@@ -11149,7 +11293,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-341413": {
     "fullName": "Pedro Henrique Franklim Martins",
@@ -11161,7 +11306,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383098": {
     "fullName": "Nicolas Pontes",
@@ -11173,7 +11319,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404207": {
     "fullName": "Vitor Hugo",
@@ -11185,7 +11332,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417437": {
     "fullName": "Kaiquy Luiz",
@@ -11197,7 +11345,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421405": {
     "fullName": "Gustavo Carvalho",
@@ -11209,7 +11358,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421406": {
     "fullName": "Kelvin Coutinho",
@@ -11221,7 +11371,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-383088": {
     "fullName": "Alessandro",
@@ -11233,7 +11384,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404202": {
     "fullName": "Felipe Morais",
@@ -11245,7 +11397,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421402": {
     "fullName": "Eduardo Pape",
@@ -11257,7 +11410,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421403": {
     "fullName": "André Balbino",
@@ -11269,7 +11423,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-374514": {
     "fullName": "Ruan Silva Fonseca",
@@ -11281,7 +11436,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-413768": {
     "fullName": "Pietro Tavares",
@@ -11293,7 +11449,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421404": {
     "fullName": "Danilo Gimenes",
@@ -11305,7 +11462,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421407": {
     "fullName": "Pablo",
@@ -11317,7 +11475,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-304659": {
     "fullName": "Matheus Nascimento",
@@ -11329,7 +11488,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-307660": {
     "fullName": "Elias Manoel",
@@ -11341,7 +11501,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381279": {
     "fullName": "Kayke",
@@ -11353,7 +11514,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-361362": {
     "fullName": "Cristian Loor",
@@ -11365,7 +11527,8 @@
     "nationality": "ECU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-414541": {
     "fullName": "Cleber Lucas Chieppe Chagas",
@@ -11377,7 +11540,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-236098": {
     "fullName": "Kaio",
@@ -11389,7 +11553,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-407245": {
     "fullName": "Riquelme Felipe",
@@ -11401,7 +11566,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-419140": {
     "fullName": "Kauã Serafim",
@@ -11413,7 +11579,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-355366": {
     "fullName": "Bernardo Valim",
@@ -11425,7 +11592,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-399181": {
     "fullName": "Cauã Zappelini",
@@ -11437,7 +11605,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417757": {
     "fullName": "Miguel Caldas",
@@ -11449,7 +11618,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417805": {
     "fullName": "Felipe Januário",
@@ -11461,7 +11631,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417955": {
     "fullName": "Matheusinho",
@@ -11473,7 +11644,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418064": {
     "fullName": "Ezequiel",
@@ -11485,7 +11657,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-304065": {
     "fullName": "Fabiano",
@@ -11497,7 +11670,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417834": {
     "fullName": "Ivan",
@@ -11509,7 +11683,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-419116": {
     "fullName": "Guilherme Inácio",
@@ -11521,7 +11696,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421952": {
     "fullName": "Wanderson",
@@ -11533,7 +11709,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-131954": {
     "fullName": "Nicolas Celis",
@@ -11545,7 +11722,8 @@
     "nationality": "COL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-251843": {
     "fullName": "Alejandro Almaraz",
@@ -11557,7 +11735,8 @@
     "nationality": "ARG",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-286694": {
     "fullName": "Enrique Saverio",
@@ -11569,7 +11748,8 @@
     "nationality": "ECU",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-321370": {
     "fullName": "Rúben Ismael",
@@ -11581,7 +11761,8 @@
     "nationality": "POR",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-405566": {
     "fullName": "Lucas Lohan",
@@ -11593,7 +11774,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402654": {
     "fullName": "Kauan Vitor",
@@ -11605,7 +11787,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402661": {
     "fullName": "Marcos Vinicius",
@@ -11617,7 +11800,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421951": {
     "fullName": "Ruan Gabriel",
@@ -11629,7 +11813,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417351": {
     "fullName": "Denis Marfo",
@@ -11641,7 +11826,8 @@
     "nationality": "GHA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-198346": {
     "fullName": "Richard",
@@ -11653,7 +11839,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402688": {
     "fullName": "Kauan Alves",
@@ -11665,7 +11852,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417353": {
     "fullName": "João Kempes",
@@ -11677,7 +11865,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-422158": {
     "fullName": "Gabriel Vinicius Oliveira Da Silva",
@@ -11689,7 +11878,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-382900": {
     "fullName": "Yago",
@@ -11701,7 +11891,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-422159": {
     "fullName": "Fabricio Prado",
@@ -11713,7 +11904,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421473": {
     "fullName": "Arthur Vale",
@@ -11725,7 +11917,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-390968": {
     "fullName": "Marcelo Tórrez",
@@ -11737,7 +11930,8 @@
     "nationality": "BOL",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-374817": {
     "fullName": "Nicola Profeta",
@@ -11749,7 +11943,8 @@
     "nationality": "VEN",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-413770": {
     "fullName": "Vinícius Rocha",
@@ -11761,7 +11956,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421476": {
     "fullName": "Kauan Barreto",
@@ -11773,7 +11969,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421477": {
     "fullName": "Kenay",
@@ -11785,7 +11982,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421479": {
     "fullName": "Vinicius Fabri",
@@ -11797,7 +11995,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-380360": {
     "fullName": "João Victor Dos Santos Alves",
@@ -11809,7 +12008,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-399724": {
     "fullName": "Kaio Ganga",
@@ -11821,7 +12021,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400876": {
     "fullName": "Nadson",
@@ -11833,7 +12034,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417953": {
     "fullName": "Pedro Assis",
@@ -11845,7 +12047,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421474": {
     "fullName": "David Nogueira",
@@ -11857,7 +12060,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421475": {
     "fullName": "Gabriel Follmer",
@@ -11869,7 +12073,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-315681": {
     "fullName": "Adriel",
@@ -11881,7 +12086,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402659": {
     "fullName": "João Victor Castelo",
@@ -11893,7 +12099,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421523": {
     "fullName": "Vagner",
@@ -11905,7 +12112,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421526": {
     "fullName": "Emanuel Mariano",
@@ -11917,7 +12125,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421521": {
     "fullName": "João Borne",
@@ -11929,7 +12138,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421524": {
     "fullName": "Danillo",
@@ -11941,7 +12151,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421527": {
     "fullName": "Harlley",
@@ -11953,7 +12164,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421528": {
     "fullName": "Artur Junior",
@@ -11965,7 +12177,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421529": {
     "fullName": "Lago Menezes",
@@ -11977,7 +12190,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421531": {
     "fullName": "Adrielson",
@@ -11989,7 +12203,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402657": {
     "fullName": "Arnaldo",
@@ -12001,7 +12216,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421522": {
     "fullName": "Lucca",
@@ -12013,7 +12229,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421525": {
     "fullName": "Benjamin",
@@ -12025,7 +12242,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421530": {
     "fullName": "Fellipe Magalhães",
@@ -12037,7 +12255,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-318606": {
     "fullName": "Loide",
@@ -12049,7 +12268,8 @@
     "nationality": "ANG",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-371432": {
     "fullName": "Phillipe Gabriel",
@@ -12061,7 +12281,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421401": {
     "fullName": "Marcão",
@@ -12073,7 +12294,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-301860": {
     "fullName": "Riquelme",
@@ -12085,7 +12307,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398510": {
     "fullName": "Alison",
@@ -12097,7 +12320,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-398524": {
     "fullName": "Melim",
@@ -12109,7 +12333,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402621": {
     "fullName": "Breno Vereza",
@@ -12121,7 +12346,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-409768": {
     "fullName": "Bruno André Azevedo Ribeiro",
@@ -12133,7 +12359,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421394": {
     "fullName": "Wanyson Nogueira",
@@ -12145,7 +12372,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421395": {
     "fullName": "Breno Sales",
@@ -12157,7 +12385,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-196873": {
     "fullName": "Jair",
@@ -12169,7 +12398,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-346179": {
     "fullName": "Matheus Carvalho",
@@ -12181,7 +12411,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421396": {
     "fullName": "Gustavo Guimarães",
@@ -12193,7 +12424,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421398": {
     "fullName": "Lucca Guima",
@@ -12205,7 +12437,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421399": {
     "fullName": "Léo Félix",
@@ -12217,7 +12450,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421400": {
     "fullName": "Samuel de Jesus",
@@ -12229,7 +12463,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402639": {
     "fullName": "Anderson Felix",
@@ -12241,7 +12476,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-407363": {
     "fullName": "Diego Minete",
@@ -12253,7 +12489,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417750": {
     "fullName": "Alex Bruno",
@@ -12265,7 +12502,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421397": {
     "fullName": "Luiz Lócio",
@@ -12277,7 +12515,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3096158": {
     "fullName": "Kerlon Ormerode Brito Da Cruz",
@@ -12289,7 +12528,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-199011": {
     "fullName": "Georgemy",
@@ -12301,7 +12541,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418509": {
     "fullName": "Luiz Fernando",
@@ -12313,7 +12554,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418795": {
     "fullName": "Cauã Victor Soares Da Silva",
@@ -12325,7 +12567,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418796": {
     "fullName": "Marcelo Barbosa De Santos",
@@ -12337,7 +12580,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421445": {
     "fullName": "Giovanni Pacheco",
@@ -12349,7 +12593,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-418797": {
     "fullName": "Vinicius Bacchi De Castro",
@@ -12361,7 +12606,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421444": {
     "fullName": "Felipe Pereira dos",
@@ -12373,7 +12619,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421446": {
     "fullName": "Glaucon",
@@ -12385,7 +12632,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417361": {
     "fullName": "Wellington",
@@ -12397,7 +12645,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-319505": {
     "fullName": "Mancha",
@@ -12409,7 +12658,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-357180": {
     "fullName": "Gustavo Talles",
@@ -12421,7 +12671,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421897": {
     "fullName": "Da Silva",
@@ -12433,7 +12684,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421901": {
     "fullName": "Eduardo",
@@ -12445,7 +12697,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421902": {
     "fullName": "Felipe",
@@ -12457,7 +12710,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421903": {
     "fullName": "Iago",
@@ -12469,7 +12723,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421906": {
     "fullName": "Márcio Kalebe",
@@ -12481,7 +12736,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421909": {
     "fullName": "Yago",
@@ -12493,7 +12749,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-157066": {
     "fullName": "Bruno Matias",
@@ -12505,7 +12762,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417350": {
     "fullName": "Kauê Arno",
@@ -12517,7 +12775,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421900": {
     "fullName": "Bernardo",
@@ -12529,7 +12788,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421904": {
     "fullName": "Kauan Godoy",
@@ -12541,7 +12801,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421907": {
     "fullName": "Miguel",
@@ -12553,7 +12814,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-385180": {
     "fullName": "Rodrigo Endrio Azevedo Tiago",
@@ -12565,7 +12827,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400910": {
     "fullName": "Gleidson",
@@ -12577,7 +12840,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-414741": {
     "fullName": "João Henrique Araújo Bom",
@@ -12589,7 +12853,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421898": {
     "fullName": "Matheus Milani",
@@ -12601,7 +12866,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421899": {
     "fullName": "Alberto",
@@ -12613,7 +12879,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421905": {
     "fullName": "Luizão",
@@ -12625,7 +12892,8 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-421908": {
     "fullName": "Talison",
@@ -12637,6 +12905,59 @@
     "nationality": "BRA",
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
+  },
+  "p-espn-318152": {
+    "fullName": "Renan",
+    "shirtName": "Renan",
+    "team": "cap",
+    "position": "A",
+    "jersey": 50,
+    "birthdate": "2003-01-31",
+    "nationality": "BRA",
+    "apps": 0,
+    "goals": 0,
+    "debut": null,
+    "active": true
+  },
+  "p-espn-382962": {
+    "fullName": "Vitinho",
+    "shirtName": "Vitinho",
+    "team": "cor",
+    "position": "M",
+    "jersey": 68,
+    "birthdate": "2007-06-18",
+    "nationality": "BRA",
+    "apps": 0,
+    "goals": 0,
+    "debut": null,
+    "active": true
+  },
+  "p-espn-73678": {
+    "fullName": "Gabriel",
+    "shirtName": "Gabriel",
+    "team": "mir",
+    "position": "D",
+    "jersey": 46,
+    "birthdate": "2007-08-23",
+    "nationality": "BRA",
+    "apps": 0,
+    "goals": 0,
+    "debut": null,
+    "active": true
+  },
+  "p-espn-218974": {
+    "fullName": "Carlos Eduardo",
+    "shirtName": "C. Eduardo",
+    "team": "mir",
+    "position": "A",
+    "jersey": 96,
+    "birthdate": "1996-10-10",
+    "nationality": "BRA",
+    "apps": 0,
+    "goals": 0,
+    "debut": null,
+    "active": true
   }
 }
