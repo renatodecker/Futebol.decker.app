@@ -2,11 +2,11 @@
 // tags <script> em index.html — senão o módulo acaba carregado duas vezes
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
-import * as Theme from './theme.js?v=20260711f';
-import { renderStandings } from './standings.js?v=20260711f';
-import { initSquadModal } from './squad.js?v=20260711f';
-import { initLive } from './live.js?v=20260711f';
-import { initMatchModal } from './modal.js?v=20260711f';
+import * as Theme from './theme.js?v=20260712a';
+import { renderStandings } from './standings.js?v=20260712a';
+import { initSquadModal } from './squad.js?v=20260712a';
+import { initLive } from './live.js?v=20260712a';
+import { initMatchModal } from './modal.js?v=20260712a';
 
 const state = {
   leagues: null,
@@ -18,6 +18,7 @@ const state = {
   players: {},
   stats: { players: {}, teams: {} },
   team: null, // slug do time selecionado (skin), ou null
+  homeVenues: {}, // slug do mandante -> estádio mais frequente na temporada (fallback de venue)
 };
 
 const qs = new URLSearchParams(location.search);
@@ -315,12 +316,38 @@ function fmtAttendance(n) {
   return new Intl.NumberFormat('pt-BR').format(n);
 }
 
+// fixtures só ganham venue confirmado perto da rodada (via ESPN). Até lá,
+// usamos o estádio mais frequente do mandante nas partidas já disputadas na
+// temporada como palpite ("provável"), pra nenhum card de jogo agendado
+// ficar sem local nenhum.
+function computeHomeVenues(fixtures) {
+  const counts = {};
+  for (const m of fixtures.matches) {
+    if (!m.venue) continue;
+    counts[m.home] = counts[m.home] || {};
+    counts[m.home][m.venue] = (counts[m.home][m.venue] || 0) + 1;
+  }
+  const map = {};
+  for (const [team, venues] of Object.entries(counts)) {
+    map[team] = Object.entries(venues).sort((a, b) => b[1] - a[1])[0][0];
+  }
+  return map;
+}
+
+function matchVenue(m) {
+  if (m.venue) return { venue: m.venue, isProbable: false };
+  const probable = state.homeVenues?.[m.home];
+  return probable ? { venue: probable, isProbable: true } : { venue: null, isProbable: false };
+}
+
 function venueLineHtml(m) {
-  if (!m.venue) return '<span></span>';
+  const { venue, isProbable } = matchVenue(m);
+  if (!venue) return '<span></span>';
   const attendance = typeof m.attendance === 'number' && m.attendance > 0
     ? ` · público: ${fmtAttendance(m.attendance)}`
     : '';
-  return `<span class="venue">🏟️ ${m.venue}${attendance}</span>`;
+  const suffix = isProbable ? ' (provável)' : '';
+  return `<span class="venue${isProbable ? ' is-probable' : ''}">🏟️ ${venue}${suffix}${attendance}</span>`;
 }
 
 // Regra geral: todo card de jogo (Home, Rodadas, Meses) sempre mostra rodada,
@@ -759,6 +786,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
   ]);
   state.teams = teams;
   state.fixtures = fixtures;
+  state.homeVenues = computeHomeVenues(fixtures);
   state.standings = standings;
   state.meta = meta;
   state.players = players;
@@ -816,7 +844,7 @@ async function main() {
       backdropEl: document.getElementById('matchModalBackdrop'),
       contentEl: document.getElementById('matchModalContent'),
     },
-    () => ({ teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga }),
+    () => ({ teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga, homeVenues: state.homeVenues }),
   );
 
   state.leagues = await fetchJson('data/leagues.json');

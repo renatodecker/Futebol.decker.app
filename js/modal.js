@@ -154,7 +154,7 @@ function lineupListHtml(players) {
   }).join('') || '<li class="empty-state">—</li>';
 }
 
-function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary) {
+function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary, homeVenues) {
   const home = teams[m.home];
   const away = teams[m.away];
   const { date, time } = fmtDateTime(m.date);
@@ -186,8 +186,11 @@ function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary) {
     `;
   })() : '';
 
+  const venue = m.venue || homeVenues?.[m.home];
+  const venueIsProbable = !m.venue && !!venue;
+
   const metaParts = [`Rodada ${m.round}`];
-  if (m.venue) metaParts.push(`🏟️ ${m.venue}`);
+  if (venue) metaParts.push(`🏟️ ${venue}${venueIsProbable ? ' (provável)' : ''}`);
   if (typeof m.attendance === 'number' && m.attendance > 0) metaParts.push(`público: ${fmtAttendance(m.attendance)}`);
   if (isLive && m.liveClock) metaParts.push(m.liveClock);
 
@@ -237,7 +240,7 @@ export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
   let currentMatchId = null;
 
   async function open(matchId) {
-    const { teams, fixtures, leagues, liga } = getData();
+    const { teams, fixtures, leagues, liga, homeVenues } = getData();
     const m = fixtures?.matches?.find((x) => x.id === matchId);
     if (!m) return;
     currentMatchId = matchId;
@@ -248,7 +251,7 @@ export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
 
     const summary = await fetchSummary(liga, cfg.sources.espnSlug, m.espnEventId, m.status === 'live');
     if (currentMatchId !== matchId || modalEl.hidden) return; // fechou/trocou enquanto buscava
-    renderMatchModal({ contentEl }, m, teams, cfg, liga, summary);
+    renderMatchModal({ contentEl }, m, teams, cfg, liga, summary, homeVenues);
     contentEl.querySelector('#matchModalCloseBtn')?.addEventListener('click', close);
   }
 

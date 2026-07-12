@@ -523,6 +523,10 @@ button {
   color: var(--ink-muted);
 }
 
+.venue.is-probable {
+  font-style: italic;
+}
+
 .match-card.is-live .score {
   color: #ff4d4f;
 }
