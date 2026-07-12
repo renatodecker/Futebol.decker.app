@@ -113,12 +113,23 @@ async function fetchAndCacheSummaries(liga, cfg, teams, fixtures, rawDir) {
   return updated;
 }
 
+// A ESPN às vezes traz o nome "de cartório" do estádio, desatualizado (nome
+// antigo, trocado há anos) ou pouco reconhecível — não o nome que a torcida
+// e a mídia realmente usam. Mapa curado à mão (verificado, não adivinhado);
+// só entram aqui casos confirmados, não um "apelido" qualquer.
+const VENUE_ALIASES = {
+  'Joao Havelange Stadium': 'Estádio Nilton Santos', // renomeado em 2015/2017; nome antigo não existe mais
+  'Estádio Cícero Pompeu de Toledo': 'Morumbi', // nome oficial de cartório; ninguém chama assim
+  'Estadio Manoel Barradas': 'Barradão', // idem — nome oficial de cartório
+};
+
 // Estádio + público (spec: indicativo de estádio/público em cards e no modal
 // de partida) vêm do gameInfo da súmula ESPN, não da fonte canônica — só
 // existem depois que o summary foi cacheado.
 function applyVenueInfo(m, summaryJson) {
   const gameInfo = summaryJson?.gameInfo;
-  const venueName = gameInfo?.venue?.fullName || null;
+  let venueName = gameInfo?.venue?.fullName || null;
+  if (venueName && VENUE_ALIASES[venueName]) venueName = VENUE_ALIASES[venueName];
   if (venueName) m.venue = venueName;
   if (typeof gameInfo?.attendance === 'number') m.attendance = gameInfo.attendance;
 }
