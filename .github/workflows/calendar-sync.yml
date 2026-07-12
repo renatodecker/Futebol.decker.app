@@ -1,0 +1,26 @@
+name: "Calendário · .ics do Grêmio"
+
+on:
+  schedule:
+    - cron: "0 * * * *" # a cada hora
+  workflow_dispatch:
+
+jobs:
+  calendar-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Gerar calendar/gremio.ics
+        run: node scripts/generate-ics.js
+      - name: Commit calendário atualizado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add calendar/
+          git diff --cached --quiet || git commit -m "data: calendar sync $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
