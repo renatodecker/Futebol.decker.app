@@ -36,7 +36,7 @@ DTEND:20260212T023000Z
 SUMMARY:São Paulo 2x0 Grêmio
 DESCRIPTION:Rodada 3 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estádio Cícero Pompeu de Toledo
+LOCATION:Morumbi
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r4-gre-cam@futebol.decker.app.br
@@ -219,7 +219,7 @@ SUMMARY:Botafogo x Grêmio
 DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
 STATUS:CONFIRMED
-LOCATION:Joao Havelange Stadium (provável)
+LOCATION:Estádio Nilton Santos (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r22-gre-sao@futebol.decker.app.br
@@ -274,7 +274,7 @@ SUMMARY:Vitória x Grêmio
 DESCRIPTION:Rodada 26 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
 STATUS:CONFIRMED
-LOCATION:Estadio Manoel Barradas (provável)
+LOCATION:Barradão (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r27-gre-vas@futebol.decker.app.br
