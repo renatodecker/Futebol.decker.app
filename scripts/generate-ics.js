@@ -64,7 +64,24 @@ function statusLabel(match) {
   return 'Agendado';
 }
 
-function buildEvent({ leagueSlug, league, match, homeTeam, awayTeam }) {
+// fixtures ainda não têm venue para jogos futuros (só chega perto da rodada,
+// via ESPN). Até lá, usamos o estádio mais frequente do mandante nas partidas
+// já disputadas na temporada como palpite, deixando claro que é provável.
+function buildHomeVenueMap(fixtures) {
+  const counts = {};
+  for (const match of fixtures.matches) {
+    if (!match.venue) continue;
+    counts[match.home] = counts[match.home] || {};
+    counts[match.home][match.venue] = (counts[match.home][match.venue] || 0) + 1;
+  }
+  const map = {};
+  for (const [team, venues] of Object.entries(counts)) {
+    map[team] = Object.entries(venues).sort((a, b) => b[1] - a[1])[0][0];
+  }
+  return map;
+}
+
+function buildEvent({ leagueSlug, league, match, homeTeam, awayTeam, probableVenue }) {
   const homeName = homeTeam ? homeTeam.name : match.home;
   const awayName = awayTeam ? awayTeam.name : match.away;
 
@@ -76,10 +93,14 @@ function buildEvent({ leagueSlug, league, match, homeTeam, awayTeam }) {
   const start = new Date(match.date);
   const end = new Date(start.getTime() + MATCH_DURATION_MS);
 
+  const venue = match.venue || probableVenue || null;
+  const venueIsProbable = !match.venue && !!probableVenue;
+
   const descriptionParts = [
     `Rodada ${match.round} · ${league.name}`,
     statusLabel(match),
   ];
+  if (venueIsProbable) descriptionParts.push('Local provável (mandante ainda não confirmou)');
 
   const lines = [
     'BEGIN:VEVENT',
@@ -94,7 +115,7 @@ function buildEvent({ leagueSlug, league, match, homeTeam, awayTeam }) {
     `DESCRIPTION:${escapeText(descriptionParts.join(' · '))}`,
     `STATUS:${match.status === 'postponed' ? 'TENTATIVE' : 'CONFIRMED'}`,
   ];
-  if (match.venue) lines.push(`LOCATION:${escapeText(match.venue)}`);
+  if (venue) lines.push(`LOCATION:${escapeText(venueIsProbable ? `${venue} (provável)` : venue)}`);
   lines.push('END:VEVENT');
 
   return lines.map(foldLine).join('\r\n');
@@ -114,6 +135,8 @@ function main() {
     const fixtures = loadJson(path.join(ROOT, 'data', leagueSlug, 'fixtures.json'), null);
     if (!fixtures) continue;
 
+    const homeVenues = buildHomeVenueMap(fixtures);
+
     for (const match of fixtures.matches) {
       if (match.home !== TEAM_SLUG && match.away !== TEAM_SLUG) continue;
       events.push(
@@ -123,6 +146,7 @@ function main() {
           match,
           homeTeam: teams[match.home],
           awayTeam: teams[match.away],
+          probableVenue: homeVenues[match.home],
         })
       );
     }

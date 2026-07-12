@@ -194,8 +194,10 @@ DTSTAMP:20260717T230000Z
 DTSTART:20260717T230000Z
 DTEND:20260718T010000Z
 SUMMARY:Mirassol x Grêmio
-DESCRIPTION:Rodada 19 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 19 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Estadio Municipal José Maria de Campos Maia (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r20-gre-flu@futebol.decker.app.br
@@ -203,8 +205,10 @@ DTSTAMP:20260726T213000Z
 DTSTART:20260726T213000Z
 DTEND:20260726T233000Z
 SUMMARY:Grêmio x Fluminense
-DESCRIPTION:Rodada 20 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 20 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r21-bot-gre@futebol.decker.app.br
@@ -212,8 +216,10 @@ DTSTAMP:20260729T200000Z
 DTSTART:20260729T200000Z
 DTEND:20260729T220000Z
 SUMMARY:Botafogo x Grêmio
-DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Joao Havelange Stadium (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r22-gre-sao@futebol.decker.app.br
@@ -221,8 +227,10 @@ DTSTAMP:20260808T190000Z
 DTSTART:20260808T190000Z
 DTEND:20260808T210000Z
 SUMMARY:Grêmio x São Paulo
-DESCRIPTION:Rodada 22 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 22 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r23-cam-gre@futebol.decker.app.br
@@ -230,8 +238,10 @@ DTSTAMP:20260815T193000Z
 DTSTART:20260815T193000Z
 DTEND:20260815T213000Z
 SUMMARY:Atlético-MG x Grêmio
-DESCRIPTION:Rodada 23 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 23 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena MRV (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r24-bra-gre@futebol.decker.app.br
@@ -239,8 +249,10 @@ DTSTAMP:20260823T190000Z
 DTSTART:20260823T190000Z
 DTEND:20260823T210000Z
 SUMMARY:Red Bull Bragantino x Grêmio
-DESCRIPTION:Rodada 24 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 24 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Estádio Municipal Cicero de Souza Marques (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r25-gre-cha@futebol.decker.app.br
@@ -248,8 +260,10 @@ DTSTAMP:20260829T000000Z
 DTSTART:20260829T000000Z
 DTEND:20260829T020000Z
 SUMMARY:Grêmio x Chapecoense
-DESCRIPTION:Rodada 25 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 25 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r26-vit-gre@futebol.decker.app.br
@@ -257,8 +271,10 @@ DTSTAMP:20260905T000000Z
 DTSTART:20260905T000000Z
 DTEND:20260905T020000Z
 SUMMARY:Vitória x Grêmio
-DESCRIPTION:Rodada 26 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 26 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Estadio Manoel Barradas (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r27-gre-vas@futebol.decker.app.br
@@ -266,8 +282,10 @@ DTSTAMP:20260912T000000Z
 DTSTART:20260912T000000Z
 DTEND:20260912T020000Z
 SUMMARY:Grêmio x Vasco da Gama
-DESCRIPTION:Rodada 27 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 27 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r28-gre-pal@futebol.decker.app.br
@@ -275,8 +293,10 @@ DTSTAMP:20260919T000000Z
 DTSTART:20260919T000000Z
 DTEND:20260919T020000Z
 SUMMARY:Grêmio x Palmeiras
-DESCRIPTION:Rodada 28 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 28 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r29-rem-gre@futebol.decker.app.br
@@ -284,8 +304,10 @@ DTSTAMP:20261007T000000Z
 DTSTART:20261007T000000Z
 DTEND:20261007T020000Z
 SUMMARY:Remo x Grêmio
-DESCRIPTION:Rodada 29 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 29 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Mangueirão (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r30-gre-int@futebol.decker.app.br
@@ -293,8 +315,10 @@ DTSTAMP:20261010T000000Z
 DTSTART:20261010T000000Z
 DTEND:20261010T020000Z
 SUMMARY:Grêmio x Internacional
-DESCRIPTION:Rodada 30 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 30 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r31-gre-cru@futebol.decker.app.br
@@ -302,8 +326,10 @@ DTSTAMP:20261017T000000Z
 DTSTART:20261017T000000Z
 DTEND:20261017T020000Z
 SUMMARY:Grêmio x Cruzeiro
-DESCRIPTION:Rodada 31 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 31 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r32-cfc-gre@futebol.decker.app.br
@@ -311,8 +337,10 @@ DTSTAMP:20261024T000000Z
 DTSTART:20261024T000000Z
 DTEND:20261024T020000Z
 SUMMARY:Coritiba x Grêmio
-DESCRIPTION:Rodada 32 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 32 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Couto Pereira (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r33-gre-cap@futebol.decker.app.br
@@ -320,8 +348,10 @@ DTSTAMP:20261028T000000Z
 DTSTART:20261028T000000Z
 DTEND:20261028T020000Z
 SUMMARY:Grêmio x Athletico Paranaense
-DESCRIPTION:Rodada 33 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 33 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r34-fla-gre@futebol.decker.app.br
@@ -329,8 +359,10 @@ DTSTAMP:20261104T000000Z
 DTSTART:20261104T000000Z
 DTEND:20261104T020000Z
 SUMMARY:Flamengo x Grêmio
-DESCRIPTION:Rodada 34 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 34 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Estadio do Maracana (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r35-gre-bah@futebol.decker.app.br
@@ -338,8 +370,10 @@ DTSTAMP:20261118T000000Z
 DTSTART:20261118T000000Z
 DTEND:20261118T020000Z
 SUMMARY:Grêmio x Bahia
-DESCRIPTION:Rodada 35 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 35 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r36-san-gre@futebol.decker.app.br
@@ -347,8 +381,10 @@ DTSTAMP:20261121T000000Z
 DTSTART:20261121T000000Z
 DTEND:20261121T020000Z
 SUMMARY:Santos x Grêmio
-DESCRIPTION:Rodada 36 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 36 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Estádio Vila Belmiro (Urbano Caldeira) (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r37-cor-gre@futebol.decker.app.br
@@ -356,8 +392,10 @@ DTSTAMP:20261128T000000Z
 DTSTART:20261128T000000Z
 DTEND:20261128T020000Z
 SUMMARY:Corinthians x Grêmio
-DESCRIPTION:Rodada 37 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 37 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Neo Química Arena (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r38-gre-mir@futebol.decker.app.br
@@ -365,7 +403,9 @@ DTSTAMP:20261202T000000Z
 DTSTART:20261202T000000Z
 DTEND:20261202T020000Z
 SUMMARY:Grêmio x Mirassol
-DESCRIPTION:Rodada 38 · Brasileirão Série A · Agendado
+DESCRIPTION:Rodada 38 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
 STATUS:CONFIRMED
+LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 END:VCALENDAR
