@@ -2453,11 +2453,14 @@
       "date": "2026-07-12T14:00Z",
       "home": "ope",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401874004",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r17-ava-nau",
@@ -2465,11 +2468,14 @@
       "date": "2026-07-12T19:00Z",
       "home": "ava",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401873984",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r17-ber-cui",
@@ -2477,11 +2483,14 @@
       "date": "2026-07-12T19:00Z",
       "home": "ber",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401874001",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r17-ago-for",
@@ -2489,11 +2498,14 @@
       "date": "2026-07-12T21:00Z",
       "home": "ago",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401873998",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 3041
     },
     {
       "id": "r17-crb-goi",
@@ -2501,11 +2513,14 @@
       "date": "2026-07-12T22:00Z",
       "home": "crb",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401874000",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r17-amg-lon",
