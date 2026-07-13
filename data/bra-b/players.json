@@ -8888,7 +8888,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-12"
+    "debut": "2026-07-12",
+    "active": true
   },
   "p-espn-338712": {
     "fullName": "Maranhão",
@@ -8900,7 +8901,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-12"
+    "debut": "2026-07-12",
+    "active": true
   },
   "p-espn-336572": {
     "fullName": "Lucas Reis",
@@ -8912,7 +8914,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-12"
+    "debut": "2026-07-12",
+    "active": true
   },
   "p-espn-267917": {
     "fullName": "Pedro",
@@ -8924,7 +8927,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-12"
+    "debut": "2026-07-12",
+    "active": true
   },
   "p-espn-3102243": {
     "fullName": "Kauã Henrique Dos Santos",
@@ -8936,7 +8940,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3102244": {
     "fullName": "Brenno Das Chagas Gomes",
@@ -8948,7 +8953,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-203887": {
     "fullName": "Neris",
@@ -8960,6 +8966,7 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   }
 }
