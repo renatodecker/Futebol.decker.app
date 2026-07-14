@@ -2528,11 +2528,14 @@
       "date": "2026-07-13T22:00Z",
       "home": "amg",
       "away": "lon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401873999",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r17-cea-acm",
@@ -2540,11 +2543,14 @@
       "date": "2026-07-13T23:30Z",
       "home": "cea",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401874003",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Presidente Vargas",
+      "attendance": 0
     },
     {
       "id": "r18-crb-nau",
