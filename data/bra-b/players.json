@@ -8979,7 +8979,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-13"
+    "debut": "2026-07-13",
+    "active": true
   },
   "p-espn-347307": {
     "fullName": "Gabriel Domingos",
@@ -9004,7 +9005,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-13"
+    "debut": "2026-07-13",
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",
