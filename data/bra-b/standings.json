@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T12:08:48.843Z",
+  "updatedAt": "2026-07-14T10:49:18.401Z",
   "table": [
     {
       "pos": 1,
@@ -224,20 +224,20 @@
     {
       "pos": 12,
       "team": "acm",
-      "pts": 22,
-      "played": 16,
+      "pts": 23,
+      "played": 17,
       "won": 5,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 4,
       "gf": 16,
       "ga": 16,
       "gd": 0,
       "form": [
         "D",
-        "D",
         "L",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "zone": null
     },
@@ -304,40 +304,40 @@
     {
       "pos": 16,
       "team": "lon",
-      "pts": 18,
-      "played": 16,
+      "pts": 19,
+      "played": 17,
       "won": 5,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 8,
-      "gf": 24,
-      "ga": 24,
+      "gf": 25,
+      "ga": 25,
       "gd": 0,
       "form": [
-        "L",
         "W",
         "W",
         "D",
-        "W"
+        "W",
+        "D"
       ],
       "zone": null
     },
     {
       "pos": 17,
       "team": "cea",
-      "pts": 17,
-      "played": 16,
+      "pts": 18,
+      "played": 17,
       "won": 4,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 7,
       "gf": 15,
       "ga": 20,
       "gd": -5,
       "form": [
-        "W",
         "D",
         "L",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "rebaixamento"
     },
@@ -384,20 +384,20 @@
     {
       "pos": 20,
       "team": "amg",
-      "pts": 6,
-      "played": 16,
+      "pts": 7,
+      "played": 17,
       "won": 1,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 12,
-      "gf": 10,
-      "ga": 27,
+      "gf": 11,
+      "ga": 28,
       "gd": -17,
       "form": [
-        "L",
         "W",
         "L",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "rebaixamento"
     }
