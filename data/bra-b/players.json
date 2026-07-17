@@ -9018,7 +9018,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-16"
+    "debut": "2026-07-16",
+    "active": true
   },
   "p-espn-418809": {
     "fullName": "Juan Rikelme",
@@ -9030,7 +9031,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",

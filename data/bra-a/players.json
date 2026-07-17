@@ -9421,7 +9421,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-16"
+    "debut": "2026-07-16",
+    "active": true
   },
   "p-espn-414541": {
     "fullName": "Cleber Lucas Chieppe Chagas",
@@ -9446,7 +9447,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3102502": {
     "fullName": "Victor Hugo Gonçalves Dos Santos",
@@ -9458,7 +9460,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-400876": {
     "fullName": "Nadson",
@@ -9483,7 +9486,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-16"
+    "debut": "2026-07-16",
+    "active": true
   },
   "p-espn-200206": {
     "fullName": "Emanuel Britez",
@@ -9495,7 +9499,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-16"
+    "debut": "2026-07-16",
+    "active": true
   },
   "p-espn-196873": {
     "fullName": "Jair",
