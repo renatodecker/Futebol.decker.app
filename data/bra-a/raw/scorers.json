@@ -541,9 +541,71 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 10,
+      "playedMatches": 11,
       "goals": 5,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 12837,
+        "name": "Renato Kayzer",
+        "firstName": "",
+        "lastName": "Renato Kayzer",
+        "dateOfBirth": "1996-02-17",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 13,
+      "goals": 4,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
+      "player": {
+        "id": 83705,
+        "name": "Álvaro Barreal",
+        "firstName": "Álvaro",
+        "lastName": "Barreal",
+        "dateOfBirth": "2000-08-17",
+        "nationality": "Argentina",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2022-04-07T08:16:59Z"
+      },
+      "team": {
+        "id": 6685,
+        "name": "Santos FC",
+        "shortName": "Santos",
+        "tla": "SAN",
+        "crest": "https://crests.football-data.org/6685.png",
+        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
+        "website": "http://santosfc.com.br",
+        "founded": 1912,
+        "clubColors": "Black / White",
+        "venue": "Estádio Urbano Caldeira",
+        "lastUpdated": "2023-02-18T08:43:18Z"
+      },
+      "playedMatches": 17,
+      "goals": 4,
+      "assists": null,
       "penalties": null
     },
     {
@@ -572,7 +634,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -634,7 +696,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1106,37 +1168,6 @@
     },
     {
       "player": {
-        "id": 12837,
-        "name": "Renato Kayzer",
-        "firstName": "",
-        "lastName": "Renato Kayzer",
-        "dateOfBirth": "1996-02-17",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 12,
-      "goals": 3,
-      "assists": 1,
-      "penalties": 1
-    },
-    {
-      "player": {
         "id": 76910,
         "name": "Luciano Acosta",
         "firstName": "Luciano",
@@ -1196,37 +1227,6 @@
       "goals": 3,
       "assists": 1,
       "penalties": 2
-    },
-    {
-      "player": {
-        "id": 83705,
-        "name": "Álvaro Barreal",
-        "firstName": "Álvaro",
-        "lastName": "Barreal",
-        "dateOfBirth": "2000-08-17",
-        "nationality": "Argentina",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2022-04-07T08:16:59Z"
-      },
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png",
-        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-        "website": "http://santosfc.com.br",
-        "founded": 1912,
-        "clubColors": "Black / White",
-        "venue": "Estádio Urbano Caldeira",
-        "lastUpdated": "2023-02-18T08:43:18Z"
-      },
-      "playedMatches": 16,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
     },
     {
       "player": {
@@ -1471,7 +1471,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1502,7 +1502,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1781,7 +1781,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -1843,7 +1843,7 @@
         "venue": "Estádio Urbano Caldeira",
         "lastUpdated": "2023-02-18T08:43:18Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": null,
       "penalties": 2
@@ -1874,7 +1874,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -2246,7 +2246,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": 4,
       "penalties": 1
@@ -2277,7 +2277,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 1,
       "penalties": 1
@@ -2432,7 +2432,7 @@
         "venue": "Estádio Urbano Caldeira",
         "lastUpdated": "2023-02-18T08:43:18Z"
       },
-      "playedMatches": 11,
+      "playedMatches": 12,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2556,7 +2556,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2618,7 +2618,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 11,
+      "playedMatches": 12,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -2680,7 +2680,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 4,
       "penalties": 1
@@ -2773,7 +2773,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": 2,
       "penalties": 2
@@ -2804,7 +2804,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 2,
       "penalties": null
