@@ -2558,11 +2558,14 @@
       "date": "2026-07-16T23:00Z",
       "home": "crb",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401873985",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r18-amg-cea",

@@ -1,7 +1,7 @@
 {
   "players": {
     "p-espn-293875": {
-      "goals": 12,
+      "goals": 13,
       "assists": 3,
       "yellow": 1,
       "red": 0
@@ -861,7 +861,7 @@
     "p-espn-255807": {
       "goals": 0,
       "assists": 2,
-      "yellow": 4,
+      "yellow": 5,
       "red": 0
     },
     "p-espn-234288": {
@@ -985,7 +985,7 @@
       "red": 1
     },
     "p-espn-252805": {
-      "goals": 0,
+      "goals": 1,
       "assists": 2,
       "yellow": 1,
       "red": 0
@@ -1004,8 +1004,8 @@
     },
     "p-espn-143849": {
       "goals": 4,
-      "assists": 3,
-      "yellow": 3,
+      "assists": 4,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-298858": {
@@ -2634,6 +2634,18 @@
       "yellow": 1,
       "red": 0
     },
+    "p-espn-338712": {
+      "goals": 1,
+      "assists": 0,
+      "yellow": 0,
+      "red": 0
+    },
+    "p-espn-198580": {
+      "goals": 0,
+      "assists": 1,
+      "yellow": 0,
+      "red": 0
+    },
     "p-espn-218895": {
       "goals": 0,
       "assists": 0,
@@ -2649,9 +2661,9 @@
       "red": 5
     },
     "crb": {
-      "goals": 28,
-      "conceded": 33,
-      "yellow": 62,
+      "goals": 30,
+      "conceded": 34,
+      "yellow": 63,
       "red": 3
     },
     "cea": {
@@ -2715,9 +2727,9 @@
       "red": 0
     },
     "nau": {
-      "goals": 21,
-      "conceded": 22,
-      "yellow": 47,
+      "goals": 22,
+      "conceded": 24,
+      "yellow": 48,
       "red": 3
     },
     "cri": {
@@ -2763,5 +2775,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-07-16T07:16:38.175Z"
+  "updatedAt": "2026-07-17T05:17:06.383Z"
 }

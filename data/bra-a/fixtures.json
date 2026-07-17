@@ -2675,11 +2675,14 @@
       "date": "2026-07-16T22:30:00Z",
       "home": "bot",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841149",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r19-vit-vas",
@@ -2687,11 +2690,14 @@
       "date": "2026-07-16T22:30:00Z",
       "home": "vit",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841157",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r4-bah-cha",

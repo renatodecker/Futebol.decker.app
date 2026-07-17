@@ -319,7 +319,7 @@
     "jersey": 27,
     "birthdate": "1996-10-08",
     "nationality": "BRA",
-    "apps": 14,
+    "apps": 15,
     "goals": 0,
     "debut": "2026-03-21",
     "active": true
@@ -332,7 +332,7 @@
     "jersey": 22,
     "birthdate": "1993-01-15",
     "nationality": "BRA",
-    "apps": 9,
+    "apps": 10,
     "goals": 0,
     "debut": "2026-03-21",
     "active": true
@@ -345,7 +345,7 @@
     "jersey": 36,
     "birthdate": "1997-01-15",
     "nationality": "BRA",
-    "apps": 16,
+    "apps": 17,
     "goals": 0,
     "debut": "2026-03-21",
     "active": true
@@ -358,7 +358,7 @@
     "jersey": 32,
     "birthdate": "1998-09-20",
     "nationality": "BRA",
-    "apps": 14,
+    "apps": 15,
     "goals": 0,
     "debut": "2026-03-21",
     "active": true
@@ -371,7 +371,7 @@
     "jersey": 10,
     "birthdate": "1996-01-11",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 1,
     "debut": "2026-03-21",
     "active": true
@@ -384,8 +384,8 @@
     "jersey": 8,
     "birthdate": "1998-06-07",
     "nationality": "BRA",
-    "apps": 13,
-    "goals": 0,
+    "apps": 14,
+    "goals": 1,
     "debut": "2026-03-21",
     "active": true
   },
@@ -397,7 +397,7 @@
     "jersey": 21,
     "birthdate": "1993-02-05",
     "nationality": "BRA",
-    "apps": 16,
+    "apps": 17,
     "goals": 3,
     "debut": "2026-03-21",
     "active": true
@@ -410,8 +410,8 @@
     "jersey": 28,
     "birthdate": "1999-05-28",
     "nationality": "BRA",
-    "apps": 16,
-    "goals": 12,
+    "apps": 17,
+    "goals": 13,
     "debut": "2026-03-21",
     "active": true
   },
@@ -419,11 +419,11 @@
     "fullName": "Dadá",
     "shirtName": "Dadá",
     "team": "crb",
-    "position": "M",
+    "position": "A",
     "jersey": 97,
     "birthdate": "1997-02-08",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 4,
     "debut": "2026-03-21",
     "active": true
@@ -501,7 +501,7 @@
     "jersey": 11,
     "birthdate": "2001-02-17",
     "nationality": "BRA",
-    "apps": 9,
+    "apps": 10,
     "goals": 1,
     "debut": "2026-03-21",
     "active": true
@@ -514,7 +514,7 @@
     "jersey": 1,
     "birthdate": "1999-07-01",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "debut": "2026-05-09",
     "active": true
@@ -540,7 +540,7 @@
     "jersey": 33,
     "birthdate": "2005-05-07",
     "nationality": "BRA",
-    "apps": 1,
+    "apps": 2,
     "goals": 0,
     "debut": "2026-07-12",
     "active": true
@@ -579,7 +579,7 @@
     "jersey": 18,
     "birthdate": "1999-03-02",
     "nationality": "BRA",
-    "apps": 4,
+    "apps": 5,
     "goals": 0,
     "debut": "2026-03-21",
     "active": true
@@ -3435,13 +3435,13 @@
     "fullName": "Índio",
     "shirtName": "Índio",
     "team": "nau",
-    "position": null,
+    "position": "D",
     "jersey": 15,
     "birthdate": null,
     "nationality": null,
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-07-16",
     "active": false
   },
   "p-espn-101731": {
@@ -3452,7 +3452,7 @@
     "jersey": 1,
     "birthdate": "1987-02-14",
     "nationality": "BRA",
-    "apps": 17,
+    "apps": 18,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3465,7 +3465,7 @@
     "jersey": 23,
     "birthdate": "1992-06-06",
     "nationality": "BRA",
-    "apps": 17,
+    "apps": 18,
     "goals": 1,
     "debut": "2026-03-22",
     "active": true
@@ -3504,7 +3504,7 @@
     "jersey": 2,
     "birthdate": "1992-04-15",
     "nationality": "BRA",
-    "apps": 6,
+    "apps": 7,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3530,7 +3530,7 @@
     "jersey": 41,
     "birthdate": "2004-01-02",
     "nationality": "BRA",
-    "apps": 7,
+    "apps": 8,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3543,7 +3543,7 @@
     "jersey": 8,
     "birthdate": "1998-06-07",
     "nationality": "BRA",
-    "apps": 16,
+    "apps": 17,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3617,11 +3617,11 @@
     "fullName": "Reginaldo",
     "shirtName": "Reginaldo",
     "team": "nau",
-    "position": "D",
+    "position": "M",
     "jersey": 93,
     "birthdate": "1993-02-22",
     "nationality": "BRA",
-    "apps": 11,
+    "apps": 12,
     "goals": 1,
     "debut": "2026-05-02",
     "active": true
@@ -3660,7 +3660,7 @@
     "jersey": 46,
     "birthdate": "2005-10-18",
     "nationality": "BRA",
-    "apps": 2,
+    "apps": 3,
     "goals": 0,
     "debut": "2026-07-05",
     "active": true
@@ -4264,8 +4264,8 @@
     "active": true
   },
   "p-espn-338713": {
-    "fullName": "Gabriel Indio",
-    "shirtName": "G. Indio",
+    "fullName": "Gabriel Índio",
+    "shirtName": "Gabriel Índio",
     "team": "nau",
     "position": "D",
     "jersey": 13,
@@ -6312,7 +6312,7 @@
     "jersey": 14,
     "birthdate": "1993-02-23",
     "nationality": "BRA",
-    "apps": 12,
+    "apps": 13,
     "goals": 0,
     "debut": "2026-04-01",
     "active": true
@@ -6325,7 +6325,7 @@
     "jersey": 27,
     "birthdate": "1998-01-27",
     "nationality": "BRA",
-    "apps": 11,
+    "apps": 12,
     "goals": 0,
     "debut": "2026-04-01",
     "active": true
@@ -6364,7 +6364,7 @@
     "jersey": 11,
     "birthdate": "1995-09-30",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 2,
     "debut": "2026-04-01",
     "active": true
@@ -6533,7 +6533,7 @@
     "jersey": 2,
     "birthdate": "1997-09-07",
     "nationality": "BRA",
-    "apps": 6,
+    "apps": 7,
     "goals": 0,
     "debut": "2026-04-02",
     "active": true
@@ -6728,7 +6728,7 @@
     "jersey": 72,
     "birthdate": "1997-12-02",
     "nationality": "BRA",
-    "apps": 13,
+    "apps": 14,
     "goals": 1,
     "debut": "2026-04-04",
     "active": true
@@ -6910,7 +6910,7 @@
     "jersey": 45,
     "birthdate": "2000-03-02",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 0,
     "debut": "2026-04-05",
     "active": true
@@ -7310,7 +7310,7 @@
     "shirtName": "R. Levino De Oliveira",
     "team": "crb",
     "position": "D",
-    "jersey": 77,
+    "jersey": 14,
     "birthdate": "2006-07-26",
     "nationality": "BRA",
     "apps": 0,
@@ -7673,11 +7673,11 @@
     "fullName": "Todinho",
     "shirtName": "Todinho",
     "team": "nau",
-    "position": "M",
+    "position": "A",
     "jersey": 29,
     "birthdate": "1993-12-13",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 2,
     "debut": "2026-04-27",
     "active": true
@@ -7842,11 +7842,11 @@
     "fullName": "Thiago Fernandes",
     "shirtName": "Thiago Fernandes",
     "team": "crb",
-    "position": "M",
+    "position": "A",
     "jersey": 17,
     "birthdate": "2001-03-13",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 2,
     "debut": "2026-05-03",
     "active": true
@@ -8795,7 +8795,7 @@
     "jersey": 60,
     "birthdate": "1993-04-24",
     "nationality": "BRA",
-    "apps": 1,
+    "apps": 2,
     "goals": 0,
     "debut": "2026-06-28",
     "active": true
@@ -8899,8 +8899,8 @@
     "jersey": 19,
     "birthdate": "2004-01-02",
     "nationality": "BRA",
-    "apps": 1,
-    "goals": 0,
+    "apps": 2,
+    "goals": 1,
     "debut": "2026-07-12",
     "active": true
   },
@@ -9007,6 +9007,30 @@
     "goals": 0,
     "debut": "2026-07-13",
     "active": true
+  },
+  "p-espn-198580": {
+    "fullName": "Jean",
+    "shirtName": "Jean",
+    "team": "nau",
+    "position": "M",
+    "jersey": 20,
+    "birthdate": null,
+    "nationality": null,
+    "apps": 1,
+    "goals": 0,
+    "debut": "2026-07-16"
+  },
+  "p-espn-418809": {
+    "fullName": "Juan Rikelme",
+    "shirtName": "Juan Rikelme",
+    "team": "nau",
+    "position": null,
+    "jersey": 37,
+    "birthdate": null,
+    "nationality": null,
+    "apps": 0,
+    "goals": 0,
+    "debut": null
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",
