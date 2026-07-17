@@ -12,7 +12,7 @@
        mudar, senão o navegador/CDN pode continuar servindo a versão antiga
        desses arquivos por um bom tempo mesmo depois do deploy (o site não
        tem build com hash de conteúdo no nome do arquivo). -->
-  <link rel="stylesheet" href="css/style.css?v=20260712a" />
+  <link rel="stylesheet" href="css/style.css?v=20260717a" />
 </head>
 <body>
   <header class="site-header">
@@ -71,11 +71,16 @@
         <div class="match-list" id="liveMatches"></div>
       </div>
 
-      <h2 class="section-title">Últimos resultados</h2>
-      <div class="match-list" id="recentResults"></div>
-
-      <h2 class="section-title">Próximos jogos</h2>
-      <div class="match-list" id="upcomingFixtures"></div>
+      <div class="home-games-grid">
+        <div class="home-games-col">
+          <h2 class="section-title">Próximos jogos</h2>
+          <div class="match-list" id="upcomingFixtures"></div>
+        </div>
+        <div class="home-games-col">
+          <h2 class="section-title">Últimos resultados</h2>
+          <div class="match-list" id="recentResults"></div>
+        </div>
+      </div>
     </section>
 
     <section class="tab-panel" id="tab-classificacao" data-tab-panel="classificacao">
@@ -164,6 +169,6 @@
 
   <script type="module" src="js/theme.js?v=20260712a"></script>
   <script type="module" src="js/standings.js?v=20260712a"></script>
-  <script type="module" src="js/app.js?v=20260712a"></script>
+  <script type="module" src="js/app.js?v=20260717a"></script>
 </body>
 </html>

@@ -383,6 +383,32 @@ function matchCardHtml(m) {
   `;
 }
 
+// Quebra os cards por dia (rodada sempre aparece no card, mas quem manda na
+// ordem/agrupamento é a data do jogo — uma rodada pode virar dois cabeçalhos
+// de dia se os jogos foram remarcados para datas diferentes).
+function fmtDayLabel(day) {
+  const label = new Intl.DateTimeFormat('pt-BR', { weekday: 'long', day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' })
+    .format(new Date(`${day}T12:00:00Z`));
+  return label.charAt(0).toUpperCase() + label.slice(1);
+}
+
+function matchesByDayHtml(matches) {
+  const days = [];
+  let lastDay = null;
+  for (const m of matches) {
+    const day = m.date.slice(0, 10);
+    if (day !== lastDay) {
+      days.push([day, []]);
+      lastDay = day;
+    }
+    days[days.length - 1][1].push(m);
+  }
+  return days.map(([day, dayMatches]) => `
+    <div class="accordion-day-label">${fmtDayLabel(day)}</div>
+    ${dayMatches.map(matchCardHtml).join('')}
+  `).join('');
+}
+
 function renderHomeLists() {
   const finished = state.fixtures.matches
     .filter((m) => m.status === 'finished')
@@ -393,9 +419,9 @@ function renderHomeLists() {
     .sort((a, b) => new Date(a.date) - new Date(b.date))
     .slice(0, 10);
 
-  document.getElementById('recentResults').innerHTML = finished.map(matchCardHtml).join('')
+  document.getElementById('recentResults').innerHTML = matchesByDayHtml(finished)
     || '<p class="empty-state">Nenhum resultado ainda.</p>';
-  document.getElementById('upcomingFixtures').innerHTML = upcoming.map(matchCardHtml).join('')
+  document.getElementById('upcomingFixtures').innerHTML = matchesByDayHtml(upcoming)
     || '<p class="empty-state">Nenhum jogo agendado.</p>';
 }
 
