@@ -10,7 +10,7 @@
 // da fase de pontos corridos, entre os dois times do par), os cards de jogo
 // (data, placar, local, link de detalhes) entram embaixo — antes disso
 // (fase de pontos corridos ainda rolando) só a caixa aparece mesmo.
-import { matchCardHtml } from './matches.js?v=20260718a';
+import { matchCardHtml, venueLineHtml } from './matches.js?v=20260718a';
 
 function teamCell(team) {
   if (!team) {
@@ -56,15 +56,23 @@ function provisionalTeamHtml(team, isAway) {
 // Enquanto o jogo de verdade do confronto não existe em fixtures.matches
 // (fase de pontos corridos ainda rolando — os times do par podem até trocar
 // até lá), mostra 2 cards "provisórios" (ida/volta) com os times que ocupam
-// a posição AGORA e a data prevista de leagues.json, sem placar/local (não
-// existem ainda) e sem abrir modal de detalhes (não há partida real por trás).
-function provisionalLegCardHtml(legLabel, dateStr, teamHigher, teamLower) {
+// a posição AGORA e a data prevista de leagues.json, sem placar (não existe
+// ainda) e sem abrir modal de detalhes (não há partida real por trás). Regra
+// do mata-mata de acesso/rebaixamento: quem manda o jogo de ida é o pior
+// colocado do par; quem manda a volta (decisão, com a vantagem de jogar em
+// casa) é o melhor colocado — por isso o lado esquerdo (mandante) troca
+// entre os dois cards, e o estádio junto (mesmo fallback "provável" do
+// mandante usado em qualquer jogo agendado sem local confirmado).
+function provisionalLegCardHtml(legIndex, legLabel, dateStr, teamHigher, teamLower, homeVenues) {
+  const [home, away] = legIndex === 0 ? [teamLower, teamHigher] : [teamHigher, teamLower];
+  const venueHtml = home ? venueLineHtml({ home: home.slug }, homeVenues) : '<span></span>';
   return `
     <div class="match-card playoff-provisional-card">
       <span class="round-label">${legLabel} · ${fmtLegDate(dateStr)}</span>
-      ${provisionalTeamHtml(teamHigher, false)}
+      ${provisionalTeamHtml(home, false)}
       <div class="center"><span class="datetime">Horário<br>a definir</span></div>
-      ${provisionalTeamHtml(teamLower, true)}
+      ${provisionalTeamHtml(away, true)}
+      <div class="match-card-footer">${venueHtml}</div>
     </div>
   `;
 }
@@ -94,7 +102,7 @@ export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, tea
     const games = tieFixtures(fixtures, maxRegularRound, teamHigher?.slug, teamLower?.slug);
     const cardsHtml = games.length
       ? games.map((m) => matchCardHtml(m, cardCtx)).join('')
-      : LEG_LABELS.map((label, i) => provisionalLegCardHtml(label, legDates[i], teamHigher, teamLower)).join('');
+      : LEG_LABELS.map((label, i) => provisionalLegCardHtml(i, label, legDates[i], teamHigher, teamLower, homeVenues)).join('');
     const gamesHtml = `<div class="match-list playoff-tie-games">${cardsHtml}</div>`;
     return `
       <div class="playoff-tie-group">
