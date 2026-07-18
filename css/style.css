@@ -683,6 +683,20 @@ button {
   box-shadow: inset 4px 0 0 var(--zone-color, transparent);
 }
 
+.standings-table tr.is-live-row {
+  background: rgba(255, 77, 79, 0.08);
+}
+
+.live-indicator {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ff4d4f;
+  flex: 0 0 auto;
+  animation: pulse 1.4s infinite;
+}
+
 .form-pill {
   display: inline-block;
   width: 16px;

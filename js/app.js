@@ -3,7 +3,7 @@
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
 import * as Theme from './theme.js?v=20260712a';
-import { renderStandings } from './standings.js?v=20260712a';
+import { renderStandings } from './standings.js?v=20260718b';
 import { initSquadModal } from './squad.js?v=20260712a';
 import { initLive } from './live.js?v=20260712a';
 import { initMatchModal } from './modal.js?v=20260718a';
@@ -527,6 +527,14 @@ function computeLiveStandings() {
   return { table: rows, zones: state.standings.zones || [] };
 }
 
+function liveTeamSlugs() {
+  return new Set(
+    state.fixtures.matches
+      .filter((m) => m.status === 'live')
+      .flatMap((m) => [m.home, m.away]),
+  );
+}
+
 function renderClassificacao() {
   const live = isWithinLiveWindow();
   const data = live ? computeLiveStandings() : state.standings;
@@ -534,7 +542,7 @@ function renderClassificacao() {
     bodyEl: document.getElementById('standingsBody'),
     legendEl: document.getElementById('zonesLegend'),
     badgeEl: document.getElementById('standingsBadge'),
-  }, data, state.teams, { partial: live });
+  }, data, state.teams, { partial: live, liveTeams: liveTeamSlugs() });
 }
 
 // ---------------------------------------------------------------------

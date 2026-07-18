@@ -17,18 +17,21 @@ function formPills(form) {
 
 export function renderStandings({ bodyEl, legendEl, badgeEl }, standings, teams, opts = {}) {
   const zoneColor = new Map((standings.zones || []).map((z) => [z.id, z.color]));
+  const liveTeams = opts.liveTeams || new Set();
 
   bodyEl.innerHTML = standings.table.map((row) => {
     const team = teams[row.team];
     const color = row.zone ? zoneColor.get(row.zone) : null;
     const posArrow = row.posDelta > 0 ? '<span class="pos-arrow up">▲</span>'
       : row.posDelta < 0 ? '<span class="pos-arrow down">▼</span>' : '';
+    const isLive = liveTeams.has(row.team);
     return `
-      <tr class="${row.zone ? 'zone-row' : ''}" style="${color ? `--zone-color:${color}` : ''}" data-team="${row.team}">
+      <tr class="${row.zone ? 'zone-row' : ''} ${isLive ? 'is-live-row' : ''}" style="${color ? `--zone-color:${color}` : ''}" data-team="${row.team}">
         <td class="col-pos">${row.pos}${posArrow}</td>
         <td class="col-team" data-open-squad="${row.team}">
           <img src="${team?.badge || ''}" alt="" loading="lazy" />
           <span>${team?.name || row.team}</span>
+          ${isLive ? '<span class="live-indicator" title="Jogo em andamento"></span>' : ''}
         </td>
         <td>${row.pts}</td>
         <td>${row.played}</td>
