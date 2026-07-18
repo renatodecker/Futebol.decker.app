@@ -838,6 +838,7 @@ function showHubView() {
   document.getElementById('tabBar').hidden = true;
   document.getElementById('app').hidden = true;
   document.getElementById('leaguePickerToggle').hidden = true;
+  document.getElementById('hubBackBtn').hidden = true;
 }
 
 function showLigaView() {
@@ -845,6 +846,7 @@ function showLigaView() {
   document.getElementById('tabBar').hidden = false;
   document.getElementById('app').hidden = false;
   document.getElementById('leaguePickerToggle').hidden = false;
+  document.getElementById('hubBackBtn').hidden = false;
 }
 
 function renderHubLeagueCards(slugs) {
@@ -864,34 +866,43 @@ function renderHubLeagueCards(slugs) {
   });
 }
 
-// Junta os jogos 'live' de TODAS as ligas ativas num card-list só, ordenado
-// por horário — é o que diferencia o hub da Home de cada liga (lá o "Ao
-// vivo" só olha state.fixtures da liga corrente). enableSquad:false porque
+// Quebrado por campeonato em vez de uma lista só com tudo misturado — cada
+// liga com jogo ao vivo ganha seu próprio cabeçalho (clicável, leva direto
+// pra home daquela liga) com os jogos dela embaixo. enableSquad:false porque
 // no hub o clique no card sempre deve abrir a partida, nunca o elenco.
 function renderHubLive() {
   const section = document.getElementById('hubLiveSection');
-  const all = [];
-  for (const [slug, entry] of Object.entries(state.hub.leaguesData)) {
-    for (const m of entry.fixtures.matches) {
-      if (m.status !== 'live') continue;
-      all.push({
-        m,
-        ctx: {
-          teams: entry.teams,
-          homeVenues: entry.homeVenues,
-          liga: slug,
-          leagueLabel: entry.cfg.shortName || entry.cfg.name,
-          enableSquad: false,
-        },
-      });
-    }
-  }
-  all.sort((a, b) => new Date(a.m.date) - new Date(b.m.date));
+  const groups = activeLeagueSlugs()
+    .map((slug) => {
+      const entry = state.hub.leaguesData[slug];
+      if (!entry) return null;
+      const matches = entry.fixtures.matches
+        .filter((m) => m.status === 'live')
+        .sort((a, b) => new Date(a.date) - new Date(b.date));
+      return matches.length ? { slug, entry, matches } : null;
+    })
+    .filter(Boolean);
 
-  section.hidden = all.length === 0;
-  if (all.length > 0) {
-    document.getElementById('hubLiveMatches').innerHTML = all.map(({ m, ctx }) => matchCardHtml(m, ctx)).join('');
-  }
+  section.hidden = groups.length === 0;
+  if (groups.length === 0) return;
+
+  document.getElementById('hubLiveMatches').innerHTML = groups.map(({ slug, entry, matches }) => {
+    const ctx = { teams: entry.teams, homeVenues: entry.homeVenues, liga: slug, enableSquad: false };
+    return `
+      <div class="hub-live-league-group">
+        <button class="hub-live-league-header" data-liga="${slug}">
+          ${entry.cfg.logo ? `<img src="${entry.cfg.logo}" alt="" />` : ''}
+          <span>${entry.cfg.shortName || entry.cfg.name}</span>
+          <span class="chevron">›</span>
+        </button>
+        <div class="match-list">${matches.map((m) => matchCardHtml(m, ctx)).join('')}</div>
+      </div>
+    `;
+  }).join('');
+
+  document.getElementById('hubLiveMatches').querySelectorAll('.hub-live-league-header').forEach((btn) => {
+    btn.addEventListener('click', () => loadLiga(btn.dataset.liga));
+  });
 }
 
 function hubAllLiveIds() {
@@ -1031,6 +1042,13 @@ async function loadLiga(slug, { resetTeam } = {}) {
 async function main() {
   initTabs();
   wireEstatisticas();
+  document.getElementById('hubBackBtn').addEventListener('click', () => loadHub());
+  // Mesmo destino do botão "‹ Início", só que a partir do logo — evita um
+  // reload de página inteira pra voltar pro hub.
+  document.querySelector('.brand').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (state.mode !== 'hub') loadHub();
+  });
   initSquadModal(
     {
       modalEl: document.getElementById('squadModal'),

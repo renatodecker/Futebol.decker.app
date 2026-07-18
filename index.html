@@ -12,7 +12,7 @@
        mudar, senão o navegador/CDN pode continuar servindo a versão antiga
        desses arquivos por um bom tempo mesmo depois do deploy (o site não
        tem build com hash de conteúdo no nome do arquivo). -->
-  <link rel="stylesheet" href="css/style.css?v=20260718b" />
+  <link rel="stylesheet" href="css/style.css?v=20260718c" />
 </head>
 <body>
   <header class="site-header">
@@ -28,11 +28,16 @@
           <span class="brand-name">futebol<span class="brand-dot">.</span>decker</span>
         </a>
       </div>
-      <button class="league-picker-toggle" id="leaguePickerToggle" aria-haspopup="dialog" aria-controls="leagueModal">
-        <img id="currentLeagueLogo" class="league-logo" alt="" />
-        <span id="currentLeagueName">Carregando…</span>
-        <span class="chevron">▾</span>
-      </button>
+      <div class="header-right">
+        <button class="hub-back-btn" id="hubBackBtn" hidden>
+          <span aria-hidden="true">‹</span> Início
+        </button>
+        <button class="league-picker-toggle" id="leaguePickerToggle" aria-haspopup="dialog" aria-controls="leagueModal">
+          <img id="currentLeagueLogo" class="league-logo" alt="" />
+          <span id="currentLeagueName">Carregando…</span>
+          <span class="chevron">▾</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -182,6 +187,6 @@
 
   <script type="module" src="js/theme.js?v=20260712a"></script>
   <script type="module" src="js/standings.js?v=20260718b"></script>
-  <script type="module" src="js/app.js?v=20260718b"></script>
+  <script type="module" src="js/app.js?v=20260718c"></script>
 </body>
 </html>
