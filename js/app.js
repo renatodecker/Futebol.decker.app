@@ -4,7 +4,7 @@
 // com sua própria instância/cache.
 import * as Theme from './theme.js?v=20260712a';
 import { renderStandings } from './standings.js?v=20260718c';
-import { renderPlayoffs } from './playoffs.js?v=20260718a';
+import { renderPlayoffs } from './playoffs.js?v=20260718b';
 import { initSquadModal } from './squad.js?v=20260718b';
 import { initLive } from './live.js?v=20260712a';
 import { initMatchModal } from './modal.js?v=20260718a';
@@ -402,7 +402,9 @@ function computeLiveStandings() {
   for (const slug of Object.keys(state.teams)) {
     acc[slug] = { team: slug, pts: 0, played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0 };
   }
+  const maxRegularRound = state.leagues[state.liga].rules?.rounds || Infinity;
   for (const m of state.fixtures.matches) {
+    if (m.round > maxRegularRound) continue; // playoff (ver playoffs.js) não entra na tabela de pontos corridos
     if ((m.status !== 'finished' && m.status !== 'live') || !m.score) continue;
     const h = acc[m.home];
     const a = acc[m.away];
@@ -508,7 +510,14 @@ function renderPlayoffsTab() {
     return;
   }
 
-  renderPlayoffs({ containerEl: document.getElementById('playoffsContent') }, cfg, currentStandingsData().table, state.teams);
+  const maxRegularRound = state.leagues[state.liga]?.rules?.rounds || Infinity;
+  renderPlayoffs(
+    { containerEl: document.getElementById('playoffsContent') },
+    cfg,
+    currentStandingsData().table,
+    state.teams,
+    { fixtures: state.fixtures, homeVenues: state.homeVenues, liga: state.liga, maxRegularRound },
+  );
 }
 
 // ---------------------------------------------------------------------

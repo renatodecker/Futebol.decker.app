@@ -831,6 +831,14 @@ button {
   margin: 0 0 10px;
 }
 
+.playoff-tie-group {
+  margin-bottom: 16px;
+}
+
+.playoff-tie-group:last-child {
+  margin-bottom: 0;
+}
+
 .playoff-tie {
   display: flex;
   align-items: center;
@@ -839,7 +847,10 @@ button {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 10px 12px;
-  margin-bottom: 10px;
+}
+
+.playoff-tie-games {
+  margin-top: 8px;
 }
 
 .playoff-team {

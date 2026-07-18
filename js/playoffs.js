@@ -4,10 +4,13 @@
 // então funciona igual pra qualquer campeonato sem precisar de código
 // específico por liga (ver CLAUDE.MD: tudo tem que ser dinâmico).
 //
-// Hoje só existe fixture real de playoff depois do fim da fase de pontos
-// corridos (ex.: Série B 2026, jogos em 21 e 28/11) — até lá, o bracket é
-// "provisório": mostra quem ocupa cada posição AGORA na classificação,
-// atualizando ao vivo junto com o resto da aba Classificação.
+// A caixa "Team A x Team B" (quem ocupa cada posição AGORA na classificação)
+// sempre aparece, atualizando ao vivo junto com o resto da aba Classificação.
+// Quando o confronto já tem jogo de verdade em fixtures.matches (round além
+// da fase de pontos corridos, entre os dois times do par), os cards de jogo
+// (data, placar, local, link de detalhes) entram embaixo — antes disso
+// (fase de pontos corridos ainda rolando) só a caixa aparece mesmo.
+import { matchCardHtml } from './matches.js?v=20260718a';
 
 function teamCell(team) {
   if (!team) {
@@ -22,7 +25,19 @@ function teamCell(team) {
   `;
 }
 
-export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, teams) {
+// Jogos do confronto: round além da fase de pontos corridos, entre os dois
+// times do par (em qualquer mando — ida ou volta). Sem outro marcador em
+// fixtures.json pra "isso é playoff", esse é o critério: nenhum jogo da fase
+// regular tem round > rules.rounds.
+function tieFixtures(fixtures, maxRegularRound, teamA, teamB) {
+  if (!fixtures?.matches || !teamA || !teamB) return [];
+  return fixtures.matches
+    .filter((m) => m.round > maxRegularRound
+      && ((m.home === teamA && m.away === teamB) || (m.home === teamB && m.away === teamA)))
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+}
+
+export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, teams, matchCtx = {}) {
   if (!playoffsCfg) {
     containerEl.innerHTML = '';
     return;
@@ -36,13 +51,27 @@ export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, tea
     return { slug: row.team, name: team?.name || row.team, badge: team?.badge, pos };
   };
 
-  const pairsHtml = (playoffsCfg.pairs || []).map(([higher, lower]) => `
-    <div class="playoff-tie">
-      ${teamCell(teamAt(higher))}
-      <span class="playoff-tie-vs">x</span>
-      ${teamCell(teamAt(lower))}
-    </div>
-  `).join('');
+  const { fixtures, homeVenues, liga, maxRegularRound } = matchCtx;
+  const cardCtx = { teams, homeVenues, liga };
+
+  const pairsHtml = (playoffsCfg.pairs || []).map(([higher, lower]) => {
+    const teamHigher = teamAt(higher);
+    const teamLower = teamAt(lower);
+    const games = tieFixtures(fixtures, maxRegularRound, teamHigher?.slug, teamLower?.slug);
+    const gamesHtml = games.length
+      ? `<div class="match-list playoff-tie-games">${games.map((m) => matchCardHtml(m, cardCtx)).join('')}</div>`
+      : '';
+    return `
+      <div class="playoff-tie-group">
+        <div class="playoff-tie">
+          ${teamCell(teamHigher)}
+          <span class="playoff-tie-vs">x</span>
+          ${teamCell(teamLower)}
+        </div>
+        ${gamesHtml}
+      </div>
+    `;
+  }).join('');
 
   containerEl.innerHTML = `
     <div class="playoff-intro">
