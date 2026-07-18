@@ -12,7 +12,7 @@
        mudar, senão o navegador/CDN pode continuar servindo a versão antiga
        desses arquivos por um bom tempo mesmo depois do deploy (o site não
        tem build com hash de conteúdo no nome do arquivo). -->
-  <link rel="stylesheet" href="css/style.css?v=20260717a" />
+  <link rel="stylesheet" href="css/style.css?v=20260718a" />
 </head>
 <body>
   <header class="site-header">
@@ -40,6 +40,19 @@
     <span class="live-dot"></span>
     <span id="liveBarText">Ao vivo</span>
   </nav>
+
+  <section id="hubView" hidden>
+    <div id="hubLiveSection" hidden>
+      <h2 class="section-title section-title-live">
+        <span class="live-dot"></span>
+        Ao vivo
+      </h2>
+      <div class="match-list" id="hubLiveMatches"></div>
+    </div>
+
+    <h2 class="section-title">Campeonatos</h2>
+    <div class="league-cards-grid" id="hubLeagueCards"></div>
+  </section>
 
   <nav class="tab-bar" id="tabBar">
     <button class="tab-btn is-active" data-tab="home">Home</button>
@@ -169,6 +182,6 @@
 
   <script type="module" src="js/theme.js?v=20260712a"></script>
   <script type="module" src="js/standings.js?v=20260712a"></script>
-  <script type="module" src="js/app.js?v=20260717b"></script>
+  <script type="module" src="js/app.js?v=20260718a"></script>
 </body>
 </html>

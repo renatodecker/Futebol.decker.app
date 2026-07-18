@@ -6,9 +6,10 @@ import * as Theme from './theme.js?v=20260712a';
 import { renderStandings } from './standings.js?v=20260712a';
 import { initSquadModal } from './squad.js?v=20260712a';
 import { initLive } from './live.js?v=20260712a';
-import { initMatchModal } from './modal.js?v=20260712a';
+import { initMatchModal } from './modal.js?v=20260718a';
 
 const state = {
+  mode: 'hub', // 'hub' | 'liga' — decidido em main() a partir de ?liga=
   leagues: null,
   liga: null,
   teams: null,
@@ -19,6 +20,9 @@ const state = {
   stats: { players: {}, teams: {} },
   team: null, // slug do time selecionado (skin), ou null
   homeVenues: {}, // slug do mandante -> estádio mais frequente na temporada (fallback de venue)
+  hub: {
+    leaguesData: {}, // slug -> { teams, fixtures, meta, homeVenues, cfg } — só as ligas 'active', carregado em loadHub()
+  },
 };
 
 const qs = new URLSearchParams(location.search);
@@ -48,14 +52,14 @@ function debugForceLiveId() {
   return qs.get('debugForceLive');
 }
 
-function applyDebugForceLive() {
+// Recebe o fixtures explícito (em vez de sempre state.fixtures) pra também
+// funcionar no hub, onde várias ligas têm seu próprio fixtures em memória e
+// o id forçado pode pertencer a qualquer uma delas.
+function applyDebugForceLive(fixtures) {
   const matchId = debugForceLiveId();
-  if (!matchId || !state.fixtures) return;
-  const m = state.fixtures.matches.find((x) => x.id === matchId);
-  if (!m) {
-    console.warn(`debugForceLive: partida "${matchId}" não encontrada em fixtures.matches.`);
-    return;
-  }
+  if (!matchId || !fixtures) return;
+  const m = fixtures.matches.find((x) => x.id === matchId);
+  if (!m) return; // pode pertencer a outra liga carregada — não é erro aqui
   m.status = 'live';
   m.liveClock = qs.get('debugClock') || "45'";
   if (!m.score) m.score = { home: 0, away: 0 };
@@ -334,14 +338,14 @@ function computeHomeVenues(fixtures) {
   return map;
 }
 
-function matchVenue(m) {
+function matchVenue(m, homeVenues) {
   if (m.venue) return { venue: m.venue, isProbable: false };
-  const probable = state.homeVenues?.[m.home];
+  const probable = homeVenues?.[m.home];
   return probable ? { venue: probable, isProbable: true } : { venue: null, isProbable: false };
 }
 
-function venueLineHtml(m) {
-  const { venue, isProbable } = matchVenue(m);
+function venueLineHtml(m, homeVenues) {
+  const { venue, isProbable } = matchVenue(m, homeVenues);
   if (!venue) return '<span></span>';
   const attendance = typeof m.attendance === 'number' && m.attendance > 0
     ? ` · público: ${fmtAttendance(m.attendance)}`
@@ -350,33 +354,47 @@ function venueLineHtml(m) {
   return `<span class="venue${isProbable ? ' is-probable' : ''}">🏟️ ${venue}${suffix}${attendance}</span>`;
 }
 
+// Contexto de qual liga/dados usar pra montar um card — sempre a liga
+// "corrente" da aba onde está sendo chamado. Existe pra permitir o mesmo
+// matchCardHtml ser usado tanto dentro de uma liga (Home/Rodadas/Meses,
+// sempre com state.teams/state.homeVenues) quanto no hub inicial, onde cada
+// card de "Ao vivo" pertence a uma liga diferente e precisa dos
+// teams/homeVenues DAQUELA liga, não da liga que porventura esteja carregada.
+function currentLigaCtx() {
+  return { teams: state.teams, homeVenues: state.homeVenues, liga: state.liga };
+}
+
 // Regra geral: todo card de jogo (Home, Rodadas, Meses) sempre mostra rodada,
 // data, horário e local — sem depender de qual aba está renderizando, pra não
-// ter card "incompleto" em lugar nenhum.
-function matchCardHtml(m) {
-  const home = state.teams[m.home];
-  const away = state.teams[m.away];
+// ter card "incompleto" em lugar nenhum. No hub (cross-liga), o rótulo de
+// rodada também leva o nome do campeonato, já que ali os jogos vêm misturados.
+function matchCardHtml(m, ctx) {
+  const home = ctx.teams[m.home];
+  const away = ctx.teams[m.away];
   const { date, time } = fmtDateTime(m.date);
   const isLive = m.status === 'live';
   const liveBadge = '<span class="live-badge"></span>';
   const scoreHtml = m.status === 'finished' || isLive
     ? `<span class="score">${isLive ? liveBadge : ''}${m.score?.home ?? 0} x ${m.score?.away ?? 0}</span><span class="score-date">${date} · ${time}</span>`
     : `<span class="datetime">${date}<br>${time}</span>`;
+  const roundLabel = ctx.leagueLabel ? `${ctx.leagueLabel} · Rodada ${m.round}` : `Rodada ${m.round}`;
+  const homeSquadAttr = ctx.enableSquad === false ? '' : `data-open-squad="${m.home}"`;
+  const awaySquadAttr = ctx.enableSquad === false ? '' : `data-open-squad="${m.away}"`;
 
   return `
-    <div class="match-card is-clickable ${isLive ? 'is-live' : ''}" data-match="${m.id}">
-      <span class="round-label">Rodada ${m.round}</span>
-      <div class="team home" data-open-squad="${m.home}">
+    <div class="match-card is-clickable ${isLive ? 'is-live' : ''}" data-match="${m.id}" data-liga="${ctx.liga}">
+      <span class="round-label">${roundLabel}</span>
+      <div class="team home" ${homeSquadAttr}>
         <img src="${home?.badge || ''}" alt="" />
         <span class="team-name">${home?.abbrev || m.home}</span>
       </div>
       <div class="center">${scoreHtml}</div>
-      <div class="team away" data-open-squad="${m.away}">
+      <div class="team away" ${awaySquadAttr}>
         <span class="team-name">${away?.abbrev || m.away}</span>
         <img src="${away?.badge || ''}" alt="" />
       </div>
       <div class="match-card-footer">
-        ${venueLineHtml(m)}
+        ${venueLineHtml(m, ctx.homeVenues)}
         <span class="match-card-link">Ver detalhes ›</span>
       </div>
     </div>
@@ -392,7 +410,7 @@ function fmtDayLabel(day) {
   return label.charAt(0).toUpperCase() + label.slice(1);
 }
 
-function matchesByDayHtml(matches) {
+function matchesByDayHtml(matches, ctx) {
   const days = [];
   let lastDay = null;
   for (const m of matches) {
@@ -405,7 +423,7 @@ function matchesByDayHtml(matches) {
   }
   return days.map(([day, dayMatches]) => `
     <div class="accordion-day-label">${fmtDayLabel(day)}</div>
-    ${dayMatches.map(matchCardHtml).join('')}
+    ${dayMatches.map((m) => matchCardHtml(m, ctx)).join('')}
   `).join('');
 }
 
@@ -415,6 +433,7 @@ const HOME_LISTS_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
 // 'live' (via live.js), ela some daqui e só aparece na seção "Ao vivo".
 function renderHomeLists() {
   const now = debugNowMs() ?? Date.now();
+  const ctx = currentLigaCtx();
   const finished = state.fixtures.matches
     .filter((m) => m.status === 'finished' && now - new Date(m.date).getTime() <= HOME_LISTS_WINDOW_MS)
     .sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -422,9 +441,9 @@ function renderHomeLists() {
     .filter((m) => m.status === 'scheduled' && new Date(m.date).getTime() - now <= HOME_LISTS_WINDOW_MS)
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  document.getElementById('recentResults').innerHTML = matchesByDayHtml(finished)
+  document.getElementById('recentResults').innerHTML = matchesByDayHtml(finished, ctx)
     || '<p class="empty-state">Nenhum resultado ainda.</p>';
-  document.getElementById('upcomingFixtures').innerHTML = matchesByDayHtml(upcoming)
+  document.getElementById('upcomingFixtures').innerHTML = matchesByDayHtml(upcoming, ctx)
     || '<p class="empty-state">Nenhum jogo agendado.</p>';
 }
 
@@ -442,7 +461,8 @@ function renderLiveMatches() {
 
   section.hidden = live.length === 0;
   if (live.length > 0) {
-    document.getElementById('liveMatches').innerHTML = live.map(matchCardHtml).join('');
+    const ctx = currentLigaCtx();
+    document.getElementById('liveMatches').innerHTML = live.map((m) => matchCardHtml(m, ctx)).join('');
   }
 }
 
@@ -678,6 +698,7 @@ function buildAccordion(container, groups, { openKey, scrollIntoView }) {
 }
 
 function renderRodadas() {
+  const ctx = currentLigaCtx();
   const byRound = new Map();
   for (const m of state.fixtures.matches) {
     if (!byRound.has(m.round)) byRound.set(m.round, []);
@@ -686,7 +707,7 @@ function renderRodadas() {
   const rounds = [...byRound.keys()].sort((a, b) => a - b);
   const groups = rounds.map((r) => {
     const matches = byRound.get(r).sort((a, b) => new Date(a.date) - new Date(b.date));
-    return [String(r), `Rodada ${r}`, matches.map(matchCardHtml).join('')];
+    return [String(r), `Rodada ${r}`, matches.map((m) => matchCardHtml(m, ctx)).join('')];
   });
   buildAccordion(document.getElementById('rodadasAccordion'), groups, {
     openKey: String(state.fixtures.currentRound),
@@ -699,6 +720,7 @@ function renderRodadas() {
 // ---------------------------------------------------------------------
 
 function renderMeses() {
+  const ctx = currentLigaCtx();
   const byMonth = new Map(); // "2026-01" -> Map(day -> matches[])
   for (const m of state.fixtures.matches) {
     const ym = m.date.slice(0, 7);
@@ -720,7 +742,7 @@ function renderMeses() {
       const matches = days.get(day).sort((a, b) => new Date(a.date) - new Date(b.date));
       const dayLabel = new Intl.DateTimeFormat('pt-BR', { weekday: 'long', day: '2-digit', month: '2-digit', timeZone: 'America/Sao_Paulo' })
         .format(new Date(`${day}T12:00:00Z`));
-      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map(matchCardHtml).join('')}`;
+      return `<div class="accordion-day-label">${dayLabel}</div>${matches.map((m) => matchCardHtml(m, ctx)).join('')}`;
     }).join('');
     return [ym, label.charAt(0).toUpperCase() + label.slice(1), body];
   });
@@ -773,7 +795,7 @@ function onLiveUpdate({ liveMatchIds }) {
   renderHomeLists();
   renderClassificacao();
   updateLiveBar(liveMatchIds);
-  matchModal?.refreshIfLive(liveMatchIds);
+  matchModal?.refreshIfLive(liveMatchIds, state.liga);
 }
 
 // ---------------------------------------------------------------------
@@ -792,12 +814,153 @@ function initTabs() {
 }
 
 // ---------------------------------------------------------------------
+// Hub inicial (todos os campeonatos habilitados + ao vivo cross-liga)
+// ---------------------------------------------------------------------
+
+const hubLiveControllers = {}; // slug -> controller do initLive() daquela liga
+
+function activeLeagueSlugs() {
+  return Object.entries(state.leagues)
+    .filter(([, cfg]) => cfg.status === 'active')
+    .map(([slug]) => slug);
+}
+
+function showHubView() {
+  document.getElementById('hubView').hidden = false;
+  document.getElementById('tabBar').hidden = true;
+  document.getElementById('app').hidden = true;
+  document.getElementById('leaguePickerToggle').hidden = true;
+}
+
+function showLigaView() {
+  document.getElementById('hubView').hidden = true;
+  document.getElementById('tabBar').hidden = false;
+  document.getElementById('app').hidden = false;
+  document.getElementById('leaguePickerToggle').hidden = false;
+}
+
+function renderHubLeagueCards(slugs) {
+  const grid = document.getElementById('hubLeagueCards');
+  grid.innerHTML = slugs.map((slug) => {
+    const cfg = state.leagues[slug];
+    return `
+      <button class="league-card" data-liga="${slug}">
+        ${cfg.logo ? `<img src="${cfg.logo}" alt="" />` : ''}
+        <span class="league-card-name">${cfg.shortName || cfg.name}</span>
+      </button>
+    `;
+  }).join('') || '<p class="empty-state">Nenhum campeonato disponível.</p>';
+
+  grid.querySelectorAll('.league-card').forEach((btn) => {
+    btn.addEventListener('click', () => loadLiga(btn.dataset.liga));
+  });
+}
+
+// Junta os jogos 'live' de TODAS as ligas ativas num card-list só, ordenado
+// por horário — é o que diferencia o hub da Home de cada liga (lá o "Ao
+// vivo" só olha state.fixtures da liga corrente). enableSquad:false porque
+// no hub o clique no card sempre deve abrir a partida, nunca o elenco.
+function renderHubLive() {
+  const section = document.getElementById('hubLiveSection');
+  const all = [];
+  for (const [slug, entry] of Object.entries(state.hub.leaguesData)) {
+    for (const m of entry.fixtures.matches) {
+      if (m.status !== 'live') continue;
+      all.push({
+        m,
+        ctx: {
+          teams: entry.teams,
+          homeVenues: entry.homeVenues,
+          liga: slug,
+          leagueLabel: entry.cfg.shortName || entry.cfg.name,
+          enableSquad: false,
+        },
+      });
+    }
+  }
+  all.sort((a, b) => new Date(a.m.date) - new Date(b.m.date));
+
+  section.hidden = all.length === 0;
+  if (all.length > 0) {
+    document.getElementById('hubLiveMatches').innerHTML = all.map(({ m, ctx }) => matchCardHtml(m, ctx)).join('');
+  }
+}
+
+function hubAllLiveIds() {
+  return Object.values(state.hub.leaguesData)
+    .flatMap((entry) => entry.fixtures.matches.filter((m) => m.status === 'live').map((m) => m.id));
+}
+
+function stopHubLive() {
+  for (const slug of Object.keys(hubLiveControllers)) {
+    hubLiveControllers[slug].stop();
+    delete hubLiveControllers[slug];
+  }
+}
+
+// Uma instância de initLive() por liga ativa — cada uma faz polling/mutação
+// só do seu próprio fixtures em memória (igual ao modo "dentro de uma liga"),
+// só que aqui os resultados de todas se somam num único "Ao vivo" do hub.
+function startHubLive() {
+  for (const [slug, entry] of Object.entries(state.hub.leaguesData)) {
+    hubLiveControllers[slug] = initLive(
+      () => ({
+        liga: slug,
+        leagues: state.leagues,
+        fixtures: entry.fixtures,
+        meta: entry.meta,
+        now: debugNowMs() ?? undefined,
+      }),
+      () => {
+        renderHubLive();
+        updateLiveBar(hubAllLiveIds());
+        const ligaLiveIds = entry.fixtures.matches.filter((m) => m.status === 'live').map((m) => m.id);
+        matchModal?.refreshIfLive(ligaLiveIds, slug);
+      },
+    );
+  }
+}
+
+async function loadHub() {
+  state.mode = 'hub';
+  state.liga = null;
+  liveController?.stop();
+  liveController = null;
+  stopHubLive();
+  updateQuery({ liga: null, time: null });
+  showHubView();
+  Theme.applyBase();
+
+  const slugs = activeLeagueSlugs();
+  renderHubLeagueCards(slugs);
+
+  const entries = await Promise.all(slugs.map(async (slug) => {
+    const base = `data/${slug}`;
+    const [teams, fixtures, meta] = await Promise.all([
+      fetchJson(`${base}/teams.json`),
+      fetchJson(`${base}/fixtures.json`),
+      fetchJson(`${base}/meta.json`),
+    ]);
+    return [slug, { teams, fixtures, meta, homeVenues: computeHomeVenues(fixtures), cfg: state.leagues[slug] }];
+  }));
+  state.hub.leaguesData = Object.fromEntries(entries);
+  for (const entry of Object.values(state.hub.leaguesData)) applyDebugForceLive(entry.fixtures);
+
+  renderHubLive();
+  startHubLive();
+}
+
+// ---------------------------------------------------------------------
 // Carregamento de liga
 // ---------------------------------------------------------------------
 
 async function loadLiga(slug, { resetTeam } = {}) {
   const cfg = state.leagues[slug];
   if (!cfg || cfg.status !== 'active') return; // fallback silencioso (edge case 9)
+
+  state.mode = 'liga';
+  stopHubLive();
+  showLigaView();
 
   state.liga = slug;
   state.team = resetTeam ? null : (qs.get('time') || null);
@@ -821,7 +984,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
   state.meta = meta;
   state.players = players;
   state.stats = stats;
-  applyDebugForceLive();
+  applyDebugForceLive(fixtures);
 
   if (state.team && !teams[state.team]) state.team = null; // ?time= inválido -> default
 
@@ -874,22 +1037,33 @@ async function main() {
       backdropEl: document.getElementById('matchModalBackdrop'),
       contentEl: document.getElementById('matchModalContent'),
     },
-    () => ({ teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga, homeVenues: state.homeVenues }),
+    // ligaHint vem do data-liga do card clicado. Se bater com a liga aberta
+    // no momento (ou não vier nenhum), usa o state "normal" — no hub, os
+    // cards de "Ao vivo" apontam pra uma liga carregada só em state.hub.
+    (ligaHint) => {
+      if (!ligaHint || ligaHint === state.liga) {
+        return { teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga, homeVenues: state.homeVenues };
+      }
+      const entry = state.hub.leaguesData[ligaHint];
+      if (entry) {
+        return { teams: entry.teams, fixtures: entry.fixtures, leagues: state.leagues, liga: ligaHint, homeVenues: entry.homeVenues };
+      }
+      return { teams: state.teams, fixtures: state.fixtures, leagues: state.leagues, liga: state.liga, homeVenues: state.homeVenues };
+    },
   );
 
   state.leagues = await fetchJson('data/leagues.json');
   renderLeaguePicker();
   wireLeagueModal();
 
+  // Sem ?liga= (ou liga inexistente/inativa) -> home inicial com todos os
+  // campeonatos habilitados; com ?liga= válido -> entra direto na liga.
   const requested = qs.get('liga');
-  const firstActive = Object.keys(state.leagues).find((k) => state.leagues[k].status === 'active');
-  const target = (requested && state.leagues[requested]?.status === 'active') ? requested : firstActive;
-
-  if (!target) {
-    document.getElementById('app').innerHTML = '<p class="empty-state">Nenhuma liga disponível.</p>';
-    return;
+  if (requested && state.leagues[requested]?.status === 'active') {
+    await loadLiga(requested);
+  } else {
+    await loadHub();
   }
-  await loadLiga(target);
 }
 
 main().catch((err) => {

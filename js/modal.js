@@ -238,12 +238,18 @@ function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary, homeVenue
 
 export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
   let currentMatchId = null;
+  let currentLiga = null;
 
-  async function open(matchId) {
-    const { teams, fixtures, leagues, liga, homeVenues } = getData();
+  // ligaHint identifica de qual liga é o card clicado (data-liga) — precisa
+  // vir explícito porque, a partir do hub, um card de "Ao vivo" pode
+  // pertencer a uma liga diferente da que porventura esteja carregada em
+  // state.liga (ou nenhuma, se o usuário ainda está no hub).
+  async function open(matchId, ligaHint) {
+    const { teams, fixtures, leagues, liga, homeVenues } = getData(ligaHint);
     const m = fixtures?.matches?.find((x) => x.id === matchId);
     if (!m) return;
     currentMatchId = matchId;
+    currentLiga = liga;
 
     const cfg = leagues[liga];
     modalEl.hidden = false;
@@ -258,11 +264,17 @@ export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
   function close() {
     modalEl.hidden = true;
     currentMatchId = null;
+    currentLiga = null;
   }
 
-  function refreshIfLive(liveMatchIds) {
-    if (currentMatchId && (liveMatchIds || []).includes(currentMatchId)) {
-      open(currentMatchId);
+  // ligaHint aqui é a liga de quem está reportando o tick (uma liga por vez,
+  // no hub); só reabre se for a mesma liga da partida hoje aberta no modal,
+  // senão o placar de uma liga acaba "vazando" pro modal de outra.
+  function refreshIfLive(liveMatchIds, ligaHint) {
+    if (!currentMatchId) return;
+    if (ligaHint && ligaHint !== currentLiga) return;
+    if ((liveMatchIds || []).includes(currentMatchId)) {
+      open(currentMatchId, currentLiga);
     }
   }
 
@@ -275,7 +287,7 @@ export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
     if (e.target.closest('[data-open-squad]')) return;
     const trigger = e.target.closest('[data-match]');
     if (!trigger) return;
-    open(trigger.dataset.match);
+    open(trigger.dataset.match, trigger.dataset.liga || undefined);
   });
 
   return { open, close, refreshIfLive };
