@@ -1,4 +1,10 @@
 // View de elenco (spec 6.4). Modal fullscreen no mobile, nunca troca skin.
+// 3 abas: Elenco (atual), Resultados (jogos já disputados pelo time na
+// temporada) e Calendário (jogos que faltam) — mesmos match-modal-tab-btn/
+// -panel do modal de partida, e os jogos usam o mesmo card do restante do
+// site (matchCardHtml/matchesByDayHtml), com data, rodada, local, placar e
+// link de detalhes.
+import { matchesByDayHtml, wireModalTabs } from './matches.js?v=20260718a';
 
 const POSITION_ORDER = ['G', 'D', 'M', 'A'];
 const POSITION_LABEL = { G: 'Goleiros', D: 'Defensores', M: 'Meio-campistas', A: 'Atacantes' };
@@ -30,7 +36,7 @@ function playerRowHtml(pid, p) {
   `;
 }
 
-export function renderSquad({ contentEl }, teamSlug, teams, players, stats) {
+export function renderSquad({ contentEl }, teamSlug, teams, players, stats, fixtures, homeVenues, liga) {
   const team = teams[teamSlug];
   const teamStats = stats?.teams?.[teamSlug] || { goals: 0, conceded: 0, yellow: 0, red: 0 };
   // active === false = já saiu do clube (roster-sync não encontra mais o
@@ -64,27 +70,52 @@ export function renderSquad({ contentEl }, teamSlug, teams, players, stats) {
       </table>
     `).join('');
 
+  // Resultados = jogos já disputados (finished/live), mais recente primeiro;
+  // Calendário = jogos que faltam (scheduled), mais próximo primeiro — mesmo
+  // agrupamento por dia e mesmo card usado em Home/Rodadas/Meses.
+  const teamMatches = (fixtures?.matches || []).filter((m) => m.home === teamSlug || m.away === teamSlug);
+  const played = teamMatches
+    .filter((m) => m.status === 'finished' || m.status === 'live')
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
+  const remaining = teamMatches
+    .filter((m) => m.status === 'scheduled')
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
+  const matchCtx = { teams, homeVenues, liga };
+  const resultadosHtml = matchesByDayHtml(played, matchCtx) || '<p class="empty-state">Nenhum jogo disputado ainda.</p>';
+  const calendarioHtml = matchesByDayHtml(remaining, matchCtx) || '<p class="empty-state">Nenhum jogo restante.</p>';
+
   contentEl.innerHTML = `
     <button class="squad-close-btn" id="squadCloseBtn" aria-label="Fechar">✕</button>
     <div class="squad-header">
       <img src="${team?.badge || ''}" alt="" />
       <h3>${team?.name || teamSlug}</h3>
     </div>
-    <div class="squad-team-stats">
-      <div><strong>${teamStats.goals}</strong><span>Gols pró</span></div>
-      <div><strong>${teamStats.conceded}</strong><span>Gols sofridos</span></div>
-      <div><strong>${teamStats.yellow}</strong><span>Cartões amarelos</span></div>
-      <div><strong>${teamStats.red}</strong><span>Cartões vermelhos</span></div>
+    <div class="match-modal-tabs">
+      <button class="match-modal-tab-btn is-active" data-modal-tab="elenco">Elenco</button>
+      <button class="match-modal-tab-btn" data-modal-tab="resultados">Resultados</button>
+      <button class="match-modal-tab-btn" data-modal-tab="calendario">Calendário</button>
     </div>
-    ${sections || '<p class="empty-state">Elenco ainda não disponível.</p>'}
+    <div class="match-modal-tab-panel is-active" data-modal-tab-panel="elenco">
+      <div class="squad-team-stats">
+        <div><strong>${teamStats.goals}</strong><span>Gols pró</span></div>
+        <div><strong>${teamStats.conceded}</strong><span>Gols sofridos</span></div>
+        <div><strong>${teamStats.yellow}</strong><span>Cartões amarelos</span></div>
+        <div><strong>${teamStats.red}</strong><span>Cartões vermelhos</span></div>
+      </div>
+      ${sections || '<p class="empty-state">Elenco ainda não disponível.</p>'}
+    </div>
+    <div class="match-modal-tab-panel" data-modal-tab-panel="resultados">${resultadosHtml}</div>
+    <div class="match-modal-tab-panel" data-modal-tab-panel="calendario">${calendarioHtml}</div>
   `;
+
+  wireModalTabs(contentEl);
 }
 
 export function initSquadModal({ modalEl, backdropEl, contentEl }, getData) {
   function open(teamSlug) {
-    const { teams, players, stats } = getData();
+    const { teams, players, stats, fixtures, homeVenues, liga } = getData();
     if (!teams[teamSlug]) return;
-    renderSquad({ contentEl }, teamSlug, teams, players, stats);
+    renderSquad({ contentEl }, teamSlug, teams, players, stats, fixtures, homeVenues, liga);
     modalEl.hidden = false;
     contentEl.querySelector('#squadCloseBtn')?.addEventListener('click', close);
   }

@@ -4,6 +4,8 @@
 // quem saiu (substituição); scoringPlay:true marca gol de fato (incl. pênalti
 // convertido); type.type dá o slug limpo do evento.
 
+import { wireModalTabs } from './matches.js?v=20260718a';
+
 const ESPN_SITE_BASE = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
 
 function fmtDateTime(iso) {
@@ -226,14 +228,7 @@ function renderMatchModal({ contentEl }, m, teams, cfg, liga, summary, homeVenue
     ` : '<p class="empty-state">Detalhes da partida ainda não disponíveis.</p>'}
   `;
 
-  contentEl.querySelectorAll('.match-modal-tab-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      contentEl.querySelectorAll('.match-modal-tab-btn').forEach((b) => b.classList.remove('is-active'));
-      contentEl.querySelectorAll('.match-modal-tab-panel').forEach((p) => p.classList.remove('is-active'));
-      btn.classList.add('is-active');
-      contentEl.querySelector(`[data-modal-tab-panel="${btn.dataset.modalTab}"]`).classList.add('is-active');
-    });
-  });
+  wireModalTabs(contentEl);
 }
 
 export function initMatchModal({ modalEl, backdropEl, contentEl }, getData) {
