@@ -3,8 +3,8 @@
 // sob URLs diferentes (uma vez pela tag, outra por este import), cada uma
 // com sua própria instância/cache.
 import * as Theme from './theme.js?v=20260712a';
-import { renderStandings } from './standings.js?v=20260718b';
-import { initSquadModal } from './squad.js?v=20260718a';
+import { renderStandings } from './standings.js?v=20260718c';
+import { initSquadModal } from './squad.js?v=20260718b';
 import { initLive } from './live.js?v=20260712a';
 import { initMatchModal } from './modal.js?v=20260718a';
 import { fmtDateTime, fmtAttendance, matchCardHtml, matchesByDayHtml } from './matches.js?v=20260718a';
@@ -430,7 +430,6 @@ function computeLiveStandings() {
     const off = officialByTeam.get(r.team);
     r.posDelta = off ? off.pos - r.pos : 0; // positivo = subiu
     r.zone = zoneForPosition(r.pos, zoneBands);
-    r.form = off?.form ?? [];
   });
 
   return { table: rows, zones: state.standings.zones || [] };
@@ -444,14 +443,36 @@ function liveTeamSlugs() {
   );
 }
 
+// Últimos 5 jogos do time direto de fixtures.matches (em vez das letras
+// W/D/L soltas de standings.json) — assim a bolinha de forma, a dica ao
+// passar o mouse e o clique (que abre o modal da partida) sempre apontam
+// pro mesmo jogo, sem depender de duas fontes concordarem por acaso.
+function computeFormMatches(teamSlug) {
+  return state.fixtures.matches
+    .filter((m) => (m.home === teamSlug || m.away === teamSlug) && m.status === 'finished' && m.score)
+    .sort((a, b) => new Date(a.date) - new Date(b.date))
+    .slice(-5)
+    .map((m) => {
+      const isHome = m.home === teamSlug;
+      const gf = isHome ? m.score.home : m.score.away;
+      const ga = isHome ? m.score.away : m.score.home;
+      const result = gf > ga ? 'W' : gf < ga ? 'L' : 'D';
+      const home = state.teams[m.home];
+      const away = state.teams[m.away];
+      const label = `${home?.abbrev || m.home} ${m.score.home}x${m.score.away} ${away?.abbrev || m.away}`;
+      return { id: m.id, result, label };
+    });
+}
+
 function renderClassificacao() {
   const live = isWithinLiveWindow();
   const data = live ? computeLiveStandings() : state.standings;
+  const table = data.table.map((row) => ({ ...row, formMatches: computeFormMatches(row.team) }));
   renderStandings({
     bodyEl: document.getElementById('standingsBody'),
     legendEl: document.getElementById('zonesLegend'),
     badgeEl: document.getElementById('standingsBadge'),
-  }, data, state.teams, { partial: live, liveTeams: liveTeamSlugs() });
+  }, { ...data, table }, state.teams, { partial: live, liveTeams: liveTeamSlugs(), liga: state.liga });
 }
 
 // ---------------------------------------------------------------------

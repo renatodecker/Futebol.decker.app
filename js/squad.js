@@ -20,7 +20,7 @@ function ageFromBirthdate(dateStr) {
   return age;
 }
 
-function playerRowHtml(pid, p) {
+function playerRowHtml(pid, p, playerStats) {
   const age = ageFromBirthdate(p.birthdate);
   return `
     <tr>
@@ -31,7 +31,8 @@ function playerRowHtml(pid, p) {
       <td>${p.nationality || '—'}</td>
       <td>${p.apps || 0}</td>
       <td>${p.goals || 0}</td>
-      <td>${p.debut || '—'}</td>
+      <td>${playerStats?.yellow || 0}</td>
+      <td>${playerStats?.red || 0}</td>
     </tr>
   `;
 }
@@ -63,10 +64,10 @@ export function renderSquad({ contentEl }, teamSlug, teams, players, stats, fixt
         <thead>
           <tr>
             <th>Nº</th><th>Camisa</th><th>Nome completo</th><th>Idade</th>
-            <th>Nac.</th><th>Jogos</th><th>Gols</th><th>Estreia</th>
+            <th>Nac.</th><th>Jogos</th><th>Gols</th><th>Amarelos</th><th>Vermelhos</th>
           </tr>
         </thead>
-        <tbody>${byPosition.get(pos).map(([pid, p]) => playerRowHtml(pid, p)).join('')}</tbody>
+        <tbody>${byPosition.get(pos).map(([pid, p]) => playerRowHtml(pid, p, stats?.players?.[pid])).join('')}</tbody>
       </table>
     `).join('');
 

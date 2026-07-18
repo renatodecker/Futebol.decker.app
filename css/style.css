@@ -764,6 +764,14 @@ button {
 .form-pill.D { background: #8a8f98; }
 .form-pill.L { background: #d3423e; }
 
+.form-pill.is-clickable {
+  cursor: pointer;
+}
+
+.form-pill.is-clickable:hover {
+  filter: brightness(1.25);
+}
+
 .zones-legend {
   list-style: none;
   padding: 0;

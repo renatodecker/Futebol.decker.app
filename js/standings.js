@@ -8,10 +8,13 @@ function pct(row) {
   return `${Math.round((row.pts / maxPts) * 100)}%`;
 }
 
-function formPills(form) {
-  return (form || [])
-    .slice(-5)
-    .map((r) => `<span class="form-pill ${r}">${r}</span>`)
+// Cada bolinha vem de um jogo real (formMatches, ver computeFormMatches em
+// app.js) — passar o mouse mostra o placar (title nativo do browser) e
+// clicar abre o modal da partida (mesmo data-match/data-liga usados nos
+// cards de jogo, o listener global de modal.js já entende os dois).
+function formPills(formMatches, liga) {
+  return (formMatches || [])
+    .map((m) => `<span class="form-pill ${m.result} is-clickable" data-match="${m.id}" data-liga="${liga}" title="${m.label}">${m.result}</span>`)
     .join('');
 }
 
@@ -42,7 +45,7 @@ export function renderStandings({ bodyEl, legendEl, badgeEl }, standings, teams,
         <td>${row.ga}</td>
         <td>${row.gd > 0 ? '+' : ''}${row.gd}</td>
         <td>${pct(row)}</td>
-        <td class="col-form">${formPills(row.form)}</td>
+        <td class="col-form">${formPills(row.formMatches, opts.liga)}</td>
       </tr>
     `;
   }).join('');
