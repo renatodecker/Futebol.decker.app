@@ -193,11 +193,10 @@ UID:bra-a-r19-mir-gre@futebol.decker.app.br
 DTSTAMP:20260717T230000Z
 DTSTART:20260717T230000Z
 DTEND:20260718T010000Z
-SUMMARY:Mirassol x Grêmio
-DESCRIPTION:Rodada 19 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Mirassol 2x1 Grêmio
+DESCRIPTION:Rodada 19 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estadio Municipal José Maria de Campos Maia (provável)
+LOCATION:Estadio Municipal José Maria de Campos Maia
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r20-gre-flu@futebol.decker.app.br
