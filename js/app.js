@@ -409,15 +409,18 @@ function matchesByDayHtml(matches) {
   `).join('');
 }
 
+const HOME_LISTS_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+
+// Só entram partidas 'scheduled'/'finished' — uma vez que a partida vira
+// 'live' (via live.js), ela some daqui e só aparece na seção "Ao vivo".
 function renderHomeLists() {
+  const now = debugNowMs() ?? Date.now();
   const finished = state.fixtures.matches
-    .filter((m) => m.status === 'finished')
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, 10);
+    .filter((m) => m.status === 'finished' && now - new Date(m.date).getTime() <= HOME_LISTS_WINDOW_MS)
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
   const upcoming = state.fixtures.matches
-    .filter((m) => m.status === 'scheduled')
-    .sort((a, b) => new Date(a.date) - new Date(b.date))
-    .slice(0, 10);
+    .filter((m) => m.status === 'scheduled' && new Date(m.date).getTime() - now <= HOME_LISTS_WINDOW_MS)
+    .sort((a, b) => new Date(a.date) - new Date(b.date));
 
   document.getElementById('recentResults').innerHTML = matchesByDayHtml(finished)
     || '<p class="empty-state">Nenhum resultado ainda.</p>';
@@ -767,6 +770,7 @@ function patchLiveMatchCards() {
 function onLiveUpdate({ liveMatchIds }) {
   patchLiveMatchCards();
   renderLiveMatches();
+  renderHomeLists();
   renderClassificacao();
   updateLiveBar(liveMatchIds);
   matchModal?.refreshIfLive(liveMatchIds);
