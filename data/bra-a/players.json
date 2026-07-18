@@ -9538,7 +9538,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-319505": {
     "fullName": "Mancha",
@@ -9576,7 +9577,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-314915": {
     "fullName": "Bruno Santos",
@@ -9588,7 +9590,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-218913": {
     "fullName": "Fernando",
@@ -9600,7 +9603,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-199011": {
     "fullName": "Georgemy",
@@ -9625,7 +9629,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-332352": {
     "fullName": "Kaique",

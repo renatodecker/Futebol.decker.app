@@ -9044,7 +9044,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3098113": {
     "fullName": "Julio César Leme Do Nascimento",
@@ -9056,7 +9057,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-252538": {
     "fullName": "Giovanni Confreste",
@@ -9068,7 +9070,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-236097": {
     "fullName": "Savio",
@@ -9080,7 +9083,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-199789": {
     "fullName": "Renzo López",
@@ -9092,7 +9096,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-17"
+    "debut": "2026-07-17",
+    "active": true
   },
   "p-espn-218273": {
     "fullName": "Lucas Alves",
@@ -9104,7 +9109,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-212528": {
     "fullName": "Tomás Cardona",
