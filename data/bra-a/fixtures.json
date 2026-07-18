@@ -2705,11 +2705,14 @@
       "date": "2026-07-17T22:30:00Z",
       "home": "bah",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401879459",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r19-flu-bra",
@@ -2717,11 +2720,14 @@
       "date": "2026-07-17T23:00:00Z",
       "home": "flu",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841153",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r19-mir-gre",
@@ -2729,11 +2735,14 @@
       "date": "2026-07-17T23:00:00Z",
       "home": "mir",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841155",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r19-cam-bah",

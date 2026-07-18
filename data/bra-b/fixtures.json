@@ -2573,11 +2573,14 @@
       "date": "2026-07-17T22:00Z",
       "home": "amg",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860235",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r18-juv-cui",
@@ -2585,11 +2588,14 @@
       "date": "2026-07-17T22:00Z",
       "home": "juv",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860241",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r18-ber-ava",
@@ -2597,11 +2603,14 @@
       "date": "2026-07-17T22:00Z",
       "home": "ber",
       "away": "ava",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860237",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r18-for-nov",
@@ -2609,11 +2618,14 @@
       "date": "2026-07-18T00:00Z",
       "home": "for",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860236",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r18-lon-bfc",
@@ -2621,11 +2633,14 @@
       "date": "2026-07-18T00:00Z",
       "home": "lon",
       "away": "bfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401874009",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r18-cri-vil",
