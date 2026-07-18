@@ -853,6 +853,15 @@ button {
   margin-top: 8px;
 }
 
+.playoff-provisional-card {
+  border-style: dashed;
+  opacity: 0.75;
+}
+
+.playoff-provisional-card .datetime {
+  font-style: italic;
+}
+
 .playoff-team {
   display: flex;
   align-items: center;

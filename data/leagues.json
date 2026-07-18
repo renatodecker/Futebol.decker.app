@@ -55,7 +55,8 @@
         "pairs": [[3, 6], [4, 5]],
         "description": "O 1º e o 2º colocados sobem direto para a Série A. As outras duas vagas de acesso são decididas em confrontos de ida e volta entre 3º x 6º e 4º x 5º colocados ao fim da fase de pontos corridos.",
         "note": "Sem disputa de pênaltis: em caso de empate no placar agregado, avança o time melhor colocado na fase de pontos corridos.",
-        "dates": "21 e 28 de novembro de 2026"
+        "dates": "21 e 28 de novembro de 2026",
+        "legDates": ["2026-11-21", "2026-11-28"]
       }
     }
   },

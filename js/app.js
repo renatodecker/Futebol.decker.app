@@ -4,7 +4,7 @@
 // com sua própria instância/cache.
 import * as Theme from './theme.js?v=20260712a';
 import { renderStandings } from './standings.js?v=20260718c';
-import { renderPlayoffs } from './playoffs.js?v=20260718b';
+import { renderPlayoffs } from './playoffs.js?v=20260718c';
 import { initSquadModal } from './squad.js?v=20260718b';
 import { initLive } from './live.js?v=20260712a';
 import { initMatchModal } from './modal.js?v=20260718a';

@@ -37,6 +37,38 @@ function tieFixtures(fixtures, maxRegularRound, teamA, teamB) {
     .sort((a, b) => new Date(a.date) - new Date(b.date));
 }
 
+const LEG_LABELS = ['Jogo de ida', 'Jogo de volta'];
+
+function fmtLegDate(dateStr) {
+  if (!dateStr) return 'data a definir';
+  return new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric', timeZone: 'America/Sao_Paulo' })
+    .format(new Date(`${dateStr}T12:00:00Z`));
+}
+
+function provisionalTeamHtml(team, isAway) {
+  const img = team ? `<img src="${team.badge || ''}" alt="" />` : '';
+  const name = `<span class="team-name">${team ? team.name : 'A definir'}</span>`;
+  const squadAttr = team ? `data-open-squad="${team.slug}"` : '';
+  const inner = isAway ? `${name}${img}` : `${img}${name}`;
+  return `<div class="team ${isAway ? 'away' : 'home'}" ${squadAttr}>${inner}</div>`;
+}
+
+// Enquanto o jogo de verdade do confronto não existe em fixtures.matches
+// (fase de pontos corridos ainda rolando — os times do par podem até trocar
+// até lá), mostra 2 cards "provisórios" (ida/volta) com os times que ocupam
+// a posição AGORA e a data prevista de leagues.json, sem placar/local (não
+// existem ainda) e sem abrir modal de detalhes (não há partida real por trás).
+function provisionalLegCardHtml(legLabel, dateStr, teamHigher, teamLower) {
+  return `
+    <div class="match-card playoff-provisional-card">
+      <span class="round-label">${legLabel} · ${fmtLegDate(dateStr)}</span>
+      ${provisionalTeamHtml(teamHigher, false)}
+      <div class="center"><span class="datetime">Horário<br>a definir</span></div>
+      ${provisionalTeamHtml(teamLower, true)}
+    </div>
+  `;
+}
+
 export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, teams, matchCtx = {}) {
   if (!playoffsCfg) {
     containerEl.innerHTML = '';
@@ -54,13 +86,16 @@ export function renderPlayoffs({ containerEl }, playoffsCfg, standingsTable, tea
   const { fixtures, homeVenues, liga, maxRegularRound } = matchCtx;
   const cardCtx = { teams, homeVenues, liga };
 
+  const legDates = playoffsCfg.legDates || [];
+
   const pairsHtml = (playoffsCfg.pairs || []).map(([higher, lower]) => {
     const teamHigher = teamAt(higher);
     const teamLower = teamAt(lower);
     const games = tieFixtures(fixtures, maxRegularRound, teamHigher?.slug, teamLower?.slug);
-    const gamesHtml = games.length
-      ? `<div class="match-list playoff-tie-games">${games.map((m) => matchCardHtml(m, cardCtx)).join('')}</div>`
-      : '';
+    const cardsHtml = games.length
+      ? games.map((m) => matchCardHtml(m, cardCtx)).join('')
+      : LEG_LABELS.map((label, i) => provisionalLegCardHtml(label, legDates[i], teamHigher, teamLower)).join('');
+    const gamesHtml = `<div class="match-list playoff-tie-games">${cardsHtml}</div>`;
     return `
       <div class="playoff-tie-group">
         <div class="playoff-tie">
