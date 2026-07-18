@@ -12,7 +12,7 @@
        mudar, senão o navegador/CDN pode continuar servindo a versão antiga
        desses arquivos por um bom tempo mesmo depois do deploy (o site não
        tem build com hash de conteúdo no nome do arquivo). -->
-  <link rel="stylesheet" href="css/style.css?v=20260718d" />
+  <link rel="stylesheet" href="css/style.css?v=20260718e" />
 </head>
 <body>
   <header class="site-header">
@@ -62,6 +62,7 @@
   <nav class="tab-bar" id="tabBar">
     <button class="tab-btn is-active" data-tab="home">Home</button>
     <button class="tab-btn" data-tab="classificacao">Classificação</button>
+    <button class="tab-btn" data-tab="playoffs" id="playoffsTabBtn" hidden>Playoffs</button>
     <button class="tab-btn" data-tab="rodadas">Rodadas</button>
     <button class="tab-btn" data-tab="meses">Meses</button>
     <button class="tab-btn" data-tab="estatisticas">Estatísticas</button>
@@ -127,6 +128,10 @@
       <ul class="zones-legend" id="zonesLegend"></ul>
     </section>
 
+    <section class="tab-panel" id="tab-playoffs" data-tab-panel="playoffs">
+      <div id="playoffsContent"></div>
+    </section>
+
     <section class="tab-panel" id="tab-rodadas" data-tab-panel="rodadas">
       <div class="accordion" id="rodadasAccordion"></div>
     </section>
@@ -187,6 +192,7 @@
 
   <script type="module" src="js/theme.js?v=20260712a"></script>
   <script type="module" src="js/standings.js?v=20260718c"></script>
-  <script type="module" src="js/app.js?v=20260718e"></script>
+  <script type="module" src="js/playoffs.js?v=20260718a"></script>
+  <script type="module" src="js/app.js?v=20260718f"></script>
 </body>
 </html>

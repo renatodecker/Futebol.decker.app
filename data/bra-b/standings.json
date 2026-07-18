@@ -59,7 +59,7 @@
         "W",
         "W"
       ],
-      "zone": "acesso"
+      "zone": "playoff-acesso"
     },
     {
       "pos": 4,
@@ -79,7 +79,7 @@
         "L",
         "L"
       ],
-      "zone": "acesso"
+      "zone": "playoff-acesso"
     },
     {
       "pos": 5,
@@ -99,7 +99,7 @@
         "W",
         "W"
       ],
-      "zone": null
+      "zone": "playoff-acesso"
     },
     {
       "pos": 6,
@@ -119,7 +119,7 @@
         "L",
         "W"
       ],
-      "zone": null
+      "zone": "playoff-acesso"
     },
     {
       "pos": 7,
@@ -405,8 +405,13 @@
   "zones": [
     {
       "id": "acesso",
-      "label": "Acesso à Série A",
+      "label": "Acesso direto à Série A",
       "color": "#2e7d32"
+    },
+    {
+      "id": "playoff-acesso",
+      "label": "Playoff de acesso (3º ao 6º)",
+      "color": "#66bb6a"
     },
     {
       "id": "rebaixamento",

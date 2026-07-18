@@ -4,6 +4,7 @@
 // com sua própria instância/cache.
 import * as Theme from './theme.js?v=20260712a';
 import { renderStandings } from './standings.js?v=20260718c';
+import { renderPlayoffs } from './playoffs.js?v=20260718a';
 import { initSquadModal } from './squad.js?v=20260718b';
 import { initLive } from './live.js?v=20260712a';
 import { initMatchModal } from './modal.js?v=20260718a';
@@ -464,15 +465,50 @@ function computeFormMatches(teamSlug) {
     });
 }
 
+function currentStandingsData() {
+  return isWithinLiveWindow() ? computeLiveStandings() : state.standings;
+}
+
 function renderClassificacao() {
-  const live = isWithinLiveWindow();
-  const data = live ? computeLiveStandings() : state.standings;
+  const data = currentStandingsData();
   const table = data.table.map((row) => ({ ...row, formMatches: computeFormMatches(row.team) }));
   renderStandings({
     bodyEl: document.getElementById('standingsBody'),
     legendEl: document.getElementById('zonesLegend'),
     badgeEl: document.getElementById('standingsBadge'),
-  }, { ...data, table }, state.teams, { partial: live, liveTeams: liveTeamSlugs(), liga: state.liga });
+  }, { ...data, table }, state.teams, { partial: isWithinLiveWindow(), liveTeams: liveTeamSlugs(), liga: state.liga });
+}
+
+// ---------------------------------------------------------------------
+// Playoffs
+// ---------------------------------------------------------------------
+
+// A aba só existe pra ligas com `rules.playoffs` configurado em
+// leagues.json (ex.: Série B) — em qualquer outra liga (ex.: Série A, sem
+// mata-mata) o botão fica escondido e o conteúdo nunca é montado.
+function playoffsCfg() {
+  return state.leagues[state.liga]?.rules?.playoffs || null;
+}
+
+function renderPlayoffsTab() {
+  const cfg = playoffsCfg();
+  const tabBtn = document.getElementById('playoffsTabBtn');
+  tabBtn.hidden = !cfg;
+
+  if (!cfg) {
+    // Se a liga trocou e a aba Playoffs não existe mais aqui, mas ela
+    // ficou marcada como ativa (troca de liga estando nela aberta), volta
+    // pra Home em vez de deixar o painel escondido "ativo" sem aba visível.
+    if (tabBtn.classList.contains('is-active')) {
+      tabBtn.classList.remove('is-active');
+      document.getElementById('tab-playoffs').classList.remove('is-active');
+      document.querySelector('.tab-btn[data-tab="home"]').classList.add('is-active');
+      document.getElementById('tab-home').classList.add('is-active');
+    }
+    return;
+  }
+
+  renderPlayoffs({ containerEl: document.getElementById('playoffsContent') }, cfg, currentStandingsData().table, state.teams);
 }
 
 // ---------------------------------------------------------------------
@@ -732,6 +768,7 @@ function onLiveUpdate({ liveMatchIds }) {
   renderLiveMatches();
   renderHomeLists();
   renderClassificacao();
+  renderPlayoffsTab();
   updateLiveBar(liveMatchIds);
   matchModal?.refreshIfLive(liveMatchIds, state.liga);
 }
@@ -951,6 +988,7 @@ async function loadLiga(slug, { resetTeam } = {}) {
   renderHomeLists();
   renderHighlights();
   renderClassificacao();
+  renderPlayoffsTab();
   renderRodadas();
   renderMeses();
   refreshStatsTeamOptions();

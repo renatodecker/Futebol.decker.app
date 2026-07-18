@@ -44,9 +44,19 @@
       "rounds": 38,
       "liveTiebreakers": ["pts", "won", "gd", "gf"],
       "zoneBands": [
-        { "from": 1, "to": 4, "id": "acesso", "label": "Acesso à Série A", "color": "#2e7d32" },
+        { "from": 1, "to": 2, "id": "acesso", "label": "Acesso direto à Série A", "color": "#2e7d32" },
+        { "from": 3, "to": 6, "id": "playoff-acesso", "label": "Playoff de acesso (3º ao 6º)", "color": "#66bb6a" },
         { "from": 17, "to": 20, "id": "rebaixamento", "label": "Rebaixamento", "color": "#c62828" }
-      ]
+      ],
+      "playoffs": {
+        "id": "playoff-acesso",
+        "label": "Playoffs de acesso",
+        "type": "promotion",
+        "pairs": [[3, 6], [4, 5]],
+        "description": "O 1º e o 2º colocados sobem direto para a Série A. As outras duas vagas de acesso são decididas em confrontos de ida e volta entre 3º x 6º e 4º x 5º colocados ao fim da fase de pontos corridos.",
+        "note": "Sem disputa de pênaltis: em caso de empate no placar agregado, avança o time melhor colocado na fase de pontos corridos.",
+        "dates": "21 e 28 de novembro de 2026"
+      }
     }
   },
   "eng-1": {

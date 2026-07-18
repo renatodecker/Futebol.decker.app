@@ -795,6 +795,94 @@ button {
   border-radius: 2px;
 }
 
+/* ---------- Playoffs ---------- */
+
+.playoff-intro {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  margin-bottom: 14px;
+}
+
+.playoff-intro h3 {
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+
+.playoff-intro p {
+  margin: 0 0 6px;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+
+.playoff-intro p:last-child {
+  margin-bottom: 0;
+}
+
+.playoff-note,
+.playoff-dates {
+  font-style: italic;
+}
+
+.playoff-bracket-label {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  margin: 0 0 10px;
+}
+
+.playoff-tie {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+
+.playoff-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 0;
+  min-width: 0;
+  cursor: pointer;
+}
+
+.playoff-team img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.playoff-team-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.playoff-team-pos {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  flex: 0 0 auto;
+}
+
+.playoff-team-tbd {
+  cursor: default;
+  color: var(--ink-muted);
+}
+
+.playoff-tie-vs {
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+
 /* ---------- Accordion (Rodadas / Meses) ---------- */
 
 .accordion-item {
