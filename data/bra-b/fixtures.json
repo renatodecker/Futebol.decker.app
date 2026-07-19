@@ -2648,11 +2648,14 @@
       "date": "2026-07-18T19:00Z",
       "home": "cri",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401874006",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r18-pon-goi",
@@ -2660,11 +2663,14 @@
       "date": "2026-07-18T19:00Z",
       "home": "pon",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401874005",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r18-spo-ope",
@@ -2672,11 +2678,14 @@
       "date": "2026-07-18T19:00Z",
       "home": "spo",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401874007",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r18-ago-acm",
@@ -2684,11 +2693,14 @@
       "date": "2026-07-18T21:00Z",
       "home": "ago",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401873988",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r19-ava-amg",
