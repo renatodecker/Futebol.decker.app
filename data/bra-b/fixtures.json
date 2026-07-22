@@ -2708,11 +2708,14 @@
       "date": "2026-07-21T22:30Z",
       "home": "ava",
       "away": "amg",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860243",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r19-nov-cri",
@@ -2720,11 +2723,14 @@
       "date": "2026-07-21T22:30Z",
       "home": "nov",
       "away": "cri",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860247",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r19-vil-for",
@@ -2732,11 +2738,14 @@
       "date": "2026-07-22T00:35Z",
       "home": "vil",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860244",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
     },
     {
       "id": "r19-cea-crb",
