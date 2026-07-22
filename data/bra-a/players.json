@@ -9642,7 +9642,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-387949": {
     "fullName": "Ruan Pablo",
@@ -9667,7 +9668,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-332352": {
     "fullName": "Kaique",

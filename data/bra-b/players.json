@@ -9200,7 +9200,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-21"
+    "debut": "2026-07-21",
+    "active": true
   },
   "p-espn-292036": {
     "fullName": "Tobías Ostchega",
@@ -9212,7 +9213,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-314833": {
     "fullName": "Heitor",
@@ -9237,7 +9239,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-273399": {
     "fullName": "Nathan Fogaça",
@@ -9249,7 +9252,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",
