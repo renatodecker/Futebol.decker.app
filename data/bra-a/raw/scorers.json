@@ -975,7 +975,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1099,7 +1099,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1254,7 +1254,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -1998,7 +1998,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 2,
       "penalties": null
@@ -2346,6 +2346,37 @@
     },
     {
       "player": {
+        "id": 131258,
+        "name": "Ruan",
+        "firstName": "",
+        "lastName": "Ruan",
+        "dateOfBirth": "1999-06-07",
+        "nationality": "Brazil",
+        "section": "Centre-Back",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-09-02T09:59:11Z"
+      },
+      "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
+        "clubColors": "Black / White",
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
+      },
+      "playedMatches": 17,
+      "goals": 2,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1465,
         "name": "Yago Pikachu",
         "firstName": "",
@@ -2401,7 +2432,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2525,7 +2556,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2742,7 +2773,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -3021,7 +3052,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -3052,7 +3083,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -3086,37 +3117,6 @@
       "playedMatches": 17,
       "goals": 2,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 205585,
-        "name": "Keny Arroyo",
-        "firstName": "Keny",
-        "lastName": "Arroyo",
-        "dateOfBirth": "2006-02-14",
-        "nationality": "Ecuador",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-05-15T09:46:07Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 15,
-      "goals": 2,
-      "assists": 2,
       "penalties": null
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:10:29.083Z",
+  "updatedAt": "2026-07-22T11:11:26.223Z",
   "table": [
     {
       "pos": 1,
@@ -104,20 +104,20 @@
     {
       "pos": 6,
       "team": "bah",
-      "pts": 29,
-      "played": 18,
+      "pts": 30,
+      "played": 19,
       "won": 8,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 5,
-      "gf": 27,
-      "ga": 23,
+      "gf": 28,
+      "ga": 24,
       "gd": 4,
       "form": [
-        "L",
         "D",
         "L",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "zone": "sulamericana"
     },
@@ -183,6 +183,26 @@
     },
     {
       "pos": 10,
+      "team": "cam",
+      "pts": 25,
+      "played": 19,
+      "won": 7,
+      "drawn": 4,
+      "lost": 8,
+      "gf": 23,
+      "ga": 24,
+      "gd": -1,
+      "form": [
+        "D",
+        "W",
+        "L",
+        "W",
+        "D"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 11,
       "team": "vit",
       "pts": 25,
       "played": 18,
@@ -195,26 +215,6 @@
       "form": [
         "D",
         "L",
-        "W",
-        "L",
-        "W"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 11,
-      "team": "cam",
-      "pts": 24,
-      "played": 18,
-      "won": 7,
-      "drawn": 3,
-      "lost": 8,
-      "gf": 22,
-      "ga": 23,
-      "gd": -1,
-      "form": [
-        "W",
-        "D",
         "W",
         "L",
         "W"
