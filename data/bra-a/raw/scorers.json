@@ -21,6 +21,37 @@
   "scorers": [
     {
       "player": {
+        "id": 1077,
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "Pedro",
+        "dateOfBirth": "1997-06-20",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 18,
+      "goals": 12,
+      "assists": 5,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 192070,
         "name": "Kevin Viveros",
         "firstName": "Kevin",
@@ -45,7 +76,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 11,
       "assists": 1,
       "penalties": 2
@@ -80,37 +111,6 @@
       "goals": 10,
       "assists": null,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 1077,
-        "name": "Pedro",
-        "firstName": "",
-        "lastName": "Pedro",
-        "dateOfBirth": "1997-06-20",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 17,
-      "goals": 10,
-      "assists": 4,
-      "penalties": null
     },
     {
       "player": {
@@ -169,7 +169,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 8,
       "assists": 1,
       "penalties": null
@@ -355,7 +355,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -386,7 +386,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 6,
       "assists": 1,
       "penalties": 1
@@ -448,7 +448,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 5,
       "assists": null,
       "penalties": null
@@ -479,10 +479,41 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 5,
       "assists": 1,
       "penalties": null
+    },
+    {
+      "player": {
+        "id": 91310,
+        "name": "Kaio Jorge",
+        "firstName": "",
+        "lastName": "Kaio Jorge",
+        "dateOfBirth": "2002-01-24",
+        "nationality": "Brazil",
+        "section": "Centre-Forward",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-09-02T09:59:11Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 13,
+      "goals": 5,
+      "assists": null,
+      "penalties": 3
     },
     {
       "player": {
@@ -509,6 +540,37 @@
         "clubColors": "Blue / White",
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 18,
+      "goals": 5,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 22061,
+        "name": "Johan Carbonero",
+        "firstName": "Johan",
+        "lastName": "Carbonero",
+        "dateOfBirth": "1999-07-20",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 20,
+        "lastUpdated": "2023-07-31T09:48:05Z"
+      },
+      "team": {
+        "id": 6684,
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "tla": "SCI",
+        "crest": "https://crests.football-data.org/6684.png",
+        "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+        "website": "http://www.internacional.com.br",
+        "founded": 1909,
+        "clubColors": "Red / White",
+        "venue": "Estádio José Pinheiro Borba",
+        "lastUpdated": "2023-02-18T08:43:22Z"
       },
       "playedMatches": 18,
       "goals": 5,
@@ -734,6 +796,37 @@
     },
     {
       "player": {
+        "id": 45490,
+        "name": "Matheus Pereira",
+        "firstName": "",
+        "lastName": "Matheus Pereira",
+        "dateOfBirth": "1996-05-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:45Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 17,
+      "goals": 4,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 16154,
         "name": "Pedro Rocha",
         "firstName": "",
@@ -762,37 +855,6 @@
       "goals": 4,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 91310,
-        "name": "Kaio Jorge",
-        "firstName": "",
-        "lastName": "Kaio Jorge",
-        "dateOfBirth": "2002-01-24",
-        "nationality": "Brazil",
-        "section": "Centre-Forward",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-09-02T09:59:11Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 12,
-      "goals": 4,
-      "assists": null,
-      "penalties": 3
     },
     {
       "player": {
@@ -882,40 +944,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 4,
-      "assists": 6,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 22061,
-        "name": "Johan Carbonero",
-        "firstName": "Johan",
-        "lastName": "Carbonero",
-        "dateOfBirth": "1999-07-20",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": 20,
-        "lastUpdated": "2023-07-31T09:48:05Z"
-      },
-      "team": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "shortName": "Internacional",
-        "tla": "SCI",
-        "crest": "https://crests.football-data.org/6684.png",
-        "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
-        "website": "http://www.internacional.com.br",
-        "founded": 1909,
-        "clubColors": "Red / White",
-        "venue": "Estádio José Pinheiro Borba",
-        "lastUpdated": "2023-02-18T08:43:22Z"
-      },
-      "playedMatches": 17,
-      "goals": 4,
-      "assists": 3,
+      "assists": 7,
       "penalties": null
     },
     {
@@ -1037,7 +1068,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1068,7 +1099,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1261,6 +1292,37 @@
     },
     {
       "player": {
+        "id": 1192,
+        "name": "Artur Guimaraes",
+        "firstName": "",
+        "lastName": "Artur",
+        "dateOfBirth": "1998-02-15",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:16:42Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 17,
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1244,
         "name": "Giorgian De Arrascaeta",
         "firstName": "Giorgian",
@@ -1285,7 +1347,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 11,
+      "playedMatches": 12,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -1347,38 +1409,69 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": null,
       "penalties": null
     },
     {
       "player": {
-        "id": 45490,
-        "name": "Matheus Pereira",
-        "firstName": "",
-        "lastName": "Matheus Pereira",
-        "dateOfBirth": "1996-05-05",
-        "nationality": "Brazil",
+        "id": 119594,
+        "name": "Mauricio",
+        "firstName": null,
+        "lastName": "Mauricio",
+        "dateOfBirth": "2001-06-22",
+        "nationality": "Paraguay",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-03T09:41:57Z"
+      },
+      "team": {
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "tla": "PAL",
+        "crest": "https://crests.football-data.org/1769.png",
+        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+        "website": "http://www.palmeiras.com.br",
+        "founded": 1914,
+        "clubColors": "Green / White",
+        "venue": "Allianz Parque",
+        "lastUpdated": "2022-04-06T13:14:55Z"
+      },
+      "playedMatches": 17,
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 140647,
+        "name": "Ramón Sosa",
+        "firstName": "Ramón",
+        "lastName": "Sosa",
+        "dateOfBirth": "1999-08-31",
+        "nationality": "Paraguay",
         "section": "Offence",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:45Z"
+        "lastUpdated": "2026-06-01T11:16:31Z"
       },
       "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "tla": "PAL",
+        "crest": "https://crests.football-data.org/1769.png",
+        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+        "website": "http://www.palmeiras.com.br",
+        "founded": 1914,
+        "clubColors": "Green / White",
+        "venue": "Allianz Parque",
+        "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -1440,7 +1533,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -1564,7 +1657,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1595,7 +1688,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1719,7 +1812,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2029,7 +2122,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 2,
       "assists": 2,
       "penalties": null
@@ -2063,37 +2156,6 @@
       "playedMatches": 11,
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1192,
-        "name": "Artur Guimaraes",
-        "firstName": "",
-        "lastName": "Artur",
-        "dateOfBirth": "1998-02-15",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:16:42Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 16,
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -2187,37 +2249,6 @@
       "playedMatches": 17,
       "goals": 2,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 140647,
-        "name": "Ramón Sosa",
-        "firstName": "Ramón",
-        "lastName": "Sosa",
-        "dateOfBirth": "1999-08-31",
-        "nationality": "Paraguay",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-01T11:16:31Z"
-      },
-      "team": {
-        "id": 1769,
-        "name": "SE Palmeiras",
-        "shortName": "Palmeiras",
-        "tla": "PAL",
-        "crest": "https://crests.football-data.org/1769.png",
-        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
-        "website": "http://www.palmeiras.com.br",
-        "founded": 1914,
-        "clubColors": "Green / White",
-        "venue": "Allianz Parque",
-        "lastUpdated": "2022-04-06T13:14:55Z"
-      },
-      "playedMatches": 16,
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -2742,7 +2773,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2866,7 +2897,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2959,7 +2990,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2990,7 +3021,7 @@
         "venue": "Arena Condá",
         "lastUpdated": "2021-07-22T10:53:42Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -3021,7 +3052,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 11,
+      "playedMatches": 12,
       "goals": 2,
       "assists": null,
       "penalties": 2
@@ -3084,37 +3115,6 @@
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
       "playedMatches": 15,
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 203721,
-        "name": "Marcelinho",
-        "firstName": "",
-        "lastName": "Marcelinho",
-        "dateOfBirth": "1998-07-20",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T10:01:17Z"
-      },
-      "team": {
-        "id": 4287,
-        "name": "Clube do Remo",
-        "shortName": "Clube do Remo",
-        "tla": "CRE",
-        "crest": "https://crests.football-data.org/4287.png",
-        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
-        "website": "http://www.clubedoremo.com.br",
-        "founded": 1905,
-        "clubColors": "Navy Blue / White",
-        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
-        "lastUpdated": "2023-09-09T10:24:14Z"
-      },
-      "playedMatches": 17,
       "goals": 2,
       "assists": 1,
       "penalties": null
