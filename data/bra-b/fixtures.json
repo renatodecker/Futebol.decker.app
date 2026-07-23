@@ -2753,11 +2753,14 @@
       "date": "2026-07-22T22:30Z",
       "home": "cea",
       "away": "crb",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860250",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Presidente Vargas",
+      "attendance": 0
     },
     {
       "id": "r19-ope-pon",
@@ -2765,11 +2768,14 @@
       "date": "2026-07-22T22:30Z",
       "home": "ope",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401860245",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r19-goi-spo",
@@ -2777,11 +2783,14 @@
       "date": "2026-07-22T23:30Z",
       "home": "goi",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860248",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 0
     },
     {
       "id": "r19-nau-lon",
@@ -2789,11 +2798,14 @@
       "date": "2026-07-23T00:30Z",
       "home": "nau",
       "away": "lon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860246",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 4113
     },
     {
       "id": "r19-acm-ber",
