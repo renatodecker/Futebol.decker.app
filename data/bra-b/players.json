@@ -9265,7 +9265,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-336954": {
     "fullName": "Nicolás Ferreira",
@@ -9277,7 +9278,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-418244": {
     "fullName": "Caio Moura",
@@ -9302,7 +9304,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-357480": {
     "fullName": "Kayky",
@@ -9314,7 +9317,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-3106015": {
     "fullName": "Matheus Antonio Uchôa Da Silva",
@@ -9326,7 +9330,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-251709": {
     "fullName": "Rai Nascimento",
@@ -9338,7 +9343,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",

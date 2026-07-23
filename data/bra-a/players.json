@@ -9681,7 +9681,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-402818": {
     "fullName": "Tissi",
@@ -9706,7 +9707,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-22"
+    "debut": "2026-07-22",
+    "active": true
   },
   "p-espn-3105977": {
     "fullName": "Miguel Cinoncelli Bilong",
@@ -9718,7 +9720,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-412292": {
     "fullName": "Heittor",
@@ -9756,7 +9759,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417361": {
     "fullName": "Wellington",
@@ -9794,7 +9798,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-3106016": {
     "fullName": "Filipe Borba Sirio",
@@ -9806,7 +9811,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-422159": {
     "fullName": "Fabricio Prado",
@@ -9844,7 +9850,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-295005": {
     "fullName": "Gabriel Pec",
@@ -9856,7 +9863,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-404611": {
     "fullName": "Vitor Lamounier",
@@ -9881,7 +9889,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-371525": {
     "fullName": "Isac",
@@ -9906,7 +9915,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
