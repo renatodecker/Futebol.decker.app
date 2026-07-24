@@ -2813,11 +2813,14 @@
       "date": "2026-07-23T22:30Z",
       "home": "acm",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860242",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r19-cui-ago",
@@ -2825,11 +2828,14 @@
       "date": "2026-07-23T23:30Z",
       "home": "cui",
       "away": "ago",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860249",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r19-bfc-juv",
@@ -2837,11 +2843,14 @@
       "date": "2026-07-24T00:30Z",
       "home": "bfc",
       "away": "juv",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
       "espnEventId": "401860251",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 1500
     },
     {
       "id": "r20-cri-nau",

@@ -2825,11 +2825,14 @@
       "date": "2026-07-23T22:30:00Z",
       "home": "bot",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401879458",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r19-cor-rem",
@@ -2837,11 +2840,14 @@
       "date": "2026-07-23T22:30:00Z",
       "home": "cor",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841151",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r20-cap-int",

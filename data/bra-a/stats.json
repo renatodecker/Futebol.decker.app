@@ -314,7 +314,7 @@
     },
     "p-espn-338898": {
       "goals": 2,
-      "assists": 0,
+      "assists": 1,
       "yellow": 1,
       "red": 0
     },
@@ -741,7 +741,7 @@
     "p-espn-359977": {
       "goals": 0,
       "assists": 1,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-287664": {
@@ -879,7 +879,7 @@
     "p-espn-218649": {
       "goals": 0,
       "assists": 0,
-      "yellow": 5,
+      "yellow": 6,
       "red": 0
     },
     "p-espn-125514": {
@@ -1155,7 +1155,7 @@
     "p-espn-192226": {
       "goals": 1,
       "assists": 0,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-223437": {
@@ -1531,7 +1531,7 @@
       "red": 0
     },
     "p-espn-347456": {
-      "goals": 1,
+      "goals": 2,
       "assists": 1,
       "yellow": 2,
       "red": 0
@@ -1599,7 +1599,7 @@
     "p-espn-157743": {
       "goals": 1,
       "assists": 0,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-301185": {
@@ -1783,7 +1783,7 @@
       "red": 0
     },
     "p-espn-266666": {
-      "goals": 1,
+      "goals": 3,
       "assists": 2,
       "yellow": 2,
       "red": 0
@@ -1976,7 +1976,7 @@
     },
     "p-espn-409662": {
       "goals": 3,
-      "assists": 0,
+      "assists": 1,
       "yellow": 1,
       "red": 2
     },
@@ -2438,7 +2438,7 @@
     },
     "p-espn-144324": {
       "goals": 1,
-      "assists": 1,
+      "assists": 2,
       "yellow": 1,
       "red": 0
     },
@@ -2789,13 +2789,13 @@
     "vit": {
       "goals": 22,
       "conceded": 25,
-      "yellow": 44,
+      "yellow": 45,
       "red": 1
     },
     "rem": {
       "goals": 21,
-      "conceded": 29,
-      "yellow": 35,
+      "conceded": 32,
+      "yellow": 36,
       "red": 3
     },
     "int": {
@@ -2847,9 +2847,9 @@
       "red": 4
     },
     "cor": {
-      "goals": 18,
+      "goals": 21,
       "conceded": 19,
-      "yellow": 48,
+      "yellow": 49,
       "red": 4
     },
     "bah": {
@@ -2885,7 +2885,7 @@
     "bot": {
       "goals": 33,
       "conceded": 32,
-      "yellow": 53,
+      "yellow": 54,
       "red": 3
     },
     "cru": {
@@ -2895,5 +2895,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-07-23T07:27:28.397Z"
+  "updatedAt": "2026-07-24T05:23:42.648Z"
 }
