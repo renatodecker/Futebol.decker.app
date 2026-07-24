@@ -15,7 +15,7 @@
     "id": 2474,
     "startDate": "2026-01-28",
     "endDate": "2026-12-02",
-    "currentMatchday": 19,
+    "currentMatchday": 20,
     "winner": null
   },
   "scorers": [
@@ -200,7 +200,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 7,
       "assists": 2,
       "penalties": null
@@ -231,7 +231,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 7,
       "assists": 1,
       "penalties": null
@@ -603,7 +603,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 11,
+      "playedMatches": 12,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -634,7 +634,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -696,7 +696,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -727,7 +727,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -758,7 +758,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1037,7 +1037,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1750,7 +1750,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 6,
+      "playedMatches": 7,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1784,6 +1784,37 @@
       "playedMatches": 12,
       "goals": 3,
       "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 1325,
+        "name": "Yuri Alberto",
+        "firstName": "",
+        "lastName": "Yuri Alberto",
+        "dateOfBirth": "2001-03-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-03-10T09:42:27Z"
+      },
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png",
+        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+        "website": "http://www.corinthians.com.br",
+        "founded": 1910,
+        "clubColors": "Black / White",
+        "venue": "Neo Química Arena",
+        "lastUpdated": "2024-07-29T17:24:47Z"
+      },
+      "playedMatches": 15,
+      "goals": 3,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -1843,9 +1874,9 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 3,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -1967,7 +1998,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -2060,9 +2091,9 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -2308,7 +2339,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": 1
@@ -2370,7 +2401,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 2,
       "assists": 2,
       "penalties": null
@@ -2432,7 +2463,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2525,7 +2556,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2618,7 +2649,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2742,7 +2773,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 4,
       "penalties": 1
@@ -2835,7 +2866,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 2,
       "penalties": 2
@@ -3084,37 +3115,6 @@
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
       "playedMatches": 14,
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 191376,
-        "name": "Mateo Sanabria",
-        "firstName": "Mateo",
-        "lastName": "Sanabria",
-        "dateOfBirth": "2004-03-31",
-        "nationality": "Argentina",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T09:47:58Z"
-      },
-      "team": {
-        "id": 1777,
-        "name": "EC Bahia",
-        "shortName": "Bahia",
-        "tla": "BAH",
-        "crest": "https://crests.football-data.org/1777.png",
-        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
-        "website": "http://www.esporteclubebahia.com.br",
-        "founded": 1931,
-        "clubColors": "Blue / White / Red",
-        "venue": "Estádio Governador Roberto Santos",
-        "lastUpdated": "2024-10-28T10:09:10Z"
-      },
-      "playedMatches": 15,
       "goals": 2,
       "assists": 1,
       "penalties": null
