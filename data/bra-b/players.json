@@ -9356,7 +9356,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-326058": {
     "fullName": "Wilinton Aponza",
@@ -9368,7 +9369,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-361627": {
     "fullName": "Felipe Negrucci",
@@ -9380,7 +9382,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-267575": {
     "fullName": "Fábio",
@@ -9392,7 +9395,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-298951": {
     "fullName": "Igor",
@@ -9404,7 +9408,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-255805": {
     "fullName": "Wesley Dias",

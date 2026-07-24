@@ -9928,7 +9928,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-250143": {
     "fullName": "Warleson",
@@ -9940,7 +9941,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-23"
+    "debut": "2026-07-23",
+    "active": true
   },
   "p-espn-277069": {
     "fullName": "Lucas Monzón",
@@ -9952,7 +9954,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-228401": {
     "fullName": "Gabriel Batista",
@@ -9964,7 +9967,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-252544": {
     "fullName": "Paulo Victor",
@@ -9976,7 +9980,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-304065": {
     "fullName": "Fabiano",
