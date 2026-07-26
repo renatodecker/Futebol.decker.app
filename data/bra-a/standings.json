@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T10:35:44.459Z",
+  "updatedAt": "2026-07-26T10:46:07.828Z",
   "table": [
     {
       "pos": 1,
@@ -44,17 +44,17 @@
     {
       "pos": 3,
       "team": "cap",
-      "pts": 33,
-      "played": 19,
-      "won": 10,
+      "pts": 36,
+      "played": 20,
+      "won": 11,
       "drawn": 3,
       "lost": 6,
-      "gf": 26,
+      "gf": 28,
       "ga": 19,
-      "gd": 7,
+      "gd": 9,
       "form": [
-        "L",
         "D",
+        "W",
         "W",
         "W",
         "W"
@@ -263,40 +263,40 @@
     },
     {
       "pos": 14,
-      "team": "int",
-      "pts": 21,
-      "played": 19,
+      "team": "san",
+      "pts": 22,
+      "played": 20,
       "won": 5,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 8,
-      "gf": 22,
-      "ga": 24,
-      "gd": -2,
+      "gf": 29,
+      "ga": 33,
+      "gd": -4,
       "form": [
-        "D",
+        "L",
+        "L",
         "W",
         "L",
-        "L",
-        "L"
+        "D"
       ],
       "zone": null
     },
     {
       "pos": 15,
-      "team": "san",
+      "team": "int",
       "pts": 21,
-      "played": 19,
+      "played": 20,
       "won": 5,
       "drawn": 6,
-      "lost": 8,
-      "gf": 27,
-      "ga": 31,
+      "lost": 9,
+      "gf": 22,
+      "ga": 26,
       "gd": -4,
       "form": [
         "W",
         "L",
         "L",
-        "W",
+        "L",
         "L"
       ],
       "zone": null
@@ -324,40 +324,40 @@
     {
       "pos": 17,
       "team": "vas",
-      "pts": 20,
-      "played": 19,
+      "pts": 21,
+      "played": 20,
       "won": 5,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 9,
-      "gf": 22,
-      "ga": 30,
+      "gf": 23,
+      "ga": 31,
       "gd": -8,
       "form": [
-        "W",
         "L",
         "L",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "rebaixamento"
     },
     {
       "pos": 18,
       "team": "mir",
-      "pts": 19,
-      "played": 18,
+      "pts": 20,
+      "played": 19,
       "won": 5,
-      "drawn": 4,
+      "drawn": 5,
       "lost": 9,
-      "gf": 20,
-      "ga": 25,
+      "gf": 21,
+      "ga": 26,
       "gd": -5,
       "form": [
-        "D",
         "L",
         "W",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "zone": "rebaixamento"
     },
@@ -384,20 +384,20 @@
     {
       "pos": 20,
       "team": "cha",
-      "pts": 9,
-      "played": 19,
+      "pts": 10,
+      "played": 20,
       "won": 1,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 12,
-      "gf": 17,
-      "ga": 39,
+      "gf": 19,
+      "ga": 41,
       "gd": -22,
       "form": [
         "L",
         "L",
         "L",
         "L",
-        "L"
+        "D"
       ],
       "zone": "rebaixamento"
     }
