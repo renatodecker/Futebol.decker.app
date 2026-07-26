@@ -10006,7 +10006,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-25"
+    "debut": "2026-07-25",
+    "active": true
   },
   "p-espn-234012": {
     "fullName": "Bruno",
@@ -10018,7 +10019,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-25"
+    "debut": "2026-07-25",
+    "active": true
   },
   "p-espn-287768": {
     "fullName": "Max",
@@ -10030,7 +10032,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-25"
+    "debut": "2026-07-25",
+    "active": true
   },
   "p-espn-361585": {
     "fullName": "Paulinho",
@@ -10042,7 +10045,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-250904": {
     "fullName": "Gustavo Mosquito",
@@ -10054,7 +10058,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-25"
+    "debut": "2026-07-25",
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
