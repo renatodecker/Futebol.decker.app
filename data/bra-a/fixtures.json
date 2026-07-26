@@ -2855,11 +2855,14 @@
       "date": "2026-07-25T21:30:00Z",
       "home": "cap",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841158",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r20-san-cha",
@@ -2867,11 +2870,14 @@
       "date": "2026-07-25T21:30:00Z",
       "home": "san",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401841161",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 12121
     },
     {
       "id": "r20-vas-mir",
@@ -2879,11 +2885,14 @@
       "date": "2026-07-25T23:30:00Z",
       "home": "vas",
       "away": "mir",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841160",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r20-bah-cor",
