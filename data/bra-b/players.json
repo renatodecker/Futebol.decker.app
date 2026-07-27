@@ -9434,7 +9434,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-287726": {
     "fullName": "Benjamín Borasi",
@@ -9446,7 +9447,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-201680": {
     "fullName": "Bruno Brigido",
@@ -9458,7 +9460,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",

@@ -10071,7 +10071,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-402423": {
     "fullName": "Zé Lucas",
@@ -10083,7 +10084,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-404202": {
     "fullName": "Felipe Morais",
@@ -10134,7 +10136,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-358811": {
     "fullName": "Diego Caito",
@@ -10146,7 +10149,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-96254": {
     "fullName": "Thiago Silva",
@@ -10158,7 +10162,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-26"
+    "debut": "2026-07-26",
+    "active": true
   },
   "p-espn-238897": {
     "fullName": "Buta",
@@ -10170,7 +10175,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-290028": {
     "fullName": "Edson Fernando",
