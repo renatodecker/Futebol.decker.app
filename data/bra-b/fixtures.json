@@ -2858,11 +2858,14 @@
       "date": "2026-07-26T19:00Z",
       "home": "cri",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860258",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r20-ber-cea",
@@ -2870,11 +2873,14 @@
       "date": "2026-07-26T19:00Z",
       "home": "ber",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 4
+      },
       "espnEventId": "401860256",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r20-amg-goi",
@@ -2882,11 +2888,14 @@
       "date": "2026-07-26T21:30Z",
       "home": "amg",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860252",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r20-lon-nov",
@@ -2894,11 +2903,14 @@
       "date": "2026-07-26T21:30Z",
       "home": "lon",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
       "espnEventId": "401860255",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r20-ago-ope",

@@ -2900,11 +2900,14 @@
       "date": "2026-07-26T19:00:00Z",
       "home": "bah",
       "away": "cor",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841159",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r20-cru-bot",
@@ -2912,11 +2915,14 @@
       "date": "2026-07-26T19:00:00Z",
       "home": "cru",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841167",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r20-bra-cfc",
@@ -2924,11 +2930,14 @@
       "date": "2026-07-26T21:30:00Z",
       "home": "bra",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841163",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r20-fla-sao",
@@ -2936,11 +2945,14 @@
       "date": "2026-07-26T21:30:00Z",
       "home": "fla",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841166",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r20-gre-flu",
@@ -2948,11 +2960,14 @@
       "date": "2026-07-26T21:30:00Z",
       "home": "gre",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841165",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r20-pal-cam",
@@ -2960,11 +2975,14 @@
       "date": "2026-07-26T22:30:00Z",
       "home": "pal",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841164",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r20-rem-vit",
@@ -2972,11 +2990,14 @@
       "date": "2026-07-26T22:30:00Z",
       "home": "rem",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841162",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r21-cam-bra",
