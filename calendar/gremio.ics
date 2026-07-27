@@ -203,11 +203,10 @@ UID:bra-a-r20-gre-flu@futebol.decker.app.br
 DTSTAMP:20260726T213000Z
 DTSTART:20260726T213000Z
 DTEND:20260726T233000Z
-SUMMARY:Grêmio x Fluminense
-DESCRIPTION:Rodada 20 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Grêmio 1x1 Fluminense
+DESCRIPTION:Rodada 20 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Arena do Grêmio (provável)
+LOCATION:Arena do Grêmio
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r21-bot-gre@futebol.decker.app.br
