@@ -2918,11 +2918,14 @@
       "date": "2026-07-27T22:30Z",
       "home": "ago",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401860260",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r20-crb-vil",
@@ -2930,11 +2933,14 @@
       "date": "2026-07-27T22:30Z",
       "home": "crb",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860259",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r20-spo-cui",
@@ -2942,11 +2948,14 @@
       "date": "2026-07-27T22:30Z",
       "home": "spo",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860257",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r20-juv-ava",
