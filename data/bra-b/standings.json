@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T12:26:03.001Z",
+  "updatedAt": "2026-07-28T11:20:10.842Z",
   "table": [
     {
       "pos": 1,
@@ -25,19 +25,19 @@
       "pos": 2,
       "team": "ope",
       "pts": 35,
-      "played": 19,
+      "played": 20,
       "won": 10,
       "drawn": 5,
-      "lost": 4,
-      "gf": 27,
-      "ga": 22,
-      "gd": 5,
+      "lost": 5,
+      "gf": 28,
+      "ga": 25,
+      "gd": 3,
       "form": [
         "W",
         "W",
-        "W",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "zone": "acesso"
     },
@@ -45,19 +45,19 @@
       "pos": 3,
       "team": "vil",
       "pts": 34,
-      "played": 19,
+      "played": 20,
       "won": 10,
       "drawn": 4,
-      "lost": 5,
+      "lost": 6,
       "gf": 27,
-      "ga": 22,
-      "gd": 5,
+      "ga": 24,
+      "gd": 3,
       "form": [
-        "L",
         "W",
         "L",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "zone": "playoff-acesso"
     },
@@ -123,6 +123,46 @@
     },
     {
       "pos": 7,
+      "team": "ago",
+      "pts": 31,
+      "played": 20,
+      "won": 8,
+      "drawn": 7,
+      "lost": 5,
+      "gf": 23,
+      "ga": 20,
+      "gd": 3,
+      "form": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 8,
+      "team": "crb",
+      "pts": 29,
+      "played": 20,
+      "won": 8,
+      "drawn": 5,
+      "lost": 7,
+      "gf": 31,
+      "ga": 32,
+      "gd": -1,
+      "form": [
+        "L",
+        "D",
+        "W",
+        "W",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 9,
       "team": "goi",
       "pts": 29,
       "played": 20,
@@ -142,39 +182,19 @@
       "zone": null
     },
     {
-      "pos": 8,
-      "team": "ago",
-      "pts": 28,
-      "played": 19,
-      "won": 7,
-      "drawn": 7,
-      "lost": 5,
-      "gf": 20,
-      "ga": 19,
-      "gd": 1,
-      "form": [
-        "W",
-        "L",
-        "W",
-        "D",
-        "W"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 9,
+      "pos": 10,
       "team": "spo",
-      "pts": 28,
-      "played": 19,
+      "pts": 29,
+      "played": 20,
       "won": 6,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 3,
-      "gf": 24,
-      "ga": 18,
+      "gf": 25,
+      "ga": 19,
       "gd": 6,
       "form": [
         "L",
-        "L",
+        "D",
         "D",
         "D",
         "D"
@@ -182,7 +202,7 @@
       "zone": null
     },
     {
-      "pos": 10,
+      "pos": 11,
       "team": "ber",
       "pts": 27,
       "played": 20,
@@ -202,7 +222,7 @@
       "zone": null
     },
     {
-      "pos": 11,
+      "pos": 12,
       "team": "acm",
       "pts": 27,
       "played": 19,
@@ -217,26 +237,6 @@
         "L",
         "D",
         "D",
-        "W"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 12,
-      "team": "crb",
-      "pts": 26,
-      "played": 19,
-      "won": 7,
-      "drawn": 5,
-      "lost": 7,
-      "gf": 29,
-      "ga": 32,
-      "gd": -3,
-      "form": [
-        "W",
-        "L",
-        "D",
-        "W",
         "W"
       ],
       "zone": null
@@ -263,6 +263,26 @@
     },
     {
       "pos": 14,
+      "team": "cui",
+      "pts": 25,
+      "played": 20,
+      "won": 5,
+      "drawn": 10,
+      "lost": 5,
+      "gf": 15,
+      "ga": 15,
+      "gd": 0,
+      "form": [
+        "W",
+        "D",
+        "L",
+        "L",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 15,
       "team": "bfc",
       "pts": 24,
       "played": 19,
@@ -278,26 +298,6 @@
         "D",
         "D",
         "W"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 15,
-      "team": "cui",
-      "pts": 24,
-      "played": 19,
-      "won": 5,
-      "drawn": 9,
-      "lost": 5,
-      "gf": 14,
-      "ga": 14,
-      "gd": 0,
-      "form": [
-        "D",
-        "W",
-        "D",
-        "L",
-        "L"
       ],
       "zone": null
     },
