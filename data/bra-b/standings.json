@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T11:20:10.842Z",
+  "updatedAt": "2026-07-29T11:28:02.258Z",
   "table": [
     {
       "pos": 1,
@@ -23,6 +23,26 @@
     },
     {
       "pos": 2,
+      "team": "juv",
+      "pts": 35,
+      "played": 20,
+      "won": 10,
+      "drawn": 5,
+      "lost": 5,
+      "gf": 22,
+      "ga": 12,
+      "gd": 10,
+      "form": [
+        "D",
+        "W",
+        "W",
+        "L",
+        "W"
+      ],
+      "zone": "acesso"
+    },
+    {
+      "pos": 3,
       "team": "ope",
       "pts": 35,
       "played": 20,
@@ -39,10 +59,30 @@
         "W",
         "L"
       ],
-      "zone": "acesso"
+      "zone": "playoff-acesso"
     },
     {
-      "pos": 3,
+      "pos": 4,
+      "team": "for",
+      "pts": 34,
+      "played": 20,
+      "won": 10,
+      "drawn": 4,
+      "lost": 6,
+      "gf": 23,
+      "ga": 19,
+      "gd": 4,
+      "form": [
+        "W",
+        "L",
+        "W",
+        "L",
+        "W"
+      ],
+      "zone": "playoff-acesso"
+    },
+    {
+      "pos": 5,
       "team": "vil",
       "pts": 34,
       "played": 20,
@@ -62,7 +102,7 @@
       "zone": "playoff-acesso"
     },
     {
-      "pos": 4,
+      "pos": 6,
       "team": "nov",
       "pts": 33,
       "played": 20,
@@ -78,46 +118,6 @@
         "L",
         "L",
         "W"
-      ],
-      "zone": "playoff-acesso"
-    },
-    {
-      "pos": 5,
-      "team": "juv",
-      "pts": 32,
-      "played": 19,
-      "won": 9,
-      "drawn": 5,
-      "lost": 5,
-      "gf": 21,
-      "ga": 12,
-      "gd": 9,
-      "form": [
-        "W",
-        "D",
-        "W",
-        "W",
-        "L"
-      ],
-      "zone": "playoff-acesso"
-    },
-    {
-      "pos": 6,
-      "team": "for",
-      "pts": 31,
-      "played": 19,
-      "won": 9,
-      "drawn": 4,
-      "lost": 6,
-      "gf": 22,
-      "ga": 19,
-      "gd": 3,
-      "form": [
-        "W",
-        "W",
-        "L",
-        "W",
-        "L"
       ],
       "zone": "playoff-acesso"
     },
@@ -203,6 +203,26 @@
     },
     {
       "pos": 11,
+      "team": "acm",
+      "pts": 28,
+      "played": 20,
+      "won": 6,
+      "drawn": 10,
+      "lost": 4,
+      "gf": 19,
+      "ga": 18,
+      "gd": 1,
+      "form": [
+        "L",
+        "D",
+        "D",
+        "W",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 12,
       "team": "ber",
       "pts": 27,
       "played": 20,
@@ -218,26 +238,6 @@
         "D",
         "L",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 12,
-      "team": "acm",
-      "pts": 27,
-      "played": 19,
-      "won": 6,
-      "drawn": 9,
-      "lost": 4,
-      "gf": 18,
-      "ga": 17,
-      "gd": 1,
-      "form": [
-        "W",
-        "L",
-        "D",
-        "D",
-        "W"
       ],
       "zone": null
     },
@@ -285,19 +285,19 @@
       "pos": 15,
       "team": "bfc",
       "pts": 24,
-      "played": 19,
+      "played": 20,
       "won": 6,
       "drawn": 6,
-      "lost": 7,
+      "lost": 8,
       "gf": 24,
-      "ga": 20,
-      "gd": 4,
+      "ga": 21,
+      "gd": 3,
       "form": [
-        "L",
         "W",
         "D",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "zone": null
     },
@@ -345,19 +345,19 @@
       "pos": 18,
       "team": "ava",
       "pts": 20,
-      "played": 19,
+      "played": 20,
       "won": 5,
       "drawn": 5,
-      "lost": 9,
+      "lost": 10,
       "gf": 21,
-      "ga": 26,
-      "gd": -5,
+      "ga": 27,
+      "gd": -6,
       "form": [
-        "L",
         "L",
         "W",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "zone": "rebaixamento"
     },
@@ -384,20 +384,20 @@
     {
       "pos": 20,
       "team": "pon",
-      "pts": 8,
-      "played": 19,
+      "pts": 9,
+      "played": 20,
       "won": 2,
-      "drawn": 2,
+      "drawn": 3,
       "lost": 15,
-      "gf": 14,
-      "ga": 38,
+      "gf": 15,
+      "ga": 39,
       "gd": -24,
       "form": [
         "L",
         "L",
         "L",
         "L",
-        "L"
+        "D"
       ],
       "zone": "rebaixamento"
     }
