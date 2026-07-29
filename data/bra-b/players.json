@@ -9499,7 +9499,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-07-28"
+    "debut": "2026-07-28",
+    "active": true
   },
   "p-espn-254373": {
     "fullName": "Reynaldo",
