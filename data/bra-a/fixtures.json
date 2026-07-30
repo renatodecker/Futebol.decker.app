@@ -3053,11 +3053,14 @@
       "date": "2026-07-29T22:30:00Z",
       "home": "int",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841171",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 18359
     },
     {
       "id": "r21-mir-rem",
@@ -3065,11 +3068,14 @@
       "date": "2026-07-29T22:30:00Z",
       "home": "mir",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841170",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 4519
     },
     {
       "id": "r21-flu-bah",
@@ -3077,11 +3083,14 @@
       "date": "2026-07-30T00:30:00Z",
       "home": "flu",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841177",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r21-vit-pal",
@@ -3089,11 +3098,14 @@
       "date": "2026-07-30T00:30:00Z",
       "home": "vit",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 4
+      },
       "espnEventId": "401841172",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r21-cor-cap",
