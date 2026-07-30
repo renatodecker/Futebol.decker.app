@@ -76,7 +76,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 12,
       "assists": 5,
       "penalties": null
@@ -293,7 +293,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 7,
       "assists": 1,
       "penalties": 2
@@ -355,7 +355,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 6,
       "assists": 3,
       "penalties": null
@@ -510,7 +510,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -579,6 +579,37 @@
     },
     {
       "player": {
+        "id": 178710,
+        "name": "Samuel Lino",
+        "firstName": "",
+        "lastName": "Samuel Lino",
+        "dateOfBirth": "1999-12-23",
+        "nationality": "Brazil",
+        "section": "Left Winger",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-11-28T13:36:10Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 19,
+      "goals": 5,
+      "assists": 7,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 118245,
         "name": "Christian",
         "firstName": "",
@@ -634,7 +665,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -665,7 +696,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -696,7 +727,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -758,7 +789,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -851,7 +882,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -889,6 +920,37 @@
     },
     {
       "player": {
+        "id": 119594,
+        "name": "Mauricio",
+        "firstName": null,
+        "lastName": "Mauricio",
+        "dateOfBirth": "2001-06-22",
+        "nationality": "Paraguay",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-03T09:41:57Z"
+      },
+      "team": {
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "tla": "PAL",
+        "crest": "https://crests.football-data.org/1769.png",
+        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+        "website": "http://www.palmeiras.com.br",
+        "founded": 1914,
+        "clubColors": "Green / White",
+        "venue": "Allianz Parque",
+        "lastUpdated": "2022-04-06T13:14:55Z"
+      },
+      "playedMatches": 19,
+      "goals": 4,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 274216,
         "name": "Allan",
         "firstName": "",
@@ -913,7 +975,38 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
+      "goals": 4,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 140647,
+        "name": "Ramón Sosa",
+        "firstName": "Ramón",
+        "lastName": "Sosa",
+        "dateOfBirth": "1999-08-31",
+        "nationality": "Paraguay",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-01T11:16:31Z"
+      },
+      "team": {
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "tla": "PAL",
+        "crest": "https://crests.football-data.org/1769.png",
+        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+        "website": "http://www.palmeiras.com.br",
+        "founded": 1914,
+        "clubColors": "Green / White",
+        "venue": "Allianz Parque",
+        "lastUpdated": "2022-04-06T13:14:55Z"
+      },
+      "playedMatches": 18,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1006,40 +1099,40 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 4,
       "assists": 2,
       "penalties": null
     },
     {
       "player": {
-        "id": 178710,
-        "name": "Samuel Lino",
-        "firstName": "",
-        "lastName": "Samuel Lino",
-        "dateOfBirth": "1999-12-23",
-        "nationality": "Brazil",
-        "section": "Left Winger",
+        "id": 22306,
+        "name": "Jhon Arias",
+        "firstName": "Jhon",
+        "lastName": "Arias",
+        "dateOfBirth": "1997-09-21",
+        "nationality": "Colombia",
+        "section": "Midfield",
         "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-11-28T13:36:10Z"
+        "shirtNumber": 17,
+        "lastUpdated": "2024-06-26T09:41:49Z"
       },
       "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
+        "id": 1769,
+        "name": "SE Palmeiras",
+        "shortName": "Palmeiras",
+        "tla": "PAL",
+        "crest": "https://crests.football-data.org/1769.png",
+        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
+        "website": "http://www.palmeiras.com.br",
+        "founded": 1914,
+        "clubColors": "Green / White",
+        "venue": "Allianz Parque",
+        "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 16,
       "goals": 4,
-      "assists": 7,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -1161,7 +1254,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1223,7 +1316,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -1285,7 +1378,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 4,
       "penalties": null
@@ -1347,7 +1440,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -1409,7 +1502,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -1440,71 +1533,9 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 119594,
-        "name": "Mauricio",
-        "firstName": null,
-        "lastName": "Mauricio",
-        "dateOfBirth": "2001-06-22",
-        "nationality": "Paraguay",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-03T09:41:57Z"
-      },
-      "team": {
-        "id": 1769,
-        "name": "SE Palmeiras",
-        "shortName": "Palmeiras",
-        "tla": "PAL",
-        "crest": "https://crests.football-data.org/1769.png",
-        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
-        "website": "http://www.palmeiras.com.br",
-        "founded": 1914,
-        "clubColors": "Green / White",
-        "venue": "Allianz Parque",
-        "lastUpdated": "2022-04-06T13:14:55Z"
-      },
-      "playedMatches": 18,
-      "goals": 3,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 140647,
-        "name": "Ramón Sosa",
-        "firstName": "Ramón",
-        "lastName": "Sosa",
-        "dateOfBirth": "1999-08-31",
-        "nationality": "Paraguay",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-01T11:16:31Z"
-      },
-      "team": {
-        "id": 1769,
-        "name": "SE Palmeiras",
-        "shortName": "Palmeiras",
-        "tla": "PAL",
-        "crest": "https://crests.football-data.org/1769.png",
-        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
-        "website": "http://www.palmeiras.com.br",
-        "founded": 1914,
-        "clubColors": "Green / White",
-        "venue": "Allianz Parque",
-        "lastUpdated": "2022-04-06T13:14:55Z"
-      },
-      "playedMatches": 17,
-      "goals": 3,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -1564,7 +1595,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -1657,7 +1688,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1691,37 +1722,6 @@
       "playedMatches": 17,
       "goals": 3,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 22306,
-        "name": "Jhon Arias",
-        "firstName": "Jhon",
-        "lastName": "Arias",
-        "dateOfBirth": "1997-09-21",
-        "nationality": "Colombia",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": 17,
-        "lastUpdated": "2024-06-26T09:41:49Z"
-      },
-      "team": {
-        "id": 1769,
-        "name": "SE Palmeiras",
-        "shortName": "Palmeiras",
-        "tla": "PAL",
-        "crest": "https://crests.football-data.org/1769.png",
-        "address": "Rua Palestra Italia nº 214, Perdizes São Paulo, SP 05005-030",
-        "website": "http://www.palmeiras.com.br",
-        "founded": 1914,
-        "clubColors": "Green / White",
-        "venue": "Allianz Parque",
-        "lastUpdated": "2022-04-06T13:14:55Z"
-      },
-      "playedMatches": 15,
-      "goals": 3,
-      "assists": null,
       "penalties": null
     },
     {
@@ -1781,7 +1781,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1874,7 +1874,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -1967,7 +1967,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 2,
       "penalties": 1
@@ -2060,7 +2060,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -2184,7 +2184,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 2,
       "penalties": null
@@ -2246,7 +2246,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2401,7 +2401,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 1,
       "penalties": 1
@@ -2463,7 +2463,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 2,
       "assists": 3,
       "penalties": 1
@@ -2494,7 +2494,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 2,
       "assists": 2,
       "penalties": null
@@ -2556,7 +2556,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2687,6 +2687,37 @@
     },
     {
       "player": {
+        "id": 113224,
+        "name": "Leonel Picco",
+        "firstName": "Leonel",
+        "lastName": "Picco",
+        "dateOfBirth": "1999-10-22",
+        "nationality": "Argentina",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-10-13T09:43:41Z"
+      },
+      "team": {
+        "id": 4287,
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "tla": "CRE",
+        "crest": "https://crests.football-data.org/4287.png",
+        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
+        "website": "http://www.clubedoremo.com.br",
+        "founded": 1905,
+        "clubColors": "Navy Blue / White",
+        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
+        "lastUpdated": "2023-09-09T10:24:14Z"
+      },
+      "playedMatches": 20,
+      "goals": 2,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 46266,
         "name": "Tomás Cuello",
         "firstName": "Tomás",
@@ -2742,7 +2773,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2773,7 +2804,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2866,7 +2897,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 4,
       "penalties": 1
@@ -2897,7 +2928,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -3086,37 +3117,6 @@
       "playedMatches": 16,
       "goals": 2,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1445,
-        "name": "Gabriel",
-        "firstName": "",
-        "lastName": "Gabriel",
-        "dateOfBirth": "1992-07-10",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-09-18T08:57:34Z"
-      },
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png",
-        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
-        "website": "http://www.bragantino.net",
-        "founded": 1928,
-        "clubColors": "White / Black",
-        "venue": "Estádio Nabi Abi Chedid",
-        "lastUpdated": "2023-02-18T08:43:26Z"
-      },
-      "playedMatches": 17,
-      "goals": 2,
-      "assists": null,
       "penalties": null
     }
   ]

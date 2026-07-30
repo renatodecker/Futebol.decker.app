@@ -3264,6 +3264,18 @@
       "attendance": null
     },
     {
+      "id": "r23-flu-pal",
+      "round": 23,
+      "date": "2026-08-15T19:30:00Z",
+      "home": "flu",
+      "away": "pal",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841192",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r23-cap-bra",
       "round": 23,
       "date": "2026-08-15T21:30:00Z",
@@ -3308,18 +3320,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841188",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r23-flu-pal",
-      "round": 23,
-      "date": "2026-08-16T19:30:00Z",
-      "home": "flu",
-      "away": "pal",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841192",
       "venue": null,
       "attendance": null
     },
