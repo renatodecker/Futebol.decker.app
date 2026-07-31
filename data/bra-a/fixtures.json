@@ -3113,11 +3113,14 @@
       "date": "2026-07-30T22:30:00Z",
       "home": "cor",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841174",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r21-cfc-cru",
@@ -3125,11 +3128,14 @@
       "date": "2026-07-31T00:30:00Z",
       "home": "cfc",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841173",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r22-gre-sao",
