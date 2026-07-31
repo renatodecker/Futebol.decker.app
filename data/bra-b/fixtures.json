@@ -3123,18 +3123,6 @@
       "attendance": null
     },
     {
-      "id": "r22-ber-bfc",
-      "round": 22,
-      "date": "2026-08-14T22:00Z",
-      "home": "ber",
-      "away": "bfc",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401860272",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r22-pon-nau",
       "round": 22,
       "date": "2026-08-14T22:30Z",
@@ -3143,6 +3131,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401860273",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r22-ber-bfc",
+      "round": 22,
+      "date": "2026-08-14T22:30Z",
+      "home": "ber",
+      "away": "bfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860272",
       "venue": null,
       "attendance": null
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T11:09:15.825Z",
+  "updatedAt": "2026-07-31T11:30:45.083Z",
   "table": [
     {
       "pos": 1,
@@ -44,20 +44,20 @@
     {
       "pos": 3,
       "team": "cap",
-      "pts": 36,
-      "played": 20,
+      "pts": 37,
+      "played": 21,
       "won": 11,
-      "drawn": 3,
+      "drawn": 4,
       "lost": 6,
       "gf": 28,
       "ga": 19,
       "gd": 9,
       "form": [
-        "D",
         "W",
         "W",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "zone": "libertadores"
     },
@@ -123,6 +123,26 @@
     },
     {
       "pos": 7,
+      "team": "cru",
+      "pts": 30,
+      "played": 21,
+      "won": 8,
+      "drawn": 6,
+      "lost": 7,
+      "gf": 27,
+      "ga": 30,
+      "gd": -3,
+      "form": [
+        "W",
+        "D",
+        "W",
+        "L",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 8,
       "team": "bot",
       "pts": 29,
       "played": 20,
@@ -142,7 +162,27 @@
       "zone": "sulamericana"
     },
     {
-      "pos": 8,
+      "pos": 9,
+      "team": "cor",
+      "pts": 29,
+      "played": 21,
+      "won": 7,
+      "drawn": 8,
+      "lost": 6,
+      "gf": 22,
+      "ga": 20,
+      "gd": 2,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "D",
+        "D"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 10,
       "team": "cam",
       "pts": 28,
       "played": 20,
@@ -162,61 +202,21 @@
       "zone": "sulamericana"
     },
     {
-      "pos": 9,
-      "team": "cor",
-      "pts": 28,
-      "played": 20,
-      "won": 7,
-      "drawn": 7,
-      "lost": 6,
-      "gf": 22,
-      "ga": 20,
-      "gd": 2,
-      "form": [
-        "L",
-        "W",
-        "W",
-        "W",
-        "D"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 10,
+      "pos": 11,
       "team": "cfc",
       "pts": 27,
-      "played": 20,
+      "played": 21,
       "won": 7,
       "drawn": 6,
-      "lost": 7,
+      "lost": 8,
       "gf": 25,
-      "ga": 27,
-      "gd": -2,
+      "ga": 28,
+      "gd": -3,
       "form": [
-        "W",
         "W",
         "L",
         "L",
-        "D"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 11,
-      "team": "cru",
-      "pts": 27,
-      "played": 20,
-      "won": 7,
-      "drawn": 6,
-      "lost": 7,
-      "gf": 26,
-      "ga": 30,
-      "gd": -4,
-      "form": [
         "D",
-        "W",
-        "D",
-        "W",
         "L"
       ],
       "zone": "sulamericana"

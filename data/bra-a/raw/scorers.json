@@ -45,7 +45,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 12,
       "assists": 2,
       "penalties": 2
@@ -169,7 +169,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 8,
       "assists": 1,
       "penalties": null
@@ -479,7 +479,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 5,
       "assists": null,
       "penalties": null
@@ -517,6 +517,37 @@
     },
     {
       "player": {
+        "id": 45490,
+        "name": "Matheus Pereira",
+        "firstName": "",
+        "lastName": "Matheus Pereira",
+        "dateOfBirth": "1996-05-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:45Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 18,
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 259981,
         "name": "Joaquín Lavega",
         "firstName": "Joaquín",
@@ -541,7 +572,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -572,7 +603,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 5,
       "assists": null,
       "penalties": 3
@@ -1013,37 +1044,6 @@
     },
     {
       "player": {
-        "id": 45490,
-        "name": "Matheus Pereira",
-        "firstName": "",
-        "lastName": "Matheus Pereira",
-        "dateOfBirth": "1996-05-05",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:45Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 17,
-      "goals": 4,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 16154,
         "name": "Pedro Rocha",
         "firstName": "",
@@ -1068,7 +1068,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1843,7 +1843,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -1905,7 +1905,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2029,7 +2029,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2153,7 +2153,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2680,7 +2680,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 6,
       "penalties": null
@@ -3083,7 +3083,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 1,
       "penalties": null
