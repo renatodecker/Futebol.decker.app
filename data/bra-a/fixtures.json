@@ -3258,18 +3258,6 @@
       "attendance": null
     },
     {
-      "id": "r23-cam-gre",
-      "round": 23,
-      "date": "2026-08-15T19:30:00Z",
-      "home": "cam",
-      "away": "gre",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841195",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r23-flu-pal",
       "round": 23,
       "date": "2026-08-15T19:30:00Z",
@@ -3314,6 +3302,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841194",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r23-cam-gre",
+      "round": 23,
+      "date": "2026-08-16T19:00:00Z",
+      "home": "cam",
+      "away": "gre",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841195",
       "venue": null,
       "attendance": null
     },
