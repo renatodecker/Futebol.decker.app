@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T10:02:59.782Z",
+  "updatedAt": "2026-08-08T09:40:12.309Z",
   "table": [
     {
       "pos": 1,
@@ -45,18 +45,18 @@
       "pos": 3,
       "team": "ope",
       "pts": 35,
-      "played": 20,
+      "played": 21,
       "won": 10,
       "drawn": 5,
-      "lost": 5,
-      "gf": 28,
-      "ga": 25,
-      "gd": 3,
+      "lost": 6,
+      "gf": 29,
+      "ga": 28,
+      "gd": 1,
       "form": [
-        "W",
         "W",
         "D",
         "W",
+        "L",
         "L"
       ],
       "zone": "playoff-acesso"
@@ -143,6 +143,26 @@
     },
     {
       "pos": 8,
+      "team": "ber",
+      "pts": 30,
+      "played": 21,
+      "won": 8,
+      "drawn": 6,
+      "lost": 7,
+      "gf": 31,
+      "ga": 24,
+      "gd": 7,
+      "form": [
+        "D",
+        "D",
+        "L",
+        "L",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 9,
       "team": "crb",
       "pts": 29,
       "played": 20,
@@ -162,7 +182,7 @@
       "zone": null
     },
     {
-      "pos": 9,
+      "pos": 10,
       "team": "goi",
       "pts": 29,
       "played": 20,
@@ -182,7 +202,7 @@
       "zone": null
     },
     {
-      "pos": 10,
+      "pos": 11,
       "team": "spo",
       "pts": 29,
       "played": 20,
@@ -202,7 +222,7 @@
       "zone": null
     },
     {
-      "pos": 11,
+      "pos": 12,
       "team": "acm",
       "pts": 28,
       "played": 20,
@@ -218,26 +238,6 @@
         "D",
         "W",
         "D"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 12,
-      "team": "ber",
-      "pts": 27,
-      "played": 20,
-      "won": 7,
-      "drawn": 6,
-      "lost": 7,
-      "gf": 28,
-      "ga": 23,
-      "gd": 5,
-      "form": [
-        "L",
-        "D",
-        "D",
-        "L",
-        "L"
       ],
       "zone": null
     },
@@ -263,6 +263,26 @@
     },
     {
       "pos": 14,
+      "team": "cea",
+      "pts": 25,
+      "played": 21,
+      "won": 6,
+      "drawn": 7,
+      "lost": 8,
+      "gf": 22,
+      "ga": 25,
+      "gd": -3,
+      "form": [
+        "D",
+        "D",
+        "L",
+        "W",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 15,
       "team": "cui",
       "pts": 25,
       "played": 20,
@@ -282,7 +302,7 @@
       "zone": null
     },
     {
-      "pos": 15,
+      "pos": 16,
       "team": "bfc",
       "pts": 24,
       "played": 20,
@@ -298,26 +318,6 @@
         "D",
         "W",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 16,
-      "team": "cea",
-      "pts": 22,
-      "played": 20,
-      "won": 5,
-      "drawn": 7,
-      "lost": 8,
-      "gf": 20,
-      "ga": 25,
-      "gd": -5,
-      "form": [
-        "L",
-        "D",
-        "D",
-        "L",
-        "W"
       ],
       "zone": null
     },
@@ -385,19 +385,19 @@
       "pos": 20,
       "team": "pon",
       "pts": 9,
-      "played": 20,
+      "played": 21,
       "won": 2,
       "drawn": 3,
-      "lost": 15,
+      "lost": 16,
       "gf": 15,
-      "ga": 39,
-      "gd": -24,
+      "ga": 41,
+      "gd": -26,
       "form": [
         "L",
         "L",
         "L",
-        "L",
-        "D"
+        "D",
+        "L"
       ],
       "zone": "rebaixamento"
     }
