@@ -3008,11 +3008,14 @@
       "date": "2026-08-07T22:30Z",
       "home": "ope",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
       "espnEventId": "401860264",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r21-cea-pon",
@@ -3020,11 +3023,14 @@
       "date": "2026-08-07T23:30Z",
       "home": "cea",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860269",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r21-vil-spo",
