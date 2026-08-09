@@ -3038,11 +3038,14 @@
       "date": "2026-08-08T19:00Z",
       "home": "vil",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860263",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
     },
     {
       "id": "r21-bfc-amg",
@@ -3050,11 +3053,14 @@
       "date": "2026-08-08T21:30Z",
       "home": "bfc",
       "away": "amg",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860270",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r21-acm-cri",

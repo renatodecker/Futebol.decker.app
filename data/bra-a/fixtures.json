@@ -3143,11 +3143,14 @@
       "date": "2026-08-08T19:00:00Z",
       "home": "gre",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841181",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r22-rem-cam",
@@ -3155,11 +3158,14 @@
       "date": "2026-08-08T21:30:00Z",
       "home": "rem",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401841178",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r22-cfc-cha",
@@ -3167,11 +3173,14 @@
       "date": "2026-08-08T23:30:00Z",
       "home": "cfc",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841184",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r22-bot-flu",
@@ -3179,11 +3188,14 @@
       "date": "2026-08-09T00:00:00Z",
       "home": "bot",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841185",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r22-cru-mir",
