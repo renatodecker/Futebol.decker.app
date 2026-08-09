@@ -45,7 +45,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 19,
       "goals": 12,
       "assists": 2,
       "penalties": 2
@@ -107,9 +107,9 @@
         "venue": "Arena do Grêmio",
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 10,
-      "assists": null,
+      "assists": 1,
       "penalties": 1
     },
     {
@@ -231,7 +231,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 7,
       "assists": 1,
       "penalties": 1
@@ -386,7 +386,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -479,7 +479,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 20,
       "goals": 5,
       "assists": null,
       "penalties": null
@@ -558,6 +558,37 @@
         "position": null,
         "shirtNumber": null,
         "lastUpdated": "2026-05-06T07:57:07Z"
+      },
+      "team": {
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png",
+        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+        "website": "http://www.coritiba.com.br",
+        "founded": 1909,
+        "clubColors": "Green / White",
+        "venue": "Estádio Major Antônio Couto Pereira",
+        "lastUpdated": "2023-02-18T08:43:33Z"
+      },
+      "playedMatches": 19,
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 16154,
+        "name": "Pedro Rocha",
+        "firstName": "",
+        "lastName": "Pedro Rocha",
+        "dateOfBirth": "1994-10-01",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-09-18T08:57:30Z"
       },
       "team": {
         "id": 4241,
@@ -1044,37 +1075,6 @@
     },
     {
       "player": {
-        "id": 16154,
-        "name": "Pedro Rocha",
-        "firstName": "",
-        "lastName": "Pedro Rocha",
-        "dateOfBirth": "1994-10-01",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-09-18T08:57:30Z"
-      },
-      "team": {
-        "id": 4241,
-        "name": "Coritiba FBC",
-        "shortName": "Coritiba",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/4241.png",
-        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
-        "website": "http://www.coritiba.com.br",
-        "founded": 1909,
-        "clubColors": "Green / White",
-        "venue": "Estádio Major Antônio Couto Pereira",
-        "lastUpdated": "2023-02-18T08:43:33Z"
-      },
-      "playedMatches": 19,
-      "goals": 4,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 28614,
         "name": "Agustín Canobbio",
         "firstName": "Agustín",
@@ -1199,6 +1199,37 @@
     },
     {
       "player": {
+        "id": 11194,
+        "name": "Gabriel Taliari",
+        "firstName": "",
+        "lastName": "Gabriel Taliari",
+        "dateOfBirth": "1997-04-13",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-03-03T09:42:57Z"
+      },
+      "team": {
+        "id": 4287,
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "tla": "CRE",
+        "crest": "https://crests.football-data.org/4287.png",
+        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
+        "website": "http://www.clubedoremo.com.br",
+        "founded": 1905,
+        "clubColors": "Navy Blue / White",
+        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
+        "lastUpdated": "2023-09-09T10:24:14Z"
+      },
+      "playedMatches": 9,
+      "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 103499,
         "name": "Ferreira",
         "firstName": "",
@@ -1223,7 +1254,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1726,6 +1757,37 @@
     },
     {
       "player": {
+        "id": 15904,
+        "name": "Alex Telles",
+        "firstName": "",
+        "lastName": "Alex Telles",
+        "dateOfBirth": "1992-12-15",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-05-01T19:23:39Z"
+      },
+      "team": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "tla": "BOT",
+        "crest": "https://crests.football-data.org/1770.png",
+        "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+        "website": "http://www.botafogo.com.br",
+        "founded": 1904,
+        "clubColors": "Black / White",
+        "venue": "Estádio Nilton Santos",
+        "lastUpdated": "2023-02-18T08:43:47Z"
+      },
+      "playedMatches": 16,
+      "goals": 3,
+      "assists": 3,
+      "penalties": 2
+    },
+    {
+      "player": {
         "id": 191363,
         "name": "Rodrigo Castillo",
         "firstName": "Rodrigo",
@@ -1753,37 +1815,6 @@
       "playedMatches": 14,
       "goals": 3,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 11194,
-        "name": "Gabriel Taliari",
-        "firstName": "",
-        "lastName": "Gabriel Taliari",
-        "dateOfBirth": "1997-04-13",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-03-03T09:42:57Z"
-      },
-      "team": {
-        "id": 4287,
-        "name": "Clube do Remo",
-        "shortName": "Clube do Remo",
-        "tla": "CRE",
-        "crest": "https://crests.football-data.org/4287.png",
-        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
-        "website": "http://www.clubedoremo.com.br",
-        "founded": 1905,
-        "clubColors": "Navy Blue / White",
-        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
-        "lastUpdated": "2023-09-09T10:24:14Z"
-      },
-      "playedMatches": 9,
-      "goals": 3,
-      "assists": null,
       "penalties": null
     },
     {
@@ -1843,7 +1874,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 15,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -1905,7 +1936,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 15,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2029,7 +2060,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 20,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2153,7 +2184,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 17,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2496,7 +2527,7 @@
       },
       "playedMatches": 15,
       "goals": 2,
-      "assists": 2,
+      "assists": 3,
       "penalties": null
     },
     {
@@ -2680,7 +2711,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 6,
       "penalties": null
@@ -2997,37 +3028,6 @@
     },
     {
       "player": {
-        "id": 15904,
-        "name": "Alex Telles",
-        "firstName": "",
-        "lastName": "Alex Telles",
-        "dateOfBirth": "1992-12-15",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-05-01T19:23:39Z"
-      },
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png",
-        "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
-        "website": "http://www.botafogo.com.br",
-        "founded": 1904,
-        "clubColors": "Black / White",
-        "venue": "Estádio Nilton Santos",
-        "lastUpdated": "2023-02-18T08:43:47Z"
-      },
-      "playedMatches": 16,
-      "goals": 2,
-      "assists": 3,
-      "penalties": 2
-    },
-    {
-      "player": {
         "id": 1251,
         "name": "David",
         "firstName": "",
@@ -3090,33 +3090,33 @@
     },
     {
       "player": {
-        "id": 115959,
-        "name": "Moises",
+        "id": 16476,
+        "name": "Bernard",
         "firstName": "",
-        "lastName": "Moisés",
-        "dateOfBirth": "1996-09-02",
+        "lastName": "Bernard",
+        "dateOfBirth": "1992-09-08",
         "nationality": "Brazil",
-        "section": "Offence",
+        "section": "Midfield",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2023-07-18T14:17:00Z"
+        "lastUpdated": "2023-08-22T06:42:38Z"
       },
       "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png",
-        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-        "website": "http://santosfc.com.br",
-        "founded": 1912,
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
         "clubColors": "Black / White",
-        "venue": "Estádio Urbano Caldeira",
-        "lastUpdated": "2023-02-18T08:43:18Z"
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 20,
       "goals": 2,
-      "assists": 1,
+      "assists": 3,
       "penalties": null
     }
   ]
