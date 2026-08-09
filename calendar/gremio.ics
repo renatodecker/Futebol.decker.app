@@ -224,11 +224,10 @@ UID:bra-a-r22-gre-sao@futebol.decker.app.br
 DTSTAMP:20260808T190000Z
 DTSTART:20260808T190000Z
 DTEND:20260808T210000Z
-SUMMARY:Grêmio x São Paulo
-DESCRIPTION:Rodada 22 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Grêmio 2x1 São Paulo
+DESCRIPTION:Rodada 22 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Arena do Grêmio (provável)
+LOCATION:Arena do Grêmio
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r23-cam-gre@futebol.decker.app.br
