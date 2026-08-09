@@ -9564,7 +9564,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-08"
+    "debut": "2026-08-08",
+    "active": true
   },
   "p-espn-383097": {
     "fullName": "Murilo Rhikman",
