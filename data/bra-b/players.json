@@ -9629,7 +9629,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-317723": {
     "fullName": "Patricio Núñez",
@@ -9641,7 +9642,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-3125441": {
     "fullName": "Hector Fernandes De Andrade Silva",
@@ -9653,7 +9655,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-309501": {
     "fullName": "Ryan",
@@ -9665,7 +9668,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-403250": {
     "fullName": "Felipe Redaelli",
@@ -9690,7 +9694,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-290720": {
     "fullName": "João Pedro",
@@ -9702,7 +9707,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-271302": {
     "fullName": "José Domingo Moraes Neto",
@@ -9714,7 +9720,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-305680": {
     "fullName": "Henrique",
@@ -9726,7 +9733,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-48484": {
     "fullName": "Luis Amarilla",

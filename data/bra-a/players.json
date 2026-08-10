@@ -10331,7 +10331,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 1,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-373806": {
     "fullName": "João Costa",
@@ -10343,7 +10344,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-09"
+    "debut": "2026-08-09",
+    "active": true
   },
   "p-espn-118688": {
     "fullName": "Luciano Rodríguez",
@@ -10355,7 +10357,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417353": {
     "fullName": "João Kempes",
@@ -10393,7 +10396,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-340596": {
     "fullName": "Kerwin Vargas",
