@@ -3068,11 +3068,14 @@
       "date": "2026-08-09T14:00Z",
       "home": "acm",
       "away": "cri",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860262",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r21-nau-ago",
@@ -3080,11 +3083,14 @@
       "date": "2026-08-09T19:00Z",
       "home": "nau",
       "away": "ago",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860265",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r21-nov-juv",
@@ -3092,11 +3098,14 @@
       "date": "2026-08-09T19:00Z",
       "home": "nov",
       "away": "juv",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860271",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r21-cui-for",
@@ -3104,11 +3113,14 @@
       "date": "2026-08-09T21:00Z",
       "home": "cui",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860268",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r21-goi-lon",
