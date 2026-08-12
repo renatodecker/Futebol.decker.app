@@ -3201,6 +3201,18 @@
       "attendance": null
     },
     {
+      "id": "r22-cea-cui",
+      "round": 22,
+      "date": "2026-08-15T19:00Z",
+      "home": "cea",
+      "away": "cui",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860278",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r22-cri-goi",
       "round": 22,
       "date": "2026-08-15T19:00Z",
@@ -3209,18 +3221,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401860277",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r22-cea-cui",
-      "round": 22,
-      "date": "2026-08-15T21:30Z",
-      "home": "cea",
-      "away": "cui",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401860278",
       "venue": null,
       "attendance": null
     },
