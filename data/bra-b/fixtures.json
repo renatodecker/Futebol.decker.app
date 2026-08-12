@@ -3143,11 +3143,14 @@
       "date": "2026-08-11T22:30Z",
       "home": "ava",
       "away": "crb",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860266",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r22-pon-nau",
