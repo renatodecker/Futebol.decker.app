@@ -3540,18 +3540,6 @@
       "attendance": null
     },
     {
-      "id": "r25-cam-vit",
-      "round": 25,
-      "date": "2026-08-29T00:00:00Z",
-      "home": "cam",
-      "away": "vit",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841216",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r25-bah-int",
       "round": 25,
       "date": "2026-08-29T00:00:00Z",
@@ -3624,9 +3612,21 @@
       "attendance": null
     },
     {
+      "id": "r25-cam-vit",
+      "round": 25,
+      "date": "2026-08-29T21:30:00Z",
+      "home": "cam",
+      "away": "vit",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841216",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r25-sao-bra",
       "round": 25,
-      "date": "2026-08-29T00:00:00Z",
+      "date": "2026-08-29T23:00:00Z",
       "home": "sao",
       "away": "bra",
       "status": "scheduled",
@@ -3638,7 +3638,7 @@
     {
       "id": "r25-vas-cru",
       "round": 25,
-      "date": "2026-08-29T00:00:00Z",
+      "date": "2026-08-30T00:20:00Z",
       "home": "vas",
       "away": "cru",
       "status": "scheduled",
@@ -3660,18 +3660,6 @@
       "attendance": null
     },
     {
-      "id": "r26-bra-bah",
-      "round": 26,
-      "date": "2026-09-05T00:00:00Z",
-      "home": "bra",
-      "away": "bah",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841224",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r26-cor-cha",
       "round": 26,
       "date": "2026-09-05T00:00:00Z",
@@ -3684,18 +3672,6 @@
       "attendance": null
     },
     {
-      "id": "r26-cfc-mir",
-      "round": 26,
-      "date": "2026-09-05T00:00:00Z",
-      "home": "cfc",
-      "away": "mir",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841219",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r26-cru-cap",
       "round": 26,
       "date": "2026-09-05T00:00:00Z",
@@ -3704,18 +3680,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841218",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r26-flu-vas",
-      "round": 26,
-      "date": "2026-09-05T00:00:00Z",
-      "home": "flu",
-      "away": "vas",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841227",
       "venue": null,
       "attendance": null
     },
@@ -3744,9 +3708,45 @@
       "attendance": null
     },
     {
-      "id": "r26-sao-cam",
+      "id": "r26-vit-gre",
       "round": 26,
       "date": "2026-09-05T00:00:00Z",
+      "home": "vit",
+      "away": "gre",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841222",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-bra-bah",
+      "round": 26,
+      "date": "2026-09-05T19:00:00Z",
+      "home": "bra",
+      "away": "bah",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841224",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-cfc-mir",
+      "round": 26,
+      "date": "2026-09-05T21:30:00Z",
+      "home": "cfc",
+      "away": "mir",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841219",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-sao-cam",
+      "round": 26,
+      "date": "2026-09-05T21:30:00Z",
       "home": "sao",
       "away": "cam",
       "status": "scheduled",
@@ -3756,14 +3756,14 @@
       "attendance": null
     },
     {
-      "id": "r26-vit-gre",
+      "id": "r26-flu-vas",
       "round": 26,
-      "date": "2026-09-05T00:00:00Z",
-      "home": "vit",
-      "away": "gre",
+      "date": "2026-09-06T00:00:00Z",
+      "home": "flu",
+      "away": "vas",
       "status": "scheduled",
       "score": null,
-      "espnEventId": "401841222",
+      "espnEventId": "401841227",
       "venue": null,
       "attendance": null
     },
