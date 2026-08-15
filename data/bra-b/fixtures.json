@@ -3158,11 +3158,14 @@
       "date": "2026-08-14T22:30Z",
       "home": "pon",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860273",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r22-ber-bfc",
@@ -3170,11 +3173,14 @@
       "date": "2026-08-14T22:30Z",
       "home": "ber",
       "away": "bfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860272",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r22-spo-lon",
@@ -3182,11 +3188,14 @@
       "date": "2026-08-14T23:30Z",
       "home": "spo",
       "away": "lon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860274",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r22-ago-vil",
