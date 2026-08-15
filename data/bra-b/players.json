@@ -9850,7 +9850,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-14"
+    "debut": "2026-08-14",
+    "active": true
   },
   "p-espn-419995": {
     "fullName": "Galdino",
@@ -9875,7 +9876,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3128135": {
     "fullName": "Gabriel Cicala De Andrade Santos",
@@ -9887,7 +9889,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3128133": {
     "fullName": "Matheus Souza Santos",
@@ -9899,7 +9902,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-14"
+    "debut": "2026-08-14",
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",
