@@ -9941,7 +9941,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-15"
+    "debut": "2026-08-15",
+    "active": true
   },
   "p-espn-338673": {
     "fullName": "Kauã Moroso",
