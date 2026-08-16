@@ -3203,11 +3203,14 @@
       "date": "2026-08-15T19:00Z",
       "home": "ago",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860280",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r22-cea-cui",
@@ -3215,11 +3218,14 @@
       "date": "2026-08-15T19:00Z",
       "home": "cea",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
       "espnEventId": "401860278",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r22-cri-goi",
@@ -3227,11 +3233,14 @@
       "date": "2026-08-15T19:00Z",
       "home": "cri",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860277",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r22-juv-for",
@@ -3239,11 +3248,14 @@
       "date": "2026-08-15T21:30Z",
       "home": "juv",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860276",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r22-ope-ava",

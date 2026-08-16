@@ -3293,11 +3293,14 @@
       "date": "2026-08-15T19:30:00Z",
       "home": "flu",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841192",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r23-cap-bra",
@@ -3305,11 +3308,14 @@
       "date": "2026-08-15T21:30:00Z",
       "home": "cap",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841196",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r23-sao-cfc",
@@ -3317,11 +3323,14 @@
       "date": "2026-08-16T00:00:00Z",
       "home": "sao",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841189",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r23-cha-bah",
