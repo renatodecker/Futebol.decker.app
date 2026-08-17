@@ -3263,11 +3263,14 @@
       "date": "2026-08-16T14:00Z",
       "home": "ope",
       "away": "ava",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401860275",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r22-amg-acm",
@@ -3275,11 +3278,14 @@
       "date": "2026-08-16T21:30Z",
       "home": "amg",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
       "espnEventId": "401860281",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r22-crb-nov",
@@ -3287,11 +3293,14 @@
       "date": "2026-08-16T21:30Z",
       "home": "crb",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860279",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r23-lon-ago",

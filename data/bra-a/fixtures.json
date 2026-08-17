@@ -3338,11 +3338,14 @@
       "date": "2026-08-16T14:00:00Z",
       "home": "cha",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
       "espnEventId": "401841194",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r23-cam-gre",
@@ -3350,11 +3353,14 @@
       "date": "2026-08-16T19:00:00Z",
       "home": "cam",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841195",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 30126
     },
     {
       "id": "r23-vas-san",
@@ -3362,11 +3368,14 @@
       "date": "2026-08-16T19:00:00Z",
       "home": "vas",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
       "espnEventId": "401841188",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r23-mir-fla",
@@ -3374,11 +3383,14 @@
       "date": "2026-08-16T21:30:00Z",
       "home": "mir",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 5
+      },
       "espnEventId": "401841190",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r23-vit-bot",
@@ -3386,11 +3398,14 @@
       "date": "2026-08-16T21:30:00Z",
       "home": "vit",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841197",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r23-cor-cru",
@@ -3398,11 +3413,14 @@
       "date": "2026-08-16T22:30:00Z",
       "home": "cor",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841193",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r23-int-rem",
