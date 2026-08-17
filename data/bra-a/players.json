@@ -10448,7 +10448,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-16"
+    "debut": "2026-08-16",
+    "active": true
   },
   "p-espn-202554": {
     "fullName": "Yago Felipe",
@@ -10460,7 +10461,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-16"
+    "debut": "2026-08-16",
+    "active": true
   },
   "p-espn-275941": {
     "fullName": "Facundo Colidio",
@@ -10472,7 +10474,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-16"
+    "debut": "2026-08-16",
+    "active": true
   },
   "p-espn-271473": {
     "fullName": "Santiago Sosa",
@@ -10484,7 +10487,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-16"
+    "debut": "2026-08-16",
+    "active": true
   },
   "p-espn-307756": {
     "fullName": "Kevin Castaño",
@@ -10496,7 +10500,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-16"
+    "debut": "2026-08-16",
+    "active": true
   },
   "p-espn-226787": {
     "fullName": "Filip Krovinovic",
