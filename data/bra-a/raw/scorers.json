@@ -486,6 +486,37 @@
     },
     {
       "player": {
+        "id": 22061,
+        "name": "Johan Carbonero",
+        "firstName": "Johan",
+        "lastName": "Carbonero",
+        "dateOfBirth": "1999-07-20",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 20,
+        "lastUpdated": "2023-07-31T09:48:05Z"
+      },
+      "team": {
+        "id": 6684,
+        "name": "SC Internacional",
+        "shortName": "Internacional",
+        "tla": "SCI",
+        "crest": "https://crests.football-data.org/6684.png",
+        "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
+        "website": "http://www.internacional.com.br",
+        "founded": 1909,
+        "clubColors": "Red / White",
+        "venue": "Estádio José Pinheiro Borba",
+        "lastUpdated": "2023-02-18T08:43:22Z"
+      },
+      "playedMatches": 22,
+      "goals": 6,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 114353,
         "name": "Isidro Pitta",
         "firstName": "Isidro",
@@ -572,7 +603,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -734,37 +765,6 @@
     },
     {
       "player": {
-        "id": 22061,
-        "name": "Johan Carbonero",
-        "firstName": "Johan",
-        "lastName": "Carbonero",
-        "dateOfBirth": "1999-07-20",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": 20,
-        "lastUpdated": "2023-07-31T09:48:05Z"
-      },
-      "team": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "shortName": "Internacional",
-        "tla": "SCI",
-        "crest": "https://crests.football-data.org/6684.png",
-        "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
-        "website": "http://www.internacional.com.br",
-        "founded": 1909,
-        "clubColors": "Red / White",
-        "venue": "Estádio José Pinheiro Borba",
-        "lastUpdated": "2023-02-18T08:43:22Z"
-      },
-      "playedMatches": 21,
-      "goals": 5,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 169720,
         "name": "Jája Silva",
         "firstName": "",
@@ -789,7 +789,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -1285,7 +1285,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 9,
+      "playedMatches": 10,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1347,7 +1347,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1664,6 +1664,37 @@
     },
     {
       "player": {
+        "id": 168807,
+        "name": "Vitor Bueno",
+        "firstName": "",
+        "lastName": "Vitor Bueno",
+        "dateOfBirth": "1994-09-05",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:43Z"
+      },
+      "team": {
+        "id": 4287,
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "tla": "CRE",
+        "crest": "https://crests.football-data.org/4287.png",
+        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
+        "website": "http://www.clubedoremo.com.br",
+        "founded": 1905,
+        "clubColors": "Navy Blue / White",
+        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
+        "lastUpdated": "2023-09-09T10:24:14Z"
+      },
+      "playedMatches": 16,
+      "goals": 3,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 56226,
         "name": "Julimar",
         "firstName": "",
@@ -1750,7 +1781,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -2060,7 +2091,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2718,37 +2749,6 @@
     },
     {
       "player": {
-        "id": 168807,
-        "name": "Vitor Bueno",
-        "firstName": "",
-        "lastName": "Vitor Bueno",
-        "dateOfBirth": "1994-09-05",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:43Z"
-      },
-      "team": {
-        "id": 4287,
-        "name": "Clube do Remo",
-        "shortName": "Clube do Remo",
-        "tla": "CRE",
-        "crest": "https://crests.football-data.org/4287.png",
-        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
-        "website": "http://www.clubedoremo.com.br",
-        "founded": 1905,
-        "clubColors": "Navy Blue / White",
-        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
-        "lastUpdated": "2023-09-09T10:24:14Z"
-      },
-      "playedMatches": 15,
-      "goals": 2,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 131258,
         "name": "Ruan",
         "firstName": "",
@@ -2804,7 +2804,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2928,7 +2928,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 2,
       "assists": 1,
       "penalties": null

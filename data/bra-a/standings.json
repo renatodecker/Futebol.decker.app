@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T09:43:05.772Z",
+  "updatedAt": "2026-08-18T09:35:34.903Z",
   "table": [
     {
       "pos": 1,
@@ -303,6 +303,26 @@
     },
     {
       "pos": 16,
+      "team": "int",
+      "pts": 24,
+      "played": 23,
+      "won": 5,
+      "drawn": 9,
+      "lost": 9,
+      "gf": 24,
+      "ga": 28,
+      "gd": -4,
+      "form": [
+        "L",
+        "L",
+        "D",
+        "D",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 17,
       "team": "mir",
       "pts": 23,
       "played": 22,
@@ -319,44 +339,24 @@
         "L",
         "L"
       ],
-      "zone": null
-    },
-    {
-      "pos": 17,
-      "team": "int",
-      "pts": 23,
-      "played": 22,
-      "won": 5,
-      "drawn": 8,
-      "lost": 9,
-      "gf": 23,
-      "ga": 27,
-      "gd": -4,
-      "form": [
-        "L",
-        "L",
-        "L",
-        "D",
-        "D"
-      ],
       "zone": "rebaixamento"
     },
     {
       "pos": 18,
       "team": "rem",
-      "pts": 22,
-      "played": 22,
+      "pts": 23,
+      "played": 23,
       "won": 5,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 10,
-      "gf": 26,
-      "ga": 36,
+      "gf": 27,
+      "ga": 37,
       "gd": -10,
       "form": [
-        "W",
         "L",
         "W",
         "L",
+        "D",
         "D"
       ],
       "zone": "rebaixamento"
