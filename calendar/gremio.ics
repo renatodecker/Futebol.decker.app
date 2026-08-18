@@ -252,9 +252,9 @@ LOCATION:Estádio Municipal Cicero de Souza Marques (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r25-gre-cha@futebol.decker.app.br
-DTSTAMP:20260829T000000Z
-DTSTART:20260829T000000Z
-DTEND:20260829T020000Z
+DTSTAMP:20260830T213000Z
+DTSTART:20260830T213000Z
+DTEND:20260830T233000Z
 SUMMARY:Grêmio x Chapecoense
 DESCRIPTION:Rodada 25 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -263,9 +263,9 @@ LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r26-vit-gre@futebol.decker.app.br
-DTSTAMP:20260905T000000Z
-DTSTART:20260905T000000Z
-DTEND:20260905T020000Z
+DTSTAMP:20260907T230000Z
+DTSTART:20260907T230000Z
+DTEND:20260908T010000Z
 SUMMARY:Vitória x Grêmio
 DESCRIPTION:Rodada 26 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
