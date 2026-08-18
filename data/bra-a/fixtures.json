@@ -3428,11 +3428,14 @@
       "date": "2026-08-17T23:00:00Z",
       "home": "int",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841191",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 0
     },
     {
       "id": "r24-flu-rem",
