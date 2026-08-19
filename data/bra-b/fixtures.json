@@ -3308,11 +3308,14 @@
       "date": "2026-08-18T22:30Z",
       "home": "lon",
       "away": "ago",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860285",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r23-nau-cea",
@@ -3320,11 +3323,14 @@
       "date": "2026-08-19T00:30Z",
       "home": "nau",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860283",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r23-goi-juv",
@@ -3332,11 +3338,14 @@
       "date": "2026-08-19T00:35Z",
       "home": "goi",
       "away": "juv",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860291",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 0
     },
     {
       "id": "r23-ava-spo",
