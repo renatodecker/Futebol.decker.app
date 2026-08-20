@@ -3353,11 +3353,14 @@
       "date": "2026-08-19T22:30Z",
       "home": "ava",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860290",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r23-for-ber",
@@ -3365,11 +3368,14 @@
       "date": "2026-08-19T22:30Z",
       "home": "for",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860287",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r23-cui-ope",
@@ -3377,11 +3383,14 @@
       "date": "2026-08-19T23:30Z",
       "home": "cui",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860288",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r23-vil-pon",
@@ -3389,11 +3398,14 @@
       "date": "2026-08-19T23:30Z",
       "home": "vil",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 6,
+        "away": 0
+      },
       "espnEventId": "401860282",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
     },
     {
       "id": "r23-bfc-cri",
@@ -3401,11 +3413,14 @@
       "date": "2026-08-20T00:30Z",
       "home": "bfc",
       "away": "cri",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860289",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r23-acm-crb",
