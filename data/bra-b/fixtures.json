@@ -4203,6 +4203,18 @@
       "attendance": null
     },
     {
+      "id": "r30-nau-spo",
+      "round": 30,
+      "date": "2026-09-26T19:30Z",
+      "home": "nau",
+      "away": "spo",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860361",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r30-goi-ago",
       "round": 30,
       "date": "2026-09-26T21:30Z",
@@ -4211,18 +4223,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401860354",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r30-nau-spo",
-      "round": 30,
-      "date": "2026-09-26T23:30Z",
-      "home": "nau",
-      "away": "spo",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401860361",
       "venue": null,
       "attendance": null
     },
