@@ -3642,6 +3642,18 @@
       "attendance": null
     },
     {
+      "id": "r25-mir-pal",
+      "round": 25,
+      "date": "2026-08-30T21:30:00Z",
+      "home": "mir",
+      "away": "pal",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841211",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r25-bah-int",
       "round": 25,
       "date": "2026-08-30T22:30:00Z",
@@ -3650,18 +3662,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841215",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r25-mir-pal",
-      "round": 25,
-      "date": "2026-08-30T22:30:00Z",
-      "home": "mir",
-      "away": "pal",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841211",
       "venue": null,
       "attendance": null
     },
