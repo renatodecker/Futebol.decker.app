@@ -3428,11 +3428,14 @@
       "date": "2026-08-20T22:30Z",
       "home": "acm",
       "away": "crb",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860286",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r23-nov-amg",
@@ -3440,11 +3443,14 @@
       "date": "2026-08-20T23:30Z",
       "home": "nov",
       "away": "amg",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401860284",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r24-cea-lon",
