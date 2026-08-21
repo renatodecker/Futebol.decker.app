@@ -10071,7 +10071,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
