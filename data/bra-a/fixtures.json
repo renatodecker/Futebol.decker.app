@@ -3690,18 +3690,6 @@
       "attendance": null
     },
     {
-      "id": "r26-cfc-mir",
-      "round": 26,
-      "date": "2026-09-05T21:30:00Z",
-      "home": "cfc",
-      "away": "mir",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841219",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r26-sao-cam",
       "round": 26,
       "date": "2026-09-05T21:30:00Z",
@@ -3722,6 +3710,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841227",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r26-cfc-mir",
+      "round": 26,
+      "date": "2026-09-06T14:00:00Z",
+      "home": "cfc",
+      "away": "mir",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841219",
       "venue": null,
       "attendance": null
     },
