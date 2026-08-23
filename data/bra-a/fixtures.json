@@ -3443,11 +3443,14 @@
       "date": "2026-08-22T19:00:00Z",
       "home": "flu",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841205",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r24-int-cam",
@@ -3455,11 +3458,14 @@
       "date": "2026-08-22T21:30:00Z",
       "home": "int",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841204",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 0
     },
     {
       "id": "r24-cru-fla",
@@ -3467,11 +3473,14 @@
       "date": "2026-08-22T23:30:00Z",
       "home": "cru",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841206",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r24-bra-gre",

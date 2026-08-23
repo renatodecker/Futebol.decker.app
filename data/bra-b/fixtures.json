@@ -3458,11 +3458,14 @@
       "date": "2026-08-22T21:00Z",
       "home": "cea",
       "away": "lon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860299",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r24-cui-goi",
@@ -3470,11 +3473,14 @@
       "date": "2026-08-22T21:30Z",
       "home": "cui",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860297",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r24-pon-ava",
