@@ -21,6 +21,37 @@
   "scorers": [
     {
       "player": {
+        "id": 1077,
+        "name": "Pedro",
+        "firstName": "",
+        "lastName": "Pedro",
+        "dateOfBirth": "1997-06-20",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:48Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 22,
+      "goals": 15,
+      "assists": 5,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 192070,
         "name": "Kevin Viveros",
         "firstName": "Kevin",
@@ -49,37 +80,6 @@
       "goals": 14,
       "assists": 3,
       "penalties": 2
-    },
-    {
-      "player": {
-        "id": 1077,
-        "name": "Pedro",
-        "firstName": "",
-        "lastName": "Pedro",
-        "dateOfBirth": "1997-06-20",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 21,
-      "goals": 14,
-      "assists": 5,
-      "penalties": null
     },
     {
       "player": {
@@ -393,6 +393,37 @@
     },
     {
       "player": {
+        "id": 45490,
+        "name": "Matheus Pereira",
+        "firstName": "",
+        "lastName": "Matheus Pereira",
+        "dateOfBirth": "1996-05-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:45Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 21,
+      "goals": 6,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 91310,
         "name": "Kaio Jorge",
         "firstName": "",
@@ -417,7 +448,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 6,
       "assists": null,
       "penalties": 3
@@ -479,7 +510,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 6,
       "assists": 7,
       "penalties": null
@@ -510,9 +541,40 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 6,
       "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 169720,
+        "name": "Jája Silva",
+        "firstName": "",
+        "lastName": "Jajá Silva",
+        "dateOfBirth": "1998-11-12",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-05-23T09:46:51Z"
+      },
+      "team": {
+        "id": 4287,
+        "name": "Clube do Remo",
+        "shortName": "Clube do Remo",
+        "tla": "CRE",
+        "crest": "https://crests.football-data.org/4287.png",
+        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
+        "website": "http://www.clubedoremo.com.br",
+        "founded": 1905,
+        "clubColors": "Navy Blue / White",
+        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
+        "lastUpdated": "2023-09-09T10:24:14Z"
+      },
+      "playedMatches": 19,
+      "goals": 6,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -603,7 +665,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -637,37 +699,6 @@
       "playedMatches": 21,
       "goals": 5,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 45490,
-        "name": "Matheus Pereira",
-        "firstName": "",
-        "lastName": "Matheus Pereira",
-        "dateOfBirth": "1996-05-05",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:45Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 20,
-      "goals": 5,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -761,37 +792,6 @@
       "playedMatches": 18,
       "goals": 5,
       "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 169720,
-        "name": "Jája Silva",
-        "firstName": "",
-        "lastName": "Jajá Silva",
-        "dateOfBirth": "1998-11-12",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-05-23T09:46:51Z"
-      },
-      "team": {
-        "id": 4287,
-        "name": "Clube do Remo",
-        "shortName": "Clube do Remo",
-        "tla": "CRE",
-        "crest": "https://crests.football-data.org/4287.png",
-        "address": "Avenida Nazaré, 962, Bairro Nazaré Belém, PA 66035-170",
-        "website": "http://www.clubedoremo.com.br",
-        "founded": 1905,
-        "clubColors": "Navy Blue / White",
-        "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
-        "lastUpdated": "2023-09-09T10:24:14Z"
-      },
-      "playedMatches": 18,
-      "goals": 5,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -1106,6 +1106,37 @@
     },
     {
       "player": {
+        "id": 21689,
+        "name": "Hulk",
+        "firstName": "",
+        "lastName": "Hulk",
+        "dateOfBirth": "1986-07-25",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 10,
+        "lastUpdated": "2023-07-30T23:15:42Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 16,
+      "goals": 4,
+      "assists": 3,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 46266,
         "name": "Tomás Cuello",
         "firstName": "Tomás",
@@ -1130,7 +1161,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1161,7 +1192,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -1285,7 +1316,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 10,
+      "playedMatches": 11,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1347,7 +1378,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1595,9 +1626,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
-      "assists": 2,
+      "assists": 3,
       "penalties": 1
     },
     {
@@ -1633,37 +1664,6 @@
     },
     {
       "player": {
-        "id": 21689,
-        "name": "Hulk",
-        "firstName": "",
-        "lastName": "Hulk",
-        "dateOfBirth": "1986-07-25",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": 10,
-        "lastUpdated": "2023-07-30T23:15:42Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 15,
-      "goals": 3,
-      "assists": 3,
-      "penalties": 1
-    },
-    {
-      "player": {
         "id": 168807,
         "name": "Vitor Bueno",
         "firstName": "",
@@ -1688,7 +1688,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -1781,7 +1781,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": null,
       "penalties": 1
@@ -1843,7 +1843,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 4,
       "penalties": null
@@ -1905,7 +1905,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -1936,7 +1936,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1998,7 +1998,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2029,7 +2029,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2091,7 +2091,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2215,7 +2215,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": 2,
       "penalties": 1
@@ -2281,6 +2281,68 @@
       "goals": 3,
       "assists": 1,
       "penalties": 2
+    },
+    {
+      "player": {
+        "id": 205585,
+        "name": "Keny Arroyo",
+        "firstName": "Keny",
+        "lastName": "Arroyo",
+        "dateOfBirth": "2006-02-14",
+        "nationality": "Ecuador",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-05-15T09:46:07Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 19,
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 181336,
+        "name": "Kevin Serna",
+        "firstName": "Kevin",
+        "lastName": "Serna",
+        "dateOfBirth": "1997-12-22",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-07-25T09:42:15Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 22,
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
     },
     {
       "player": {
@@ -2494,7 +2556,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -2680,7 +2742,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2773,7 +2835,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2804,7 +2866,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2835,7 +2897,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2928,7 +2990,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -3056,68 +3118,6 @@
       "goals": 2,
       "assists": 4,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 11192,
-        "name": "Léo Pereira",
-        "firstName": "",
-        "lastName": "Léo Pereira",
-        "dateOfBirth": "1996-01-31",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:48Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 18,
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 8357,
-        "name": "Luiz Gustavo",
-        "firstName": "",
-        "lastName": "Luiz Gustavo",
-        "dateOfBirth": "1987-07-23",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-03-05T09:42:46Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 17,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T09:28:22.127Z",
+  "updatedAt": "2026-08-23T09:29:32.096Z",
   "table": [
     {
       "pos": 1,
@@ -183,6 +183,26 @@
     },
     {
       "pos": 10,
+      "team": "goi",
+      "pts": 33,
+      "played": 24,
+      "won": 9,
+      "drawn": 6,
+      "lost": 9,
+      "gf": 23,
+      "ga": 29,
+      "gd": -6,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 11,
       "team": "ago",
       "pts": 33,
       "played": 23,
@@ -202,42 +222,22 @@
       "zone": null
     },
     {
-      "pos": 11,
-      "team": "goi",
-      "pts": 32,
-      "played": 23,
-      "won": 9,
-      "drawn": 5,
-      "lost": 9,
-      "gf": 22,
-      "ga": 28,
-      "gd": -6,
-      "form": [
-        "D",
-        "L",
-        "W",
-        "L",
-        "L"
-      ],
-      "zone": null
-    },
-    {
       "pos": 12,
       "team": "cui",
-      "pts": 32,
-      "played": 23,
+      "pts": 33,
+      "played": 24,
       "won": 7,
-      "drawn": 11,
+      "drawn": 12,
       "lost": 5,
-      "gf": 20,
-      "ga": 17,
+      "gf": 21,
+      "ga": 18,
       "gd": 3,
       "form": [
-        "L",
         "D",
         "D",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "zone": null
     },
@@ -303,6 +303,26 @@
     },
     {
       "pos": 16,
+      "team": "cea",
+      "pts": 28,
+      "played": 24,
+      "won": 7,
+      "drawn": 7,
+      "lost": 10,
+      "gf": 25,
+      "ga": 30,
+      "gd": -5,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 17,
       "team": "ava",
       "pts": 26,
       "played": 23,
@@ -319,45 +339,25 @@
         "W",
         "W"
       ],
-      "zone": null
-    },
-    {
-      "pos": 17,
-      "team": "cea",
-      "pts": 25,
-      "played": 23,
-      "won": 6,
-      "drawn": 7,
-      "lost": 10,
-      "gf": 23,
-      "ga": 29,
-      "gd": -6,
-      "form": [
-        "L",
-        "W",
-        "W",
-        "L",
-        "L"
-      ],
       "zone": "rebaixamento"
     },
     {
       "pos": 18,
       "team": "lon",
       "pts": 21,
-      "played": 23,
+      "played": 24,
       "won": 5,
       "drawn": 6,
-      "lost": 12,
-      "gf": 28,
-      "ga": 34,
-      "gd": -6,
+      "lost": 13,
+      "gf": 29,
+      "ga": 36,
+      "gd": -7,
       "form": [
         "L",
         "L",
         "L",
-        "L",
-        "D"
+        "D",
+        "L"
       ],
       "zone": "rebaixamento"
     },
