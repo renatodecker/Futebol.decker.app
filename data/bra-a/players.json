@@ -10539,7 +10539,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-22"
+    "debut": "2026-08-22",
+    "active": true
   },
   "p-espn-410938": {
     "fullName": "Pedro Tocantins",
