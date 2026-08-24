@@ -244,11 +244,10 @@ UID:bra-a-r24-bra-gre@futebol.decker.app.br
 DTSTAMP:20260823T190000Z
 DTSTART:20260823T190000Z
 DTEND:20260823T210000Z
-SUMMARY:Red Bull Bragantino x Grêmio
-DESCRIPTION:Rodada 24 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Red Bull Bragantino 1x0 Grêmio
+DESCRIPTION:Rodada 24 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estádio Municipal Cicero de Souza Marques (provável)
+LOCATION:Estádio Municipal Cicero de Souza Marques
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r25-gre-cha@futebol.decker.app.br
