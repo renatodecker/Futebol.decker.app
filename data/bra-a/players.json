@@ -10591,7 +10591,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-194929": {
     "fullName": "Danilo Barbosa",
@@ -10603,7 +10604,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-23"
+    "debut": "2026-08-23",
+    "active": true
   },
   "p-espn-409768": {
     "fullName": "Bruno André Azevedo Ribeiro",
@@ -10628,7 +10630,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-23"
+    "debut": "2026-08-23",
+    "active": true
   },
   "p-espn-306516": {
     "fullName": "Miguel Carvalho",
@@ -10640,7 +10643,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",

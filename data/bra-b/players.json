@@ -10097,7 +10097,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-23"
+    "debut": "2026-08-23",
+    "active": true
   },
   "p-espn-3132266": {
     "fullName": "Cauã Felipi Silva Coelho",
@@ -10109,7 +10110,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
