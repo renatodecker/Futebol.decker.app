@@ -3488,11 +3488,14 @@
       "date": "2026-08-23T19:00:00Z",
       "home": "bra",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841202",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r24-pal-vas",
@@ -3500,11 +3503,14 @@
       "date": "2026-08-23T19:00:00Z",
       "home": "pal",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 1
+      },
       "espnEventId": "401841203",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r24-vit-bah",
@@ -3512,11 +3518,14 @@
       "date": "2026-08-23T19:00:00Z",
       "home": "vit",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401841200",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r24-cha-sao",
@@ -3524,11 +3533,14 @@
       "date": "2026-08-23T21:30:00Z",
       "home": "cha",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841199",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r24-san-mir",
@@ -3536,11 +3548,14 @@
       "date": "2026-08-23T21:30:00Z",
       "home": "san",
       "away": "mir",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841201",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r24-cfc-cor",
@@ -3548,11 +3563,14 @@
       "date": "2026-08-23T22:30:00Z",
       "home": "cfc",
       "away": "cor",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841207",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r24-bot-cap",

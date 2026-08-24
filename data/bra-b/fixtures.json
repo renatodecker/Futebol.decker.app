@@ -3488,11 +3488,14 @@
       "date": "2026-08-23T19:00Z",
       "home": "pon",
       "away": "ava",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860293",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r24-ber-nau",
@@ -3500,11 +3503,14 @@
       "date": "2026-08-23T19:00Z",
       "home": "ber",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860292",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r24-ope-vil",
@@ -3512,11 +3518,14 @@
       "date": "2026-08-23T21:00Z",
       "home": "ope",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860295",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r24-cri-for",
@@ -3524,11 +3533,14 @@
       "date": "2026-08-23T21:30Z",
       "home": "cri",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860298",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r24-acm-nov",
