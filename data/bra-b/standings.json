@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T09:50:08.738Z",
+  "updatedAt": "2026-08-25T09:37:14.583Z",
   "table": [
     {
       "pos": 1,
@@ -63,6 +63,26 @@
     },
     {
       "pos": 4,
+      "team": "nov",
+      "pts": 40,
+      "played": 24,
+      "won": 11,
+      "drawn": 7,
+      "lost": 6,
+      "gf": 39,
+      "ga": 21,
+      "gd": 18,
+      "form": [
+        "W",
+        "L",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": "playoff-acesso"
+    },
+    {
+      "pos": 5,
       "team": "for",
       "pts": 40,
       "played": 24,
@@ -82,27 +102,27 @@
       "zone": "playoff-acesso"
     },
     {
-      "pos": 5,
-      "team": "nov",
-      "pts": 37,
-      "played": 23,
-      "won": 10,
-      "drawn": 7,
-      "lost": 6,
-      "gf": 35,
-      "ga": 20,
-      "gd": 15,
+      "pos": 6,
+      "team": "spo",
+      "pts": 38,
+      "played": 24,
+      "won": 9,
+      "drawn": 11,
+      "lost": 4,
+      "gf": 32,
+      "ga": 22,
+      "gd": 10,
       "form": [
-        "L",
+        "D",
+        "W",
         "W",
         "L",
-        "D",
         "W"
       ],
       "zone": "playoff-acesso"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "team": "crb",
       "pts": 36,
       "played": 23,
@@ -119,10 +139,10 @@
         "D",
         "W"
       ],
-      "zone": "playoff-acesso"
+      "zone": null
     },
     {
-      "pos": 7,
+      "pos": 8,
       "team": "ope",
       "pts": 36,
       "played": 24,
@@ -142,41 +162,21 @@
       "zone": null
     },
     {
-      "pos": 8,
-      "team": "spo",
-      "pts": 35,
-      "played": 23,
-      "won": 8,
-      "drawn": 11,
-      "lost": 4,
-      "gf": 29,
-      "ga": 22,
-      "gd": 7,
-      "form": [
-        "D",
-        "D",
-        "W",
-        "W",
-        "L"
-      ],
-      "zone": null
-    },
-    {
       "pos": 9,
       "team": "acm",
       "pts": 34,
-      "played": 23,
+      "played": 24,
       "won": 8,
       "drawn": 10,
-      "lost": 5,
-      "gf": 24,
-      "ga": 21,
-      "gd": 3,
+      "lost": 6,
+      "gf": 25,
+      "ga": 25,
+      "gd": 0,
       "form": [
-        "W",
         "D",
         "W",
         "W",
+        "L",
         "L"
       ],
       "zone": null
@@ -365,16 +365,16 @@
       "pos": 19,
       "team": "amg",
       "pts": 11,
-      "played": 23,
+      "played": 24,
       "won": 2,
       "drawn": 5,
-      "lost": 16,
+      "lost": 17,
       "gf": 16,
-      "ga": 39,
-      "gd": -23,
+      "ga": 42,
+      "gd": -26,
       "form": [
-        "L",
         "W",
+        "L",
         "L",
         "L",
         "L"

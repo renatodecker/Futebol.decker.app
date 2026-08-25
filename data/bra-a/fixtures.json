@@ -453,18 +453,6 @@
       "attendance": 16804
     },
     {
-      "id": "r4-fla-mir",
-      "round": 4,
-      "date": "2026-02-25T00:00:00Z",
-      "home": "fla",
-      "away": "mir",
-      "status": "postponed",
-      "score": null,
-      "espnEventId": "401841006",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r4-bra-cap",
       "round": 4,
       "date": "2026-02-25T22:00:00Z",
@@ -3704,6 +3692,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841210",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r4-fla-mir",
+      "round": 4,
+      "date": "2026-09-02T22:30:00Z",
+      "home": "fla",
+      "away": "mir",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841006",
       "venue": null,
       "attendance": null
     },

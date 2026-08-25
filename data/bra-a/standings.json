@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T09:49:54.035Z",
+  "updatedAt": "2026-08-25T09:36:57.051Z",
   "table": [
     {
       "pos": 1,
@@ -44,20 +44,20 @@
     {
       "pos": 3,
       "team": "cap",
-      "pts": 41,
-      "played": 23,
-      "won": 12,
+      "pts": 44,
+      "played": 24,
+      "won": 13,
       "drawn": 5,
       "lost": 6,
-      "gf": 31,
-      "ga": 20,
-      "gd": 11,
+      "gf": 34,
+      "ga": 22,
+      "gd": 12,
       "form": [
-        "W",
         "W",
         "D",
         "W",
-        "D"
+        "D",
+        "W"
       ],
       "zone": "libertadores"
     },
@@ -205,18 +205,18 @@
       "pos": 11,
       "team": "bot",
       "pts": 30,
-      "played": 22,
+      "played": 23,
       "won": 8,
       "drawn": 6,
-      "lost": 8,
-      "gf": 35,
-      "ga": 34,
-      "gd": 1,
+      "lost": 9,
+      "gf": 37,
+      "ga": 37,
+      "gd": 0,
       "form": [
-        "W",
         "D",
         "W",
         "D",
+        "L",
         "L"
       ],
       "zone": "sulamericana"
