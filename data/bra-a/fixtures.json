@@ -3578,11 +3578,14 @@
       "date": "2026-08-24T23:00:00Z",
       "home": "bot",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
       "espnEventId": "401841198",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r25-cam-vit",

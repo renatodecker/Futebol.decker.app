@@ -3548,11 +3548,14 @@
       "date": "2026-08-24T22:30Z",
       "home": "acm",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
       "espnEventId": "401860301",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r24-spo-amg",
@@ -3560,11 +3563,14 @@
       "date": "2026-08-24T22:30Z",
       "home": "spo",
       "away": "amg",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401860294",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r24-ago-bfc",
