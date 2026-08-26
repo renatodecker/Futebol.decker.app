@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-08-25T09:37:14.583Z",
+  "updatedAt": "2026-08-26T09:43:26.515Z",
   "table": [
     {
       "pos": 1,
+      "team": "juv",
+      "pts": 45,
+      "played": 24,
+      "won": 13,
+      "drawn": 6,
+      "lost": 5,
+      "gf": 26,
+      "ga": 13,
+      "gd": 13,
+      "form": [
+        "W",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": "acesso"
+    },
+    {
+      "pos": 2,
       "team": "cri",
       "pts": 44,
       "played": 24,
@@ -18,26 +38,6 @@
         "W",
         "D",
         "L"
-      ],
-      "zone": "acesso"
-    },
-    {
-      "pos": 2,
-      "team": "juv",
-      "pts": 42,
-      "played": 23,
-      "won": 12,
-      "drawn": 6,
-      "lost": 5,
-      "gf": 24,
-      "ga": 12,
-      "gd": 12,
-      "form": [
-        "L",
-        "W",
-        "W",
-        "D",
-        "W"
       ],
       "zone": "acesso"
     },
@@ -125,19 +125,19 @@
       "pos": 7,
       "team": "crb",
       "pts": 36,
-      "played": 23,
+      "played": 24,
       "won": 10,
       "drawn": 6,
-      "lost": 7,
-      "gf": 34,
-      "ga": 32,
-      "gd": 2,
+      "lost": 8,
+      "gf": 35,
+      "ga": 34,
+      "gd": 1,
       "form": [
         "W",
         "W",
-        "W",
         "D",
-        "W"
+        "W",
+        "L"
       ],
       "zone": null
     },
@@ -163,6 +163,26 @@
     },
     {
       "pos": 9,
+      "team": "ago",
+      "pts": 36,
+      "played": 24,
+      "won": 9,
+      "drawn": 9,
+      "lost": 6,
+      "gf": 27,
+      "ga": 23,
+      "gd": 4,
+      "form": [
+        "W",
+        "D",
+        "L",
+        "D",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 10,
       "team": "acm",
       "pts": 34,
       "played": 24,
@@ -182,7 +202,7 @@
       "zone": null
     },
     {
-      "pos": 10,
+      "pos": 11,
       "team": "goi",
       "pts": 33,
       "played": 24,
@@ -196,26 +216,6 @@
         "L",
         "W",
         "L",
-        "L",
-        "D"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 11,
-      "team": "ago",
-      "pts": 33,
-      "played": 23,
-      "won": 8,
-      "drawn": 9,
-      "lost": 6,
-      "gf": 24,
-      "ga": 23,
-      "gd": 1,
-      "form": [
-        "W",
-        "W",
-        "D",
         "L",
         "D"
       ],
@@ -265,19 +265,19 @@
       "pos": 14,
       "team": "bfc",
       "pts": 31,
-      "played": 23,
+      "played": 24,
       "won": 8,
       "drawn": 7,
-      "lost": 8,
+      "lost": 9,
       "gf": 28,
-      "ga": 23,
-      "gd": 5,
+      "ga": 26,
+      "gd": 2,
       "form": [
-        "W",
         "L",
         "W",
         "W",
-        "D"
+        "D",
+        "L"
       ],
       "zone": null
     },
