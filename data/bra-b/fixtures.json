@@ -3578,11 +3578,14 @@
       "date": "2026-08-25T22:30Z",
       "home": "ago",
       "away": "bfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401860300",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r24-juv-crb",
@@ -3590,11 +3593,14 @@
       "date": "2026-08-25T22:30Z",
       "home": "juv",
       "away": "crb",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860296",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 5045
     },
     {
       "id": "r25-goi-ber",
