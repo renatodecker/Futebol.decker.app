@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "currentRound": 24,
+  "currentRound": 25,
   "matches": [
     {
       "id": "r1-vil-crb",
@@ -3651,18 +3651,6 @@
       "attendance": null
     },
     {
-      "id": "r25-ava-ago",
-      "round": 25,
-      "date": "2026-08-30T14:00Z",
-      "home": "ava",
-      "away": "ago",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401860303",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r25-amg-pon",
       "round": 25,
       "date": "2026-08-30T19:00Z",
@@ -3671,6 +3659,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401860302",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r25-ava-ago",
+      "round": 25,
+      "date": "2026-08-30T19:00Z",
+      "home": "ava",
+      "away": "ago",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860303",
       "venue": null,
       "attendance": null
     },
