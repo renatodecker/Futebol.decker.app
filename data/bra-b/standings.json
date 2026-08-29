@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T20:45:30.129Z",
+  "updatedAt": "2026-08-29T14:13:34.551Z",
   "table": [
     {
       "pos": 1,
@@ -43,6 +43,26 @@
     },
     {
       "pos": 3,
+      "team": "nov",
+      "pts": 43,
+      "played": 25,
+      "won": 12,
+      "drawn": 7,
+      "lost": 6,
+      "gf": 41,
+      "ga": 22,
+      "gd": 19,
+      "form": [
+        "L",
+        "D",
+        "W",
+        "W",
+        "W"
+      ],
+      "zone": "playoff-acesso"
+    },
+    {
+      "pos": 4,
       "team": "vil",
       "pts": 41,
       "played": 24,
@@ -58,26 +78,6 @@
         "W",
         "W",
         "D"
-      ],
-      "zone": "playoff-acesso"
-    },
-    {
-      "pos": 4,
-      "team": "nov",
-      "pts": 40,
-      "played": 24,
-      "won": 11,
-      "drawn": 7,
-      "lost": 6,
-      "gf": 39,
-      "ga": 21,
-      "gd": 18,
-      "form": [
-        "W",
-        "L",
-        "D",
-        "W",
-        "W"
       ],
       "zone": "playoff-acesso"
     },
@@ -105,19 +105,19 @@
       "pos": 6,
       "team": "spo",
       "pts": 38,
-      "played": 24,
+      "played": 25,
       "won": 9,
       "drawn": 11,
-      "lost": 4,
-      "gf": 32,
-      "ga": 22,
-      "gd": 10,
+      "lost": 5,
+      "gf": 33,
+      "ga": 24,
+      "gd": 9,
       "form": [
-        "D",
         "W",
         "W",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "zone": "playoff-acesso"
     },
@@ -163,6 +163,26 @@
     },
     {
       "pos": 9,
+      "team": "goi",
+      "pts": 36,
+      "played": 25,
+      "won": 10,
+      "drawn": 6,
+      "lost": 9,
+      "gf": 25,
+      "ga": 30,
+      "gd": -5,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 10,
       "team": "ago",
       "pts": 36,
       "played": 24,
@@ -182,47 +202,47 @@
       "zone": null
     },
     {
-      "pos": 10,
-      "team": "acm",
+      "pos": 11,
+      "team": "nau",
       "pts": 34,
-      "played": 24,
-      "won": 8,
-      "drawn": 10,
-      "lost": 6,
-      "gf": 25,
-      "ga": 25,
-      "gd": 0,
+      "played": 25,
+      "won": 9,
+      "drawn": 7,
+      "lost": 9,
+      "gf": 30,
+      "ga": 28,
+      "gd": 2,
       "form": [
         "D",
+        "D",
+        "W",
+        "D",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 12,
+      "team": "acm",
+      "pts": 34,
+      "played": 25,
+      "won": 8,
+      "drawn": 10,
+      "lost": 7,
+      "gf": 26,
+      "ga": 27,
+      "gd": -1,
+      "form": [
         "W",
         "W",
+        "L",
         "L",
         "L"
       ],
       "zone": null
     },
     {
-      "pos": 11,
-      "team": "goi",
-      "pts": 33,
-      "played": 24,
-      "won": 9,
-      "drawn": 6,
-      "lost": 9,
-      "gf": 23,
-      "ga": 29,
-      "gd": -6,
-      "form": [
-        "L",
-        "W",
-        "L",
-        "L",
-        "D"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 12,
+      "pos": 13,
       "team": "cui",
       "pts": 33,
       "played": 24,
@@ -242,27 +262,27 @@
       "zone": null
     },
     {
-      "pos": 13,
+      "pos": 14,
       "team": "ber",
       "pts": 32,
-      "played": 24,
+      "played": 25,
       "won": 8,
       "drawn": 8,
-      "lost": 8,
-      "gf": 33,
-      "ga": 27,
-      "gd": 6,
+      "lost": 9,
+      "gf": 34,
+      "ga": 29,
+      "gd": 5,
       "form": [
-        "L",
         "W",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "zone": null
     },
     {
-      "pos": 14,
+      "pos": 15,
       "team": "bfc",
       "pts": 31,
       "played": 24,
@@ -278,26 +298,6 @@
         "W",
         "D",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 15,
-      "team": "nau",
-      "pts": 31,
-      "played": 24,
-      "won": 8,
-      "drawn": 7,
-      "lost": 9,
-      "gf": 28,
-      "ga": 27,
-      "gd": 1,
-      "form": [
-        "D",
-        "D",
-        "D",
-        "W",
-        "D"
       ],
       "zone": null
     },
