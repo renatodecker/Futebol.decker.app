@@ -3608,11 +3608,14 @@
       "date": "2026-08-28T22:30Z",
       "home": "goi",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860307",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 0
     },
     {
       "id": "r25-nau-acm",
@@ -3620,11 +3623,14 @@
       "date": "2026-08-28T23:30Z",
       "home": "nau",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860310",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 8182
     },
     {
       "id": "r25-nov-spo",
@@ -3632,11 +3638,14 @@
       "date": "2026-08-28T23:30Z",
       "home": "nov",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860309",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r25-bfc-cui",
