@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T14:13:34.551Z",
+  "updatedAt": "2026-08-30T14:19:19.798Z",
   "table": [
     {
       "pos": 1,
@@ -203,6 +203,26 @@
     },
     {
       "pos": 11,
+      "team": "cui",
+      "pts": 36,
+      "played": 25,
+      "won": 8,
+      "drawn": 12,
+      "lost": 5,
+      "gf": 23,
+      "ga": 19,
+      "gd": 4,
+      "form": [
+        "D",
+        "W",
+        "W",
+        "D",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 12,
       "team": "nau",
       "pts": 34,
       "played": 25,
@@ -222,7 +242,7 @@
       "zone": null
     },
     {
-      "pos": 12,
+      "pos": 13,
       "team": "acm",
       "pts": 34,
       "played": 25,
@@ -238,26 +258,6 @@
         "L",
         "L",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 13,
-      "team": "cui",
-      "pts": 33,
-      "played": 24,
-      "won": 7,
-      "drawn": 12,
-      "lost": 5,
-      "gf": 21,
-      "ga": 18,
-      "gd": 3,
-      "form": [
-        "D",
-        "D",
-        "W",
-        "W",
-        "D"
       ],
       "zone": null
     },
@@ -285,18 +285,18 @@
       "pos": 15,
       "team": "bfc",
       "pts": 31,
-      "played": 24,
+      "played": 25,
       "won": 8,
       "drawn": 7,
-      "lost": 9,
-      "gf": 28,
-      "ga": 26,
-      "gd": 2,
+      "lost": 10,
+      "gf": 29,
+      "ga": 28,
+      "gd": 1,
       "form": [
-        "L",
         "W",
         "W",
         "D",
+        "L",
         "L"
       ],
       "zone": null

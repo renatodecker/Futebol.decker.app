@@ -45,7 +45,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 16,
       "assists": 3,
       "penalties": 2
@@ -238,6 +238,37 @@
     },
     {
       "player": {
+        "id": 42901,
+        "name": "Luciano",
+        "firstName": "",
+        "lastName": "Luciano",
+        "dateOfBirth": "1993-05-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:46Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 20,
+      "goals": 7,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 149704,
         "name": "Danilo dos Santos de Oliveira",
         "firstName": "",
@@ -293,7 +324,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 7,
       "assists": 1,
       "penalties": 1
@@ -362,37 +393,6 @@
     },
     {
       "player": {
-        "id": 42901,
-        "name": "Luciano",
-        "firstName": "",
-        "lastName": "Luciano",
-        "dateOfBirth": "1993-05-18",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 19,
-      "goals": 6,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 119594,
         "name": "Mauricio",
         "firstName": null,
@@ -450,7 +450,7 @@
       },
       "playedMatches": 21,
       "goals": 6,
-      "assists": 2,
+      "assists": 3,
       "penalties": null
     },
     {
@@ -665,7 +665,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -696,7 +696,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 5,
       "assists": null,
       "penalties": null
@@ -851,7 +851,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -944,7 +944,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1161,7 +1161,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": 3,
       "penalties": 1
@@ -1192,7 +1192,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1223,7 +1223,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -1285,7 +1285,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1378,7 +1378,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1471,9 +1471,9 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
-      "assists": 2,
+      "assists": 3,
       "penalties": null
     },
     {
@@ -1502,7 +1502,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 4,
       "penalties": null
@@ -1657,7 +1657,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1719,7 +1719,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 1,
       "penalties": 2
@@ -1943,6 +1943,37 @@
     },
     {
       "player": {
+        "id": 40441,
+        "name": "Erick",
+        "firstName": "",
+        "lastName": "Erick",
+        "dateOfBirth": "1997-12-10",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-31T10:01:16Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 23,
+      "goals": 3,
+      "assists": 4,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 145985,
         "name": "Hércules",
         "firstName": "",
@@ -2060,9 +2091,40 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 1251,
+        "name": "David",
+        "firstName": "",
+        "lastName": "David Corrêa",
+        "dateOfBirth": "1995-10-17",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-03-18T09:41:59Z"
+      },
+      "team": {
+        "id": 1780,
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "tla": "VAS",
+        "crest": "https://crests.football-data.org/1780.png",
+        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+        "website": "http://www.vasco.com.br",
+        "founded": 1898,
+        "clubColors": "Black / White",
+        "venue": "Estádio Club de Regatas Vasco da Gama",
+        "lastUpdated": "2023-02-18T08:43:37Z"
+      },
+      "playedMatches": 23,
+      "goals": 3,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -2191,6 +2253,37 @@
     },
     {
       "player": {
+        "id": 123350,
+        "name": "Reinier",
+        "firstName": "",
+        "lastName": "Reinier",
+        "dateOfBirth": "2002-01-19",
+        "nationality": "Brazil",
+        "section": "Attacking Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-09-02T09:59:11Z"
+      },
+      "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
+        "clubColors": "Black / White",
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
+      },
+      "playedMatches": 23,
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 169549,
         "name": "Tiago",
         "firstName": "",
@@ -2277,7 +2370,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": 2,
       "penalties": 1
@@ -2401,9 +2494,40 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 11198,
+        "name": "Fernando",
+        "firstName": "",
+        "lastName": "Fernando",
+        "dateOfBirth": "1999-03-01",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 99,
+        "lastUpdated": "2023-08-06T08:27:04Z"
+      },
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png",
+        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+        "website": "http://www.bragantino.net",
+        "founded": 1928,
+        "clubColors": "White / Black",
+        "venue": "Estádio Nabi Abi Chedid",
+        "lastUpdated": "2023-02-18T08:43:26Z"
+      },
+      "playedMatches": 12,
+      "goals": 3,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -2432,7 +2556,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2897,7 +3021,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 2,
       "assists": null,
       "penalties": null
@@ -2994,130 +3118,6 @@
       "goals": 2,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 115184,
-        "name": "Ramon",
-        "firstName": "",
-        "lastName": "Ramon",
-        "dateOfBirth": "2001-03-13",
-        "nationality": "Brazil",
-        "section": "Left-Back",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-08-12T11:57:14Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 21,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 181575,
-        "name": "Cuiabano",
-        "firstName": "",
-        "lastName": "Cuiabano",
-        "dateOfBirth": "2003-02-16",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-09-09T01:50:49Z"
-      },
-      "team": {
-        "id": 1780,
-        "name": "CR Vasco da Gama",
-        "shortName": "Vasco da Gama",
-        "tla": "VAS",
-        "crest": "https://crests.football-data.org/1780.png",
-        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
-        "website": "http://www.vasco.com.br",
-        "founded": 1898,
-        "clubColors": "Black / White",
-        "venue": "Estádio Club de Regatas Vasco da Gama",
-        "lastUpdated": "2023-02-18T08:43:37Z"
-      },
-      "playedMatches": 15,
-      "goals": 2,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 183235,
-        "name": "Rodrigo Huendra",
-        "firstName": "",
-        "lastName": "Rodriguinho",
-        "dateOfBirth": "2004-03-16",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-06-13T09:41:58Z"
-      },
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png",
-        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
-        "website": "http://www.bragantino.net",
-        "founded": 1928,
-        "clubColors": "White / Black",
-        "venue": "Estádio Nabi Abi Chedid",
-        "lastUpdated": "2023-02-18T08:43:26Z"
-      },
-      "playedMatches": 17,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 40441,
-        "name": "Erick",
-        "firstName": "",
-        "lastName": "Erick",
-        "dateOfBirth": "1997-12-10",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T10:01:16Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 22,
-      "goals": 2,
-      "assists": 4,
-      "penalties": 1
     }
   ]
 }
