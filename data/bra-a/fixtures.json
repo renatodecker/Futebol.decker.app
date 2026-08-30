@@ -3581,11 +3581,14 @@
       "date": "2026-08-29T21:30:00Z",
       "home": "cam",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841216",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r25-sao-bra",
@@ -3593,11 +3596,14 @@
       "date": "2026-08-29T23:00:00Z",
       "home": "sao",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841209",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r25-vas-cru",
@@ -3605,11 +3611,14 @@
       "date": "2026-08-30T00:20:00Z",
       "home": "vas",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401841212",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r25-cap-flu",

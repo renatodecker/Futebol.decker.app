@@ -3653,11 +3653,14 @@
       "date": "2026-08-29T21:30Z",
       "home": "bfc",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401860304",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r25-amg-pon",
