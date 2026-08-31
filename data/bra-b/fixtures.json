@@ -3668,11 +3668,14 @@
       "date": "2026-08-30T19:00Z",
       "home": "amg",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860302",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r25-ava-ago",
@@ -3680,11 +3683,14 @@
       "date": "2026-08-30T19:00Z",
       "home": "ava",
       "away": "ago",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860303",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r25-crb-cri",
@@ -3692,11 +3698,14 @@
       "date": "2026-08-30T21:00Z",
       "home": "crb",
       "away": "cri",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860305",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r25-vil-cea",
@@ -3704,11 +3713,14 @@
       "date": "2026-08-30T21:30Z",
       "home": "vil",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860306",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
     },
     {
       "id": "r25-for-ope",

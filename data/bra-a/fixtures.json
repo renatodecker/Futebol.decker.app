@@ -3626,11 +3626,14 @@
       "date": "2026-08-30T14:00:00Z",
       "home": "cap",
       "away": "flu",
-      "status": "live",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
       "espnEventId": "401841208",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r25-cor-san",
@@ -3638,11 +3641,14 @@
       "date": "2026-08-30T19:00:00Z",
       "home": "cor",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841214",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r25-fla-bot",
@@ -3650,11 +3656,14 @@
       "date": "2026-08-30T19:00:00Z",
       "home": "fla",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841213",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r25-gre-cha",
@@ -3662,11 +3671,14 @@
       "date": "2026-08-30T21:30:00Z",
       "home": "gre",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401841217",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 22522
     },
     {
       "id": "r25-mir-pal",
@@ -3674,11 +3686,14 @@
       "date": "2026-08-30T21:30:00Z",
       "home": "mir",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841211",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 10599
     },
     {
       "id": "r25-bah-int",
@@ -3686,11 +3701,14 @@
       "date": "2026-08-30T22:30:00Z",
       "home": "bah",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841215",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r25-rem-cfc",
