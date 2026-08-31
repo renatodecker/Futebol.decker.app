@@ -10175,7 +10175,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-08-30"
+    "debut": "2026-08-30",
+    "active": true
   },
   "p-espn-419978": {
     "fullName": "Kawann",
