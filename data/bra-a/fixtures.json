@@ -3716,11 +3716,14 @@
       "date": "2026-08-31T23:00:00Z",
       "home": "rem",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
       "espnEventId": "401841210",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r4-fla-mir",

@@ -3728,11 +3728,14 @@
       "date": "2026-08-31T22:30Z",
       "home": "for",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860311",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r25-lon-juv",
