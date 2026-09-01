@@ -10734,7 +10734,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-417545": {
     "fullName": "Khensane",
@@ -10746,7 +10747,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
