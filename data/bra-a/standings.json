@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T16:49:09.787Z",
+  "updatedAt": "2026-09-01T13:59:41.041Z",
   "table": [
     {
       "pos": 1,
@@ -123,6 +123,26 @@
     },
     {
       "pos": 7,
+      "team": "cfc",
+      "pts": 37,
+      "played": 25,
+      "won": 10,
+      "drawn": 7,
+      "lost": 8,
+      "gf": 33,
+      "ga": 33,
+      "gd": 0,
+      "form": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 8,
       "team": "cam",
       "pts": 36,
       "played": 24,
@@ -142,7 +162,7 @@
       "zone": "sulamericana"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "team": "bra",
       "pts": 35,
       "played": 24,
@@ -158,26 +178,6 @@
         "D",
         "W",
         "L"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 9,
-      "team": "cfc",
-      "pts": 34,
-      "played": 24,
-      "won": 9,
-      "drawn": 7,
-      "lost": 8,
-      "gf": 30,
-      "ga": 31,
-      "gd": -1,
-      "form": [
-        "D",
-        "L",
-        "W",
-        "D",
-        "W"
       ],
       "zone": "sulamericana"
     },
@@ -365,18 +365,18 @@
       "pos": 19,
       "team": "rem",
       "pts": 23,
-      "played": 24,
+      "played": 25,
       "won": 5,
       "drawn": 8,
-      "lost": 11,
-      "gf": 28,
-      "ga": 39,
-      "gd": -11,
+      "lost": 12,
+      "gf": 30,
+      "ga": 42,
+      "gd": -12,
       "form": [
-        "W",
         "L",
         "D",
         "D",
+        "L",
         "L"
       ],
       "zone": "rebaixamento"

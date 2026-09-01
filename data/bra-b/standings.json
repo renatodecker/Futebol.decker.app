@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T16:49:25.187Z",
+  "updatedAt": "2026-09-01T13:59:56.945Z",
   "table": [
     {
       "pos": 1,
@@ -84,20 +84,20 @@
     {
       "pos": 5,
       "team": "for",
-      "pts": 40,
-      "played": 24,
+      "pts": 41,
+      "played": 25,
       "won": 11,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 6,
-      "gf": 27,
-      "ga": 21,
+      "gf": 28,
+      "ga": 22,
       "gd": 6,
       "form": [
+        "D",
+        "D",
+        "D",
         "W",
-        "D",
-        "D",
-        "D",
-        "W"
+        "D"
       ],
       "zone": "playoff-acesso"
     },
@@ -164,19 +164,19 @@
     {
       "pos": 9,
       "team": "ope",
-      "pts": 36,
-      "played": 24,
+      "pts": 37,
+      "played": 25,
       "won": 10,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 8,
-      "gf": 30,
-      "ga": 31,
+      "gf": 31,
+      "ga": 32,
       "gd": -1,
       "form": [
         "L",
         "L",
         "L",
-        "L",
+        "D",
         "D"
       ],
       "zone": null

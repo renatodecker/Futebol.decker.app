@@ -3858,42 +3858,6 @@
       "attendance": null
     },
     {
-      "id": "r27-pal-sao",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "pal",
-      "away": "sao",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841234",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r27-san-cru",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "san",
-      "away": "cru",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841233",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r27-cam-flu",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "cam",
-      "away": "flu",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841231",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r27-bah-rem",
       "round": 27,
       "date": "2026-09-12T00:00:00Z",
@@ -3902,30 +3866,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841230",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r27-bot-bra",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "bot",
-      "away": "bra",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841229",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r27-cha-int",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "cha",
-      "away": "int",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841228",
       "venue": null,
       "attendance": null
     },
@@ -3954,18 +3894,6 @@
       "attendance": null
     },
     {
-      "id": "r27-gre-vas",
-      "round": 27,
-      "date": "2026-09-12T00:00:00Z",
-      "home": "gre",
-      "away": "vas",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841236",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r27-mir-vit",
       "round": 27,
       "date": "2026-09-12T00:00:00Z",
@@ -3978,6 +3906,78 @@
       "attendance": null
     },
     {
+      "id": "r27-cam-flu",
+      "round": 27,
+      "date": "2026-09-12T19:00:00Z",
+      "home": "cam",
+      "away": "flu",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841231",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-gre-vas",
+      "round": 27,
+      "date": "2026-09-12T19:00:00Z",
+      "home": "gre",
+      "away": "vas",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841236",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-cha-int",
+      "round": 27,
+      "date": "2026-09-12T20:00:00Z",
+      "home": "cha",
+      "away": "int",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841228",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-pal-sao",
+      "round": 27,
+      "date": "2026-09-12T21:30:00Z",
+      "home": "pal",
+      "away": "sao",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841234",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-bot-bra",
+      "round": 27,
+      "date": "2026-09-12T23:30:00Z",
+      "home": "bot",
+      "away": "bra",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841229",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r27-san-cru",
+      "round": 27,
+      "date": "2026-09-13T00:00:00Z",
+      "home": "san",
+      "away": "cru",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841233",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r28-cap-bah",
       "round": 28,
       "date": "2026-09-19T00:00:00Z",
@@ -3986,18 +3986,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841238",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r28-cam-cha",
-      "round": 28,
-      "date": "2026-09-19T00:00:00Z",
-      "home": "cam",
-      "away": "cha",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841239",
       "venue": null,
       "attendance": null
     },
@@ -4038,9 +4026,33 @@
       "attendance": null
     },
     {
-      "id": "r28-mir-bot",
+      "id": "r28-vit-cru",
       "round": 28,
       "date": "2026-09-19T00:00:00Z",
+      "home": "vit",
+      "away": "cru",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841242",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-cam-cha",
+      "round": 28,
+      "date": "2026-09-19T19:00:00Z",
+      "home": "cam",
+      "away": "cha",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841239",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r28-mir-bot",
+      "round": 28,
+      "date": "2026-09-19T20:00:00Z",
       "home": "mir",
       "away": "bot",
       "status": "scheduled",
@@ -4052,7 +4064,7 @@
     {
       "id": "r28-rem-san",
       "round": 28,
-      "date": "2026-09-19T00:00:00Z",
+      "date": "2026-09-19T21:30:00Z",
       "home": "rem",
       "away": "san",
       "status": "scheduled",
@@ -4062,21 +4074,9 @@
       "attendance": null
     },
     {
-      "id": "r28-sao-int",
-      "round": 28,
-      "date": "2026-09-19T00:00:00Z",
-      "home": "sao",
-      "away": "int",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841243",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r28-vas-cfc",
       "round": 28,
-      "date": "2026-09-19T00:00:00Z",
+      "date": "2026-09-19T23:30:00Z",
       "home": "vas",
       "away": "cfc",
       "status": "scheduled",
@@ -4086,14 +4086,14 @@
       "attendance": null
     },
     {
-      "id": "r28-vit-cru",
+      "id": "r28-sao-int",
       "round": 28,
-      "date": "2026-09-19T00:00:00Z",
-      "home": "vit",
-      "away": "cru",
+      "date": "2026-09-20T00:00:00Z",
+      "home": "sao",
+      "away": "int",
       "status": "scheduled",
       "score": null,
-      "espnEventId": "401841242",
+      "espnEventId": "401841243",
       "venue": null,
       "attendance": null
     },
