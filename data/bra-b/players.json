@@ -982,7 +982,7 @@
     "jersey": 11,
     "birthdate": "1994-03-08",
     "nationality": "BRA",
-    "apps": 8,
+    "apps": 9,
     "goals": 0,
     "debut": "2026-07-13",
     "active": true
@@ -2529,7 +2529,7 @@
     "jersey": 2,
     "birthdate": "1986-01-10",
     "nationality": "BRA",
-    "apps": 5,
+    "apps": 6,
     "goals": 0,
     "debut": "2026-07-13",
     "active": true
@@ -3166,7 +3166,7 @@
     "jersey": 93,
     "birthdate": "1993-03-01",
     "nationality": "BRA",
-    "apps": 21,
+    "apps": 22,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3192,7 +3192,7 @@
     "jersey": 47,
     "birthdate": "2003-01-18",
     "nationality": "BRA",
-    "apps": 42,
+    "apps": 44,
     "goals": 3,
     "debut": "2026-03-22",
     "active": true
@@ -3205,7 +3205,7 @@
     "jersey": 34,
     "birthdate": "1995-07-24",
     "nationality": "BRA",
-    "apps": 20,
+    "apps": 21,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3244,7 +3244,7 @@
     "jersey": 5,
     "birthdate": "1999-10-20",
     "nationality": "BRA",
-    "apps": 20,
+    "apps": 21,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3257,7 +3257,7 @@
     "jersey": 44,
     "birthdate": "2001-10-02",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -3309,7 +3309,7 @@
     "jersey": 9,
     "birthdate": "1989-01-12",
     "nationality": "BRA",
-    "apps": 18,
+    "apps": 19,
     "goals": 3,
     "debut": "2026-03-22",
     "active": true
@@ -3335,7 +3335,7 @@
     "jersey": 25,
     "birthdate": "1995-03-17",
     "nationality": "BRA",
-    "apps": 23,
+    "apps": 24,
     "goals": 5,
     "debut": "2026-03-31",
     "active": true
@@ -3361,7 +3361,7 @@
     "jersey": 11,
     "birthdate": "1996-12-22",
     "nationality": "BRA",
-    "apps": 20,
+    "apps": 21,
     "goals": 2,
     "debut": "2026-03-22",
     "active": true
@@ -3374,7 +3374,7 @@
     "jersey": 3,
     "birthdate": "1988-03-12",
     "nationality": "BRA",
-    "apps": 6,
+    "apps": 7,
     "goals": 0,
     "debut": "2026-04-26",
     "active": true
@@ -3387,7 +3387,7 @@
     "jersey": 97,
     "birthdate": "1997-04-19",
     "nationality": "BRA",
-    "apps": 19,
+    "apps": 20,
     "goals": 1,
     "debut": "2026-04-18",
     "active": true
@@ -3400,7 +3400,7 @@
     "jersey": 75,
     "birthdate": "2002-04-21",
     "nationality": "BRA",
-    "apps": 23,
+    "apps": 24,
     "goals": 5,
     "debut": "2026-03-22",
     "active": true
@@ -4414,7 +4414,7 @@
     "jersey": 5,
     "birthdate": "1993-02-18",
     "nationality": "BRA",
-    "apps": 4,
+    "apps": 5,
     "goals": 0,
     "debut": "2026-07-13",
     "active": true
@@ -4436,11 +4436,11 @@
     "fullName": "William Pottker",
     "shirtName": "W. Pottker",
     "team": "lon",
-    "position": "A",
+    "position": "M",
     "jersey": 23,
     "birthdate": "1993-12-22",
     "nationality": "BRA",
-    "apps": 5,
+    "apps": 6,
     "goals": 0,
     "debut": "2026-07-26",
     "active": true
@@ -5532,7 +5532,7 @@
     "jersey": 4,
     "birthdate": "1987-12-26",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -5558,7 +5558,7 @@
     "jersey": 33,
     "birthdate": "1997-12-28",
     "nationality": "BRA",
-    "apps": 14,
+    "apps": 15,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -5610,7 +5610,7 @@
     "jersey": 8,
     "birthdate": "1995-05-24",
     "nationality": "BRA",
-    "apps": 20,
+    "apps": 21,
     "goals": 2,
     "debut": "2026-03-22",
     "active": true
@@ -5623,7 +5623,7 @@
     "jersey": 9,
     "birthdate": "1989-06-05",
     "nationality": "BRA",
-    "apps": 12,
+    "apps": 13,
     "goals": 1,
     "debut": "2026-03-22",
     "active": true
@@ -5672,7 +5672,7 @@
     "shirtName": "Chumbinho",
     "team": "lon",
     "position": "M",
-    "jersey": 55,
+    "jersey": 6,
     "birthdate": "2003-09-22",
     "nationality": "BRA",
     "apps": 3,
@@ -5688,7 +5688,7 @@
     "jersey": 34,
     "birthdate": "2000-08-17",
     "nationality": "BRA",
-    "apps": 21,
+    "apps": 22,
     "goals": 0,
     "debut": "2026-03-22",
     "active": true
@@ -5740,7 +5740,7 @@
     "jersey": 15,
     "birthdate": "1999-08-29",
     "nationality": "BRA",
-    "apps": 17,
+    "apps": 18,
     "goals": 1,
     "debut": "2026-04-01",
     "active": true
@@ -5766,7 +5766,7 @@
     "jersey": 32,
     "birthdate": "2004-02-23",
     "nationality": "BRA",
-    "apps": 28,
+    "apps": 29,
     "goals": 3,
     "debut": "2026-03-22",
     "active": true
@@ -5779,9 +5779,9 @@
     "jersey": 1,
     "birthdate": "1997-06-10",
     "nationality": "BRA",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-09-01",
     "active": true
   },
   "p-espn-388807": {
@@ -7053,7 +7053,7 @@
     "jersey": 8,
     "birthdate": "1996-02-24",
     "nationality": "BRA",
-    "apps": 18,
+    "apps": 19,
     "goals": 0,
     "debut": "2026-04-11",
     "active": true
@@ -7326,7 +7326,7 @@
     "jersey": 16,
     "birthdate": "1992-08-17",
     "nationality": "BRA",
-    "apps": 17,
+    "apps": 18,
     "goals": 0,
     "debut": "2026-04-18",
     "active": true
@@ -7755,7 +7755,7 @@
     "jersey": 75,
     "birthdate": "2005-04-11",
     "nationality": "BRA",
-    "apps": 14,
+    "apps": 15,
     "goals": 0,
     "debut": "2026-05-12",
     "active": true
@@ -7963,7 +7963,7 @@
     "jersey": 44,
     "birthdate": "2004-08-23",
     "nationality": "BRA",
-    "apps": 3,
+    "apps": 4,
     "goals": 0,
     "debut": "2026-05-18",
     "active": true
@@ -8080,7 +8080,7 @@
     "jersey": 13,
     "birthdate": "1990-08-18",
     "nationality": "BRA",
-    "apps": 11,
+    "apps": 12,
     "goals": 0,
     "debut": "2026-05-17",
     "active": true
@@ -9107,7 +9107,7 @@
     "jersey": 72,
     "birthdate": "2002-04-21",
     "nationality": "BRA",
-    "apps": 3,
+    "apps": 4,
     "goals": 1,
     "debut": "2026-07-28",
     "active": true
@@ -9783,7 +9783,7 @@
     "jersey": 77,
     "birthdate": "1998-07-16",
     "nationality": "BRA",
-    "apps": 4,
+    "apps": 5,
     "goals": 0,
     "debut": "2026-08-10",
     "active": true
@@ -10242,6 +10242,18 @@
     "goals": 0,
     "debut": "2026-08-31",
     "active": true
+  },
+  "p-espn-400320": {
+    "fullName": "João Coni",
+    "shirtName": "João Coni",
+    "team": "lon",
+    "position": null,
+    "jersey": 17,
+    "birthdate": null,
+    "nationality": null,
+    "apps": 1,
+    "goals": 0,
+    "debut": "2026-09-01"
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",

@@ -3743,11 +3743,14 @@
       "date": "2026-09-01T22:30Z",
       "home": "lon",
       "away": "juv",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401860308",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r26-nau-bfc",

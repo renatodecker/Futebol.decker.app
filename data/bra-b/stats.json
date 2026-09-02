@@ -1707,7 +1707,7 @@
     "p-espn-199044": {
       "goals": 0,
       "assists": 0,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-313995": {
@@ -3317,9 +3317,9 @@
     "lon": {
       "goals": 29,
       "conceded": 36,
-      "yellow": 58,
+      "yellow": 59,
       "red": 3
     }
   },
-  "updatedAt": "2026-09-01T09:40:00.183Z"
+  "updatedAt": "2026-09-02T06:56:16.975Z"
 }
