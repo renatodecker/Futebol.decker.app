@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-01T13:59:56.945Z",
+  "updatedAt": "2026-09-02T13:22:01.374Z",
   "table": [
     {
       "pos": 1,
       "team": "juv",
-      "pts": 45,
-      "played": 24,
+      "pts": 46,
+      "played": 25,
       "won": 13,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 5,
       "gf": 26,
       "ga": 13,
       "gd": 13,
       "form": [
         "W",
-        "W",
         "D",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "zone": "acesso"
     },
@@ -344,10 +344,10 @@
     {
       "pos": 18,
       "team": "lon",
-      "pts": 21,
-      "played": 24,
+      "pts": 22,
+      "played": 25,
       "won": 5,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 13,
       "gf": 29,
       "ga": 36,
@@ -355,9 +355,9 @@
       "form": [
         "L",
         "L",
-        "L",
         "D",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "rebaixamento"
     },
