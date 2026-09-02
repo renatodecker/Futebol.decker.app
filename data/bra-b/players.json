@@ -10253,7 +10253,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-01"
+    "debut": "2026-09-01",
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
