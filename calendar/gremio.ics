@@ -214,9 +214,9 @@ DTSTAMP:20260729T000000Z
 DTSTART:20260729T000000Z
 DTEND:20260729T020000Z
 SUMMARY:Botafogo x Grêmio
-DESCRIPTION:Rodada 21 · Brasileirão Série A · Adiado (data a confirmar)
-  · Local provável (mandante ainda não confirmou)
-STATUS:TENTATIVE
+DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
+STATUS:CONFIRMED
 LOCATION:Estádio Nilton Santos (provável)
 END:VEVENT
 BEGIN:VEVENT
