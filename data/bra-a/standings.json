@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T13:21:45.803Z",
+  "updatedAt": "2026-09-03T13:20:35.833Z",
   "table": [
     {
       "pos": 1,
@@ -24,19 +24,19 @@
     {
       "pos": 2,
       "team": "fla",
-      "pts": 48,
-      "played": 24,
-      "won": 14,
+      "pts": 51,
+      "played": 25,
+      "won": 15,
       "drawn": 6,
       "lost": 4,
-      "gf": 48,
+      "gf": 50,
       "ga": 21,
-      "gd": 27,
+      "gd": 29,
       "form": [
-        "D",
         "W",
         "W",
         "L",
+        "W",
         "W"
       ],
       "zone": "libertadores"
@@ -305,24 +305,24 @@
       "pos": 16,
       "team": "mir",
       "pts": 25,
-      "played": 24,
+      "played": 25,
       "won": 6,
       "drawn": 7,
-      "lost": 11,
+      "lost": 12,
       "gf": 27,
-      "ga": 37,
-      "gd": -10,
+      "ga": 39,
+      "gd": -12,
       "form": [
-        "W",
         "L",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "zone": null
     },
     {
-      "pos": 17,
+      "pos": 16,
       "team": "vas",
       "pts": 25,
       "played": 24,
@@ -339,7 +339,7 @@
         "L",
         "W"
       ],
-      "zone": "rebaixamento"
+      "zone": null
     },
     {
       "pos": 18,

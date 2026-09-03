@@ -76,9 +76,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 15,
-      "assists": 5,
+      "assists": 6,
       "penalties": null
     },
     {
@@ -262,7 +262,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 8,
       "assists": 7,
       "penalties": null
@@ -827,6 +827,37 @@
     },
     {
       "player": {
+        "id": 29012,
+        "name": "Jorge Carrascal",
+        "firstName": "Jorge",
+        "lastName": "Carrascal",
+        "dateOfBirth": "1998-05-25",
+        "nationality": "Colombia",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-06-06T15:58:18Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 19,
+      "goals": 5,
+      "assists": 6,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 28614,
         "name": "Agustín Canobbio",
         "firstName": "Agustín",
@@ -1099,7 +1130,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1292,37 +1323,6 @@
     },
     {
       "player": {
-        "id": 29012,
-        "name": "Jorge Carrascal",
-        "firstName": "Jorge",
-        "lastName": "Carrascal",
-        "dateOfBirth": "1998-05-25",
-        "nationality": "Colombia",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-06-06T15:58:18Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 18,
-      "goals": 4,
-      "assists": 5,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 22306,
         "name": "Jhon Arias",
         "firstName": "Jhon",
@@ -1441,6 +1441,37 @@
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
       "playedMatches": 12,
+      "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 1543,
+        "name": "Lucas Paquetá",
+        "firstName": "",
+        "lastName": "Lucas Paquetá",
+        "dateOfBirth": "1997-08-27",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-01T11:16:32Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 17,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1781,7 +1812,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 3,
       "penalties": 1
@@ -2218,37 +2249,6 @@
       "playedMatches": 24,
       "goals": 3,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1543,
-        "name": "Lucas Paquetá",
-        "firstName": "",
-        "lastName": "Lucas Paquetá",
-        "dateOfBirth": "1997-08-27",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-01T11:16:32Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 16,
-      "goals": 3,
-      "assists": null,
       "penalties": null
     },
     {
@@ -2817,10 +2817,10 @@
         "lastName": "Borré",
         "dateOfBirth": "1995-09-15",
         "nationality": "Colombia",
-        "section": "Centre-Forward",
+        "section": "Offence",
         "position": null,
         "shirtNumber": null,
-        "lastUpdated": "2024-08-12T11:57:09Z"
+        "lastUpdated": "2026-09-02T16:56:58Z"
       },
       "team": {
         "id": 6684,
@@ -2959,7 +2959,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 2,
       "assists": null,
       "penalties": null
