@@ -171,7 +171,7 @@
     "p-espn-236284": {
       "goals": 3,
       "assists": 4,
-      "yellow": 5,
+      "yellow": 6,
       "red": 0
     },
     "p-espn-216090": {
@@ -285,7 +285,7 @@
     "p-espn-157631": {
       "goals": 0,
       "assists": 0,
-      "yellow": 5,
+      "yellow": 6,
       "red": 0
     },
     "p-espn-146269": {
@@ -2431,7 +2431,7 @@
       "red": 0
     },
     "p-espn-422910": {
-      "goals": 2,
+      "goals": 3,
       "assists": 0,
       "yellow": 1,
       "red": 0
@@ -2637,7 +2637,7 @@
     "p-espn-338712": {
       "goals": 3,
       "assists": 0,
-      "yellow": 1,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-198580": {
@@ -3238,8 +3238,8 @@
     },
     "bfc": {
       "goals": 33,
-      "conceded": 28,
-      "yellow": 59,
+      "conceded": 29,
+      "yellow": 60,
       "red": 1
     },
     "for": {
@@ -3273,9 +3273,9 @@
       "red": 0
     },
     "nau": {
-      "goals": 30,
+      "goals": 31,
       "conceded": 29,
-      "yellow": 73,
+      "yellow": 75,
       "red": 5
     },
     "cri": {
@@ -3321,5 +3321,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-09-03T09:18:21.877Z"
+  "updatedAt": "2026-09-04T07:04:02.298Z"
 }

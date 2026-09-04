@@ -3758,11 +3758,14 @@
       "date": "2026-09-03T23:00Z",
       "home": "nau",
       "away": "bfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860315",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r26-cri-cui",
