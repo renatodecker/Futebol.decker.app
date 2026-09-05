@@ -10279,7 +10279,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-04"
+    "debut": "2026-09-04",
+    "active": true
   },
   "p-espn-198245": {
     "fullName": "Jonathan Costa",
@@ -10291,7 +10292,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-04"
+    "debut": "2026-09-04",
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
