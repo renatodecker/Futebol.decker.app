@@ -3773,11 +3773,14 @@
       "date": "2026-09-04T22:30Z",
       "home": "cri",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860312",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r26-acm-vil",
@@ -3785,11 +3788,14 @@
       "date": "2026-09-04T23:30Z",
       "home": "acm",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
       "espnEventId": "401860320",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Joaquim Portugal",
+      "attendance": 0
     },
     {
       "id": "r26-crb-amg",
@@ -3797,11 +3803,14 @@
       "date": "2026-09-05T00:30Z",
       "home": "crb",
       "away": "amg",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401860321",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r26-goi-for",
