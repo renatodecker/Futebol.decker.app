@@ -209,17 +209,6 @@ STATUS:CONFIRMED
 LOCATION:Arena do Grêmio
 END:VEVENT
 BEGIN:VEVENT
-UID:bra-a-r21-bot-gre@futebol.decker.app.br
-DTSTAMP:20260729T000000Z
-DTSTART:20260729T000000Z
-DTEND:20260729T020000Z
-SUMMARY:Botafogo x Grêmio
-DESCRIPTION:Rodada 21 · Brasileirão Série A · Adiado (data a confirmar)
-  · Local provável (mandante ainda não confirmou)
-STATUS:TENTATIVE
-LOCATION:Estádio Nilton Santos (provável)
-END:VEVENT
-BEGIN:VEVENT
 UID:bra-a-r22-gre-sao@futebol.decker.app.br
 DTSTAMP:20260808T190000Z
 DTSTART:20260808T190000Z
@@ -280,6 +269,17 @@ DESCRIPTION:Rodada 27 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
 STATUS:CONFIRMED
 LOCATION:Arena do Grêmio (provável)
+END:VEVENT
+BEGIN:VEVENT
+UID:bra-a-r21-bot-gre@futebol.decker.app.br
+DTSTAMP:20260916T223000Z
+DTSTART:20260916T223000Z
+DTEND:20260917T003000Z
+SUMMARY:Botafogo x Grêmio
+DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado · Local prováv
+ el (mandante ainda não confirmou)
+STATUS:CONFIRMED
+LOCATION:Estádio Nilton Santos (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r28-gre-pal@futebol.decker.app.br
