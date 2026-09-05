@@ -3000,18 +3000,6 @@
       "attendance": null
     },
     {
-      "id": "r21-bot-gre",
-      "round": 21,
-      "date": "2026-07-29T00:00:00Z",
-      "home": "bot",
-      "away": "gre",
-      "status": "postponed",
-      "score": null,
-      "espnEventId": "401841176",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r21-cha-vas",
       "round": 21,
       "date": "2026-07-29T00:00:00Z",
@@ -3977,6 +3965,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841233",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-bot-gre",
+      "round": 21,
+      "date": "2026-09-16T22:30:00Z",
+      "home": "bot",
+      "away": "gre",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841176",
       "venue": null,
       "attendance": null
     },
