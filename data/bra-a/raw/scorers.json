@@ -176,6 +176,37 @@
     },
     {
       "player": {
+        "id": 42901,
+        "name": "Luciano",
+        "firstName": "",
+        "lastName": "Luciano",
+        "dateOfBirth": "1993-05-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:46Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 21,
+      "goals": 8,
+      "assists": 1,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 169022,
         "name": "Breno Lopes",
         "firstName": "",
@@ -204,6 +235,37 @@
       "goals": 8,
       "assists": 2,
       "penalties": null
+    },
+    {
+      "player": {
+        "id": 140873,
+        "name": "Luciano Juba",
+        "firstName": "",
+        "lastName": "Luciano Juba",
+        "dateOfBirth": "1999-08-29",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-31T10:01:14Z"
+      },
+      "team": {
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png",
+        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+        "website": "http://www.esporteclubebahia.com.br",
+        "founded": 1931,
+        "clubColors": "Blue / White / Red",
+        "venue": "Estádio Governador Roberto Santos",
+        "lastUpdated": "2024-10-28T10:09:10Z"
+      },
+      "playedMatches": 21,
+      "goals": 8,
+      "assists": 1,
+      "penalties": 3
     },
     {
       "player": {
@@ -269,37 +331,6 @@
     },
     {
       "player": {
-        "id": 42901,
-        "name": "Luciano",
-        "firstName": "",
-        "lastName": "Luciano",
-        "dateOfBirth": "1993-05-18",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 20,
-      "goals": 7,
-      "assists": 1,
-      "penalties": 1
-    },
-    {
-      "player": {
         "id": 149704,
         "name": "Danilo dos Santos de Oliveira",
         "firstName": "",
@@ -355,7 +386,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 7,
       "assists": 1,
       "penalties": 1
@@ -452,37 +483,6 @@
       "goals": 7,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 140873,
-        "name": "Luciano Juba",
-        "firstName": "",
-        "lastName": "Luciano Juba",
-        "dateOfBirth": "1999-08-29",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T10:01:14Z"
-      },
-      "team": {
-        "id": 1777,
-        "name": "EC Bahia",
-        "shortName": "Bahia",
-        "tla": "BAH",
-        "crest": "https://crests.football-data.org/1777.png",
-        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
-        "website": "http://www.esporteclubebahia.com.br",
-        "founded": 1931,
-        "clubColors": "Blue / White / Red",
-        "venue": "Estádio Governador Roberto Santos",
-        "lastUpdated": "2024-10-28T10:09:10Z"
-      },
-      "playedMatches": 20,
-      "goals": 7,
-      "assists": 1,
-      "penalties": 2
     },
     {
       "player": {
@@ -820,7 +820,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 5,
       "assists": 4,
       "penalties": 1
@@ -882,7 +882,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -916,6 +916,37 @@
       "playedMatches": 18,
       "goals": 5,
       "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 169236,
+        "name": "Lucas Barbosa",
+        "firstName": "",
+        "lastName": "Lucas Barbosa",
+        "dateOfBirth": "2001-02-22",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-10-30T09:42:34Z"
+      },
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png",
+        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+        "website": "http://www.bragantino.net",
+        "founded": 1928,
+        "clubColors": "White / Black",
+        "venue": "Estádio Nabi Abi Chedid",
+        "lastUpdated": "2023-02-18T08:43:26Z"
+      },
+      "playedMatches": 22,
+      "goals": 5,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -975,7 +1006,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1041,6 +1072,37 @@
       "goals": 4,
       "assists": 1,
       "penalties": 1
+    },
+    {
+      "player": {
+        "id": 76910,
+        "name": "Luciano Acosta",
+        "firstName": "Luciano",
+        "lastName": "Acosta",
+        "dateOfBirth": "1994-05-31",
+        "nationality": "Argentina",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": 10,
+        "lastUpdated": "2022-04-07T08:16:59Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 19,
+      "goals": 4,
+      "assists": 4,
+      "penalties": null
     },
     {
       "player": {
@@ -1316,9 +1378,40 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 18478,
+        "name": "Erick",
+        "firstName": "",
+        "lastName": "Erick Luis",
+        "dateOfBirth": "1997-11-14",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-03-09T09:42:25Z"
+      },
+      "team": {
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png",
+        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+        "website": "http://www.esporteclubebahia.com.br",
+        "founded": 1931,
+        "clubColors": "Blue / White / Red",
+        "venue": "Estádio Governador Roberto Santos",
+        "lastUpdated": "2024-10-28T10:09:10Z"
+      },
+      "playedMatches": 21,
+      "goals": 4,
+      "assists": null,
       "penalties": null
     },
     {
@@ -1348,37 +1441,6 @@
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
       "playedMatches": 19,
-      "goals": 4,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 169236,
-        "name": "Lucas Barbosa",
-        "firstName": "",
-        "lastName": "Lucas Barbosa",
-        "dateOfBirth": "2001-02-22",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-10-30T09:42:34Z"
-      },
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png",
-        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
-        "website": "http://www.bragantino.net",
-        "founded": 1928,
-        "clubColors": "White / Black",
-        "venue": "Estádio Nabi Abi Chedid",
-        "lastUpdated": "2023-02-18T08:43:26Z"
-      },
-      "playedMatches": 21,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1502,7 +1564,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1564,7 +1626,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1626,40 +1688,9 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 76910,
-        "name": "Luciano Acosta",
-        "firstName": "Luciano",
-        "lastName": "Acosta",
-        "dateOfBirth": "1994-05-31",
-        "nationality": "Argentina",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": 10,
-        "lastUpdated": "2022-04-07T08:16:59Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 18,
-      "goals": 3,
-      "assists": 4,
       "penalties": null
     },
     {
@@ -1719,7 +1750,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -1750,7 +1781,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -1781,7 +1812,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -1998,7 +2029,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2029,7 +2060,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2129,37 +2160,6 @@
     },
     {
       "player": {
-        "id": 18478,
-        "name": "Erick",
-        "firstName": "",
-        "lastName": "Erick Luis",
-        "dateOfBirth": "1997-11-14",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-03-09T09:42:25Z"
-      },
-      "team": {
-        "id": 1777,
-        "name": "EC Bahia",
-        "shortName": "Bahia",
-        "tla": "BAH",
-        "crest": "https://crests.football-data.org/1777.png",
-        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
-        "website": "http://www.esporteclubebahia.com.br",
-        "founded": 1931,
-        "clubColors": "Blue / White / Red",
-        "venue": "Estádio Governador Roberto Santos",
-        "lastUpdated": "2024-10-28T10:09:10Z"
-      },
-      "playedMatches": 20,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 15904,
         "name": "Alex Telles",
         "firstName": "",
@@ -2215,7 +2215,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2246,7 +2246,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2370,7 +2370,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2432,7 +2432,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2463,7 +2463,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
       "assists": 2,
       "penalties": 1
@@ -2587,7 +2587,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2618,7 +2618,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 12,
+      "playedMatches": 13,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2649,10 +2649,41 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": 1,
       "penalties": null
+    },
+    {
+      "player": {
+        "id": 170962,
+        "name": "Alejo Veliz",
+        "firstName": "Alejo",
+        "lastName": "Véliz",
+        "dateOfBirth": "2003-09-19",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-07-21T21:58:49Z"
+      },
+      "team": {
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png",
+        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+        "website": "http://www.esporteclubebahia.com.br",
+        "founded": 1931,
+        "clubColors": "Blue / White / Red",
+        "venue": "Estádio Governador Roberto Santos",
+        "lastUpdated": "2024-10-28T10:09:10Z"
+      },
+      "playedMatches": 6,
+      "goals": 3,
+      "assists": 1,
+      "penalties": 1
     },
     {
       "player": {
@@ -2928,7 +2959,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 2,
       "assists": 4,
       "penalties": 1
@@ -3083,38 +3114,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 23,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1156,
-        "name": "Thaciano",
-        "firstName": "",
-        "lastName": "Thaciano",
-        "dateOfBirth": "1995-05-12",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 6685,
-        "name": "Santos FC",
-        "shortName": "Santos",
-        "tla": "SAN",
-        "crest": "https://crests.football-data.org/6685.png",
-        "address": "Rua Princesa Isabel S/N, Vila Belmiro Santos, SP 11075-501",
-        "website": "http://santosfc.com.br",
-        "founded": 1912,
-        "clubColors": "Black / White",
-        "venue": "Estádio Urbano Caldeira",
-        "lastUpdated": "2023-02-18T08:43:18Z"
-      },
-      "playedMatches": 17,
+      "playedMatches": 24,
       "goals": 2,
       "assists": null,
       "penalties": null
