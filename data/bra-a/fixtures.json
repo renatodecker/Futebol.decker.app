@@ -3734,11 +3734,14 @@
       "date": "2026-09-05T19:00:00Z",
       "home": "bra",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 3
+      },
       "espnEventId": "401841224",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r26-sao-cam",
@@ -3746,11 +3749,14 @@
       "date": "2026-09-05T21:30:00Z",
       "home": "sao",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841226",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r26-flu-vas",
@@ -3758,11 +3764,14 @@
       "date": "2026-09-06T00:00:00Z",
       "home": "flu",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841227",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r26-cfc-mir",

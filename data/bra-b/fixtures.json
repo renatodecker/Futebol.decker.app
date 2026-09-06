@@ -3818,11 +3818,14 @@
       "date": "2026-09-05T19:00Z",
       "home": "goi",
       "away": "for",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401860319",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Serrinha",
+      "attendance": 0
     },
     {
       "id": "r26-nov-ava",
@@ -3830,11 +3833,14 @@
       "date": "2026-09-05T19:00Z",
       "home": "nov",
       "away": "ava",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401860316",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r26-juv-ago",
@@ -3842,11 +3848,14 @@
       "date": "2026-09-05T21:00Z",
       "home": "juv",
       "away": "ago",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401860318",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r26-cea-spo",
@@ -3854,11 +3863,14 @@
       "date": "2026-09-05T21:30Z",
       "home": "cea",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860313",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r26-lon-ope",
