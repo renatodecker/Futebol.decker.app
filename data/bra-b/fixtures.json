@@ -3878,11 +3878,14 @@
       "date": "2026-09-06T14:00Z",
       "home": "lon",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401860317",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r26-pon-ber",
@@ -3890,11 +3893,14 @@
       "date": "2026-09-06T21:30Z",
       "home": "pon",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860314",
-      "venue": null,
-      "attendance": null
+      "venue": "Moisés Lucarelli",
+      "attendance": 0
     },
     {
       "id": "r27-cui-acm",
