@@ -10760,7 +10760,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-414769": {
     "fullName": "Joaquin Freitas",
@@ -10772,7 +10773,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-06"
+    "debut": "2026-09-06",
+    "active": true
   },
   "p-espn-303328": {
     "fullName": "Anthony Valencia",
@@ -10784,7 +10786,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-06"
+    "debut": "2026-09-06",
+    "active": true
   },
   "p-espn-225541": {
     "fullName": "Bruno",
