@@ -3917,7 +3917,7 @@
     {
       "id": "r27-cri-juv",
       "round": 27,
-      "date": "2026-09-09T00:30Z",
+      "date": "2026-09-09T00:00Z",
       "home": "cri",
       "away": "juv",
       "status": "scheduled",
@@ -4181,7 +4181,7 @@
     {
       "id": "r29-spo-juv",
       "round": 29,
-      "date": "2026-09-19T19:00Z",
+      "date": "2026-09-19T19:30Z",
       "home": "spo",
       "away": "juv",
       "status": "scheduled",
@@ -4287,18 +4287,6 @@
       "attendance": null
     },
     {
-      "id": "r30-ope-cea",
-      "round": 30,
-      "date": "2026-09-26T19:00Z",
-      "home": "ope",
-      "away": "cea",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401860357",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r30-nau-spo",
       "round": 30,
       "date": "2026-09-26T19:30Z",
@@ -4307,6 +4295,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401860361",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r30-ope-cea",
+      "round": 30,
+      "date": "2026-09-26T19:30Z",
+      "home": "ope",
+      "away": "cea",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401860357",
       "venue": null,
       "attendance": null
     },
