@@ -107,7 +107,7 @@
         "venue": "Arena do Grêmio",
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 10,
       "assists": 1,
       "penalties": 1
@@ -1006,7 +1006,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -1099,7 +1099,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1351,6 +1351,37 @@
       "goals": 4,
       "assists": 2,
       "penalties": null
+    },
+    {
+      "player": {
+        "id": 203646,
+        "name": "Matheuzinho",
+        "firstName": "",
+        "lastName": "Matheuzinho",
+        "dateOfBirth": "1997-10-18",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-31T10:03:12Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 24,
+      "goals": 4,
+      "assists": 1,
+      "penalties": 2
     },
     {
       "player": {
@@ -1881,37 +1912,6 @@
     },
     {
       "player": {
-        "id": 203646,
-        "name": "Matheuzinho",
-        "firstName": "",
-        "lastName": "Matheuzinho",
-        "dateOfBirth": "1997-10-18",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T10:03:12Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 23,
-      "goals": 3,
-      "assists": 1,
-      "penalties": 2
-    },
-    {
-      "player": {
         "id": 168807,
         "name": "Vitor Bueno",
         "firstName": "",
@@ -2153,7 +2153,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 4,
       "penalties": 1
@@ -2959,7 +2959,7 @@
         "venue": "Arena do Grêmio",
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 2,
       "assists": null,
       "penalties": null

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T14:53:20.522Z",
+  "updatedAt": "2026-09-08T13:23:03.752Z",
   "table": [
     {
       "pos": 1,
@@ -203,6 +203,26 @@
     },
     {
       "pos": 11,
+      "team": "vit",
+      "pts": 32,
+      "played": 26,
+      "won": 9,
+      "drawn": 5,
+      "lost": 12,
+      "gf": 25,
+      "ga": 37,
+      "gd": -12,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 12,
       "team": "cor",
       "pts": 32,
       "played": 26,
@@ -219,10 +239,10 @@
         "L",
         "L"
       ],
-      "zone": "sulamericana"
+      "zone": null
     },
     {
-      "pos": 12,
+      "pos": 13,
       "team": "san",
       "pts": 32,
       "played": 25,
@@ -242,7 +262,7 @@
       "zone": null
     },
     {
-      "pos": 13,
+      "pos": 14,
       "team": "bot",
       "pts": 31,
       "played": 25,
@@ -262,42 +282,22 @@
       "zone": null
     },
     {
-      "pos": 14,
-      "team": "vit",
-      "pts": 29,
-      "played": 25,
-      "won": 8,
-      "drawn": 5,
-      "lost": 12,
-      "gf": 24,
-      "ga": 37,
-      "gd": -13,
-      "form": [
-        "L",
-        "L",
-        "W",
-        "L",
-        "L"
-      ],
-      "zone": null
-    },
-    {
       "pos": 15,
       "team": "gre",
       "pts": 28,
-      "played": 24,
+      "played": 25,
       "won": 7,
       "drawn": 7,
-      "lost": 10,
+      "lost": 11,
       "gf": 27,
-      "ga": 32,
-      "gd": -5,
+      "ga": 33,
+      "gd": -6,
       "form": [
-        "D",
         "W",
         "L",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "zone": null
     },
