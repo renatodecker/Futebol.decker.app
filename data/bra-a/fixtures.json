@@ -3869,11 +3869,14 @@
       "date": "2026-09-07T23:00:00Z",
       "home": "vit",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841222",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r27-bah-rem",
