@@ -282,9 +282,9 @@ LOCATION:Estádio Nilton Santos (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r28-gre-pal@futebol.decker.app.br
-DTSTAMP:20260919T000000Z
-DTSTART:20260919T000000Z
-DTEND:20260919T020000Z
+DTSTAMP:20260920T140000Z
+DTSTART:20260920T140000Z
+DTEND:20260920T160000Z
 SUMMARY:Grêmio x Palmeiras
 DESCRIPTION:Rodada 28 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -293,9 +293,9 @@ LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r29-rem-gre@futebol.decker.app.br
-DTSTAMP:20261007T000000Z
-DTSTART:20261007T000000Z
-DTEND:20261007T020000Z
+DTSTAMP:20261007T223000Z
+DTSTART:20261007T223000Z
+DTEND:20261008T003000Z
 SUMMARY:Remo x Grêmio
 DESCRIPTION:Rodada 29 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -304,9 +304,9 @@ LOCATION:Mangueirão (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r30-gre-int@futebol.decker.app.br
-DTSTAMP:20261010T000000Z
-DTSTART:20261010T000000Z
-DTEND:20261010T020000Z
+DTSTAMP:20261011T203000Z
+DTSTART:20261011T203000Z
+DTEND:20261011T223000Z
 SUMMARY:Grêmio x Internacional
 DESCRIPTION:Rodada 30 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
