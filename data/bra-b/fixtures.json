@@ -3908,11 +3908,14 @@
       "date": "2026-09-08T23:30Z",
       "home": "cui",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401860327",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Pantanal",
+      "attendance": 0
     },
     {
       "id": "r27-cri-juv",
@@ -3920,11 +3923,14 @@
       "date": "2026-09-09T00:00Z",
       "home": "cri",
       "away": "juv",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860328",
-      "venue": null,
-      "attendance": null
+      "venue": "Heriberto Hülse",
+      "attendance": 0
     },
     {
       "id": "r27-bfc-nov",
