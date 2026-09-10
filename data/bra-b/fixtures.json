@@ -3938,11 +3938,14 @@
       "date": "2026-09-09T22:30Z",
       "home": "bfc",
       "away": "nov",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
       "espnEventId": "401860329",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r27-for-ava",
@@ -3950,11 +3953,14 @@
       "date": "2026-09-09T22:30Z",
       "home": "for",
       "away": "ava",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401860331",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r27-amg-nau",
@@ -3962,11 +3968,14 @@
       "date": "2026-09-09T23:30Z",
       "home": "amg",
       "away": "nau",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860322",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r27-ope-crb",
@@ -3974,11 +3983,14 @@
       "date": "2026-09-09T23:30Z",
       "home": "ope",
       "away": "crb",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401860325",
-      "venue": null,
-      "attendance": null
+      "venue": "Germano Krüger",
+      "attendance": 0
     },
     {
       "id": "r27-ago-cea",
@@ -3986,11 +3998,14 @@
       "date": "2026-09-10T00:30Z",
       "home": "ago",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860330",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r27-ber-lon",
