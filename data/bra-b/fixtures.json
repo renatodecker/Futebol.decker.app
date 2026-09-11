@@ -4013,11 +4013,14 @@
       "date": "2026-09-10T22:30Z",
       "home": "ber",
       "away": "lon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401860323",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Primeiro de Maio",
+      "attendance": 0
     },
     {
       "id": "r27-vil-goi",
@@ -4025,11 +4028,14 @@
       "date": "2026-09-10T22:30Z",
       "home": "vil",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860326",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
     },
     {
       "id": "r27-spo-pon",
@@ -4037,11 +4043,14 @@
       "date": "2026-09-11T00:30Z",
       "home": "spo",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401860324",
-      "venue": null,
-      "attendance": null
+      "venue": "Ilha do Retiro",
+      "attendance": 0
     },
     {
       "id": "r28-ago-cri",
