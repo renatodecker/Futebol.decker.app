@@ -4008,21 +4008,6 @@
       "attendance": 0
     },
     {
-      "id": "r27-ber-lon",
-      "round": 27,
-      "date": "2026-09-10T22:30Z",
-      "home": "ber",
-      "away": "lon",
-      "status": "finished",
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "espnEventId": "401860323",
-      "venue": "Estádio Primeiro de Maio",
-      "attendance": 0
-    },
-    {
       "id": "r27-vil-goi",
       "round": 27,
       "date": "2026-09-10T22:30Z",
@@ -4035,6 +4020,21 @@
       },
       "espnEventId": "401860326",
       "venue": "Estádio Onésio Brasileiro Alvarenga",
+      "attendance": 0
+    },
+    {
+      "id": "r27-ber-lon",
+      "round": 27,
+      "date": "2026-09-11T00:00Z",
+      "home": "ber",
+      "away": "lon",
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
+      "espnEventId": "401860323",
+      "venue": "Estádio Primeiro de Maio",
       "attendance": 0
     },
     {
