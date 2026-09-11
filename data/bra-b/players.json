@@ -10409,7 +10409,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-11"
+    "debut": "2026-09-11",
+    "active": true
   },
   "p-espn-301543": {
     "fullName": "Patrick de Paula",
@@ -10434,7 +10435,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-11"
+    "debut": "2026-09-11",
+    "active": true
   },
   "p-espn-338683": {
     "fullName": "Matheus Miranda",
@@ -10446,7 +10448,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
