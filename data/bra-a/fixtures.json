@@ -3884,11 +3884,14 @@
       "date": "2026-09-12T00:00:00Z",
       "home": "cfc",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
       "espnEventId": "401841232",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r27-cam-flu",
