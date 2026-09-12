@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T13:21:28.309Z",
+  "updatedAt": "2026-09-12T12:42:54.652Z",
   "table": [
     {
       "pos": 1,
@@ -44,20 +44,20 @@
     {
       "pos": 3,
       "team": "cap",
-      "pts": 45,
-      "played": 26,
+      "pts": 46,
+      "played": 27,
       "won": 13,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 7,
-      "gf": 38,
-      "ga": 28,
+      "gf": 41,
+      "ga": 31,
       "gd": 10,
       "form": [
-        "W",
         "D",
         "W",
         "D",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "libertadores"
     },
@@ -124,20 +124,20 @@
     {
       "pos": 7,
       "team": "cfc",
-      "pts": 37,
-      "played": 26,
+      "pts": 38,
+      "played": 27,
       "won": 10,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 9,
-      "gf": 34,
-      "ga": 35,
+      "gf": 37,
+      "ga": 38,
       "gd": -1,
       "form": [
-        "W",
         "D",
         "W",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "sulamericana"
     },

@@ -45,10 +45,10 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 24,
-      "goals": 17,
+      "playedMatches": 25,
+      "goals": 18,
       "assists": 3,
-      "penalties": 3
+      "penalties": 4
     },
     {
       "player": {
@@ -293,7 +293,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 8,
       "assists": 2,
       "penalties": null
@@ -324,7 +324,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 8,
       "assists": 1,
       "penalties": null
@@ -696,7 +696,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -789,7 +789,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1633,6 +1633,37 @@
     },
     {
       "player": {
+        "id": 169549,
+        "name": "Tiago",
+        "firstName": "",
+        "lastName": "Tiago",
+        "dateOfBirth": "2004-01-16",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-07-31T09:46:22Z"
+      },
+      "team": {
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png",
+        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+        "website": "http://www.coritiba.com.br",
+        "founded": 1909,
+        "clubColors": "Green / White",
+        "venue": "Estádio Major Antônio Couto Pereira",
+        "lastUpdated": "2023-02-18T08:43:33Z"
+      },
+      "playedMatches": 22,
+      "goals": 4,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 133258,
         "name": "Alexandro Bernabei",
         "firstName": "Alexandro",
@@ -1719,7 +1750,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -2191,6 +2222,37 @@
     },
     {
       "player": {
+        "id": 8357,
+        "name": "Luiz Gustavo",
+        "firstName": "",
+        "lastName": "Luiz Gustavo",
+        "dateOfBirth": "1987-07-23",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-03-05T09:42:46Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 21,
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 218422,
         "name": "Neizer Villarreal",
         "firstName": "Néiser",
@@ -2439,37 +2501,6 @@
     },
     {
       "player": {
-        "id": 169549,
-        "name": "Tiago",
-        "firstName": "",
-        "lastName": "Tiago",
-        "dateOfBirth": "2004-01-16",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-07-31T09:46:22Z"
-      },
-      "team": {
-        "id": 4241,
-        "name": "Coritiba FBC",
-        "shortName": "Coritiba",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/4241.png",
-        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
-        "website": "http://www.coritiba.com.br",
-        "founded": 1909,
-        "clubColors": "Green / White",
-        "venue": "Estádio Major Antônio Couto Pereira",
-        "lastUpdated": "2023-02-18T08:43:33Z"
-      },
-      "playedMatches": 21,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 13419,
         "name": "David Duarte",
         "firstName": "",
@@ -2590,6 +2621,37 @@
       "playedMatches": 20,
       "goals": 3,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 1572,
+        "name": "Rodrigo Moledo",
+        "firstName": "",
+        "lastName": "Rodrigo Moledo",
+        "dateOfBirth": "1987-10-27",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:50Z"
+      },
+      "team": {
+        "id": 4241,
+        "name": "Coritiba FBC",
+        "shortName": "Coritiba",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/4241.png",
+        "address": "Rua Ubaldino do Amaral 37, Alto da Glória Curitiba, PR 80060-195",
+        "website": "http://www.coritiba.com.br",
+        "founded": 1909,
+        "clubColors": "Green / White",
+        "venue": "Estádio Major Antônio Couto Pereira",
+        "lastUpdated": "2023-02-18T08:43:33Z"
+      },
+      "playedMatches": 17,
+      "goals": 3,
+      "assists": null,
       "penalties": null
     },
     {
@@ -3053,68 +3115,6 @@
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
       "playedMatches": 21,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 18732,
-        "name": "Negueba",
-        "firstName": "",
-        "lastName": "Negueba",
-        "dateOfBirth": "1999-12-03",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-09-20T09:43:08Z"
-      },
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png",
-        "address": "null Mirassol, SP null",
-        "website": "http://www.mirassolfc.com.br",
-        "founded": 1925,
-        "clubColors": "Green / Yellow",
-        "venue": "Estádio José Maria de Campos Maia",
-        "lastUpdated": "2023-07-31T08:47:23Z"
-      },
-      "playedMatches": 9,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 131258,
-        "name": "Ruan",
-        "firstName": "",
-        "lastName": "Ruan",
-        "dateOfBirth": "1999-06-07",
-        "nationality": "Brazil",
-        "section": "Centre-Back",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-09-02T09:59:11Z"
-      },
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png",
-        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
-        "website": "http://www.atletico.com.br",
-        "founded": 1908,
-        "clubColors": "Black / White",
-        "venue": "Estádio Raimundo Sampaio",
-        "lastUpdated": "2022-12-28T10:32:33Z"
-      },
-      "playedMatches": 20,
       "goals": 2,
       "assists": null,
       "penalties": null
