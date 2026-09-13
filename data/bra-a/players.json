@@ -10864,7 +10864,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-12"
+    "debut": "2026-09-12",
+    "active": true
   },
   "p-espn-319530": {
     "fullName": "Arthur Chaves",
