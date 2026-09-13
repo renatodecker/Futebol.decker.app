@@ -3899,11 +3899,14 @@
       "date": "2026-09-12T19:00:00Z",
       "home": "cam",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401841231",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r27-gre-vas",
@@ -3911,11 +3914,14 @@
       "date": "2026-09-12T19:00:00Z",
       "home": "gre",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841236",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r27-cha-int",
@@ -3923,11 +3929,14 @@
       "date": "2026-09-12T20:00:00Z",
       "home": "cha",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841228",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 17152
     },
     {
       "id": "r27-pal-sao",
@@ -3935,11 +3944,14 @@
       "date": "2026-09-12T21:30:00Z",
       "home": "pal",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841234",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r27-bot-bra",
@@ -3947,11 +3959,14 @@
       "date": "2026-09-12T23:30:00Z",
       "home": "bot",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841229",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r27-san-cru",
@@ -3959,11 +3974,14 @@
       "date": "2026-09-13T00:00:00Z",
       "home": "san",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841233",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r27-mir-vit",
