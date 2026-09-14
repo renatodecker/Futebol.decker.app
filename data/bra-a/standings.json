@@ -1,8 +1,28 @@
 {
-  "updatedAt": "2026-09-13T13:42:26.073Z",
+  "updatedAt": "2026-09-14T15:44:42.208Z",
   "table": [
     {
       "pos": 1,
+      "team": "fla",
+      "pts": 57,
+      "played": 27,
+      "won": 17,
+      "drawn": 6,
+      "lost": 4,
+      "gf": 53,
+      "ga": 22,
+      "gd": 31,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores"
+    },
+    {
+      "pos": 2,
       "team": "pal",
       "pts": 56,
       "played": 27,
@@ -17,26 +37,6 @@
         "W",
         "D",
         "D",
-        "W"
-      ],
-      "zone": "libertadores"
-    },
-    {
-      "pos": 2,
-      "team": "fla",
-      "pts": 54,
-      "played": 26,
-      "won": 16,
-      "drawn": 6,
-      "lost": 4,
-      "gf": 51,
-      "ga": 21,
-      "gd": 30,
-      "form": [
-        "W",
-        "L",
-        "W",
-        "W",
         "W"
       ],
       "zone": "libertadores"
@@ -224,20 +224,20 @@
     {
       "pos": 12,
       "team": "vit",
-      "pts": 32,
-      "played": 26,
+      "pts": 33,
+      "played": 27,
       "won": 9,
-      "drawn": 5,
+      "drawn": 6,
       "lost": 12,
-      "gf": 25,
-      "ga": 37,
+      "gf": 27,
+      "ga": 39,
       "gd": -12,
       "form": [
-        "L",
         "W",
         "L",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "zone": null
     },
@@ -245,15 +245,15 @@
       "pos": 13,
       "team": "cor",
       "pts": 32,
-      "played": 26,
+      "played": 27,
       "won": 8,
       "drawn": 8,
-      "lost": 10,
-      "gf": 27,
-      "ga": 27,
-      "gd": 0,
+      "lost": 11,
+      "gf": 28,
+      "ga": 29,
+      "gd": -1,
       "form": [
-        "W",
+        "L",
         "L",
         "L",
         "L",
@@ -283,6 +283,26 @@
     },
     {
       "pos": 15,
+      "team": "mir",
+      "pts": 29,
+      "played": 27,
+      "won": 7,
+      "drawn": 8,
+      "lost": 12,
+      "gf": 31,
+      "ga": 42,
+      "gd": -11,
+      "form": [
+        "D",
+        "D",
+        "L",
+        "W",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 16,
       "team": "gre",
       "pts": 28,
       "played": 26,
@@ -298,26 +318,6 @@
         "W",
         "L",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 16,
-      "team": "mir",
-      "pts": 28,
-      "played": 26,
-      "won": 7,
-      "drawn": 7,
-      "lost": 12,
-      "gf": 29,
-      "ga": 40,
-      "gd": -11,
-      "form": [
-        "L",
-        "D",
-        "D",
-        "L",
-        "W"
       ],
       "zone": null
     },

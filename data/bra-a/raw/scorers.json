@@ -76,7 +76,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 15,
       "assists": 6,
       "penalties": null
@@ -200,7 +200,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 9,
       "assists": 7,
       "penalties": null
@@ -579,6 +579,37 @@
     },
     {
       "player": {
+        "id": 276795,
+        "name": "Carlos Renê",
+        "firstName": "",
+        "lastName": "Carlos Renê",
+        "dateOfBirth": "2003-10-07",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-03-29T09:41:53Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 19,
+      "goals": 7,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 8491,
         "name": "Neymar",
         "firstName": "",
@@ -913,7 +944,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 5,
       "assists": 6,
       "penalties": null
@@ -1013,6 +1044,37 @@
     },
     {
       "player": {
+        "id": 1543,
+        "name": "Lucas Paquetá",
+        "firstName": "",
+        "lastName": "Lucas Paquetá",
+        "dateOfBirth": "1997-08-27",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-01T11:16:32Z"
+      },
+      "team": {
+        "id": 1783,
+        "name": "CR Flamengo",
+        "shortName": "Flamengo",
+        "tla": "FLA",
+        "crest": "https://crests.football-data.org/1783.png",
+        "address": "null Rio de Janeiro, RJ null",
+        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
+        "founded": 1919,
+        "clubColors": "Red / Black / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2022-04-06T13:13:43Z"
+      },
+      "playedMatches": 19,
+      "goals": 5,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1675,
         "name": "Marcinho",
         "firstName": "",
@@ -1040,37 +1102,6 @@
       "playedMatches": 23,
       "goals": 5,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 276795,
-        "name": "Carlos Renê",
-        "firstName": "",
-        "lastName": "Carlos Renê",
-        "dateOfBirth": "2003-10-07",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-03-29T09:41:53Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 18,
-      "goals": 5,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -1130,7 +1161,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1192,7 +1223,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1254,7 +1285,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 4,
       "assists": 4,
       "penalties": null
@@ -1409,7 +1440,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": 1,
       "penalties": 2
@@ -1627,37 +1658,6 @@
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
       "playedMatches": 13,
-      "goals": 4,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1543,
-        "name": "Lucas Paquetá",
-        "firstName": "",
-        "lastName": "Lucas Paquetá",
-        "dateOfBirth": "1997-08-27",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-01T11:16:32Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 18,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -2060,7 +2060,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": 4,
       "penalties": 1
@@ -2184,7 +2184,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2215,7 +2215,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 6,
       "penalties": null
@@ -2277,9 +2277,9 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 3,
-      "assists": 4,
+      "assists": 5,
       "penalties": 1
     },
     {
@@ -2625,6 +2625,37 @@
     },
     {
       "player": {
+        "id": 103448,
+        "name": "Edson Carioca",
+        "firstName": "",
+        "lastName": "Edson Carioca",
+        "dateOfBirth": "1998-06-04",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-06-17T09:41:58Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 18,
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1572,
         "name": "Rodrigo Moledo",
         "firstName": "",
@@ -2745,6 +2776,37 @@
       "playedMatches": 21,
       "goals": 3,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 181521,
+        "name": "Bruno Oliveira",
+        "firstName": "",
+        "lastName": "Bruno Oliveira",
+        "dateOfBirth": "1996-11-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-05-25T09:43:51Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 10,
+      "goals": 3,
+      "assists": null,
       "penalties": null
     },
     {
@@ -2897,7 +2959,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -2928,7 +2990,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 2,
       "assists": 3,
       "penalties": null
@@ -3055,68 +3117,6 @@
       "playedMatches": 24,
       "goals": 2,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 28564,
-        "name": "José Rodríguez",
-        "firstName": "José Luis",
-        "lastName": "Rodríguez",
-        "dateOfBirth": "1997-03-14",
-        "nationality": "Uruguay",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": 44,
-        "lastUpdated": "2026-03-19T09:15:14Z"
-      },
-      "team": {
-        "id": 1780,
-        "name": "CR Vasco da Gama",
-        "shortName": "Vasco da Gama",
-        "tla": "VAS",
-        "crest": "https://crests.football-data.org/1780.png",
-        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
-        "website": "http://www.vasco.com.br",
-        "founded": 1898,
-        "clubColors": "Black / White",
-        "venue": "Estádio Club de Regatas Vasco da Gama",
-        "lastUpdated": "2023-02-18T08:43:37Z"
-      },
-      "playedMatches": 23,
-      "goals": 2,
-      "assists": 4,
-      "penalties": 1
-    },
-    {
-      "player": {
-        "id": 1867,
-        "name": "Erick Pulgar",
-        "firstName": "Erick",
-        "lastName": "Pulgar",
-        "dateOfBirth": "1994-01-15",
-        "nationality": "Chile",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-06-13T09:42:00Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 17,
-      "goals": 2,
-      "assists": null,
       "penalties": null
     }
   ]
