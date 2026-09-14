@@ -3989,11 +3989,14 @@
       "date": "2026-09-13T19:00:00Z",
       "home": "mir",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401841235",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r27-fla-cor",
@@ -4001,11 +4004,14 @@
       "date": "2026-09-13T20:30:00Z",
       "home": "fla",
       "away": "cor",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841237",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r27-bah-rem",

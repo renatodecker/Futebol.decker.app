@@ -4058,11 +4058,14 @@
       "date": "2026-09-13T19:00Z",
       "home": "ago",
       "away": "cri",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
       "espnEventId": "401860334",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Antônio Accioly",
+      "attendance": 0
     },
     {
       "id": "r28-juv-acm",
@@ -4070,11 +4073,14 @@
       "date": "2026-09-13T21:00Z",
       "home": "juv",
       "away": "acm",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860340",
-      "venue": null,
-      "attendance": null
+      "venue": "Alfredo Jaconi",
+      "attendance": 0
     },
     {
       "id": "r28-for-cea",
@@ -4082,11 +4088,14 @@
       "date": "2026-09-13T21:30Z",
       "home": "for",
       "away": "cea",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860341",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Castelão",
+      "attendance": 0
     },
     {
       "id": "r28-nov-cui",
@@ -4094,11 +4103,14 @@
       "date": "2026-09-13T21:30Z",
       "home": "nov",
       "away": "cui",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860338",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Dr. Jorge Ismael de Biasi",
+      "attendance": 0
     },
     {
       "id": "r28-amg-ber",
