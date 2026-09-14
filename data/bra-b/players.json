@@ -10461,7 +10461,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-13"
+    "debut": "2026-09-13",
+    "active": true
   },
   "p-espn-423650": {
     "fullName": "Pedro Carminatti Jacomin",
@@ -10473,7 +10474,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-205444": {
     "fullName": "Chico",
@@ -10485,7 +10487,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-13"
+    "debut": "2026-09-13",
+    "active": true
   },
   "p-espn-252956": {
     "fullName": "Saulo",
@@ -10497,7 +10500,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-13"
+    "debut": "2026-09-13",
+    "active": true
   },
   "p-espn-3096372": {
     "fullName": "Ryan Bonfim De Santana",
@@ -10509,7 +10513,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-13"
+    "debut": "2026-09-13",
+    "active": true
   },
   "p-espn-381399": {
     "fullName": "Erick Garcia",
