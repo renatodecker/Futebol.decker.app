@@ -4118,11 +4118,14 @@
       "date": "2026-09-14T22:30Z",
       "home": "amg",
       "away": "ber",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401860335",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Raimundo Sampaio (Independência)",
+      "attendance": 0
     },
     {
       "id": "r28-bfc-goi",
@@ -4130,11 +4133,14 @@
       "date": "2026-09-14T22:30Z",
       "home": "bfc",
       "away": "goi",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 3
+      },
       "espnEventId": "401860332",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Santa Cruz",
+      "attendance": 0
     },
     {
       "id": "r28-ava-vil",
@@ -4142,11 +4148,14 @@
       "date": "2026-09-15T00:30Z",
       "home": "ava",
       "away": "vil",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401860333",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio da Ressacada",
+      "attendance": 0
     },
     {
       "id": "r28-lon-pon",

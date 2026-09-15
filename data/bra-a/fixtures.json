@@ -4019,11 +4019,14 @@
       "date": "2026-09-14T23:00:00Z",
       "home": "bah",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841230",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r21-bot-gre",
