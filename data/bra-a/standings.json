@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:44:42.208Z",
+  "updatedAt": "2026-09-15T14:13:02.543Z",
   "table": [
     {
       "pos": 1,
@@ -63,6 +63,26 @@
     },
     {
       "pos": 4,
+      "team": "bah",
+      "pts": 46,
+      "played": 27,
+      "won": 12,
+      "drawn": 10,
+      "lost": 5,
+      "gf": 42,
+      "ga": 33,
+      "gd": 9,
+      "form": [
+        "D",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores"
+    },
+    {
+      "pos": 5,
       "team": "flu",
       "pts": 45,
       "played": 27,
@@ -78,26 +98,6 @@
         "D",
         "W",
         "L"
-      ],
-      "zone": "libertadores"
-    },
-    {
-      "pos": 5,
-      "team": "bah",
-      "pts": 43,
-      "played": 26,
-      "won": 11,
-      "drawn": 10,
-      "lost": 5,
-      "gf": 40,
-      "ga": 32,
-      "gd": 8,
-      "form": [
-        "D",
-        "D",
-        "W",
-        "W",
-        "W"
       ],
       "zone": "libertadores-pre"
     },
@@ -365,16 +365,16 @@
       "pos": 19,
       "team": "rem",
       "pts": 23,
-      "played": 26,
+      "played": 27,
       "won": 5,
       "drawn": 8,
-      "lost": 13,
-      "gf": 30,
-      "ga": 43,
-      "gd": -13,
+      "lost": 14,
+      "gf": 31,
+      "ga": 45,
+      "gd": -14,
       "form": [
         "D",
-        "D",
+        "L",
         "L",
         "L",
         "L"
