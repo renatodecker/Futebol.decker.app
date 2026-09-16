@@ -1,10 +1,5 @@
 {
-  "lastDailyCron": "2026-09-15T14:13:19.854Z",
-  "liveWindows": [
-    {
-      "start": "2026-09-15T00:15:00.000Z",
-      "end": "2026-09-16T01:30:00.000Z"
-    }
-  ],
+  "lastDailyCron": "2026-09-16T14:05:25.259Z",
+  "liveWindows": [],
   "lastPostMatchCron": "2026-09-16T09:35:55.759Z"
 }
