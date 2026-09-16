@@ -10591,7 +10591,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-297076": {
     "fullName": "Cachoeira",
@@ -10616,7 +10617,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-15"
+    "debut": "2026-09-15",
+    "active": true
   },
   "p-espn-379402": {
     "fullName": "Denis",
@@ -10628,7 +10630,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-15"
+    "debut": "2026-09-15",
+    "active": true
   },
   "p-espn-3141398": {
     "fullName": "Felipe Di Mauro Reis Coutinho",
@@ -10640,7 +10643,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-3114047": {
     "fullName": "Emanuell Silva Ferreira",
@@ -10652,7 +10656,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-15"
+    "debut": "2026-09-15",
+    "active": true
   },
   "p-espn-342580": {
     "fullName": "Gabriel Caran",
@@ -10664,7 +10669,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-269744": {
     "fullName": "Igor Catatau",
