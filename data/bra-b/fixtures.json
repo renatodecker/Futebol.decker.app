@@ -4163,11 +4163,14 @@
       "date": "2026-09-15T22:30Z",
       "home": "lon",
       "away": "pon",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 6,
+        "away": 0
+      },
       "espnEventId": "401860339",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio VGD",
+      "attendance": 0
     },
     {
       "id": "r28-nau-ope",
@@ -4175,11 +4178,14 @@
       "date": "2026-09-15T22:30Z",
       "home": "nau",
       "away": "ope",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 3
+      },
       "espnEventId": "401860337",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio dos Aflitos",
+      "attendance": 0
     },
     {
       "id": "r28-crb-spo",
@@ -4187,11 +4193,14 @@
       "date": "2026-09-16T00:00Z",
       "home": "crb",
       "away": "spo",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401860336",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Rei Pelé",
+      "attendance": 0
     },
     {
       "id": "r29-vil-amg",
