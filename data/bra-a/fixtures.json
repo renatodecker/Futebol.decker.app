@@ -4034,11 +4034,14 @@
       "date": "2026-09-16T22:30:00Z",
       "home": "bot",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841176",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r28-cam-cha",
