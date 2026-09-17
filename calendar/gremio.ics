@@ -273,11 +273,10 @@ UID:bra-a-r21-bot-gre@futebol.decker.app.br
 DTSTAMP:20260916T223000Z
 DTSTART:20260916T223000Z
 DTEND:20260917T003000Z
-SUMMARY:Botafogo x Grêmio
-DESCRIPTION:Rodada 21 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Botafogo 3x2 Grêmio
+DESCRIPTION:Rodada 21 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estádio Nilton Santos (provável)
+LOCATION:Estádio Nilton Santos
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r28-gre-pal@futebol.decker.app.br
