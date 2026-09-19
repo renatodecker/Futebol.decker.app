@@ -2988,18 +2988,6 @@
       "attendance": 0
     },
     {
-      "id": "r21-cam-bra",
-      "round": 21,
-      "date": "2026-07-29T00:00:00Z",
-      "home": "cam",
-      "away": "bra",
-      "status": "postponed",
-      "score": null,
-      "espnEventId": "401841168",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r21-cha-vas",
       "round": 21,
       "date": "2026-07-29T00:00:00Z",
@@ -3008,18 +2996,6 @@
       "status": "postponed",
       "score": null,
       "espnEventId": "401841175",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r21-sao-san",
-      "round": 21,
-      "date": "2026-07-29T00:00:00Z",
-      "home": "sao",
-      "away": "san",
-      "status": "postponed",
-      "score": null,
-      "espnEventId": "401841169",
       "venue": null,
       "attendance": null
     },
@@ -4160,6 +4136,30 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841238",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-sao-san",
+      "round": 21,
+      "date": "2026-10-02T23:00:00Z",
+      "home": "sao",
+      "away": "san",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841169",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-cam-bra",
+      "round": 21,
+      "date": "2026-10-03T21:30:00Z",
+      "home": "cam",
+      "away": "bra",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841168",
       "venue": null,
       "attendance": null
     },
