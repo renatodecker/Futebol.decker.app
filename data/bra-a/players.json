@@ -11046,7 +11046,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-19"
+    "debut": "2026-09-19",
+    "active": true
   },
   "p-espn-376489": {
     "fullName": "Pedro Lima",
@@ -11058,7 +11059,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-09-20"
+    "debut": "2026-09-20",
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
