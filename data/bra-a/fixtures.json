@@ -4025,11 +4025,14 @@
       "date": "2026-09-19T19:00:00Z",
       "home": "cam",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841239",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r28-mir-bot",
@@ -4037,11 +4040,14 @@
       "date": "2026-09-19T20:00:00Z",
       "home": "mir",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841245",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r28-rem-san",
@@ -4049,11 +4055,14 @@
       "date": "2026-09-19T21:30:00Z",
       "home": "rem",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841244",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r28-vas-cfc",
@@ -4061,11 +4070,14 @@
       "date": "2026-09-19T23:30:00Z",
       "home": "vas",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 5,
+        "away": 0
+      },
       "espnEventId": "401841247",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r28-sao-int",
@@ -4073,11 +4085,14 @@
       "date": "2026-09-20T00:00:00Z",
       "home": "sao",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841243",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r28-gre-pal",
