@@ -83,37 +83,6 @@
     },
     {
       "player": {
-        "id": 37833,
-        "name": "Carlos Vinícius",
-        "firstName": "",
-        "lastName": "Carlos Vinícius",
-        "dateOfBirth": "1995-03-25",
-        "nationality": "Brazil",
-        "section": "Centre-Forward",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-08-23T09:25:15Z"
-      },
-      "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png",
-        "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
-        "website": "http://www.gremio.net",
-        "founded": 1903,
-        "clubColors": "Blue / Black / White",
-        "venue": "Arena do Grêmio",
-        "lastUpdated": "2023-02-18T08:42:52Z"
-      },
-      "playedMatches": 26,
-      "goals": 10,
-      "assists": 1,
-      "penalties": 1
-    },
-    {
-      "player": {
         "id": 1327,
         "name": "Gabriel Barbosa",
         "firstName": "",
@@ -138,10 +107,41 @@
         "venue": "Estádio Urbano Caldeira",
         "lastUpdated": "2023-02-18T08:43:18Z"
       },
-      "playedMatches": 19,
-      "goals": 10,
-      "assists": 2,
+      "playedMatches": 20,
+      "goals": 11,
+      "assists": 3,
       "penalties": 2
+    },
+    {
+      "player": {
+        "id": 37833,
+        "name": "Carlos Vinícius",
+        "firstName": "",
+        "lastName": "Carlos Vinícius",
+        "dateOfBirth": "1995-03-25",
+        "nationality": "Brazil",
+        "section": "Centre-Forward",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-08-23T09:25:15Z"
+      },
+      "team": {
+        "id": 1767,
+        "name": "Grêmio FBPA",
+        "shortName": "Grêmio",
+        "tla": "FBP",
+        "crest": "https://crests.football-data.org/1767.png",
+        "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
+        "website": "http://www.gremio.net",
+        "founded": 1903,
+        "clubColors": "Blue / Black / White",
+        "venue": "Arena do Grêmio",
+        "lastUpdated": "2023-02-18T08:42:52Z"
+      },
+      "playedMatches": 27,
+      "goals": 10,
+      "assists": 1,
+      "penalties": 1
     },
     {
       "player": {
@@ -169,7 +169,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 9,
       "assists": 2,
       "penalties": null
@@ -293,7 +293,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 8,
       "assists": 4,
       "penalties": null
@@ -324,10 +324,41 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 8,
       "assists": 1,
       "penalties": 1
+    },
+    {
+      "player": {
+        "id": 3137,
+        "name": "Jonathan Calleri",
+        "firstName": "Jonathan",
+        "lastName": "Calleri",
+        "dateOfBirth": "1993-09-23",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:46Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 25,
+      "goals": 8,
+      "assists": 1,
+      "penalties": 2
     },
     {
       "player": {
@@ -417,41 +448,10 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 8,
       "assists": 1,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 3137,
-        "name": "Jonathan Calleri",
-        "firstName": "Jonathan",
-        "lastName": "Calleri",
-        "dateOfBirth": "1993-09-23",
-        "nationality": "Argentina",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 24,
-      "goals": 7,
-      "assists": 1,
-      "penalties": 1
     },
     {
       "player": {
@@ -479,7 +479,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 7,
       "assists": 1,
       "penalties": null
@@ -510,7 +510,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 7,
       "assists": 1,
       "penalties": null
@@ -572,7 +572,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 7,
       "assists": 4,
       "penalties": null
@@ -606,6 +606,37 @@
       "playedMatches": 20,
       "goals": 7,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 183580,
+        "name": "Carlos Eduardo",
+        "firstName": "",
+        "lastName": "Carlos Eduardo",
+        "dateOfBirth": "1989-10-17",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:44Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 20,
+      "goals": 6,
+      "assists": null,
       "penalties": null
     },
     {
@@ -727,7 +758,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 5,
       "assists": null,
       "penalties": 2
@@ -820,7 +851,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -851,7 +882,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -913,7 +944,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1075,6 +1106,37 @@
     },
     {
       "player": {
+        "id": 178432,
+        "name": "Carlos Gómez",
+        "firstName": "Carlos",
+        "lastName": "Gómez",
+        "dateOfBirth": "2002-09-12",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-06T13:41:01Z"
+      },
+      "team": {
+        "id": 1780,
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "tla": "VAS",
+        "crest": "https://crests.football-data.org/1780.png",
+        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+        "website": "http://www.vasco.com.br",
+        "founded": 1898,
+        "clubColors": "Black / White",
+        "venue": "Estádio Club de Regatas Vasco da Gama",
+        "lastUpdated": "2023-02-18T08:43:37Z"
+      },
+      "playedMatches": 24,
+      "goals": 5,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1675,
         "name": "Marcinho",
         "firstName": "",
@@ -1099,7 +1161,7 @@
         "venue": "Arena Condá",
         "lastUpdated": "2021-07-22T10:53:42Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1230,37 +1292,6 @@
     },
     {
       "player": {
-        "id": 183580,
-        "name": "Carlos Eduardo",
-        "firstName": "",
-        "lastName": "Carlos Eduardo",
-        "dateOfBirth": "1989-10-17",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:44Z"
-      },
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png",
-        "address": "null Mirassol, SP null",
-        "website": "http://www.mirassolfc.com.br",
-        "founded": 1925,
-        "clubColors": "Green / Yellow",
-        "venue": "Estádio José Maria de Campos Maia",
-        "lastUpdated": "2023-07-31T08:47:23Z"
-      },
-      "playedMatches": 19,
-      "goals": 4,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 169234,
         "name": "Matheus Martins",
         "firstName": "",
@@ -1316,9 +1347,9 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
-      "assists": 4,
+      "assists": 5,
       "penalties": null
     },
     {
@@ -1347,7 +1378,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1378,7 +1409,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1440,7 +1471,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1502,7 +1533,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 3,
       "penalties": 1
@@ -1533,7 +1564,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1564,7 +1595,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1626,7 +1657,7 @@
         "venue": "Allianz Parque",
         "lastUpdated": "2022-04-06T13:14:55Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -1719,7 +1750,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1781,7 +1812,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1812,7 +1843,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1843,40 +1874,9 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 178432,
-        "name": "Carlos Gómez",
-        "firstName": "Carlos",
-        "lastName": "Gómez",
-        "dateOfBirth": "2002-09-12",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-06T13:41:01Z"
-      },
-      "team": {
-        "id": 1780,
-        "name": "CR Vasco da Gama",
-        "shortName": "Vasco da Gama",
-        "tla": "VAS",
-        "crest": "https://crests.football-data.org/1780.png",
-        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
-        "website": "http://www.vasco.com.br",
-        "founded": 1898,
-        "clubColors": "Black / White",
-        "venue": "Estádio Club de Regatas Vasco da Gama",
-        "lastUpdated": "2023-02-18T08:43:37Z"
-      },
-      "playedMatches": 23,
-      "goals": 4,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -2060,7 +2060,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2122,9 +2122,9 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -2401,7 +2401,7 @@
         "venue": "Estádio Nilton Santos",
         "lastUpdated": "2023-02-18T08:43:47Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 3,
       "assists": 5,
       "penalties": 2
@@ -2432,7 +2432,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2494,7 +2494,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2625,6 +2625,37 @@
     },
     {
       "player": {
+        "id": 7569,
+        "name": "Mateo Cassierra",
+        "firstName": "Mateo",
+        "lastName": "Cassierra",
+        "dateOfBirth": "1997-04-13",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-11-19T09:45:59Z"
+      },
+      "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
+        "clubColors": "Black / White",
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
+      },
+      "playedMatches": 24,
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 103448,
         "name": "Edson Carioca",
         "firstName": "",
@@ -2649,7 +2680,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2680,7 +2711,7 @@
         "venue": "Estádio Major Antônio Couto Pereira",
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2804,7 +2835,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 10,
+      "playedMatches": 11,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2842,6 +2873,37 @@
     },
     {
       "player": {
+        "id": 113218,
+        "name": "Facundo Colidio",
+        "firstName": "Facundo",
+        "lastName": "Colidio",
+        "dateOfBirth": "2000-01-04",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 18,
+        "lastUpdated": "2026-01-25T09:42:52Z"
+      },
+      "team": {
+        "id": 1780,
+        "name": "CR Vasco da Gama",
+        "shortName": "Vasco da Gama",
+        "tla": "VAS",
+        "crest": "https://crests.football-data.org/1780.png",
+        "address": "Rua Gen. Almério de Moura 131, Bairro Vasco da Gama Rio de Janeiro, RJ 20921-060",
+        "website": "http://www.vasco.com.br",
+        "founded": 1898,
+        "clubColors": "Black / White",
+        "venue": "Estádio Club de Regatas Vasco da Gama",
+        "lastUpdated": "2023-02-18T08:43:37Z"
+      },
+      "playedMatches": 6,
+      "goals": 3,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 181463,
         "name": "Gustavo Martins",
         "firstName": "",
@@ -2866,7 +2928,7 @@
         "venue": "Arena do Grêmio",
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -3053,68 +3115,6 @@
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
       "playedMatches": 18,
-      "goals": 2,
-      "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 13939,
-        "name": "Nathan",
-        "firstName": "",
-        "lastName": "Nathan Fogaça",
-        "dateOfBirth": "1999-06-09",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-01-01T09:48:07Z"
-      },
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png",
-        "address": "null Mirassol, SP null",
-        "website": "http://www.mirassolfc.com.br",
-        "founded": 1925,
-        "clubColors": "Green / Yellow",
-        "venue": "Estádio José Maria de Campos Maia",
-        "lastUpdated": "2023-07-31T08:47:23Z"
-      },
-      "playedMatches": 13,
-      "goals": 2,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 116177,
-        "name": "Tetê",
-        "firstName": "",
-        "lastName": "Tetê",
-        "dateOfBirth": "2000-02-15",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": 14,
-        "lastUpdated": "2023-08-22T06:42:38Z"
-      },
-      "team": {
-        "id": 1767,
-        "name": "Grêmio FBPA",
-        "shortName": "Grêmio",
-        "tla": "FBP",
-        "crest": "https://crests.football-data.org/1767.png",
-        "address": "Avenida Padre Leopoldo Bretano, 110, Humaitá Porto Alegre, RS 90250-590",
-        "website": "http://www.gremio.net",
-        "founded": 1903,
-        "clubColors": "Blue / Black / White",
-        "venue": "Arena do Grêmio",
-        "lastUpdated": "2023-02-18T08:42:52Z"
-      },
-      "playedMatches": 22,
       "goals": 2,
       "assists": 1,
       "penalties": null
