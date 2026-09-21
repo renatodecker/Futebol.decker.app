@@ -76,8 +76,8 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 27,
-      "goals": 15,
+      "playedMatches": 28,
+      "goals": 16,
       "assists": 6,
       "penalties": null
     },
@@ -207,6 +207,37 @@
     },
     {
       "player": {
+        "id": 45490,
+        "name": "Matheus Pereira",
+        "firstName": "",
+        "lastName": "Matheus Pereira",
+        "dateOfBirth": "1996-05-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:45Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 25,
+      "goals": 9,
+      "assists": 4,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 140873,
         "name": "Luciano Juba",
         "firstName": "",
@@ -231,7 +262,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 9,
       "assists": 1,
       "penalties": 4
@@ -362,37 +393,6 @@
     },
     {
       "player": {
-        "id": 45490,
-        "name": "Matheus Pereira",
-        "firstName": "",
-        "lastName": "Matheus Pereira",
-        "dateOfBirth": "1996-05-05",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:45Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 24,
-      "goals": 8,
-      "assists": 4,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 169022,
         "name": "Breno Lopes",
         "firstName": "",
@@ -449,6 +449,37 @@
         "lastUpdated": "2023-02-18T08:43:33Z"
       },
       "playedMatches": 27,
+      "goals": 8,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 276795,
+        "name": "Carlos Renê",
+        "firstName": "",
+        "lastName": "Carlos Renê",
+        "dateOfBirth": "2003-10-07",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-03-29T09:41:53Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 21,
       "goals": 8,
       "assists": 1,
       "penalties": null
@@ -541,10 +572,41 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
+      "playedMatches": 22,
+      "goals": 7,
+      "assists": 1,
+      "penalties": 4
+    },
+    {
+      "player": {
+        "id": 21689,
+        "name": "Hulk",
+        "firstName": "",
+        "lastName": "Hulk",
+        "dateOfBirth": "1986-07-25",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 10,
+        "lastUpdated": "2023-07-30T23:15:42Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
       "playedMatches": 21,
       "goals": 7,
-      "assists": null,
-      "penalties": 4
+      "assists": 4,
+      "penalties": 1
     },
     {
       "player": {
@@ -575,37 +637,6 @@
       "playedMatches": 27,
       "goals": 7,
       "assists": 4,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 276795,
-        "name": "Carlos Renê",
-        "firstName": "",
-        "lastName": "Carlos Renê",
-        "dateOfBirth": "2003-10-07",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-03-29T09:41:53Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 20,
-      "goals": 7,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -727,7 +758,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -789,7 +820,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -889,37 +920,6 @@
     },
     {
       "player": {
-        "id": 21689,
-        "name": "Hulk",
-        "firstName": "",
-        "lastName": "Hulk",
-        "dateOfBirth": "1986-07-25",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": 10,
-        "lastUpdated": "2023-07-30T23:15:42Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 20,
-      "goals": 5,
-      "assists": 4,
-      "penalties": 1
-    },
-    {
-      "player": {
         "id": 46266,
         "name": "Tomás Cuello",
         "firstName": "Tomás",
@@ -975,9 +975,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 5,
-      "assists": 6,
+      "assists": 7,
       "penalties": null
     },
     {
@@ -1006,7 +1006,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 5,
       "assists": 3,
       "penalties": null
@@ -1068,7 +1068,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1223,7 +1223,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1254,9 +1254,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 4,
-      "assists": 4,
+      "assists": 5,
       "penalties": null
     },
     {
@@ -1285,7 +1285,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -1502,9 +1502,9 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 4,
-      "assists": 1,
+      "assists": 2,
       "penalties": 2
     },
     {
@@ -1626,7 +1626,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1688,7 +1688,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1719,7 +1719,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -1912,6 +1912,68 @@
     },
     {
       "player": {
+        "id": 205585,
+        "name": "Keny Arroyo",
+        "firstName": "Keny",
+        "lastName": "Arroyo",
+        "dateOfBirth": "2006-02-14",
+        "nationality": "Ecuador",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-05-15T09:46:07Z"
+      },
+      "team": {
+        "id": 1771,
+        "name": "Cruzeiro EC",
+        "shortName": "Cruzeiro",
+        "tla": "CRU",
+        "crest": "https://crests.football-data.org/1771.png",
+        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
+        "website": "http://www.cruzeiro.com.br",
+        "founded": 1921,
+        "clubColors": "Blue / White",
+        "venue": "Estádio Governador Magalhães Pinto",
+        "lastUpdated": "2022-04-10T11:03:46Z"
+      },
+      "playedMatches": 23,
+      "goals": 4,
+      "assists": 4,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 181336,
+        "name": "Kevin Serna",
+        "firstName": "Kevin",
+        "lastName": "Serna",
+        "dateOfBirth": "1997-12-22",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-07-25T09:42:15Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 28,
+      "goals": 4,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 249477,
         "name": "Leozinho",
         "firstName": "",
@@ -1936,7 +1998,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -2029,7 +2091,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -2091,7 +2153,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
       "assists": 4,
       "penalties": 1
@@ -2184,7 +2246,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2215,7 +2277,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 3,
       "assists": 6,
       "penalties": null
@@ -2277,7 +2339,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": 5,
       "penalties": 1
@@ -2308,7 +2370,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2339,7 +2401,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2525,7 +2587,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 17,
+      "playedMatches": 18,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2556,7 +2618,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2587,41 +2649,10 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 3,
       "assists": 2,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 205585,
-        "name": "Keny Arroyo",
-        "firstName": "Keny",
-        "lastName": "Arroyo",
-        "dateOfBirth": "2006-02-14",
-        "nationality": "Ecuador",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-05-15T09:46:07Z"
-      },
-      "team": {
-        "id": 1771,
-        "name": "Cruzeiro EC",
-        "shortName": "Cruzeiro",
-        "tla": "CRU",
-        "crest": "https://crests.football-data.org/1771.png",
-        "address": "Rua Timbiras 2903, Bairro Preto Belo Horizonte, MG 30140-062",
-        "website": "http://www.cruzeiro.com.br",
-        "founded": 1921,
-        "clubColors": "Blue / White",
-        "venue": "Estádio Governador Magalhães Pinto",
-        "lastUpdated": "2022-04-10T11:03:46Z"
-      },
-      "playedMatches": 22,
-      "goals": 3,
-      "assists": 2,
-      "penalties": null
     },
     {
       "player": {
@@ -2718,37 +2749,6 @@
     },
     {
       "player": {
-        "id": 181336,
-        "name": "Kevin Serna",
-        "firstName": "Kevin",
-        "lastName": "Serna",
-        "dateOfBirth": "1997-12-22",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-07-25T09:42:15Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 27,
-      "goals": 3,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 11198,
         "name": "Fernando",
         "firstName": "",
@@ -2773,7 +2773,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 15,
+      "playedMatches": 16,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2866,7 +2866,7 @@
         "venue": "Estádio Governador Roberto Santos",
         "lastUpdated": "2024-10-28T10:09:10Z"
       },
-      "playedMatches": 8,
+      "playedMatches": 9,
       "goals": 3,
       "assists": 1,
       "penalties": 1
@@ -2929,6 +2929,37 @@
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
       "playedMatches": 21,
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 203872,
+        "name": "Erick",
+        "firstName": "",
+        "lastName": "Erick Pulga",
+        "dateOfBirth": "2000-10-02",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-02-20T09:48:47Z"
+      },
+      "team": {
+        "id": 1777,
+        "name": "EC Bahia",
+        "shortName": "Bahia",
+        "tla": "BAH",
+        "crest": "https://crests.football-data.org/1777.png",
+        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
+        "website": "http://www.esporteclubebahia.com.br",
+        "founded": 1931,
+        "clubColors": "Blue / White / Red",
+        "venue": "Estádio Governador Roberto Santos",
+        "lastUpdated": "2024-10-28T10:09:10Z"
+      },
+      "playedMatches": 27,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -3052,7 +3083,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 2,
       "assists": 1,
       "penalties": null
@@ -3083,40 +3114,9 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2022-04-06T13:13:43Z"
       },
-      "playedMatches": 19,
+      "playedMatches": 20,
       "goals": 2,
       "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 11680,
-        "name": "Rafael Borré",
-        "firstName": "Rafael",
-        "lastName": "Borré",
-        "dateOfBirth": "1995-09-15",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-09-02T16:56:58Z"
-      },
-      "team": {
-        "id": 6684,
-        "name": "SC Internacional",
-        "shortName": "Internacional",
-        "tla": "SCI",
-        "crest": "https://crests.football-data.org/6684.png",
-        "address": "Avenida Padre Cacique 891, Bairro Menino Deus Porto Alegre, RS 90810-240",
-        "website": "http://www.internacional.com.br",
-        "founded": 1909,
-        "clubColors": "Red / White",
-        "venue": "Estádio José Pinheiro Borba",
-        "lastUpdated": "2023-02-18T08:43:22Z"
-      },
-      "playedMatches": 18,
-      "goals": 2,
-      "assists": 1,
       "penalties": null
     }
   ]
