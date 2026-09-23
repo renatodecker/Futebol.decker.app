@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T13:56:46.766Z",
+  "updatedAt": "2026-09-23T14:07:47.061Z",
   "table": [
     {
       "pos": 1,
@@ -59,20 +59,34 @@
     },
     {
       "pos": 5,
-      "team": "cri",
+      "team": "ope",
       "pts": 47,
-      "played": 28,
+      "played": 29,
       "won": 13,
       "drawn": 8,
-      "lost": 7,
-      "gf": 28,
-      "ga": 25,
-      "gd": 3,
+      "lost": 8,
+      "gf": 41,
+      "ga": 36,
+      "gd": 5,
       "form": [],
       "zone": "playoff-acesso"
     },
     {
       "pos": 6,
+      "team": "cri",
+      "pts": 47,
+      "played": 29,
+      "won": 13,
+      "drawn": 8,
+      "lost": 8,
+      "gf": 28,
+      "ga": 27,
+      "gd": 1,
+      "form": [],
+      "zone": "playoff-acesso"
+    },
+    {
+      "pos": 7,
       "team": "ago",
       "pts": 46,
       "played": 29,
@@ -83,10 +97,10 @@
       "ga": 27,
       "gd": 9,
       "form": [],
-      "zone": "playoff-acesso"
+      "zone": null
     },
     {
-      "pos": 7,
+      "pos": 8,
       "team": "crb",
       "pts": 45,
       "played": 29,
@@ -96,20 +110,6 @@
       "gf": 42,
       "ga": 41,
       "gd": 1,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 8,
-      "team": "ope",
-      "pts": 44,
-      "played": 28,
-      "won": 12,
-      "drawn": 8,
-      "lost": 8,
-      "gf": 39,
-      "ga": 36,
-      "gd": 3,
       "form": [],
       "zone": null
     },
