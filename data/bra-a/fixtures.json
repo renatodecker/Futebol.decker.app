@@ -4434,30 +4434,6 @@
       "attendance": null
     },
     {
-      "id": "r31-cap-pal",
-      "round": 31,
-      "date": "2026-10-17T00:00:00Z",
-      "home": "cap",
-      "away": "pal",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841271",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r31-cam-cfc",
-      "round": 31,
-      "date": "2026-10-17T00:00:00Z",
-      "home": "cam",
-      "away": "cfc",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841270",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r31-bah-fla",
       "round": 31,
       "date": "2026-10-17T00:00:00Z",
@@ -4466,18 +4442,6 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841269",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r31-bot-cha",
-      "round": 31,
-      "date": "2026-10-17T00:00:00Z",
-      "home": "bot",
-      "away": "cha",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841268",
       "venue": null,
       "attendance": null
     },
@@ -4542,9 +4506,45 @@
       "attendance": null
     },
     {
+      "id": "r31-bot-cha",
+      "round": 31,
+      "date": "2026-10-17T21:00:00Z",
+      "home": "bot",
+      "away": "cha",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841268",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-cam-cfc",
+      "round": 31,
+      "date": "2026-10-17T21:30:00Z",
+      "home": "cam",
+      "away": "cfc",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841270",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r31-cap-pal",
+      "round": 31,
+      "date": "2026-10-17T22:30:00Z",
+      "home": "cap",
+      "away": "pal",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841271",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r31-sao-vas",
       "round": 31,
-      "date": "2026-10-17T00:00:00Z",
+      "date": "2026-10-18T00:00:00Z",
       "home": "sao",
       "away": "vas",
       "status": "scheduled",
