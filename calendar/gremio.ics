@@ -312,9 +312,9 @@ LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r31-gre-cru@futebol.decker.app.br
-DTSTAMP:20261017T000000Z
-DTSTART:20261017T000000Z
-DTEND:20261017T020000Z
+DTSTAMP:20261018T190000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T210000Z
 SUMMARY:Grêmio x Cruzeiro
 DESCRIPTION:Rodada 31 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -323,9 +323,9 @@ LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r32-cfc-gre@futebol.decker.app.br
-DTSTAMP:20261024T000000Z
-DTSTART:20261024T000000Z
-DTEND:20261024T020000Z
+DTSTAMP:20261025T223000Z
+DTSTART:20261025T223000Z
+DTEND:20261026T003000Z
 SUMMARY:Coritiba x Grêmio
 DESCRIPTION:Rodada 32 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
