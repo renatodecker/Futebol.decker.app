@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T15:27:35.755Z",
+  "updatedAt": "2026-09-30T15:43:32.642Z",
   "table": [
     {
       "pos": 1,
@@ -214,14 +214,14 @@
     {
       "pos": 16,
       "team": "bfc",
-      "pts": 32,
-      "played": 29,
-      "won": 8,
+      "pts": 35,
+      "played": 30,
+      "won": 9,
       "drawn": 8,
       "lost": 13,
-      "gf": 32,
+      "gf": 34,
       "ga": 36,
-      "gd": -4,
+      "gd": -2,
       "form": [],
       "zone": null
     },
@@ -271,13 +271,13 @@
       "pos": 20,
       "team": "pon",
       "pts": 13,
-      "played": 29,
+      "played": 30,
       "won": 3,
       "drawn": 4,
-      "lost": 22,
+      "lost": 23,
       "gf": 17,
-      "ga": 62,
-      "gd": -45,
+      "ga": 64,
+      "gd": -47,
       "form": [],
       "zone": "rebaixamento"
     }
