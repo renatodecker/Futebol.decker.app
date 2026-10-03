@@ -107,8 +107,8 @@
         "venue": "Estádio Urbano Caldeira",
         "lastUpdated": "2023-02-18T08:43:18Z"
       },
-      "playedMatches": 20,
-      "goals": 11,
+      "playedMatches": 21,
+      "goals": 13,
       "assists": 3,
       "penalties": 2
     },
@@ -142,6 +142,37 @@
       "goals": 10,
       "assists": 1,
       "penalties": 1
+    },
+    {
+      "player": {
+        "id": 42901,
+        "name": "Luciano",
+        "firstName": "",
+        "lastName": "Luciano",
+        "dateOfBirth": "1993-05-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:46Z"
+      },
+      "team": {
+        "id": 1776,
+        "name": "São Paulo FC",
+        "shortName": "São Paulo",
+        "tla": "PAU",
+        "crest": "https://crests.football-data.org/1776.png",
+        "address": "null São Paulo, SP null",
+        "website": "http://www.saopaulofc.net",
+        "founded": 1930,
+        "clubColors": "White / Red / Black",
+        "venue": "Estádio do Morumbi",
+        "lastUpdated": "2023-02-18T08:43:44Z"
+      },
+      "playedMatches": 24,
+      "goals": 9,
+      "assists": 1,
+      "penalties": 2
     },
     {
       "player": {
@@ -328,37 +359,6 @@
       "goals": 8,
       "assists": 4,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 42901,
-        "name": "Luciano",
-        "firstName": "",
-        "lastName": "Luciano",
-        "dateOfBirth": "1993-05-18",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:46Z"
-      },
-      "team": {
-        "id": 1776,
-        "name": "São Paulo FC",
-        "shortName": "São Paulo",
-        "tla": "PAU",
-        "crest": "https://crests.football-data.org/1776.png",
-        "address": "null São Paulo, SP null",
-        "website": "http://www.saopaulofc.net",
-        "founded": 1930,
-        "clubColors": "White / Red / Black",
-        "venue": "Estádio do Morumbi",
-        "lastUpdated": "2023-02-18T08:43:44Z"
-      },
-      "playedMatches": 23,
-      "goals": 8,
-      "assists": 1,
-      "penalties": 1
     },
     {
       "player": {
@@ -851,7 +851,7 @@
         "venue": "Estádio Urbano Caldeira",
         "lastUpdated": "2023-02-18T08:43:18Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -1812,7 +1812,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -2122,7 +2122,7 @@
         "venue": "Estádio do Morumbi",
         "lastUpdated": "2023-02-18T08:43:44Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 1,
       "penalties": null
