@@ -4190,11 +4190,14 @@
       "date": "2026-10-03T21:30:00Z",
       "home": "cam",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841168",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r29-bra-mir",
