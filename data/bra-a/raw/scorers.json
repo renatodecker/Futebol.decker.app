@@ -758,7 +758,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -944,7 +944,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1068,7 +1068,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1192,7 +1192,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -1781,7 +1781,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2029,7 +2029,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2594,6 +2594,37 @@
     },
     {
       "player": {
+        "id": 16476,
+        "name": "Bernard",
+        "firstName": "",
+        "lastName": "Bernard",
+        "dateOfBirth": "1992-09-08",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-08-22T06:42:38Z"
+      },
+      "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
+        "clubColors": "Black / White",
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
+      },
+      "playedMatches": 27,
+      "goals": 3,
+      "assists": 4,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 13419,
         "name": "David Duarte",
         "firstName": "",
@@ -2680,7 +2711,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -2773,7 +2804,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 16,
+      "playedMatches": 17,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -3086,37 +3117,6 @@
       "playedMatches": 25,
       "goals": 2,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 56066,
-        "name": "Gonzalo Plata",
-        "firstName": "Gonzalo",
-        "lastName": "Plata",
-        "dateOfBirth": "2000-11-01",
-        "nationality": "Ecuador",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-03T10:05:04Z"
-      },
-      "team": {
-        "id": 1783,
-        "name": "CR Flamengo",
-        "shortName": "Flamengo",
-        "tla": "FLA",
-        "crest": "https://crests.football-data.org/1783.png",
-        "address": "null Rio de Janeiro, RJ null",
-        "website": "https://www.flamengo.com.br/pagina-inicial-basquete",
-        "founded": 1919,
-        "clubColors": "Red / Black / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2022-04-06T13:13:43Z"
-      },
-      "playedMatches": 20,
-      "goals": 2,
-      "assists": 3,
       "penalties": null
     }
   ]

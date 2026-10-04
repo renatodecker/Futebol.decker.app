@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:10:38.106Z",
+  "updatedAt": "2026-10-04T14:40:55.082Z",
   "table": [
     {
       "pos": 1,
@@ -123,6 +123,26 @@
     },
     {
       "pos": 7,
+      "team": "cam",
+      "pts": 43,
+      "played": 28,
+      "won": 12,
+      "drawn": 7,
+      "lost": 9,
+      "gf": 37,
+      "ga": 32,
+      "gd": 5,
+      "form": [
+        "W",
+        "L",
+        "W",
+        "D",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 8,
       "team": "san",
       "pts": 41,
       "played": 28,
@@ -138,26 +158,6 @@
         "W",
         "W",
         "W"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 8,
-      "team": "cam",
-      "pts": 40,
-      "played": 27,
-      "won": 11,
-      "drawn": 7,
-      "lost": 9,
-      "gf": 36,
-      "ga": 32,
-      "gd": 4,
-      "form": [
-        "D",
-        "W",
-        "L",
-        "W",
-        "D"
       ],
       "zone": "sulamericana"
     },
@@ -185,24 +185,24 @@
       "pos": 10,
       "team": "bra",
       "pts": 36,
-      "played": 27,
+      "played": 28,
       "won": 10,
       "drawn": 6,
-      "lost": 11,
+      "lost": 12,
       "gf": 33,
-      "ga": 31,
-      "gd": 2,
+      "ga": 32,
+      "gd": 1,
       "form": [
-        "W",
         "L",
         "L",
         "D",
+        "L",
         "L"
       ],
       "zone": "sulamericana"
     },
     {
-      "pos": 11,
+      "pos": 10,
       "team": "sao",
       "pts": 36,
       "played": 28,
