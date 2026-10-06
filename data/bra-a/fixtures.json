@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "currentRound": 21,
+  "currentRound": 29,
   "matches": [
     {
       "id": "r1-cam-pal",
@@ -4322,7 +4322,7 @@
     {
       "id": "r30-vas-rem",
       "round": 30,
-      "date": "2026-10-10T20:00:00Z",
+      "date": "2026-10-10T21:00:00Z",
       "home": "vas",
       "away": "rem",
       "status": "scheduled",
