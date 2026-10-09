@@ -1,40 +1,80 @@
 {
-  "updatedAt": "2026-10-08T16:11:21.841Z",
+  "updatedAt": "2026-10-09T15:53:48.787Z",
   "table": [
     {
       "pos": 1,
       "team": "fla",
-      "pts": 60,
-      "played": 28,
+      "pts": 61,
+      "played": 29,
       "won": 18,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 4,
-      "gf": 55,
-      "ga": 23,
+      "gf": 57,
+      "ga": 25,
       "gd": 32,
       "form": [
         "W",
         "W",
         "W",
         "W",
-        "W"
+        "D"
       ],
       "zone": "libertadores"
     },
     {
       "pos": 2,
       "team": "pal",
-      "pts": 57,
-      "played": 28,
-      "won": 16,
+      "pts": 60,
+      "played": 29,
+      "won": 17,
       "drawn": 9,
       "lost": 3,
-      "gf": 47,
+      "gf": 48,
       "ga": 21,
-      "gd": 26,
+      "gd": 27,
       "form": [
+        "D",
+        "D",
         "W",
         "D",
+        "W"
+      ],
+      "zone": "libertadores"
+    },
+    {
+      "pos": 3,
+      "team": "flu",
+      "pts": 51,
+      "played": 29,
+      "won": 14,
+      "drawn": 9,
+      "lost": 6,
+      "gf": 48,
+      "ga": 36,
+      "gd": 12,
+      "form": [
+        "D",
+        "W",
+        "L",
+        "W",
+        "W"
+      ],
+      "zone": "libertadores"
+    },
+    {
+      "pos": 4,
+      "team": "cap",
+      "pts": 50,
+      "played": 29,
+      "won": 14,
+      "drawn": 8,
+      "lost": 7,
+      "gf": 45,
+      "ga": 34,
+      "gd": 11,
+      "form": [
+        "D",
+        "L",
         "D",
         "W",
         "D"
@@ -42,27 +82,7 @@
       "zone": "libertadores"
     },
     {
-      "pos": 3,
-      "team": "cap",
-      "pts": 49,
-      "played": 28,
-      "won": 14,
-      "drawn": 7,
-      "lost": 7,
-      "gf": 43,
-      "ga": 32,
-      "gd": 11,
-      "form": [
-        "W",
-        "D",
-        "L",
-        "D",
-        "W"
-      ],
-      "zone": "libertadores"
-    },
-    {
-      "pos": 4,
+      "pos": 5,
       "team": "cru",
       "pts": 48,
       "played": 29,
@@ -79,44 +99,24 @@
         "W",
         "W"
       ],
-      "zone": "libertadores"
-    },
-    {
-      "pos": 5,
-      "team": "flu",
-      "pts": 48,
-      "played": 28,
-      "won": 13,
-      "drawn": 9,
-      "lost": 6,
-      "gf": 44,
-      "ga": 36,
-      "gd": 8,
-      "form": [
-        "W",
-        "D",
-        "W",
-        "L",
-        "W"
-      ],
       "zone": "libertadores-pre"
     },
     {
       "pos": 6,
       "team": "bah",
       "pts": 46,
-      "played": 28,
+      "played": 29,
       "won": 12,
       "drawn": 10,
-      "lost": 6,
+      "lost": 7,
       "gf": 43,
-      "ga": 35,
-      "gd": 8,
+      "ga": 36,
+      "gd": 7,
       "form": [
         "W",
         "W",
         "W",
-        "W",
+        "L",
         "L"
       ],
       "zone": "sulamericana"
@@ -124,40 +124,40 @@
     {
       "pos": 7,
       "team": "cam",
-      "pts": 43,
-      "played": 28,
+      "pts": 44,
+      "played": 29,
       "won": 12,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 9,
-      "gf": 37,
-      "ga": 32,
+      "gf": 39,
+      "ga": 34,
       "gd": 5,
       "form": [
-        "W",
         "L",
         "W",
         "D",
-        "W"
+        "W",
+        "D"
       ],
       "zone": "sulamericana"
     },
     {
       "pos": 8,
       "team": "san",
-      "pts": 41,
-      "played": 28,
+      "pts": 42,
+      "played": 29,
       "won": 11,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 9,
-      "gf": 43,
-      "ga": 41,
+      "gf": 45,
+      "ga": 43,
       "gd": 2,
       "form": [
         "W",
         "W",
         "W",
         "W",
-        "W"
+        "D"
       ],
       "zone": "sulamericana"
     },
@@ -165,18 +165,18 @@
       "pos": 9,
       "team": "cfc",
       "pts": 38,
-      "played": 28,
+      "played": 29,
       "won": 10,
       "drawn": 8,
-      "lost": 10,
+      "lost": 11,
       "gf": 37,
-      "ga": 43,
-      "gd": -6,
+      "ga": 47,
+      "gd": -10,
       "form": [
-        "W",
         "W",
         "L",
         "D",
+        "L",
         "L"
       ],
       "zone": "sulamericana"
@@ -257,7 +257,7 @@
         "D",
         "W",
         "L",
-        "D"
+        "L"
       ],
       "zone": null
     },
@@ -277,7 +277,7 @@
         "L",
         "W",
         "W",
-        "D"
+        "W"
       ],
       "zone": null
     },
