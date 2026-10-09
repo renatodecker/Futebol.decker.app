@@ -4295,11 +4295,14 @@
       "date": "2026-10-08T22:30:00Z",
       "home": "san",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401841251",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r29-cap-cam",
@@ -4307,11 +4310,14 @@
       "date": "2026-10-08T23:00:00Z",
       "home": "cap",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 2
+      },
       "espnEventId": "401841256",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r29-flu-cfc",
@@ -4319,11 +4325,14 @@
       "date": "2026-10-09T00:30:00Z",
       "home": "flu",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
       "espnEventId": "401841248",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r29-pal-bah",
@@ -4331,11 +4340,14 @@
       "date": "2026-10-09T00:30:00Z",
       "home": "pal",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841254",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r30-vas-rem",

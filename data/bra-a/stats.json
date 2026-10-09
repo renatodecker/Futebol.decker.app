@@ -1,7 +1,7 @@
 {
   "players": {
     "p-espn-311743": {
-      "goals": 8,
+      "goals": 9,
       "assists": 4,
       "yellow": 2,
       "red": 0
@@ -109,7 +109,7 @@
       "red": 0
     },
     "p-espn-268476": {
-      "goals": 18,
+      "goals": 19,
       "assists": 3,
       "yellow": 6,
       "red": 0
@@ -147,7 +147,7 @@
     "p-espn-243831": {
       "goals": 1,
       "assists": 1,
-      "yellow": 2,
+      "yellow": 3,
       "red": 1
     },
     "p-espn-171993": {
@@ -205,7 +205,7 @@
       "red": 0
     },
     "p-espn-199958": {
-      "goals": 4,
+      "goals": 5,
       "assists": 5,
       "yellow": 5,
       "red": 0
@@ -279,7 +279,7 @@
     "p-espn-279454": {
       "goals": 5,
       "assists": 1,
-      "yellow": 6,
+      "yellow": 7,
       "red": 1
     },
     "p-espn-201660": {
@@ -327,12 +327,12 @@
     "p-espn-269910": {
       "goals": 4,
       "assists": 3,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-198761": {
       "goals": 0,
-      "assists": 1,
+      "assists": 2,
       "yellow": 0,
       "red": 0
     },
@@ -357,7 +357,7 @@
     "p-espn-285757": {
       "goals": 1,
       "assists": 1,
-      "yellow": 8,
+      "yellow": 9,
       "red": 0
     },
     "p-espn-227241": {
@@ -380,8 +380,8 @@
     },
     "p-espn-235017": {
       "goals": 16,
-      "assists": 4,
-      "yellow": 1,
+      "assists": 5,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-190483": {
@@ -406,7 +406,7 @@
       "goals": 2,
       "assists": 3,
       "yellow": 4,
-      "red": 1
+      "red": 2
     },
     "p-espn-130372": {
       "goals": 1,
@@ -505,9 +505,9 @@
       "red": 0
     },
     "p-espn-234715": {
-      "goals": 4,
+      "goals": 5,
       "assists": 0,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-229574": {
@@ -663,7 +663,7 @@
     "p-espn-236353": {
       "goals": 0,
       "assists": 2,
-      "yellow": 7,
+      "yellow": 8,
       "red": 0
     },
     "p-espn-252609": {
@@ -728,7 +728,7 @@
     },
     "p-espn-222631": {
       "goals": 1,
-      "assists": 2,
+      "assists": 3,
       "yellow": 8,
       "red": 2
     },
@@ -956,7 +956,7 @@
     },
     "p-espn-124068": {
       "goals": 7,
-      "assists": 4,
+      "assists": 5,
       "yellow": 2,
       "red": 0
     },
@@ -1311,7 +1311,7 @@
     "p-espn-288669": {
       "goals": 0,
       "assists": 1,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-239566": {
@@ -1375,9 +1375,9 @@
       "red": 0
     },
     "p-espn-132948": {
-      "goals": 6,
+      "goals": 8,
       "assists": 3,
-      "yellow": 7,
+      "yellow": 8,
       "red": 0
     },
     "p-espn-304365": {
@@ -1401,7 +1401,7 @@
     "p-espn-252197": {
       "goals": 5,
       "assists": 2,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-191995": {
@@ -1442,7 +1442,7 @@
     },
     "p-espn-208700": {
       "goals": 4,
-      "assists": 6,
+      "assists": 7,
       "yellow": 2,
       "red": 2
     },
@@ -1516,7 +1516,7 @@
       "goals": 0,
       "assists": 0,
       "yellow": 2,
-      "red": 0
+      "red": 1
     },
     "p-espn-256560": {
       "goals": 0,
@@ -1561,7 +1561,7 @@
       "red": 0
     },
     "p-espn-177219": {
-      "goals": 3,
+      "goals": 6,
       "assists": 2,
       "yellow": 2,
       "red": 0
@@ -1863,7 +1863,7 @@
     "p-espn-399297": {
       "goals": 0,
       "assists": 0,
-      "yellow": 5,
+      "yellow": 6,
       "red": 1
     },
     "p-espn-131245": {
@@ -1970,7 +1970,7 @@
     },
     "p-espn-287633": {
       "goals": 4,
-      "assists": 3,
+      "assists": 4,
       "yellow": 1,
       "red": 0
     },
@@ -1981,7 +1981,7 @@
       "red": 2
     },
     "p-espn-158272": {
-      "goals": 3,
+      "goals": 4,
       "assists": 3,
       "yellow": 0,
       "red": 0
@@ -2073,7 +2073,7 @@
     "p-espn-270486": {
       "goals": 2,
       "assists": 2,
-      "yellow": 1,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-169136": {
@@ -2131,7 +2131,7 @@
       "red": 0
     },
     "p-espn-220747": {
-      "goals": 0,
+      "goals": 1,
       "assists": 0,
       "yellow": 3,
       "red": 1
@@ -2157,7 +2157,7 @@
     "p-espn-201683": {
       "goals": 2,
       "assists": 3,
-      "yellow": 4,
+      "yellow": 5,
       "red": 0
     },
     "p-espn-334375": {
@@ -2499,7 +2499,7 @@
     "p-espn-246844": {
       "goals": 0,
       "assists": 1,
-      "yellow": 0,
+      "yellow": 1,
       "red": 0
     },
     "p-espn-417570": {
@@ -2575,7 +2575,7 @@
       "red": 0
     },
     "p-espn-170369": {
-      "goals": 0,
+      "goals": 1,
       "assists": 0,
       "yellow": 1,
       "red": 1
@@ -2804,7 +2804,7 @@
     },
     "p-espn-96254": {
       "goals": 0,
-      "assists": 0,
+      "assists": 1,
       "yellow": 1,
       "red": 0
     },
@@ -2911,7 +2911,7 @@
       "red": 0
     },
     "p-espn-340596": {
-      "goals": 1,
+      "goals": 2,
       "assists": 3,
       "yellow": 0,
       "red": 0
@@ -2985,7 +2985,7 @@
     "p-espn-307756": {
       "goals": 0,
       "assists": 0,
-      "yellow": 1,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-200562": {
@@ -3026,7 +3026,7 @@
     },
     "p-espn-302628": {
       "goals": 1,
-      "assists": 0,
+      "assists": 1,
       "yellow": 0,
       "red": 0
     },
@@ -3245,19 +3245,31 @@
       "assists": 0,
       "yellow": 0,
       "red": 0
+    },
+    "p-espn-182187": {
+      "goals": 0,
+      "assists": 0,
+      "yellow": 1,
+      "red": 0
+    },
+    "p-espn-403159": {
+      "goals": 0,
+      "assists": 1,
+      "yellow": 0,
+      "red": 0
     }
   },
   "teams": {
     "cam": {
-      "goals": 37,
-      "conceded": 32,
-      "yellow": 47,
-      "red": 3
+      "goals": 39,
+      "conceded": 34,
+      "yellow": 49,
+      "red": 4
     },
     "pal": {
-      "goals": 47,
+      "goals": 48,
       "conceded": 21,
-      "yellow": 59,
+      "yellow": 60,
       "red": 4
     },
     "vit": {
@@ -3279,15 +3291,15 @@
       "red": 3
     },
     "cap": {
-      "goals": 43,
-      "conceded": 32,
+      "goals": 45,
+      "conceded": 34,
       "yellow": 58,
       "red": 2
     },
     "cfc": {
       "goals": 37,
-      "conceded": 43,
-      "yellow": 48,
+      "conceded": 47,
+      "yellow": 49,
       "red": 8
     },
     "bra": {
@@ -3297,7 +3309,7 @@
       "red": 5
     },
     "flu": {
-      "goals": 44,
+      "goals": 48,
       "conceded": 36,
       "yellow": 71,
       "red": 2
@@ -3315,9 +3327,9 @@
       "red": 2
     },
     "san": {
-      "goals": 43,
-      "conceded": 41,
-      "yellow": 80,
+      "goals": 45,
+      "conceded": 43,
+      "yellow": 86,
       "red": 4
     },
     "cor": {
@@ -3328,8 +3340,8 @@
     },
     "bah": {
       "goals": 43,
-      "conceded": 35,
-      "yellow": 64,
+      "conceded": 36,
+      "yellow": 66,
       "red": 2
     },
     "sao": {
@@ -3339,10 +3351,10 @@
       "red": 2
     },
     "fla": {
-      "goals": 53,
-      "conceded": 23,
-      "yellow": 57,
-      "red": 6
+      "goals": 55,
+      "conceded": 25,
+      "yellow": 61,
+      "red": 7
     },
     "mir": {
       "goals": 34,
@@ -3369,5 +3381,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-10-08T11:41:29.009Z"
+  "updatedAt": "2026-10-09T08:40:21.032Z"
 }
