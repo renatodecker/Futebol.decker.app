@@ -11202,7 +11202,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-361658": {
     "fullName": "Fabiano",
@@ -11214,7 +11215,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
