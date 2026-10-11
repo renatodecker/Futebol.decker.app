@@ -4355,11 +4355,14 @@
       "date": "2026-10-10T21:00:00Z",
       "home": "vas",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841262",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r30-sao-vit",
@@ -4367,11 +4370,14 @@
       "date": "2026-10-11T00:00:00Z",
       "home": "sao",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841259",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r30-cam-san",
