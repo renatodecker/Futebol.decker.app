@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T15:05:51.933Z",
+  "updatedAt": "2026-10-11T15:23:48.756Z",
   "table": [
     {
       "pos": 1,
@@ -163,6 +163,26 @@
     },
     {
       "pos": 9,
+      "team": "sao",
+      "pts": 39,
+      "played": 30,
+      "won": 11,
+      "drawn": 6,
+      "lost": 13,
+      "gf": 35,
+      "ga": 35,
+      "gd": 0,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "L",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 10,
       "team": "cfc",
       "pts": 38,
       "played": 29,
@@ -182,7 +202,7 @@
       "zone": "sulamericana"
     },
     {
-      "pos": 10,
+      "pos": 11,
       "team": "bra",
       "pts": 37,
       "played": 29,
@@ -202,42 +222,22 @@
       "zone": "sulamericana"
     },
     {
-      "pos": 11,
-      "team": "sao",
-      "pts": 36,
-      "played": 29,
-      "won": 10,
-      "drawn": 6,
-      "lost": 13,
-      "gf": 33,
-      "ga": 34,
-      "gd": -1,
-      "form": [
-        "W",
-        "L",
-        "W",
-        "L",
-        "L"
-      ],
-      "zone": "sulamericana"
-    },
-    {
       "pos": 12,
       "team": "vit",
       "pts": 36,
-      "played": 29,
+      "played": 30,
       "won": 10,
       "drawn": 6,
-      "lost": 13,
-      "gf": 32,
-      "ga": 42,
-      "gd": -10,
+      "lost": 14,
+      "gf": 33,
+      "ga": 44,
+      "gd": -11,
       "form": [
-        "L",
         "W",
         "D",
         "L",
-        "W"
+        "W",
+        "L"
       ],
       "zone": null
     },
@@ -264,20 +264,20 @@
     {
       "pos": 14,
       "team": "vas",
-      "pts": 34,
-      "played": 28,
+      "pts": 35,
+      "played": 29,
       "won": 9,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 12,
       "gf": 36,
       "ga": 42,
       "gd": -6,
       "form": [
-        "W",
         "L",
         "W",
         "W",
-        "W"
+        "W",
+        "D"
       ],
       "zone": null
     },
@@ -364,10 +364,10 @@
     {
       "pos": 19,
       "team": "rem",
-      "pts": 24,
-      "played": 29,
+      "pts": 25,
+      "played": 30,
       "won": 5,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 15,
       "gf": 33,
       "ga": 48,
@@ -376,7 +376,7 @@
         "L",
         "L",
         "L",
-        "L",
+        "D",
         "D"
       ],
       "zone": "rebaixamento"
