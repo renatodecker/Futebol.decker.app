@@ -303,11 +303,10 @@ UID:bra-a-r30-gre-int@futebol.decker.app.br
 DTSTAMP:20261011T203000Z
 DTSTART:20261011T203000Z
 DTEND:20261011T223000Z
-SUMMARY:Grêmio x Internacional
-DESCRIPTION:Rodada 30 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Grêmio 1x1 Internacional
+DESCRIPTION:Rodada 30 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Arena do Grêmio (provável)
+LOCATION:Arena do Grêmio
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r31-gre-cru@futebol.decker.app.br
