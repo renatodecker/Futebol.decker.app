@@ -45,8 +45,8 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 27,
-      "goals": 19,
+      "playedMatches": 28,
+      "goals": 21,
       "assists": 3,
       "penalties": 4
     },
@@ -142,6 +142,37 @@
       "goals": 10,
       "assists": 1,
       "penalties": 1
+    },
+    {
+      "player": {
+        "id": 149704,
+        "name": "Danilo dos Santos de Oliveira",
+        "firstName": "",
+        "lastName": "Danilo",
+        "dateOfBirth": "2001-04-29",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-06-01T11:16:32Z"
+      },
+      "team": {
+        "id": 1770,
+        "name": "Botafogo FR",
+        "shortName": "Botafogo",
+        "tla": "BOT",
+        "crest": "https://crests.football-data.org/1770.png",
+        "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
+        "website": "http://www.botafogo.com.br",
+        "founded": 1904,
+        "clubColors": "Black / White",
+        "venue": "Estádio Nilton Santos",
+        "lastUpdated": "2023-02-18T08:43:47Z"
+      },
+      "playedMatches": 20,
+      "goals": 10,
+      "assists": 2,
+      "penalties": null
     },
     {
       "player": {
@@ -269,37 +300,6 @@
     },
     {
       "player": {
-        "id": 149704,
-        "name": "Danilo dos Santos de Oliveira",
-        "firstName": "",
-        "lastName": "Danilo",
-        "dateOfBirth": "2001-04-29",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-06-01T11:16:32Z"
-      },
-      "team": {
-        "id": 1770,
-        "name": "Botafogo FR",
-        "shortName": "Botafogo",
-        "tla": "BOT",
-        "crest": "https://crests.football-data.org/1770.png",
-        "address": "Avenida Venceslau Brás 72, Bairro Botafago Rio de Janeiro, RJ 22290-140",
-        "website": "http://www.botafogo.com.br",
-        "founded": 1904,
-        "clubColors": "Black / White",
-        "venue": "Estádio Nilton Santos",
-        "lastUpdated": "2023-02-18T08:43:47Z"
-      },
-      "playedMatches": 20,
-      "goals": 9,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 157533,
         "name": "John Kennedy",
         "firstName": "",
@@ -355,7 +355,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 9,
       "assists": 5,
       "penalties": null
@@ -479,9 +479,9 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 8,
-      "assists": 1,
+      "assists": 2,
       "penalties": 4
     },
     {
@@ -765,6 +765,37 @@
     },
     {
       "player": {
+        "id": 169236,
+        "name": "Lucas Barbosa",
+        "firstName": "",
+        "lastName": "Lucas Barbosa",
+        "dateOfBirth": "2001-02-22",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-10-30T09:42:34Z"
+      },
+      "team": {
+        "id": 4286,
+        "name": "RB Bragantino",
+        "shortName": "Bragantino",
+        "tla": "RBB",
+        "crest": "https://crests.football-data.org/4286.png",
+        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
+        "website": "http://www.bragantino.net",
+        "founded": 1928,
+        "clubColors": "White / Black",
+        "venue": "Estádio Nabi Abi Chedid",
+        "lastUpdated": "2023-02-18T08:43:26Z"
+      },
+      "playedMatches": 28,
+      "goals": 6,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 169720,
         "name": "Jája Silva",
         "firstName": "",
@@ -851,9 +882,9 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 6,
-      "assists": 1,
+      "assists": 2,
       "penalties": null
     },
     {
@@ -944,7 +975,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -1230,37 +1261,6 @@
     },
     {
       "player": {
-        "id": 169236,
-        "name": "Lucas Barbosa",
-        "firstName": "",
-        "lastName": "Lucas Barbosa",
-        "dateOfBirth": "2001-02-22",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-10-30T09:42:34Z"
-      },
-      "team": {
-        "id": 4286,
-        "name": "RB Bragantino",
-        "shortName": "Bragantino",
-        "tla": "RBB",
-        "crest": "https://crests.football-data.org/4286.png",
-        "address": "Rua Emílio Colela S/N, Jd. Nova Bragança Bragança Paulista, SP 12914-410",
-        "website": "http://www.bragantino.net",
-        "founded": 1928,
-        "clubColors": "White / Black",
-        "venue": "Estádio Nabi Abi Chedid",
-        "lastUpdated": "2023-02-18T08:43:26Z"
-      },
-      "playedMatches": 27,
-      "goals": 5,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 178432,
         "name": "Carlos Gómez",
         "firstName": "Carlos",
@@ -1316,9 +1316,40 @@
         "venue": "Arena Condá",
         "lastUpdated": "2021-07-22T10:53:42Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 5,
       "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 249477,
+        "name": "Leozinho",
+        "firstName": "",
+        "lastName": "Leozinho",
+        "dateOfBirth": "1998-12-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-05-15T12:47:36Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 30,
+      "goals": 5,
+      "assists": null,
       "penalties": null
     },
     {
@@ -1660,6 +1691,37 @@
       "playedMatches": 26,
       "goals": 4,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 8357,
+        "name": "Luiz Gustavo",
+        "firstName": "",
+        "lastName": "Luiz Gustavo",
+        "dateOfBirth": "1987-07-23",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-03-05T09:42:46Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 24,
+      "goals": 4,
+      "assists": null,
       "penalties": null
     },
     {
@@ -2122,7 +2184,7 @@
         "venue": "Estádio Governador Magalhães Pinto",
         "lastUpdated": "2022-04-10T11:03:46Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": 4,
       "penalties": null
@@ -2156,37 +2218,6 @@
       "playedMatches": 30,
       "goals": 4,
       "assists": 4,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 249477,
-        "name": "Leozinho",
-        "firstName": "",
-        "lastName": "Leozinho",
-        "dateOfBirth": "1998-12-05",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-05-15T12:47:36Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 29,
-      "goals": 4,
-      "assists": null,
       "penalties": null
     },
     {
@@ -2246,7 +2277,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2563,37 +2594,6 @@
     },
     {
       "player": {
-        "id": 8357,
-        "name": "Luiz Gustavo",
-        "firstName": "",
-        "lastName": "Luiz Gustavo",
-        "dateOfBirth": "1987-07-23",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-03-05T09:42:46Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 23,
-      "goals": 3,
-      "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 218422,
         "name": "Neizer Villarreal",
         "firstName": "Néiser",
@@ -2835,7 +2835,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 18,
+      "playedMatches": 19,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -3028,6 +3028,37 @@
     },
     {
       "player": {
+        "id": 150815,
+        "name": "Maurício Garcez",
+        "firstName": "",
+        "lastName": "Maurício Garcez",
+        "dateOfBirth": "1997-03-16",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:49Z"
+      },
+      "team": {
+        "id": 1772,
+        "name": "Chapecoense AF",
+        "shortName": "Chapecoense",
+        "tla": "CHA",
+        "crest": "https://crests.football-data.org/1772_large.png",
+        "address": "Rua Clevelândia S/N, Centro Chapecó, SC 89801-445",
+        "website": "http://www.chapecoense.com",
+        "founded": 1973,
+        "clubColors": "Green / White",
+        "venue": "Arena Condá",
+        "lastUpdated": "2021-07-22T10:53:42Z"
+      },
+      "playedMatches": 16,
+      "goals": 3,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 181463,
         "name": "Gustavo Martins",
         "firstName": "",
@@ -3086,37 +3117,6 @@
       "playedMatches": 29,
       "goals": 3,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 61447,
-        "name": "Gabriel Baralhas",
-        "firstName": "",
-        "lastName": "Baralhas",
-        "dateOfBirth": "1998-10-10",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-31T10:01:17Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 18,
-      "goals": 2,
-      "assists": 3,
       "penalties": null
     }
   ]
