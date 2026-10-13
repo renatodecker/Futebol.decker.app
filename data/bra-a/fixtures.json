@@ -4460,11 +4460,14 @@
       "date": "2026-10-12T19:00:00Z",
       "home": "cfc",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841264",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r30-cha-cap",
@@ -4472,11 +4475,14 @@
       "date": "2026-10-12T22:30:00Z",
       "home": "cha",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
       "espnEventId": "401841265",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r30-bra-cru",
@@ -4484,11 +4490,14 @@
       "date": "2026-10-13T00:00:00Z",
       "home": "bra",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
       "espnEventId": "401841260",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r31-mir-int",
