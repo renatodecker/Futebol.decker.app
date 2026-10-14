@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T16:46:50.204Z",
+  "updatedAt": "2026-10-14T14:23:20.887Z",
   "table": [
     {
       "pos": 1,
@@ -171,6 +171,20 @@
     },
     {
       "pos": 13,
+      "team": "acm",
+      "pts": 43,
+      "played": 33,
+      "won": 10,
+      "drawn": 13,
+      "lost": 10,
+      "gf": 40,
+      "ga": 39,
+      "gd": 1,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 14,
       "team": "nau",
       "pts": 42,
       "played": 33,
@@ -184,7 +198,7 @@
       "zone": null
     },
     {
-      "pos": 14,
+      "pos": 15,
       "team": "cea",
       "pts": 42,
       "played": 33,
@@ -194,20 +208,6 @@
       "gf": 35,
       "ga": 40,
       "gd": -5,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 15,
-      "team": "acm",
-      "pts": 42,
-      "played": 32,
-      "won": 10,
-      "drawn": 12,
-      "lost": 10,
-      "gf": 38,
-      "ga": 37,
-      "gd": 1,
       "form": [],
       "zone": null
     },
@@ -242,13 +242,13 @@
     {
       "pos": 18,
       "team": "lon",
-      "pts": 28,
-      "played": 32,
+      "pts": 29,
+      "played": 33,
       "won": 7,
-      "drawn": 7,
+      "drawn": 8,
       "lost": 18,
-      "gf": 40,
-      "ga": 47,
+      "gf": 42,
+      "ga": 49,
       "gd": -7,
       "form": [],
       "zone": "rebaixamento"
