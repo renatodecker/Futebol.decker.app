@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T13:47:33.307Z",
+  "updatedAt": "2026-10-17T12:44:49.731Z",
   "table": [
     {
       "pos": 1,
@@ -263,6 +263,26 @@
     },
     {
       "pos": 14,
+      "team": "mir",
+      "pts": 36,
+      "played": 31,
+      "won": 9,
+      "drawn": 9,
+      "lost": 13,
+      "gf": 36,
+      "ga": 44,
+      "gd": -8,
+      "form": [
+        "D",
+        "W",
+        "D",
+        "L",
+        "W"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 15,
       "team": "vas",
       "pts": 35,
       "played": 29,
@@ -278,26 +298,6 @@
         "W",
         "W",
         "D"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 15,
-      "team": "mir",
-      "pts": 33,
-      "played": 30,
-      "won": 8,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 34,
-      "ga": 44,
-      "gd": -10,
-      "form": [
-        "W",
-        "D",
-        "W",
-        "D",
-        "L"
       ],
       "zone": null
     },
@@ -325,19 +325,19 @@
       "pos": 17,
       "team": "int",
       "pts": 32,
-      "played": 30,
+      "played": 31,
       "won": 7,
       "drawn": 11,
-      "lost": 12,
+      "lost": 13,
       "gf": 33,
-      "ga": 38,
-      "gd": -5,
+      "ga": 40,
+      "gd": -7,
       "form": [
-        "L",
         "W",
         "L",
         "W",
-        "D"
+        "D",
+        "L"
       ],
       "zone": "rebaixamento"
     },

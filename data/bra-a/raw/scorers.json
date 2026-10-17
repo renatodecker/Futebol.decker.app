@@ -548,6 +548,37 @@
     },
     {
       "player": {
+        "id": 183580,
+        "name": "Carlos Eduardo",
+        "firstName": "",
+        "lastName": "Carlos Eduardo",
+        "dateOfBirth": "1989-10-17",
+        "nationality": "Brazil",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T23:15:44Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 23,
+      "goals": 7,
+      "assists": null,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1723,
         "name": "Arthur Cabral",
         "firstName": "",
@@ -665,40 +696,9 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 7,
       "assists": 4,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 183580,
-        "name": "Carlos Eduardo",
-        "firstName": "",
-        "lastName": "Carlos Eduardo",
-        "dateOfBirth": "1989-10-17",
-        "nationality": "Brazil",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-07-30T23:15:44Z"
-      },
-      "team": {
-        "id": 4364,
-        "name": "Mirassol FC",
-        "shortName": "Mirassol",
-        "tla": "MIR",
-        "crest": "https://crests.football-data.org/4364.png",
-        "address": "null Mirassol, SP null",
-        "website": "http://www.mirassolfc.com.br",
-        "founded": 1925,
-        "clubColors": "Green / Yellow",
-        "venue": "Estádio José Maria de Campos Maia",
-        "lastUpdated": "2023-07-31T08:47:23Z"
-      },
-      "playedMatches": 22,
-      "goals": 6,
-      "assists": null,
       "penalties": null
     },
     {
@@ -1502,7 +1502,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 4,
       "assists": 5,
       "penalties": null
@@ -2122,7 +2122,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -2246,7 +2246,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -2680,7 +2680,7 @@
         "venue": "Estádio José Pinheiro Borba",
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 3,
       "assists": 4,
       "penalties": null
@@ -2714,6 +2714,37 @@
       "playedMatches": 25,
       "goals": 3,
       "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 13116,
+        "name": "André Luis",
+        "firstName": "",
+        "lastName": "André Luis",
+        "dateOfBirth": "1994-03-09",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-07-30T19:37:04Z"
+      },
+      "team": {
+        "id": 4364,
+        "name": "Mirassol FC",
+        "shortName": "Mirassol",
+        "tla": "MIR",
+        "crest": "https://crests.football-data.org/4364.png",
+        "address": "null Mirassol, SP null",
+        "website": "http://www.mirassolfc.com.br",
+        "founded": 1925,
+        "clubColors": "Green / Yellow",
+        "venue": "Estádio José Maria de Campos Maia",
+        "lastUpdated": "2023-07-31T08:47:23Z"
+      },
+      "playedMatches": 26,
+      "goals": 3,
+      "assists": null,
       "penalties": null
     },
     {
@@ -2773,9 +2804,9 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 3,
-      "assists": null,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -2928,7 +2959,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 13,
+      "playedMatches": 14,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -3084,37 +3115,6 @@
         "lastUpdated": "2023-02-18T08:42:52Z"
       },
       "playedMatches": 22,
-      "goals": 3,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 203872,
-        "name": "Erick",
-        "firstName": "",
-        "lastName": "Erick Pulga",
-        "dateOfBirth": "2000-10-02",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-02-20T09:48:47Z"
-      },
-      "team": {
-        "id": 1777,
-        "name": "EC Bahia",
-        "shortName": "Bahia",
-        "tla": "BAH",
-        "crest": "https://crests.football-data.org/1777.png",
-        "address": "Rua Antônio Fernandes S/N, Jardim das Margaridas Salvador, BA 41502-590",
-        "website": "http://www.esporteclubebahia.com.br",
-        "founded": 1931,
-        "clubColors": "Blue / White / Red",
-        "venue": "Estádio Governador Roberto Santos",
-        "lastUpdated": "2024-10-28T10:09:10Z"
-      },
-      "playedMatches": 29,
       "goals": 3,
       "assists": 2,
       "penalties": null
