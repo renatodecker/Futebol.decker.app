@@ -4505,11 +4505,14 @@
       "date": "2026-10-16T23:00:00Z",
       "home": "mir",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841275",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r31-bot-cha",
