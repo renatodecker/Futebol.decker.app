@@ -11254,7 +11254,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-318606": {
     "fullName": "Loide",
