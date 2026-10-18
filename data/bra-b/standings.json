@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T12:45:04.406Z",
+  "updatedAt": "2026-10-18T13:03:40.828Z",
   "table": [
     {
       "pos": 1,
@@ -17,6 +17,20 @@
     },
     {
       "pos": 2,
+      "team": "juv",
+      "pts": 61,
+      "played": 34,
+      "won": 17,
+      "drawn": 10,
+      "lost": 7,
+      "gf": 41,
+      "ga": 23,
+      "gd": 18,
+      "form": [],
+      "zone": "acesso"
+    },
+    {
+      "pos": 3,
       "team": "nov",
       "pts": 60,
       "played": 33,
@@ -26,20 +40,6 @@
       "gf": 59,
       "ga": 28,
       "gd": 31,
-      "form": [],
-      "zone": "acesso"
-    },
-    {
-      "pos": 3,
-      "team": "juv",
-      "pts": 60,
-      "played": 33,
-      "won": 17,
-      "drawn": 9,
-      "lost": 7,
-      "gf": 39,
-      "ga": 21,
-      "gd": 18,
       "form": [],
       "zone": "playoff-acesso"
     },
@@ -131,13 +131,13 @@
       "pos": 10,
       "team": "ope",
       "pts": 48,
-      "played": 33,
+      "played": 34,
       "won": 13,
       "drawn": 9,
-      "lost": 11,
+      "lost": 12,
       "gf": 44,
-      "ga": 45,
-      "gd": -1,
+      "ga": 46,
+      "gd": -2,
       "form": [],
       "zone": null
     },
@@ -171,6 +171,20 @@
     },
     {
       "pos": 13,
+      "team": "cea",
+      "pts": 43,
+      "played": 34,
+      "won": 11,
+      "drawn": 10,
+      "lost": 13,
+      "gf": 37,
+      "ga": 42,
+      "gd": -5,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 14,
       "team": "acm",
       "pts": 43,
       "played": 33,
@@ -184,7 +198,7 @@
       "zone": null
     },
     {
-      "pos": 14,
+      "pos": 15,
       "team": "nau",
       "pts": 42,
       "played": 33,
@@ -194,20 +208,6 @@
       "gf": 39,
       "ga": 42,
       "gd": -3,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 15,
-      "team": "cea",
-      "pts": 42,
-      "played": 33,
-      "won": 11,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 35,
-      "ga": 40,
-      "gd": -5,
       "form": [],
       "zone": null
     },
@@ -256,14 +256,14 @@
     {
       "pos": 19,
       "team": "amg",
-      "pts": 17,
-      "played": 33,
-      "won": 4,
+      "pts": 20,
+      "played": 34,
+      "won": 5,
       "drawn": 5,
       "lost": 24,
-      "gf": 21,
+      "gf": 22,
       "ga": 54,
-      "gd": -33,
+      "gd": -32,
       "form": [],
       "zone": "rebaixamento"
     },
