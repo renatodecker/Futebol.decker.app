@@ -4520,11 +4520,14 @@
       "date": "2026-10-17T21:00:00Z",
       "home": "bot",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841268",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r31-cam-cfc",
@@ -4532,11 +4535,14 @@
       "date": "2026-10-17T21:30:00Z",
       "home": "cam",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841270",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r31-cap-pal",
@@ -4544,11 +4550,14 @@
       "date": "2026-10-17T22:30:00Z",
       "home": "cap",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401841271",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r31-sao-vas",
@@ -4556,11 +4565,14 @@
       "date": "2026-10-18T00:00:00Z",
       "home": "sao",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841273",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r31-flu-san",
