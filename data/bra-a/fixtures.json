@@ -4839,18 +4839,6 @@
       "attendance": null
     },
     {
-      "id": "r33-cfc-vit",
-      "round": 33,
-      "date": "2026-10-29T22:30:00Z",
-      "home": "cfc",
-      "away": "vit",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841294",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r33-vas-fla",
       "round": 33,
       "date": "2026-10-29T23:00:00Z",
@@ -4883,6 +4871,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841295",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r33-cfc-vit",
+      "round": 33,
+      "date": "2026-10-31T19:00:00Z",
+      "home": "cfc",
+      "away": "vit",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841294",
       "venue": null,
       "attendance": null
     },
