@@ -4580,11 +4580,14 @@
       "date": "2026-10-18T19:00:00Z",
       "home": "flu",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841277",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r31-gre-cru",
@@ -4592,11 +4595,14 @@
       "date": "2026-10-18T19:00:00Z",
       "home": "gre",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 4
+      },
       "espnEventId": "401841276",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r31-bah-fla",
@@ -4604,11 +4610,14 @@
       "date": "2026-10-18T21:30:00Z",
       "home": "bah",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
       "espnEventId": "401841269",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r31-rem-bra",
@@ -4616,11 +4625,14 @@
       "date": "2026-10-18T22:30:00Z",
       "home": "rem",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841274",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r31-cor-vit",
