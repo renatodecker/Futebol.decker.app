@@ -4640,11 +4640,14 @@
       "date": "2026-10-19T23:00:00Z",
       "home": "cor",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841272",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r32-cru-rem",
