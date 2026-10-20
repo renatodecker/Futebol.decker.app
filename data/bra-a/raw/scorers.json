@@ -424,6 +424,37 @@
     },
     {
       "player": {
+        "id": 276795,
+        "name": "Carlos Renê",
+        "firstName": "",
+        "lastName": "Carlos Renê",
+        "dateOfBirth": "2003-10-07",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-03-29T09:41:53Z"
+      },
+      "team": {
+        "id": 1782,
+        "name": "EC Vitória",
+        "shortName": "Vitória",
+        "tla": "VIT",
+        "crest": "https://crests.football-data.org/1782.png",
+        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
+        "website": "http://www.ecvitoria.com.br",
+        "founded": 1899,
+        "clubColors": "Red / Black",
+        "venue": "Estádio Manoel Barradas",
+        "lastUpdated": "2023-02-18T08:33:29Z"
+      },
+      "playedMatches": 24,
+      "goals": 9,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 119594,
         "name": "Mauricio",
         "firstName": null,
@@ -545,37 +576,6 @@
       "goals": 8,
       "assists": 3,
       "penalties": 4
-    },
-    {
-      "player": {
-        "id": 276795,
-        "name": "Carlos Renê",
-        "firstName": "",
-        "lastName": "Carlos Renê",
-        "dateOfBirth": "2003-10-07",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-03-29T09:41:53Z"
-      },
-      "team": {
-        "id": 1782,
-        "name": "EC Vitória",
-        "shortName": "Vitória",
-        "tla": "VIT",
-        "crest": "https://crests.football-data.org/1782.png",
-        "address": "Rua Artêmio Castro Valente, Nossa Senhora da Vitória Salvador, BA 41750-240",
-        "website": "http://www.ecvitoria.com.br",
-        "founded": 1899,
-        "clubColors": "Red / Black",
-        "venue": "Estádio Manoel Barradas",
-        "lastUpdated": "2023-02-18T08:33:29Z"
-      },
-      "playedMatches": 23,
-      "goals": 8,
-      "assists": 1,
-      "penalties": null
     },
     {
       "player": {
@@ -820,7 +820,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 6,
       "assists": 4,
       "penalties": 2
@@ -1223,7 +1223,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 5,
       "assists": 6,
       "penalties": 1
@@ -1440,7 +1440,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 25,
+      "playedMatches": 26,
       "goals": 4,
       "assists": 1,
       "penalties": 1
@@ -1974,6 +1974,37 @@
     },
     {
       "player": {
+        "id": 1325,
+        "name": "Yuri Alberto",
+        "firstName": "",
+        "lastName": "Yuri Alberto",
+        "dateOfBirth": "2001-03-18",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-03-10T09:42:27Z"
+      },
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png",
+        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+        "website": "http://www.corinthians.com.br",
+        "founded": 1910,
+        "clubColors": "Black / White",
+        "venue": "Neo Química Arena",
+        "lastUpdated": "2024-07-29T17:24:47Z"
+      },
+      "playedMatches": 20,
+      "goals": 4,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 285271,
         "name": "André Luiz",
         "firstName": "",
@@ -1998,7 +2029,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 20,
+      "playedMatches": 21,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2525,7 +2556,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -2556,7 +2587,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 3,
       "assists": 6,
       "penalties": null
@@ -2652,37 +2683,6 @@
       "playedMatches": 19,
       "goals": 3,
       "assists": 1,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 1325,
-        "name": "Yuri Alberto",
-        "firstName": "",
-        "lastName": "Yuri Alberto",
-        "dateOfBirth": "2001-03-18",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-03-10T09:42:27Z"
-      },
-      "team": {
-        "id": 1779,
-        "name": "SC Corinthians Paulista",
-        "shortName": "Corinthians",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/1779.png",
-        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
-        "website": "http://www.corinthians.com.br",
-        "founded": 1910,
-        "clubColors": "Black / White",
-        "venue": "Neo Química Arena",
-        "lastUpdated": "2024-07-29T17:24:47Z"
-      },
-      "playedMatches": 19,
-      "goals": 3,
-      "assists": 2,
       "penalties": null
     },
     {
@@ -3114,7 +3114,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 3,
       "assists": 1,
       "penalties": null

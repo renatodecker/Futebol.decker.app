@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:16:45.542Z",
+  "updatedAt": "2026-10-20T14:09:49.152Z",
   "table": [
     {
       "pos": 1,
@@ -244,20 +244,20 @@
     {
       "pos": 13,
       "team": "vit",
-      "pts": 36,
-      "played": 30,
+      "pts": 37,
+      "played": 31,
       "won": 10,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 14,
-      "gf": 33,
-      "ga": 44,
+      "gf": 34,
+      "ga": 45,
       "gd": -11,
       "form": [
-        "W",
         "D",
         "L",
         "W",
-        "L"
+        "L",
+        "D"
       ],
       "zone": null
     },
@@ -304,20 +304,20 @@
     {
       "pos": 16,
       "team": "cor",
-      "pts": 32,
-      "played": 30,
+      "pts": 33,
+      "played": 31,
       "won": 8,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 14,
-      "gf": 31,
-      "ga": 38,
+      "gf": 32,
+      "ga": 39,
       "gd": -7,
       "form": [
         "L",
         "L",
         "L",
         "L",
-        "L"
+        "D"
       ],
       "zone": null
     },

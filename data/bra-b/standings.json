@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T16:17:01.999Z",
+  "updatedAt": "2026-10-20T14:10:06.999Z",
   "table": [
     {
       "pos": 1,
@@ -116,10 +116,10 @@
     {
       "pos": 9,
       "team": "goi",
-      "pts": 48,
-      "played": 33,
+      "pts": 49,
+      "played": 34,
       "won": 14,
-      "drawn": 6,
+      "drawn": 7,
       "lost": 13,
       "gf": 34,
       "ga": 40,
@@ -199,6 +199,20 @@
     },
     {
       "pos": 15,
+      "team": "nau",
+      "pts": 43,
+      "played": 34,
+      "won": 11,
+      "drawn": 10,
+      "lost": 13,
+      "gf": 39,
+      "ga": 42,
+      "gd": -3,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 16,
       "team": "cea",
       "pts": 43,
       "played": 34,
@@ -208,20 +222,6 @@
       "gf": 37,
       "ga": 42,
       "gd": -5,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 16,
-      "team": "nau",
-      "pts": 42,
-      "played": 33,
-      "won": 11,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 39,
-      "ga": 42,
-      "gd": -3,
       "form": [],
       "zone": null
     },
