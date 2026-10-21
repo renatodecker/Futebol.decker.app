@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T14:10:06.999Z",
+  "updatedAt": "2026-10-21T14:23:06.644Z",
   "table": [
     {
       "pos": 1,
@@ -145,13 +145,13 @@
       "pos": 11,
       "team": "cui",
       "pts": 47,
-      "played": 33,
+      "played": 34,
       "won": 11,
       "drawn": 14,
-      "lost": 8,
+      "lost": 9,
       "gf": 32,
-      "ga": 26,
-      "gd": 6,
+      "ga": 27,
+      "gd": 5,
       "form": [],
       "zone": null
     },
@@ -242,14 +242,14 @@
     {
       "pos": 18,
       "team": "lon",
-      "pts": 29,
-      "played": 33,
-      "won": 7,
+      "pts": 32,
+      "played": 34,
+      "won": 8,
       "drawn": 8,
       "lost": 18,
-      "gf": 42,
+      "gf": 43,
       "ga": 49,
-      "gd": -7,
+      "gd": -6,
       "form": [],
       "zone": "rebaixamento"
     },
