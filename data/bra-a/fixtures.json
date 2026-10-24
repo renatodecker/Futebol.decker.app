@@ -4655,11 +4655,14 @@
       "date": "2026-10-23T23:00:00Z",
       "home": "cru",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841287",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r32-int-bot",

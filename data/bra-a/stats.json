@@ -794,7 +794,7 @@
     },
     "p-espn-216098": {
       "goals": 9,
-      "assists": 6,
+      "assists": 7,
       "yellow": 13,
       "red": 0
     },
@@ -829,7 +829,7 @@
       "red": 1
     },
     "p-espn-236111": {
-      "goals": 0,
+      "goals": 1,
       "assists": 0,
       "yellow": 8,
       "red": 0
@@ -1767,7 +1767,7 @@
     "p-espn-319270": {
       "goals": 0,
       "assists": 0,
-      "yellow": 5,
+      "yellow": 6,
       "red": 0
     },
     "p-espn-229392": {
@@ -2235,7 +2235,7 @@
     "p-espn-304826": {
       "goals": 2,
       "assists": 1,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-172269": {
@@ -3317,6 +3317,12 @@
       "assists": 0,
       "yellow": 1,
       "red": 0
+    },
+    "p-espn-198362": {
+      "goals": 0,
+      "assists": 0,
+      "yellow": 1,
+      "red": 0
     }
   },
   "teams": {
@@ -3340,8 +3346,8 @@
     },
     "rem": {
       "goals": 34,
-      "conceded": 49,
-      "yellow": 63,
+      "conceded": 50,
+      "yellow": 66,
       "red": 5
     },
     "int": {
@@ -3435,11 +3441,11 @@
       "red": 5
     },
     "cru": {
-      "goals": 50,
+      "goals": 51,
       "conceded": 46,
       "yellow": 77,
       "red": 3
     }
   },
-  "updatedAt": "2026-10-23T09:40:26.822Z"
+  "updatedAt": "2026-10-24T07:00:27.181Z"
 }
