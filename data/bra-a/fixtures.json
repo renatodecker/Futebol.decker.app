@@ -4670,11 +4670,14 @@
       "date": "2026-10-24T19:30:00Z",
       "home": "int",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841285",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 0
     },
     {
       "id": "r32-mir-sao",
@@ -4682,11 +4685,14 @@
       "date": "2026-10-24T19:30:00Z",
       "home": "mir",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841284",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r32-vit-cap",
@@ -4694,11 +4700,14 @@
       "date": "2026-10-24T19:30:00Z",
       "home": "vit",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841280",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r32-pal-bra",
@@ -4706,11 +4715,14 @@
       "date": "2026-10-24T21:30:00Z",
       "home": "pal",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841283",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Barueri",
+      "attendance": 0
     },
     {
       "id": "r32-vas-cor",
@@ -4718,11 +4730,14 @@
       "date": "2026-10-24T21:30:00Z",
       "home": "vas",
       "away": "cor",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841281",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r32-cha-flu",
@@ -4730,11 +4745,14 @@
       "date": "2026-10-24T22:30:00Z",
       "home": "cha",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841278",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r32-san-bah",
@@ -4742,11 +4760,14 @@
       "date": "2026-10-25T01:00:00Z",
       "home": "san",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841282",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r32-cfc-gre",
