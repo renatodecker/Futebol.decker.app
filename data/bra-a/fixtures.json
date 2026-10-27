@@ -4775,11 +4775,14 @@
       "date": "2026-10-26T22:30:00Z",
       "home": "cfc",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841279",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r32-fla-cam",
@@ -4787,11 +4790,14 @@
       "date": "2026-10-26T23:00:00Z",
       "home": "fla",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841286",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r33-bra-cha",
