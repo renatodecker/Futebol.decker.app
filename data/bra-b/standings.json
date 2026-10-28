@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T15:11:31.919Z",
+  "updatedAt": "2026-10-28T15:47:11.765Z",
   "table": [
     {
       "pos": 1,
@@ -115,6 +115,20 @@
     },
     {
       "pos": 9,
+      "team": "goi",
+      "pts": 52,
+      "played": 35,
+      "won": 15,
+      "drawn": 7,
+      "lost": 13,
+      "gf": 36,
+      "ga": 40,
+      "gd": -4,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 10,
       "team": "ope",
       "pts": 51,
       "played": 35,
@@ -124,20 +138,6 @@
       "gf": 45,
       "ga": 46,
       "gd": -1,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 10,
-      "team": "goi",
-      "pts": 49,
-      "played": 34,
-      "won": 14,
-      "drawn": 7,
-      "lost": 13,
-      "gf": 34,
-      "ga": 40,
-      "gd": -6,
       "form": [],
       "zone": null
     },
@@ -199,20 +199,6 @@
     },
     {
       "pos": 15,
-      "team": "cea",
-      "pts": 43,
-      "played": 34,
-      "won": 11,
-      "drawn": 10,
-      "lost": 13,
-      "gf": 37,
-      "ga": 42,
-      "gd": -5,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 16,
       "team": "nau",
       "pts": 43,
       "played": 35,
@@ -221,6 +207,20 @@
       "lost": 14,
       "gf": 39,
       "ga": 46,
+      "gd": -7,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 16,
+      "team": "cea",
+      "pts": 43,
+      "played": 35,
+      "won": 11,
+      "drawn": 10,
+      "lost": 14,
+      "gf": 37,
+      "ga": 44,
       "gd": -7,
       "form": [],
       "zone": null
