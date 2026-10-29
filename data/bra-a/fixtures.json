@@ -4805,11 +4805,14 @@
       "date": "2026-10-28T22:30:00Z",
       "home": "bra",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841291",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r33-flu-int",
@@ -4817,11 +4820,14 @@
       "date": "2026-10-28T22:30:00Z",
       "home": "flu",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841289",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r33-san-pal",
@@ -4829,11 +4835,14 @@
       "date": "2026-10-28T22:30:00Z",
       "home": "san",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841293",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Vila Belmiro (Urbano Caldeira)",
+      "attendance": 0
     },
     {
       "id": "r33-bah-sao",
@@ -4841,11 +4850,14 @@
       "date": "2026-10-29T00:30:00Z",
       "home": "bah",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841296",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r33-rem-bot",
@@ -4853,11 +4865,14 @@
       "date": "2026-10-29T00:30:00Z",
       "home": "rem",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841297",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r33-cam-cru",
