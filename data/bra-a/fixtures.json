@@ -4880,11 +4880,14 @@
       "date": "2026-10-29T22:30:00Z",
       "home": "cam",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841288",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r33-vas-fla",
@@ -4892,11 +4895,14 @@
       "date": "2026-10-29T23:00:00Z",
       "home": "vas",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 4
+      },
       "espnEventId": "401841292",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r33-gre-cap",
@@ -4904,11 +4910,14 @@
       "date": "2026-10-30T00:30:00Z",
       "home": "gre",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841290",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r33-cor-mir",
