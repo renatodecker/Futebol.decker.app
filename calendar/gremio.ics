@@ -351,9 +351,9 @@ LOCATION:Estadio do Maracana (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r35-gre-bah@futebol.decker.app.br
-DTSTAMP:20261118T000000Z
-DTSTART:20261118T000000Z
-DTEND:20261118T020000Z
+DTSTAMP:20261119T003000Z
+DTSTART:20261119T003000Z
+DTEND:20261119T023000Z
 SUMMARY:Grêmio x Bahia
 DESCRIPTION:Rodada 35 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -362,9 +362,9 @@ LOCATION:Arena do Grêmio (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r36-san-gre@futebol.decker.app.br
-DTSTAMP:20261121T000000Z
-DTSTART:20261121T000000Z
-DTEND:20261121T020000Z
+DTSTAMP:20261124T000000Z
+DTSTART:20261124T000000Z
+DTEND:20261124T020000Z
 SUMMARY:Santos x Grêmio
 DESCRIPTION:Rodada 36 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
