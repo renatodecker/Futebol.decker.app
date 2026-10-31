@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T15:40:13.461Z",
+  "updatedAt": "2026-10-31T15:09:46.251Z",
   "table": [
     {
       "pos": 1,
@@ -45,6 +45,20 @@
     },
     {
       "pos": 4,
+      "team": "cri",
+      "pts": 62,
+      "played": 36,
+      "won": 18,
+      "drawn": 8,
+      "lost": 10,
+      "gf": 38,
+      "ga": 30,
+      "gd": 8,
+      "form": [],
+      "zone": "playoff-acesso"
+    },
+    {
+      "pos": 5,
       "team": "for",
       "pts": 61,
       "played": 35,
@@ -54,20 +68,6 @@
       "gf": 43,
       "ga": 31,
       "gd": 12,
-      "form": [],
-      "zone": "playoff-acesso"
-    },
-    {
-      "pos": 5,
-      "team": "cri",
-      "pts": 59,
-      "played": 35,
-      "won": 17,
-      "drawn": 8,
-      "lost": 10,
-      "gf": 36,
-      "ga": 30,
-      "gd": 6,
       "form": [],
       "zone": "playoff-acesso"
     },
@@ -271,13 +271,13 @@
       "pos": 20,
       "team": "pon",
       "pts": 15,
-      "played": 35,
+      "played": 36,
       "won": 3,
       "drawn": 6,
-      "lost": 26,
+      "lost": 27,
       "gf": 21,
-      "ga": 76,
-      "gd": -55,
+      "ga": 78,
+      "gd": -57,
       "form": [],
       "zone": "rebaixamento"
     }

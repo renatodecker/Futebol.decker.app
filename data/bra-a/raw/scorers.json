@@ -603,7 +603,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 7,
       "assists": null,
       "penalties": null
@@ -1199,6 +1199,37 @@
     },
     {
       "player": {
+        "id": 169688,
+        "name": "Bidu",
+        "firstName": "",
+        "lastName": "Matheus Bidu",
+        "dateOfBirth": "1999-05-04",
+        "nationality": "Brazil",
+        "section": "Defence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2025-03-10T09:42:27Z"
+      },
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png",
+        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+        "website": "http://www.corinthians.com.br",
+        "founded": 1910,
+        "clubColors": "Black / White",
+        "venue": "Neo Química Arena",
+        "lastUpdated": "2024-07-29T17:24:47Z"
+      },
+      "playedMatches": 29,
+      "goals": 5,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 46266,
         "name": "Tomás Cuello",
         "firstName": "Tomás",
@@ -1719,7 +1750,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 4,
       "assists": 5,
       "penalties": null
@@ -1847,37 +1878,6 @@
       "goals": 4,
       "assists": 3,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 169688,
-        "name": "Bidu",
-        "firstName": "",
-        "lastName": "Matheus Bidu",
-        "dateOfBirth": "1999-05-04",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2025-03-10T09:42:27Z"
-      },
-      "team": {
-        "id": 1779,
-        "name": "SC Corinthians Paulista",
-        "shortName": "Corinthians",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/1779.png",
-        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
-        "website": "http://www.corinthians.com.br",
-        "founded": 1910,
-        "clubColors": "Black / White",
-        "venue": "Neo Química Arena",
-        "lastUpdated": "2024-07-29T17:24:47Z"
-      },
-      "playedMatches": 28,
-      "goals": 4,
-      "assists": 2,
-      "penalties": null
     },
     {
       "player": {
@@ -2184,7 +2184,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 2,
       "penalties": 1
@@ -2215,7 +2215,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 22,
+      "playedMatches": 23,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2463,7 +2463,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 30,
+      "playedMatches": 31,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -2711,9 +2711,9 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 3,
-      "assists": 6,
+      "assists": 7,
       "penalties": null
     },
     {
@@ -2928,7 +2928,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 3,
       "assists": null,
       "penalties": null
@@ -2990,7 +2990,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 23,
+      "playedMatches": 24,
       "goals": 3,
       "assists": 1,
       "penalties": null
@@ -3059,6 +3059,37 @@
     },
     {
       "player": {
+        "id": 192626,
+        "name": "Kaio César",
+        "firstName": "",
+        "lastName": "Kaio Andrade",
+        "dateOfBirth": "2004-02-15",
+        "nationality": "Brazil",
+        "section": "Right Winger",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-11-01T22:50:30Z"
+      },
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png",
+        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+        "website": "http://www.corinthians.com.br",
+        "founded": 1910,
+        "clubColors": "Black / White",
+        "venue": "Neo Química Arena",
+        "lastUpdated": "2024-07-29T17:24:47Z"
+      },
+      "playedMatches": 22,
+      "goals": 3,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 1773,
         "name": "Vitor Hugo",
         "firstName": "",
@@ -3086,37 +3117,6 @@
       "playedMatches": 28,
       "goals": 3,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 97470,
-        "name": "Ignácio",
-        "firstName": "",
-        "lastName": "Ignácio",
-        "dateOfBirth": "1996-12-01",
-        "nationality": "Brazil",
-        "section": "Defence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-05-01T20:40:05Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 28,
-      "goals": 3,
-      "assists": 1,
       "penalties": null
     }
   ]
