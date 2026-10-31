@@ -4925,11 +4925,14 @@
       "date": "2026-10-30T23:00:00Z",
       "home": "cor",
       "away": "mir",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841295",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r33-cfc-vit",
