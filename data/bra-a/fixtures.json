@@ -2988,18 +2988,6 @@
       "attendance": 0
     },
     {
-      "id": "r21-cha-vas",
-      "round": 21,
-      "date": "2026-07-29T00:00:00Z",
-      "home": "cha",
-      "away": "vas",
-      "status": "postponed",
-      "score": null,
-      "espnEventId": "401841175",
-      "venue": null,
-      "attendance": null
-    },
-    {
       "id": "r21-int-fla",
       "round": 21,
       "date": "2026-07-29T22:30:00Z",
@@ -5078,6 +5066,18 @@
       "status": "scheduled",
       "score": null,
       "espnEventId": "401841311",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r21-cha-vas",
+      "round": 21,
+      "date": "2026-11-14T23:30:00Z",
+      "home": "cha",
+      "away": "vas",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841175",
       "venue": null,
       "attendance": null
     },

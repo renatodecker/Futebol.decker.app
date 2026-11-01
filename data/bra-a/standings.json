@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:09:33.383Z",
+  "updatedAt": "2026-11-01T15:52:11.882Z",
   "table": [
     {
       "pos": 1,
@@ -203,6 +203,26 @@
     },
     {
       "pos": 11,
+      "team": "cfc",
+      "pts": 42,
+      "played": 33,
+      "won": 11,
+      "drawn": 9,
+      "lost": 13,
+      "gf": 40,
+      "ga": 50,
+      "gd": -10,
+      "form": [
+        "L",
+        "D",
+        "L",
+        "L",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 12,
       "team": "bot",
       "pts": 39,
       "played": 33,
@@ -216,26 +236,6 @@
         "L",
         "D",
         "W",
-        "L",
-        "L"
-      ],
-      "zone": "sulamericana"
-    },
-    {
-      "pos": 12,
-      "team": "cfc",
-      "pts": 39,
-      "played": 32,
-      "won": 10,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 38,
-      "ga": 50,
-      "gd": -12,
-      "form": [
-        "L",
-        "L",
-        "D",
         "L",
         "L"
       ],
@@ -265,19 +265,19 @@
       "pos": 14,
       "team": "vit",
       "pts": 38,
-      "played": 32,
+      "played": 33,
       "won": 10,
       "drawn": 8,
-      "lost": 14,
+      "lost": 15,
       "gf": 35,
-      "ga": 46,
-      "gd": -11,
+      "ga": 48,
+      "gd": -13,
       "form": [
-        "L",
         "W",
         "L",
         "D",
-        "D"
+        "D",
+        "L"
       ],
       "zone": null
     },
