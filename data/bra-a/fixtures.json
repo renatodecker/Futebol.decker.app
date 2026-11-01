@@ -4940,11 +4940,14 @@
       "date": "2026-10-31T19:00:00Z",
       "home": "cfc",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841294",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r34-bra-san",
