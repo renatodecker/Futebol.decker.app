@@ -4943,11 +4943,14 @@
       "date": "2026-11-02T23:00:00Z",
       "home": "bra",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841299",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r34-cha-mir",
