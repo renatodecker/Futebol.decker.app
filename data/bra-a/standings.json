@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:15:52.344Z",
+  "updatedAt": "2026-11-03T16:52:28.625Z",
   "table": [
     {
       "pos": 1,
@@ -143,41 +143,41 @@
     },
     {
       "pos": 8,
-      "team": "san",
+      "team": "bra",
       "pts": 47,
-      "played": 33,
-      "won": 12,
-      "drawn": 11,
-      "lost": 10,
-      "gf": 49,
-      "ga": 47,
-      "gd": 2,
+      "played": 34,
+      "won": 13,
+      "drawn": 8,
+      "lost": 13,
+      "gf": 44,
+      "ga": 39,
+      "gd": 5,
       "form": [
+        "W",
         "D",
         "L",
         "W",
-        "D",
-        "D"
+        "W"
       ],
       "zone": "sulamericana"
     },
     {
       "pos": 9,
-      "team": "bra",
-      "pts": 44,
-      "played": 33,
+      "team": "san",
+      "pts": 47,
+      "played": 34,
       "won": 12,
-      "drawn": 8,
-      "lost": 13,
-      "gf": 42,
-      "ga": 38,
-      "gd": 4,
+      "drawn": 11,
+      "lost": 11,
+      "gf": 50,
+      "ga": 49,
+      "gd": 1,
       "form": [
-        "D",
+        "L",
         "W",
         "D",
-        "L",
-        "W"
+        "D",
+        "L"
       ],
       "zone": "sulamericana"
     },
