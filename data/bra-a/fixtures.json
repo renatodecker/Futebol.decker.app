@@ -4958,11 +4958,14 @@
       "date": "2026-11-03T22:30:00Z",
       "home": "cha",
       "away": "mir",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841304",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 5706
     },
     {
       "id": "r34-int-cfc",
@@ -4970,11 +4973,14 @@
       "date": "2026-11-04T00:30:00Z",
       "home": "int",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841301",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 0
     },
     {
       "id": "r34-cap-vas",
