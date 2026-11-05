@@ -343,11 +343,10 @@ UID:bra-a-r34-fla-gre@futebol.decker.app.br
 DTSTAMP:20261104T223000Z
 DTSTART:20261104T223000Z
 DTEND:20261105T003000Z
-SUMMARY:Flamengo x Grêmio
-DESCRIPTION:Rodada 34 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Flamengo 3x1 Grêmio
+DESCRIPTION:Rodada 34 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estadio do Maracana (provável)
+LOCATION:Estadio do Maracana
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r35-gre-bah@futebol.decker.app.br
