@@ -5048,11 +5048,14 @@
       "date": "2026-11-05T22:30:00Z",
       "home": "pal",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 6,
+        "away": 1
+      },
       "espnEventId": "401841300",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r34-cru-bah",
@@ -5060,11 +5063,14 @@
       "date": "2026-11-06T00:30:00Z",
       "home": "cru",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 2
+      },
       "espnEventId": "401841303",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r34-vit-flu",
