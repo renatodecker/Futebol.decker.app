@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:11:07.997Z",
+  "updatedAt": "2026-11-06T16:38:21.038Z",
   "table": [
     {
       "pos": 1,
@@ -143,6 +143,20 @@
     },
     {
       "pos": 11,
+      "team": "bfc",
+      "pts": 51,
+      "played": 37,
+      "won": 14,
+      "drawn": 9,
+      "lost": 14,
+      "gf": 45,
+      "ga": 39,
+      "gd": 6,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 12,
       "team": "ope",
       "pts": 51,
       "played": 36,
@@ -152,20 +166,6 @@
       "gf": 46,
       "ga": 48,
       "gd": -2,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 12,
-      "team": "bfc",
-      "pts": 48,
-      "played": 36,
-      "won": 13,
-      "drawn": 9,
-      "lost": 14,
-      "gf": 41,
-      "ga": 39,
-      "gd": 2,
       "form": [],
       "zone": null
     },
@@ -243,13 +243,13 @@
       "pos": 18,
       "team": "lon",
       "pts": 32,
-      "played": 36,
+      "played": 37,
       "won": 8,
       "drawn": 8,
-      "lost": 20,
+      "lost": 21,
       "gf": 45,
-      "ga": 54,
-      "gd": -9,
+      "ga": 58,
+      "gd": -13,
       "form": [],
       "zone": "rebaixamento"
     },
