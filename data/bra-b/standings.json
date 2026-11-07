@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:38:21.038Z",
+  "updatedAt": "2026-11-07T15:30:44.281Z",
   "table": [
     {
       "pos": 1,
@@ -101,20 +101,6 @@
     },
     {
       "pos": 8,
-      "team": "spo",
-      "pts": 55,
-      "played": 36,
-      "won": 14,
-      "drawn": 13,
-      "lost": 9,
-      "gf": 48,
-      "ga": 39,
-      "gd": 9,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 9,
       "team": "ago",
       "pts": 55,
       "played": 36,
@@ -128,7 +114,35 @@
       "zone": null
     },
     {
+      "pos": 9,
+      "team": "spo",
+      "pts": 55,
+      "played": 37,
+      "won": 14,
+      "drawn": 13,
+      "lost": 10,
+      "gf": 50,
+      "ga": 42,
+      "gd": 8,
+      "form": [],
+      "zone": null
+    },
+    {
       "pos": 10,
+      "team": "ope",
+      "pts": 54,
+      "played": 37,
+      "won": 15,
+      "drawn": 9,
+      "lost": 13,
+      "gf": 49,
+      "ga": 50,
+      "gd": -1,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 11,
       "team": "ber",
       "pts": 52,
       "played": 36,
@@ -142,7 +156,7 @@
       "zone": null
     },
     {
-      "pos": 11,
+      "pos": 12,
       "team": "bfc",
       "pts": 51,
       "played": 37,
@@ -152,20 +166,6 @@
       "gf": 45,
       "ga": 39,
       "gd": 6,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 12,
-      "team": "ope",
-      "pts": 51,
-      "played": 36,
-      "won": 14,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 46,
-      "ga": 48,
-      "gd": -2,
       "form": [],
       "zone": null
     },

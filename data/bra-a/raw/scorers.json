@@ -510,7 +510,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 9,
       "assists": 1,
       "penalties": null
@@ -665,7 +665,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 7,
       "assists": 6,
       "penalties": 1
@@ -827,6 +827,37 @@
     },
     {
       "player": {
+        "id": 77159,
+        "name": "Jefferson Savarino",
+        "firstName": "Jefferson",
+        "lastName": "Savarino",
+        "dateOfBirth": "1996-11-11",
+        "nationality": "Venezuela",
+        "section": "Midfield",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-06-06T15:58:18Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 30,
+      "goals": 7,
+      "assists": 2,
+      "penalties": 1
+    },
+    {
+      "player": {
         "id": 8606,
         "name": "Stiven Mendoza",
         "firstName": "John",
@@ -882,7 +913,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 6,
       "assists": 5,
       "penalties": null
@@ -944,7 +975,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 6,
       "assists": 4,
       "penalties": 2
@@ -982,6 +1013,37 @@
     },
     {
       "player": {
+        "id": 28614,
+        "name": "Agustín Canobbio",
+        "firstName": "Agustín",
+        "lastName": "Canobbio",
+        "dateOfBirth": "1998-10-01",
+        "nationality": "Uruguay",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": 19,
+        "lastUpdated": "2026-06-01T11:07:17Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 27,
+      "goals": 6,
+      "assists": 4,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 22306,
         "name": "Jhon Arias",
         "firstName": "Jhon",
@@ -1009,6 +1071,37 @@
       "playedMatches": 28,
       "goals": 6,
       "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 191363,
+        "name": "Rodrigo Castillo",
+        "firstName": "Rodrigo",
+        "lastName": "Castillo",
+        "dateOfBirth": "1999-02-26",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-04-22T09:44:01Z"
+      },
+      "team": {
+        "id": 1765,
+        "name": "Fluminense FC",
+        "shortName": "Fluminense",
+        "tla": "FLU",
+        "crest": "https://crests.football-data.org/1765.png",
+        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
+        "website": "http://www.fluminense.com.br",
+        "founded": 1902,
+        "clubColors": "Maroon / Green / White",
+        "venue": "Estadio Jornalista Mário Filho",
+        "lastUpdated": "2024-07-29T17:24:37Z"
+      },
+      "playedMatches": 27,
+      "goals": 6,
+      "assists": 1,
       "penalties": null
     },
     {
@@ -1041,37 +1134,6 @@
       "goals": 6,
       "assists": 2,
       "penalties": null
-    },
-    {
-      "player": {
-        "id": 77159,
-        "name": "Jefferson Savarino",
-        "firstName": "Jefferson",
-        "lastName": "Savarino",
-        "dateOfBirth": "1996-11-11",
-        "nationality": "Venezuela",
-        "section": "Midfield",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-06-06T15:58:18Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 29,
-      "goals": 6,
-      "assists": 2,
-      "penalties": 1
     },
     {
       "player": {
@@ -1130,7 +1192,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 5,
       "assists": 1,
       "penalties": 1
@@ -1292,37 +1354,6 @@
     },
     {
       "player": {
-        "id": 28614,
-        "name": "Agustín Canobbio",
-        "firstName": "Agustín",
-        "lastName": "Canobbio",
-        "dateOfBirth": "1998-10-01",
-        "nationality": "Uruguay",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": 19,
-        "lastUpdated": "2026-06-01T11:07:17Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 26,
-      "goals": 5,
-      "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
         "id": 40441,
         "name": "Erick",
         "firstName": "",
@@ -1347,7 +1378,7 @@
         "venue": "Estádio Manoel Barradas",
         "lastUpdated": "2023-02-18T08:33:29Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 5,
       "assists": 6,
       "penalties": 1
@@ -1381,37 +1412,6 @@
       "playedMatches": 18,
       "goals": 5,
       "assists": 3,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 191363,
-        "name": "Rodrigo Castillo",
-        "firstName": "Rodrigo",
-        "lastName": "Castillo",
-        "dateOfBirth": "1999-02-26",
-        "nationality": "Argentina",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-04-22T09:44:01Z"
-      },
-      "team": {
-        "id": 1765,
-        "name": "Fluminense FC",
-        "shortName": "Fluminense",
-        "tla": "FLU",
-        "crest": "https://crests.football-data.org/1765.png",
-        "address": "Rua Álvaro Chaves 41, Bairro Laranjeiras Rio de Janeiro, RJ 22231-220",
-        "website": "http://www.fluminense.com.br",
-        "founded": 1902,
-        "clubColors": "Maroon / Green / White",
-        "venue": "Estadio Jornalista Mário Filho",
-        "lastUpdated": "2024-07-29T17:24:37Z"
-      },
-      "playedMatches": 26,
-      "goals": 5,
-      "assists": 1,
       "penalties": null
     },
     {
@@ -1967,7 +1967,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 29,
+      "playedMatches": 30,
       "goals": 4,
       "assists": null,
       "penalties": null
@@ -2432,7 +2432,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 33,
+      "playedMatches": 34,
       "goals": 4,
       "assists": 4,
       "penalties": null

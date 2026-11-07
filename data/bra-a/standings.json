@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:38:06.870Z",
+  "updatedAt": "2026-11-07T15:30:28.654Z",
   "table": [
     {
       "pos": 1,
@@ -64,19 +64,19 @@
     {
       "pos": 4,
       "team": "flu",
-      "pts": 54,
-      "played": 33,
-      "won": 15,
+      "pts": 57,
+      "played": 34,
+      "won": 16,
       "drawn": 9,
       "lost": 9,
-      "gf": 52,
+      "gf": 55,
       "ga": 42,
-      "gd": 10,
+      "gd": 13,
       "form": [
+        "L",
+        "L",
+        "L",
         "W",
-        "L",
-        "L",
-        "L",
         "W"
       ],
       "zone": "libertadores"
@@ -285,18 +285,18 @@
       "pos": 15,
       "team": "vit",
       "pts": 38,
-      "played": 33,
+      "played": 34,
       "won": 10,
       "drawn": 8,
-      "lost": 15,
+      "lost": 16,
       "gf": 35,
-      "ga": 48,
-      "gd": -13,
+      "ga": 51,
+      "gd": -16,
       "form": [
-        "W",
         "L",
         "D",
         "D",
+        "L",
         "L"
       ],
       "zone": null
