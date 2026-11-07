@@ -194,7 +194,7 @@
     },
     "p-espn-238342": {
       "goals": 1,
-      "assists": 1,
+      "assists": 3,
       "yellow": 6,
       "red": 0
     },
@@ -1105,8 +1105,8 @@
       "red": 0
     },
     "p-espn-241466": {
-      "goals": 5,
-      "assists": 3,
+      "goals": 6,
+      "assists": 4,
       "yellow": 8,
       "red": 1
     },
@@ -1561,7 +1561,7 @@
       "red": 0
     },
     "p-espn-177219": {
-      "goals": 6,
+      "goals": 7,
       "assists": 2,
       "yellow": 3,
       "red": 0
@@ -1801,7 +1801,7 @@
       "red": 0
     },
     "p-espn-116395": {
-      "goals": 5,
+      "goals": 6,
       "assists": 1,
       "yellow": 2,
       "red": 0
@@ -2295,7 +2295,7 @@
     "p-espn-253009": {
       "goals": 0,
       "assists": 0,
-      "yellow": 1,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-322655": {
@@ -3123,7 +3123,7 @@
     "p-espn-315766": {
       "goals": 0,
       "assists": 2,
-      "yellow": 1,
+      "yellow": 2,
       "red": 0
     },
     "p-espn-398934": {
@@ -3406,8 +3406,8 @@
     },
     "vit": {
       "goals": 35,
-      "conceded": 48,
-      "yellow": 72,
+      "conceded": 51,
+      "yellow": 74,
       "red": 4
     },
     "rem": {
@@ -3441,7 +3441,7 @@
       "red": 5
     },
     "flu": {
-      "goals": 52,
+      "goals": 55,
       "conceded": 42,
       "yellow": 80,
       "red": 2
@@ -3513,5 +3513,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-11-06T12:35:40.888Z"
+  "updatedAt": "2026-11-07T08:30:36.590Z"
 }

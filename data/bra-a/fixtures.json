@@ -5078,11 +5078,14 @@
       "date": "2026-11-06T23:00:00Z",
       "home": "vit",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 3
+      },
       "espnEventId": "401841302",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r35-mir-cam",
