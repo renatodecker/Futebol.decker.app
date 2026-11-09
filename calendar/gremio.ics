@@ -372,9 +372,9 @@ LOCATION:Estádio Vila Belmiro (Urbano Caldeira) (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r37-cor-gre@futebol.decker.app.br
-DTSTAMP:20261128T000000Z
-DTSTART:20261128T000000Z
-DTEND:20261128T020000Z
+DTSTAMP:20261129T213000Z
+DTSTART:20261129T213000Z
+DTEND:20261129T233000Z
 SUMMARY:Corinthians x Grêmio
 DESCRIPTION:Rodada 37 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
@@ -383,9 +383,9 @@ LOCATION:Neo Química Arena (provável)
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r38-gre-mir@futebol.decker.app.br
-DTSTAMP:20261202T000000Z
-DTSTART:20261202T000000Z
-DTEND:20261202T020000Z
+DTSTAMP:20261203T003000Z
+DTSTART:20261203T003000Z
+DTEND:20261203T023000Z
 SUMMARY:Grêmio x Mirassol
 DESCRIPTION:Rodada 38 · Brasileirão Série A · Agendado · Local prováv
  el (mandante ainda não confirmou)
