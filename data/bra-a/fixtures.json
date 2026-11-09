@@ -5328,6 +5328,18 @@
       "attendance": null
     },
     {
+      "id": "r37-cha-pal",
+      "round": 37,
+      "date": "2026-11-24T21:00:00Z",
+      "home": "cha",
+      "away": "pal",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841335",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r36-cam-cor",
       "round": 36,
       "date": "2026-11-25T23:00:00Z",
@@ -5340,69 +5352,21 @@
       "attendance": null
     },
     {
-      "id": "r37-cam-vas",
+      "id": "r37-sao-rem",
       "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "cam",
-      "away": "vas",
+      "date": "2026-11-26T23:00:00Z",
+      "home": "sao",
+      "away": "rem",
       "status": "scheduled",
       "score": null,
-      "espnEventId": "401841328",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r37-bot-bah",
-      "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "bot",
-      "away": "bah",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841336",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r37-cha-pal",
-      "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "cha",
-      "away": "pal",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841335",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r37-cor-gre",
-      "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "cor",
-      "away": "gre",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841334",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r37-cfc-fla",
-      "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "cfc",
-      "away": "fla",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841333",
+      "espnEventId": "401841329",
       "venue": null,
       "attendance": null
     },
     {
       "id": "r37-flu-cru",
       "round": 37,
-      "date": "2026-11-28T00:00:00Z",
+      "date": "2026-11-27T23:00:00Z",
       "home": "flu",
       "away": "cru",
       "status": "scheduled",
@@ -5412,9 +5376,57 @@
       "attendance": null
     },
     {
+      "id": "r37-bot-bah",
+      "round": 37,
+      "date": "2026-11-29T00:00:00Z",
+      "home": "bot",
+      "away": "bah",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841336",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-cfc-fla",
+      "round": 37,
+      "date": "2026-11-29T19:00:00Z",
+      "home": "cfc",
+      "away": "fla",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841333",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-vit-san",
+      "round": 37,
+      "date": "2026-11-29T19:00:00Z",
+      "home": "vit",
+      "away": "san",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841332",
+      "venue": null,
+      "attendance": null
+    },
+    {
+      "id": "r37-cor-gre",
+      "round": 37,
+      "date": "2026-11-29T21:30:00Z",
+      "home": "cor",
+      "away": "gre",
+      "status": "scheduled",
+      "score": null,
+      "espnEventId": "401841334",
+      "venue": null,
+      "attendance": null
+    },
+    {
       "id": "r37-int-bra",
       "round": 37,
-      "date": "2026-11-28T00:00:00Z",
+      "date": "2026-11-29T21:30:00Z",
       "home": "int",
       "away": "bra",
       "status": "scheduled",
@@ -5426,7 +5438,7 @@
     {
       "id": "r37-mir-cap",
       "round": 37,
-      "date": "2026-11-28T00:00:00Z",
+      "date": "2026-11-29T21:30:00Z",
       "home": "mir",
       "away": "cap",
       "status": "scheduled",
@@ -5436,33 +5448,21 @@
       "attendance": null
     },
     {
-      "id": "r37-sao-rem",
+      "id": "r37-cam-vas",
       "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "sao",
-      "away": "rem",
+      "date": "2026-11-29T22:30:00Z",
+      "home": "cam",
+      "away": "vas",
       "status": "scheduled",
       "score": null,
-      "espnEventId": "401841329",
-      "venue": null,
-      "attendance": null
-    },
-    {
-      "id": "r37-vit-san",
-      "round": 37,
-      "date": "2026-11-28T00:00:00Z",
-      "home": "vit",
-      "away": "san",
-      "status": "scheduled",
-      "score": null,
-      "espnEventId": "401841332",
+      "espnEventId": "401841328",
       "venue": null,
       "attendance": null
     },
     {
       "id": "r38-cap-sao",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "cap",
       "away": "sao",
       "status": "scheduled",
@@ -5474,7 +5474,7 @@
     {
       "id": "r38-bah-cam",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "bah",
       "away": "cam",
       "status": "scheduled",
@@ -5486,7 +5486,7 @@
     {
       "id": "r38-bra-flu",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "bra",
       "away": "flu",
       "status": "scheduled",
@@ -5498,7 +5498,7 @@
     {
       "id": "r38-cru-int",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "cru",
       "away": "int",
       "status": "scheduled",
@@ -5510,7 +5510,7 @@
     {
       "id": "r38-fla-cha",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "fla",
       "away": "cha",
       "status": "scheduled",
@@ -5522,7 +5522,7 @@
     {
       "id": "r38-gre-mir",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "gre",
       "away": "mir",
       "status": "scheduled",
@@ -5534,7 +5534,7 @@
     {
       "id": "r38-pal-cfc",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "pal",
       "away": "cfc",
       "status": "scheduled",
@@ -5546,7 +5546,7 @@
     {
       "id": "r38-rem-cor",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "rem",
       "away": "cor",
       "status": "scheduled",
@@ -5558,7 +5558,7 @@
     {
       "id": "r38-san-bot",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "san",
       "away": "bot",
       "status": "scheduled",
@@ -5570,7 +5570,7 @@
     {
       "id": "r38-vas-vit",
       "round": 38,
-      "date": "2026-12-02T00:00:00Z",
+      "date": "2026-12-03T00:30:00Z",
       "home": "vas",
       "away": "vit",
       "status": "scheduled",
