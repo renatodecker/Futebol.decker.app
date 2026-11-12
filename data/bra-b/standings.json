@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:57:21.283Z",
+  "updatedAt": "2026-11-12T17:25:36.151Z",
   "table": [
     {
       "pos": 1,
@@ -201,13 +201,13 @@
       "pos": 15,
       "team": "nau",
       "pts": 46,
-      "played": 37,
+      "played": 38,
       "won": 12,
       "drawn": 10,
-      "lost": 15,
-      "gf": 40,
-      "ga": 49,
-      "gd": -9,
+      "lost": 16,
+      "gf": 41,
+      "ga": 51,
+      "gd": -10,
       "form": [],
       "zone": null
     },
@@ -242,14 +242,14 @@
     {
       "pos": 18,
       "team": "lon",
-      "pts": 32,
-      "played": 37,
-      "won": 8,
+      "pts": 35,
+      "played": 38,
+      "won": 9,
       "drawn": 8,
       "lost": 21,
-      "gf": 45,
-      "ga": 58,
-      "gd": -13,
+      "gf": 47,
+      "ga": 59,
+      "gd": -12,
       "form": [],
       "zone": "rebaixamento"
     },
