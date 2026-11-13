@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:25:36.151Z",
+  "updatedAt": "2026-11-13T17:00:04.282Z",
   "table": [
     {
       "pos": 1,
@@ -115,6 +115,20 @@
     },
     {
       "pos": 9,
+      "team": "ope",
+      "pts": 57,
+      "played": 38,
+      "won": 16,
+      "drawn": 9,
+      "lost": 13,
+      "gf": 51,
+      "ga": 50,
+      "gd": 1,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 10,
       "team": "spo",
       "pts": 55,
       "played": 37,
@@ -128,29 +142,15 @@
       "zone": null
     },
     {
-      "pos": 10,
-      "team": "ope",
-      "pts": 54,
-      "played": 37,
-      "won": 15,
-      "drawn": 9,
-      "lost": 13,
-      "gf": 49,
-      "ga": 50,
-      "gd": -1,
-      "form": [],
-      "zone": null
-    },
-    {
       "pos": 11,
       "team": "ber",
-      "pts": 52,
-      "played": 37,
+      "pts": 53,
+      "played": 38,
       "won": 14,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 13,
-      "gf": 52,
-      "ga": 42,
+      "gf": 54,
+      "ga": 44,
       "gd": 10,
       "form": [],
       "zone": null
@@ -171,6 +171,20 @@
     },
     {
       "pos": 13,
+      "team": "acm",
+      "pts": 48,
+      "played": 38,
+      "won": 11,
+      "drawn": 15,
+      "lost": 12,
+      "gf": 46,
+      "ga": 46,
+      "gd": 0,
+      "form": [],
+      "zone": null
+    },
+    {
+      "pos": 14,
       "team": "cui",
       "pts": 47,
       "played": 37,
@@ -180,20 +194,6 @@
       "gf": 34,
       "ga": 32,
       "gd": 2,
-      "form": [],
-      "zone": null
-    },
-    {
-      "pos": 14,
-      "team": "acm",
-      "pts": 47,
-      "played": 37,
-      "won": 11,
-      "drawn": 14,
-      "lost": 12,
-      "gf": 44,
-      "ga": 44,
-      "gd": 0,
       "form": [],
       "zone": null
     },
@@ -271,13 +271,13 @@
       "pos": 20,
       "team": "pon",
       "pts": 15,
-      "played": 37,
+      "played": 38,
       "won": 3,
       "drawn": 6,
-      "lost": 28,
+      "lost": 29,
       "gf": 21,
-      "ga": 79,
-      "gd": -58,
+      "ga": 81,
+      "gd": -60,
       "form": [],
       "zone": "rebaixamento"
     }
