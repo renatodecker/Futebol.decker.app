@@ -5093,11 +5093,14 @@
       "date": "2026-11-14T21:30:00Z",
       "home": "mir",
       "away": "cam",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841311",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Municipal José Maria de Campos Maia",
+      "attendance": 0
     },
     {
       "id": "r21-cha-vas",
@@ -5105,11 +5108,14 @@
       "date": "2026-11-14T23:30:00Z",
       "home": "cha",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401841175",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r35-cfc-san",
