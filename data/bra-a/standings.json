@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T15:38:21.065Z",
+  "updatedAt": "2026-11-15T16:07:50.101Z",
   "table": [
     {
       "pos": 1,
@@ -124,20 +124,20 @@
     {
       "pos": 7,
       "team": "cam",
-      "pts": 50,
-      "played": 34,
+      "pts": 51,
+      "played": 35,
       "won": 14,
-      "drawn": 8,
+      "drawn": 9,
       "lost": 12,
       "gf": 44,
       "ga": 40,
       "gd": 4,
       "form": [
         "W",
-        "W",
         "L",
         "L",
-        "L"
+        "L",
+        "D"
       ],
       "zone": "sulamericana"
     },
@@ -203,6 +203,26 @@
     },
     {
       "pos": 11,
+      "team": "vas",
+      "pts": 44,
+      "played": 34,
+      "won": 12,
+      "drawn": 8,
+      "lost": 14,
+      "gf": 45,
+      "ga": 50,
+      "gd": -5,
+      "form": [
+        "L",
+        "W",
+        "L",
+        "W",
+        "W"
+      ],
+      "zone": "sulamericana"
+    },
+    {
+      "pos": 12,
       "team": "bot",
       "pts": 42,
       "played": 34,
@@ -219,10 +239,10 @@
         "L",
         "W"
       ],
-      "zone": "sulamericana"
+      "zone": null
     },
     {
-      "pos": 12,
+      "pos": 13,
       "team": "cfc",
       "pts": 42,
       "played": 34,
@@ -242,42 +262,22 @@
       "zone": null
     },
     {
-      "pos": 13,
-      "team": "vas",
-      "pts": 41,
-      "played": 33,
-      "won": 11,
-      "drawn": 8,
-      "lost": 14,
-      "gf": 43,
-      "ga": 50,
-      "gd": -7,
-      "form": [
-        "D",
-        "L",
-        "W",
-        "L",
-        "W"
-      ],
-      "zone": null
-    },
-    {
       "pos": 14,
       "team": "mir",
-      "pts": 40,
-      "played": 34,
+      "pts": 41,
+      "played": 35,
       "won": 10,
-      "drawn": 10,
+      "drawn": 11,
       "lost": 14,
       "gf": 39,
       "ga": 48,
       "gd": -9,
       "form": [
-        "L",
         "W",
         "D",
         "L",
-        "W"
+        "W",
+        "D"
       ],
       "zone": null
     },
@@ -385,17 +385,17 @@
       "pos": 20,
       "team": "cha",
       "pts": 21,
-      "played": 33,
+      "played": 34,
       "won": 4,
       "drawn": 9,
-      "lost": 20,
+      "lost": 21,
       "gf": 33,
-      "ga": 68,
-      "gd": -35,
+      "ga": 70,
+      "gd": -37,
       "form": [
         "L",
-        "L",
         "W",
+        "L",
         "L",
         "L"
       ],
