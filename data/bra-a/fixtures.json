@@ -5123,11 +5123,14 @@
       "date": "2026-11-18T22:30:00Z",
       "home": "cfc",
       "away": "san",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841315",
-      "venue": null,
-      "attendance": null
+      "venue": "Couto Pereira",
+      "attendance": 0
     },
     {
       "id": "r35-rem-cha",
@@ -5135,11 +5138,14 @@
       "date": "2026-11-18T23:00:00Z",
       "home": "rem",
       "away": "cha",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 0
+      },
       "espnEventId": "401841310",
-      "venue": null,
-      "attendance": null
+      "venue": "Mangueirão",
+      "attendance": 0
     },
     {
       "id": "r35-cru-pal",
@@ -5147,11 +5153,14 @@
       "date": "2026-11-18T23:30:00Z",
       "home": "cru",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841314",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Mineirão",
+      "attendance": 0
     },
     {
       "id": "r35-fla-cap",
@@ -5159,11 +5168,14 @@
       "date": "2026-11-18T23:30:00Z",
       "home": "fla",
       "away": "cap",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841313",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r35-cor-bot",
@@ -5171,11 +5183,14 @@
       "date": "2026-11-19T00:30:00Z",
       "home": "cor",
       "away": "bot",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 0
+      },
       "espnEventId": "401841316",
-      "venue": null,
-      "attendance": null
+      "venue": "Neo Química Arena",
+      "attendance": 0
     },
     {
       "id": "r35-gre-bah",
@@ -5183,11 +5198,14 @@
       "date": "2026-11-19T00:30:00Z",
       "home": "gre",
       "away": "bah",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 0
+      },
       "espnEventId": "401841312",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena do Grêmio",
+      "attendance": 0
     },
     {
       "id": "r35-vas-int",
