@@ -11410,7 +11410,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-236098": {
     "fullName": "Kaio",
