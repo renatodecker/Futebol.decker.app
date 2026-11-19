@@ -353,11 +353,10 @@ UID:bra-a-r35-gre-bah@futebol.decker.app.br
 DTSTAMP:20261119T003000Z
 DTSTART:20261119T003000Z
 DTEND:20261119T023000Z
-SUMMARY:Grêmio x Bahia
-DESCRIPTION:Rodada 35 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Grêmio 0x0 Bahia
+DESCRIPTION:Rodada 35 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Arena do Grêmio (provável)
+LOCATION:Arena do Grêmio
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r36-san-gre@futebol.decker.app.br
