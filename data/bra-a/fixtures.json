@@ -5213,11 +5213,14 @@
       "date": "2026-11-19T22:30:00Z",
       "home": "vas",
       "away": "int",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841308",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio São Januário",
+      "attendance": 0
     },
     {
       "id": "r35-vit-bra",
@@ -5225,11 +5228,14 @@
       "date": "2026-11-19T22:30:00Z",
       "home": "vit",
       "away": "bra",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 1
+      },
       "espnEventId": "401841317",
-      "venue": null,
-      "attendance": null
+      "venue": "Barradão",
+      "attendance": 0
     },
     {
       "id": "r35-sao-flu",
@@ -5237,11 +5243,14 @@
       "date": "2026-11-20T00:30:00Z",
       "home": "sao",
       "away": "flu",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841309",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r36-pal-fla",
