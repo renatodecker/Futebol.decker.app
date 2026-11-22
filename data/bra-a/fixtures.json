@@ -5258,11 +5258,14 @@
       "date": "2026-11-21T19:30:00Z",
       "home": "pal",
       "away": "fla",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841322",
-      "venue": null,
-      "attendance": null
+      "venue": "Allianz Parque",
+      "attendance": 0
     },
     {
       "id": "r36-bah-cfc",
@@ -5270,11 +5273,14 @@
       "date": "2026-11-21T20:30:00Z",
       "home": "bah",
       "away": "cfc",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841327",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Fonte Nova",
+      "attendance": 0
     },
     {
       "id": "r36-cha-cru",
@@ -5282,11 +5288,14 @@
       "date": "2026-11-22T00:00:00Z",
       "home": "cha",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 2
+      },
       "espnEventId": "401841325",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r36-cap-rem",
