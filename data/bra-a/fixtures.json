@@ -5303,11 +5303,14 @@
       "date": "2026-11-22T19:00:00Z",
       "home": "cap",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 4,
+        "away": 2
+      },
       "espnEventId": "401841318",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena da Baixada",
+      "attendance": 0
     },
     {
       "id": "r36-flu-mir",
@@ -5315,11 +5318,14 @@
       "date": "2026-11-22T21:30:00Z",
       "home": "flu",
       "away": "mir",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841324",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r36-bra-vas",
@@ -5327,11 +5333,14 @@
       "date": "2026-11-22T22:30:00Z",
       "home": "bra",
       "away": "vas",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 0
+      },
       "espnEventId": "401841321",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Municipal Cicero de Souza Marques",
+      "attendance": 0
     },
     {
       "id": "r36-int-vit",
