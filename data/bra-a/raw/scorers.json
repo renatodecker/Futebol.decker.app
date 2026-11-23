@@ -634,8 +634,39 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 8,
+      "assists": 1,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 8606,
+        "name": "Stiven Mendoza",
+        "firstName": "John",
+        "lastName": "Mendoza",
+        "dateOfBirth": "1992-06-27",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-10-21T09:16:28Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 36,
+      "goals": 7,
       "assists": 1,
       "penalties": null
     },
@@ -665,7 +696,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 7,
       "assists": null,
       "penalties": null
@@ -727,7 +758,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 7,
       "assists": 7,
       "penalties": 1
@@ -820,7 +851,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 32,
+      "playedMatches": 33,
       "goals": 7,
       "assists": 3,
       "penalties": null
@@ -882,41 +913,10 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 30,
+      "playedMatches": 31,
       "goals": 7,
       "assists": 2,
       "penalties": 1
-    },
-    {
-      "player": {
-        "id": 8606,
-        "name": "Stiven Mendoza",
-        "firstName": "John",
-        "lastName": "Mendoza",
-        "dateOfBirth": "1992-06-27",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-10-21T09:16:28Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 35,
-      "goals": 6,
-      "assists": 1,
-      "penalties": null
     },
     {
       "player": {
@@ -944,7 +944,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 30,
+      "playedMatches": 31,
       "goals": 6,
       "assists": 5,
       "penalties": null
@@ -1068,7 +1068,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 27,
+      "playedMatches": 28,
       "goals": 6,
       "assists": 4,
       "penalties": null
@@ -1099,7 +1099,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 6,
       "assists": 1,
       "penalties": null
@@ -1130,7 +1130,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 6,
       "assists": 2,
       "penalties": null
@@ -1164,6 +1164,37 @@
       "playedMatches": 24,
       "goals": 6,
       "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 249477,
+        "name": "Leozinho",
+        "firstName": "",
+        "lastName": "Leozinho",
+        "dateOfBirth": "1998-12-05",
+        "nationality": "Brazil",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-05-15T12:47:36Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 36,
+      "goals": 6,
+      "assists": null,
       "penalties": null
     },
     {
@@ -1440,7 +1471,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 5,
       "assists": 1,
       "penalties": null
@@ -1502,7 +1533,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 5,
       "assists": null,
       "penalties": null
@@ -1626,7 +1657,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 30,
+      "playedMatches": 31,
       "goals": 5,
       "assists": 5,
       "penalties": null
@@ -1660,37 +1691,6 @@
       "playedMatches": 33,
       "goals": 5,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 249477,
-        "name": "Leozinho",
-        "firstName": "",
-        "lastName": "Leozinho",
-        "dateOfBirth": "1998-12-05",
-        "nationality": "Brazil",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-05-15T12:47:36Z"
-      },
-      "team": {
-        "id": 1768,
-        "name": "CA Paranaense",
-        "shortName": "Paranaense",
-        "tla": "CAP",
-        "crest": "https://crests.football-data.org/1768.png",
-        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
-        "website": "http://www.atleticoparanaense.com",
-        "founded": 1924,
-        "clubColors": "Black / White / Red",
-        "venue": "Estádio Joaquim Américo Guimarães",
-        "lastUpdated": "2022-04-06T13:14:06Z"
-      },
-      "playedMatches": 35,
-      "goals": 5,
-      "assists": null,
       "penalties": null
     },
     {
@@ -1905,7 +1905,7 @@
         "venue": "Estádio José Maria de Campos Maia",
         "lastUpdated": "2023-07-31T08:47:23Z"
       },
-      "playedMatches": 32,
+      "playedMatches": 33,
       "goals": 4,
       "assists": 5,
       "penalties": null
@@ -1998,7 +1998,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 4,
       "assists": 3,
       "penalties": 1
@@ -2029,7 +2029,7 @@
         "venue": "Estádio Joaquim Américo Guimarães",
         "lastUpdated": "2022-04-06T13:14:06Z"
       },
-      "playedMatches": 28,
+      "playedMatches": 29,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -2153,7 +2153,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 21,
+      "playedMatches": 22,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2184,7 +2184,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 35,
+      "playedMatches": 36,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -2494,7 +2494,7 @@
         "venue": "Estadio Jornalista Mário Filho",
         "lastUpdated": "2024-07-29T17:24:37Z"
       },
-      "playedMatches": 35,
+      "playedMatches": 36,
       "goals": 4,
       "assists": 4,
       "penalties": null
@@ -2526,6 +2526,37 @@
         "lastUpdated": "2023-02-18T08:43:22Z"
       },
       "playedMatches": 33,
+      "goals": 4,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
+        "id": 182292,
+        "name": "Kerwin Vargas",
+        "firstName": "Kerwin",
+        "lastName": "Vargas",
+        "dateOfBirth": "2002-01-02",
+        "nationality": "Colombia",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2023-05-01T20:03:22Z"
+      },
+      "team": {
+        "id": 1768,
+        "name": "CA Paranaense",
+        "shortName": "Paranaense",
+        "tla": "CAP",
+        "crest": "https://crests.football-data.org/1768.png",
+        "address": "Estrada do Ganchinho 1451, Umbará Curitiba, PR 81930-160",
+        "website": "http://www.atleticoparanaense.com",
+        "founded": 1924,
+        "clubColors": "Black / White / Red",
+        "venue": "Estádio Joaquim Américo Guimarães",
+        "lastUpdated": "2022-04-06T13:14:06Z"
+      },
+      "playedMatches": 12,
       "goals": 4,
       "assists": 3,
       "penalties": null
@@ -2618,7 +2649,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 14,
+      "playedMatches": 15,
       "goals": 4,
       "assists": 4,
       "penalties": null
@@ -2680,7 +2711,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 10,
+      "playedMatches": 11,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2711,7 +2742,7 @@
         "venue": "Estádio Nabi Abi Chedid",
         "lastUpdated": "2023-02-18T08:43:26Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 3,
       "assists": 3,
       "penalties": null
@@ -2835,7 +2866,7 @@
         "venue": "Estádio Club de Regatas Vasco da Gama",
         "lastUpdated": "2023-02-18T08:43:37Z"
       },
-      "playedMatches": 32,
+      "playedMatches": 33,
       "goals": 3,
       "assists": 5,
       "penalties": 1
@@ -2866,7 +2897,7 @@
         "venue": "Estádio Estadual Jornalista Edgar Augusto Proença",
         "lastUpdated": "2023-09-09T10:24:14Z"
       },
-      "playedMatches": 32,
+      "playedMatches": 33,
       "goals": 3,
       "assists": 2,
       "penalties": null
@@ -3086,37 +3117,6 @@
       "playedMatches": 29,
       "goals": 3,
       "assists": null,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 7569,
-        "name": "Mateo Cassierra",
-        "firstName": "Mateo",
-        "lastName": "Cassierra",
-        "dateOfBirth": "1997-04-13",
-        "nationality": "Colombia",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2023-11-19T09:45:59Z"
-      },
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png",
-        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
-        "website": "http://www.atletico.com.br",
-        "founded": 1908,
-        "clubColors": "Black / White",
-        "venue": "Estádio Raimundo Sampaio",
-        "lastUpdated": "2022-12-28T10:32:33Z"
-      },
-      "playedMatches": 26,
-      "goals": 3,
-      "assists": 1,
       "penalties": null
     }
   ]
