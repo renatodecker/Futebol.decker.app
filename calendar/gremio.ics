@@ -363,11 +363,10 @@ UID:bra-a-r36-san-gre@futebol.decker.app.br
 DTSTAMP:20261124T000000Z
 DTSTART:20261124T000000Z
 DTEND:20261124T020000Z
-SUMMARY:Santos x Grêmio
-DESCRIPTION:Rodada 36 · Brasileirão Série A · Agendado · Local prováv
- el (mandante ainda não confirmou)
+SUMMARY:Santos 0x2 Grêmio
+DESCRIPTION:Rodada 36 · Brasileirão Série A · Encerrado
 STATUS:CONFIRMED
-LOCATION:Estádio Vila Belmiro (Urbano Caldeira) (provável)
+LOCATION:Morumbi
 END:VEVENT
 BEGIN:VEVENT
 UID:bra-a-r37-cor-gre@futebol.decker.app.br
