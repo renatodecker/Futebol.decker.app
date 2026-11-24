@@ -5348,11 +5348,14 @@
       "date": "2026-11-23T22:30:00Z",
       "home": "int",
       "away": "vit",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 2,
+        "away": 5
+      },
       "espnEventId": "401841323",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio Beira-Rio",
+      "attendance": 0
     },
     {
       "id": "r36-bot-sao",
@@ -5360,11 +5363,14 @@
       "date": "2026-11-23T23:00:00Z",
       "home": "bot",
       "away": "sao",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841326",
-      "venue": null,
-      "attendance": null
+      "venue": "Estádio Nilton Santos",
+      "attendance": 0
     },
     {
       "id": "r36-san-gre",
@@ -5372,11 +5378,14 @@
       "date": "2026-11-24T00:00:00Z",
       "home": "san",
       "away": "gre",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 2
+      },
       "espnEventId": "401841320",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r37-cha-pal",
