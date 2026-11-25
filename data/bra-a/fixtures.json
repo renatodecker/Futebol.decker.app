@@ -5393,11 +5393,14 @@
       "date": "2026-11-24T21:00:00Z",
       "home": "cha",
       "away": "pal",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 0
+      },
       "espnEventId": "401841335",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena Condá",
+      "attendance": 0
     },
     {
       "id": "r36-cam-cor",

@@ -358,7 +358,7 @@
     "jersey": 12,
     "birthdate": "2001-02-25",
     "nationality": "BRA",
-    "apps": 24,
+    "apps": 25,
     "goals": 0,
     "debut": "2026-01-28",
     "active": true
@@ -488,7 +488,7 @@
     "jersey": 48,
     "birthdate": "2005-07-10",
     "nationality": "BRA",
-    "apps": 9,
+    "apps": 10,
     "goals": 0,
     "debut": "2026-02-05",
     "active": true
@@ -527,7 +527,7 @@
     "jersey": 50,
     "birthdate": "2008-02-02",
     "nationality": "BRA",
-    "apps": 6,
+    "apps": 7,
     "goals": 0,
     "debut": "2026-02-05",
     "active": true
@@ -540,7 +540,7 @@
     "jersey": 14,
     "birthdate": "1986-12-18",
     "nationality": "BRA",
-    "apps": 2,
+    "apps": 3,
     "goals": 0,
     "debut": "2026-05-31",
     "active": true
@@ -553,7 +553,7 @@
     "jersey": 32,
     "birthdate": "1999-08-17",
     "nationality": "URU",
-    "apps": 17,
+    "apps": 18,
     "goals": 0,
     "debut": "2026-03-15",
     "active": true
@@ -2971,7 +2971,7 @@
     "jersey": 3,
     "birthdate": "1998-08-29",
     "nationality": "BRA",
-    "apps": 32,
+    "apps": 33,
     "goals": 1,
     "debut": "2026-01-28",
     "active": true
@@ -2997,7 +2997,7 @@
     "jersey": 25,
     "birthdate": "1997-10-19",
     "nationality": "BRA",
-    "apps": 10,
+    "apps": 11,
     "goals": 0,
     "debut": "2026-01-28",
     "active": true
@@ -3036,8 +3036,8 @@
     "jersey": 27,
     "birthdate": "1999-02-23",
     "nationality": "BRA",
-    "apps": 30,
-    "goals": 0,
+    "apps": 31,
+    "goals": 1,
     "debut": "2026-01-28",
     "active": true
   },
@@ -3045,11 +3045,11 @@
     "fullName": "Giovanni Augusto",
     "shirtName": "Giovanni Augusto",
     "team": "cha",
-    "position": "M",
+    "position": "A",
     "jersey": 10,
     "birthdate": "1989-09-05",
     "nationality": "BRA",
-    "apps": 27,
+    "apps": 28,
     "goals": 2,
     "debut": "2026-01-28",
     "active": true
@@ -3088,7 +3088,7 @@
     "jersey": 7,
     "birthdate": "1995-06-08",
     "nationality": "BRA",
-    "apps": 32,
+    "apps": 33,
     "goals": 5,
     "debut": "2026-01-28",
     "active": true
@@ -3205,7 +3205,7 @@
     "jersey": 70,
     "birthdate": "2003-03-28",
     "nationality": "BRA",
-    "apps": 13,
+    "apps": 14,
     "goals": 1,
     "debut": "2026-02-05",
     "active": true
@@ -3231,7 +3231,7 @@
     "jersey": 21,
     "birthdate": "2003-04-07",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 2,
     "debut": "2026-08-08",
     "active": true
@@ -3244,7 +3244,7 @@
     "jersey": 19,
     "birthdate": "2005-08-17",
     "nationality": "BRA",
-    "apps": 16,
+    "apps": 17,
     "goals": 0,
     "debut": "2026-02-05",
     "active": true
@@ -6737,11 +6737,11 @@
     "fullName": "Bruno Pacheco",
     "shirtName": "B. Pacheco",
     "team": "cha",
-    "position": "D",
+    "position": "M",
     "jersey": 91,
     "birthdate": "1991-12-08",
     "nationality": "BRA",
-    "apps": 26,
+    "apps": 27,
     "goals": 1,
     "debut": "2026-03-22",
     "active": true
@@ -7378,7 +7378,7 @@
     "jersey": 7,
     "birthdate": "1993-04-15",
     "nationality": "BRA",
-    "apps": 25,
+    "apps": 26,
     "goals": 3,
     "debut": "2026-02-26",
     "active": true
@@ -8505,11 +8505,11 @@
     "fullName": "Erick Machado",
     "shirtName": "E. Machado",
     "team": "pal",
-    "position": "M",
+    "position": "A",
     "jersey": 45,
     "birthdate": "2007-01-21",
     "nationality": "BRA",
-    "apps": 1,
+    "apps": 2,
     "goals": 0,
     "debut": "2026-11-18",
     "active": true
@@ -8587,7 +8587,7 @@
     "jersey": 43,
     "birthdate": "2006-06-07",
     "nationality": "BRA",
-    "apps": 5,
+    "apps": 6,
     "goals": 0,
     "debut": "2026-04-19",
     "active": true
@@ -9302,9 +9302,9 @@
     "jersey": 47,
     "birthdate": "2006-11-22",
     "nationality": "BRA",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-382963": {
@@ -9312,12 +9312,12 @@
     "shirtName": "R. Coutinho",
     "team": "pal",
     "position": "M",
-    "jersey": 55,
+    "jersey": 65,
     "birthdate": "2006-03-24",
     "nationality": "BRA",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-421488": {
@@ -9334,21 +9334,21 @@
     "active": true
   },
   "p-espn-421487": {
-    "fullName": "Mohamed Kone",
-    "shirtName": "M. Kone",
+    "fullName": "Kone Zie Mohamed",
+    "shirtName": "K. Mohamed",
     "team": "pal",
     "position": "D",
     "jersey": 44,
     "birthdate": "2007-10-20",
     "nationality": "IVO",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-412904": {
     "fullName": "Kauan Lima",
-    "shirtName": "Kauan Lima",
+    "shirtName": "K. Lima",
     "team": "pal",
     "position": "G",
     "jersey": 72,
@@ -9367,7 +9367,7 @@
     "jersey": 30,
     "birthdate": "1999-06-23",
     "nationality": "BRA",
-    "apps": 3,
+    "apps": 4,
     "goals": 0,
     "debut": "2026-07-17",
     "active": true
@@ -9698,16 +9698,16 @@
     "active": true
   },
   "p-espn-3105977": {
-    "fullName": "Miguel Cinoncelli Bilong",
-    "shirtName": "M. Cinoncelli Bilong",
+    "fullName": "Miguel Bilong",
+    "shirtName": "M. Bilong",
     "team": "pal",
     "position": "A",
     "jersey": 29,
     "birthdate": null,
     "nationality": null,
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-412292": {
@@ -9718,7 +9718,7 @@
     "jersey": 39,
     "birthdate": "2007-09-18",
     "nationality": "BRA",
-    "apps": 3,
+    "apps": 4,
     "goals": 0,
     "debut": "2026-07-22",
     "active": true
@@ -9991,7 +9991,7 @@
     "jersey": 12,
     "birthdate": "1999-09-14",
     "nationality": "BRA",
-    "apps": 15,
+    "apps": 16,
     "goals": 0,
     "debut": "2026-07-25",
     "active": true
@@ -10004,7 +10004,7 @@
     "jersey": 20,
     "birthdate": "1995-03-05",
     "nationality": "BRA",
-    "apps": 7,
+    "apps": 8,
     "goals": 0,
     "debut": "2026-07-25",
     "active": true
@@ -10013,12 +10013,12 @@
     "fullName": "Max",
     "shirtName": "Max",
     "team": "cha",
-    "position": "M",
+    "position": "A",
     "jersey": 22,
     "birthdate": "2001-05-12",
     "nationality": "BRA",
-    "apps": 7,
-    "goals": 0,
+    "apps": 8,
+    "goals": 1,
     "debut": "2026-07-25",
     "active": true
   },
@@ -10251,7 +10251,7 @@
     "jersey": 9,
     "birthdate": null,
     "nationality": null,
-    "apps": 16,
+    "apps": 17,
     "goals": 3,
     "debut": "2026-08-08",
     "active": true
@@ -10429,11 +10429,11 @@
     "fullName": "Heitor",
     "shirtName": "Heitor",
     "team": "cha",
-    "position": "D",
+    "position": "M",
     "jersey": 5,
     "birthdate": "2000-11-05",
     "nationality": "BRA",
-    "apps": 7,
+    "apps": 8,
     "goals": 0,
     "debut": "2026-08-16",
     "active": true
@@ -10628,8 +10628,8 @@
     "jersey": 80,
     "birthdate": "2005-03-09",
     "nationality": "ESP",
-    "apps": 8,
-    "goals": 0,
+    "apps": 9,
+    "goals": 1,
     "debut": "2026-08-30",
     "active": true
   },
@@ -10680,9 +10680,9 @@
     "jersey": 66,
     "birthdate": "2006-01-22",
     "nationality": "BRA",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-3096758": {
@@ -11209,13 +11209,13 @@
     "fullName": "Fabiano",
     "shirtName": "Fabiano",
     "team": "pal",
-    "position": "M",
+    "position": "A",
     "jersey": 37,
     "birthdate": "2006-04-15",
     "nationality": "BRA",
-    "apps": 0,
+    "apps": 1,
     "goals": 0,
-    "debut": null,
+    "debut": "2026-11-24",
     "active": true
   },
   "p-espn-290585": {
@@ -11451,6 +11451,30 @@
     "goals": 0,
     "debut": null,
     "active": true
+  },
+  "p-espn-402697": {
+    "fullName": "Robson",
+    "shirtName": "Robson",
+    "team": "pal",
+    "position": null,
+    "jersey": 63,
+    "birthdate": null,
+    "nationality": null,
+    "apps": 0,
+    "goals": 0,
+    "debut": null
+  },
+  "p-espn-5334383": {
+    "fullName": "Geovanne De Souza Soares",
+    "shirtName": "G. De Souza Soares",
+    "team": "pal",
+    "position": null,
+    "jersey": 40,
+    "birthdate": null,
+    "nationality": null,
+    "apps": 1,
+    "goals": 0,
+    "debut": "2026-11-24"
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
