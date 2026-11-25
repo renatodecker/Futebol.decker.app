@@ -11462,7 +11462,8 @@
     "nationality": null,
     "apps": 0,
     "goals": 0,
-    "debut": null
+    "debut": null,
+    "active": true
   },
   "p-espn-5334383": {
     "fullName": "Geovanne De Souza Soares",
@@ -11474,7 +11475,8 @@
     "nationality": null,
     "apps": 1,
     "goals": 0,
-    "debut": "2026-11-24"
+    "debut": "2026-11-24",
+    "active": true
   },
   "p-espn-402694": {
     "fullName": "Luiz Felipe",
