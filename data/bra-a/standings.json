@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T20:00:23.372Z",
+  "updatedAt": "2026-11-25T19:00:12.963Z",
   "table": [
     {
       "pos": 1,
@@ -25,19 +25,19 @@
       "pos": 2,
       "team": "pal",
       "pts": 74,
-      "played": 36,
+      "played": 37,
       "won": 21,
       "drawn": 11,
-      "lost": 4,
+      "lost": 5,
       "gf": 64,
-      "ga": 26,
-      "gd": 38,
+      "ga": 29,
+      "gd": 35,
       "form": [
-        "W",
         "D",
         "W",
         "L",
-        "D"
+        "D",
+        "L"
       ],
       "zone": "libertadores"
     },
@@ -384,20 +384,20 @@
     {
       "pos": 20,
       "team": "cha",
-      "pts": 21,
-      "played": 36,
-      "won": 4,
+      "pts": 24,
+      "played": 37,
+      "won": 5,
       "drawn": 9,
       "lost": 23,
-      "gf": 34,
+      "gf": 37,
       "ga": 74,
-      "gd": -40,
+      "gd": -37,
       "form": [
         "L",
         "L",
         "L",
         "L",
-        "L"
+        "W"
       ],
       "zone": "rebaixamento"
     }
