@@ -5408,11 +5408,14 @@
       "date": "2026-11-25T23:00:00Z",
       "home": "cam",
       "away": "cor",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 1,
+        "away": 1
+      },
       "espnEventId": "401841319",
-      "venue": null,
-      "attendance": null
+      "venue": "Arena MRV",
+      "attendance": 0
     },
     {
       "id": "r37-sao-rem",
