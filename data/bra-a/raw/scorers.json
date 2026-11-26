@@ -920,6 +920,37 @@
     },
     {
       "player": {
+        "id": 192626,
+        "name": "Kaio César",
+        "firstName": "",
+        "lastName": "Kaio Andrade",
+        "dateOfBirth": "2004-02-15",
+        "nationality": "Brazil",
+        "section": "Right Winger",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2024-11-01T22:50:30Z"
+      },
+      "team": {
+        "id": 1779,
+        "name": "SC Corinthians Paulista",
+        "shortName": "Corinthians",
+        "tla": "COR",
+        "crest": "https://crests.football-data.org/1779.png",
+        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
+        "website": "http://www.corinthians.com.br",
+        "founded": 1910,
+        "clubColors": "Black / White",
+        "venue": "Neo Química Arena",
+        "lastUpdated": "2024-07-29T17:24:47Z"
+      },
+      "playedMatches": 25,
+      "goals": 7,
+      "assists": 3,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 12837,
         "name": "Renato Kayzer",
         "firstName": "",
@@ -1075,6 +1106,37 @@
     },
     {
       "player": {
+        "id": 46266,
+        "name": "Tomás Cuello",
+        "firstName": "Tomás",
+        "lastName": "Cuello",
+        "dateOfBirth": "2000-03-05",
+        "nationality": "Argentina",
+        "section": "Offence",
+        "position": null,
+        "shirtNumber": null,
+        "lastUpdated": "2026-10-21T09:16:27Z"
+      },
+      "team": {
+        "id": 1766,
+        "name": "CA Mineiro",
+        "shortName": "Mineiro",
+        "tla": "CAM",
+        "crest": "https://crests.football-data.org/1766.png",
+        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
+        "website": "http://www.atletico.com.br",
+        "founded": 1908,
+        "clubColors": "Black / White",
+        "venue": "Estádio Raimundo Sampaio",
+        "lastUpdated": "2022-12-28T10:32:33Z"
+      },
+      "playedMatches": 30,
+      "goals": 6,
+      "assists": 2,
+      "penalties": null
+    },
+    {
+      "player": {
         "id": 28614,
         "name": "Agustín Canobbio",
         "firstName": "Agustín",
@@ -1164,37 +1226,6 @@
       "playedMatches": 32,
       "goals": 6,
       "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 192626,
-        "name": "Kaio César",
-        "firstName": "",
-        "lastName": "Kaio Andrade",
-        "dateOfBirth": "2004-02-15",
-        "nationality": "Brazil",
-        "section": "Right Winger",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2024-11-01T22:50:30Z"
-      },
-      "team": {
-        "id": 1779,
-        "name": "SC Corinthians Paulista",
-        "shortName": "Corinthians",
-        "tla": "COR",
-        "crest": "https://crests.football-data.org/1779.png",
-        "address": "Rua São Jorge 777, Tatuapé São Paulo, SP 03087-000",
-        "website": "http://www.corinthians.com.br",
-        "founded": 1910,
-        "clubColors": "Black / White",
-        "venue": "Neo Química Arena",
-        "lastUpdated": "2024-07-29T17:24:47Z"
-      },
-      "playedMatches": 24,
-      "goals": 6,
-      "assists": 3,
       "penalties": null
     },
     {
@@ -1409,38 +1440,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 31,
-      "goals": 5,
-      "assists": 2,
-      "penalties": null
-    },
-    {
-      "player": {
-        "id": 46266,
-        "name": "Tomás Cuello",
-        "firstName": "Tomás",
-        "lastName": "Cuello",
-        "dateOfBirth": "2000-03-05",
-        "nationality": "Argentina",
-        "section": "Offence",
-        "position": null,
-        "shirtNumber": null,
-        "lastUpdated": "2026-10-21T09:16:27Z"
-      },
-      "team": {
-        "id": 1766,
-        "name": "CA Mineiro",
-        "shortName": "Mineiro",
-        "tla": "CAM",
-        "crest": "https://crests.football-data.org/1766.png",
-        "address": "Av. Olegário Maciel 1516, Lourdes Belo Horizonte, MG 30180-111",
-        "website": "http://www.atletico.com.br",
-        "founded": 1908,
-        "clubColors": "Black / White",
-        "venue": "Estádio Raimundo Sampaio",
-        "lastUpdated": "2022-12-28T10:32:33Z"
-      },
-      "playedMatches": 29,
+      "playedMatches": 32,
       "goals": 5,
       "assists": 2,
       "penalties": null
@@ -1626,7 +1626,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 32,
+      "playedMatches": 33,
       "goals": 5,
       "assists": 4,
       "penalties": null
@@ -1781,7 +1781,7 @@
         "venue": "Estádio Raimundo Sampaio",
         "lastUpdated": "2022-12-28T10:32:33Z"
       },
-      "playedMatches": 26,
+      "playedMatches": 27,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2308,7 +2308,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 24,
+      "playedMatches": 25,
       "goals": 4,
       "assists": 2,
       "penalties": null
@@ -2618,7 +2618,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 33,
+      "playedMatches": 34,
       "goals": 4,
       "assists": 1,
       "penalties": null
@@ -2990,7 +2990,7 @@
         "venue": "Neo Química Arena",
         "lastUpdated": "2024-07-29T17:24:47Z"
       },
-      "playedMatches": 31,
+      "playedMatches": 32,
       "goals": 3,
       "assists": 7,
       "penalties": null

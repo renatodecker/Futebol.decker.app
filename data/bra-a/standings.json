@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T19:00:12.963Z",
+  "updatedAt": "2026-11-26T18:52:16.884Z",
   "table": [
     {
       "pos": 1,
@@ -124,19 +124,19 @@
     {
       "pos": 7,
       "team": "cam",
-      "pts": 51,
-      "played": 35,
+      "pts": 52,
+      "played": 36,
       "won": 14,
-      "drawn": 9,
+      "drawn": 10,
       "lost": 12,
-      "gf": 44,
-      "ga": 40,
+      "gf": 45,
+      "ga": 41,
       "gd": 4,
       "form": [
-        "W",
         "L",
         "L",
         "L",
+        "D",
         "D"
       ],
       "zone": "sulamericana"
@@ -283,6 +283,26 @@
     },
     {
       "pos": 15,
+      "team": "cor",
+      "pts": 41,
+      "played": 36,
+      "won": 10,
+      "drawn": 11,
+      "lost": 15,
+      "gf": 41,
+      "ga": 43,
+      "gd": -2,
+      "form": [
+        "L",
+        "W",
+        "D",
+        "W",
+        "D"
+      ],
+      "zone": null
+    },
+    {
+      "pos": 16,
       "team": "gre",
       "pts": 41,
       "played": 36,
@@ -302,7 +322,7 @@
       "zone": null
     },
     {
-      "pos": 16,
+      "pos": 17,
       "team": "mir",
       "pts": 41,
       "played": 36,
@@ -318,26 +338,6 @@
         "W",
         "D",
         "L"
-      ],
-      "zone": null
-    },
-    {
-      "pos": 17,
-      "team": "cor",
-      "pts": 40,
-      "played": 35,
-      "won": 10,
-      "drawn": 10,
-      "lost": 15,
-      "gf": 40,
-      "ga": 42,
-      "gd": -2,
-      "form": [
-        "D",
-        "L",
-        "W",
-        "D",
-        "W"
       ],
       "zone": "rebaixamento"
     },
