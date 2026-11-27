@@ -643,7 +643,7 @@
       "red": 0
     },
     "p-espn-162558": {
-      "goals": 10,
+      "goals": 12,
       "assists": 2,
       "yellow": 6,
       "red": 0
@@ -974,7 +974,7 @@
     },
     "p-espn-186832": {
       "goals": 3,
-      "assists": 2,
+      "assists": 3,
       "yellow": 3,
       "red": 1
     },
@@ -1484,7 +1484,7 @@
     },
     "p-espn-301516": {
       "goals": 1,
-      "assists": 3,
+      "assists": 4,
       "yellow": 3,
       "red": 0
     },
@@ -2331,7 +2331,7 @@
     "p-espn-254447": {
       "goals": 0,
       "assists": 1,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-266676": {
@@ -2427,7 +2427,7 @@
     "p-espn-254464": {
       "goals": 1,
       "assists": 1,
-      "yellow": 4,
+      "yellow": 5,
       "red": 0
     },
     "p-espn-382944": {
@@ -3099,7 +3099,7 @@
     "p-espn-290028": {
       "goals": 0,
       "assists": 0,
-      "yellow": 2,
+      "yellow": 3,
       "red": 1
     },
     "p-espn-285446": {
@@ -3193,7 +3193,7 @@
       "red": 0
     },
     "p-espn-274517": {
-      "goals": 0,
+      "goals": 1,
       "assists": 0,
       "yellow": 1,
       "red": 1
@@ -3455,6 +3455,18 @@
       "assists": 0,
       "yellow": 1,
       "red": 0
+    },
+    "p-espn-399076": {
+      "goals": 0,
+      "assists": 0,
+      "yellow": 1,
+      "red": 0
+    },
+    "p-espn-383042": {
+      "goals": 1,
+      "assists": 0,
+      "yellow": 0,
+      "red": 0
     }
   },
   "teams": {
@@ -3477,9 +3489,9 @@
       "red": 4
     },
     "rem": {
-      "goals": 41,
-      "conceded": 61,
-      "yellow": 79,
+      "goals": 42,
+      "conceded": 64,
+      "yellow": 82,
       "red": 5
     },
     "int": {
@@ -3543,9 +3555,9 @@
       "red": 3
     },
     "sao": {
-      "goals": 40,
-      "conceded": 41,
-      "yellow": 80,
+      "goals": 43,
+      "conceded": 42,
+      "yellow": 81,
       "red": 3
     },
     "fla": {
@@ -3579,5 +3591,5 @@
       "red": 3
     }
   },
-  "updatedAt": "2026-11-26T14:36:23.276Z"
+  "updatedAt": "2026-11-27T10:39:15.661Z"
 }

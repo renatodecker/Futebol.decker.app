@@ -5423,11 +5423,14 @@
       "date": "2026-11-26T23:00:00Z",
       "home": "sao",
       "away": "rem",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 3,
+        "away": 1
+      },
       "espnEventId": "401841329",
-      "venue": null,
-      "attendance": null
+      "venue": "Morumbi",
+      "attendance": 0
     },
     {
       "id": "r37-flu-cru",
