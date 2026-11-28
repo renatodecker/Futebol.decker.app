@@ -207,7 +207,7 @@
     "p-espn-199958": {
       "goals": 6,
       "assists": 5,
-      "yellow": 7,
+      "yellow": 8,
       "red": 0
     },
     "p-espn-173588": {
@@ -943,7 +943,7 @@
       "red": 0
     },
     "p-espn-280978": {
-      "goals": 14,
+      "goals": 15,
       "assists": 2,
       "yellow": 3,
       "red": 0
@@ -1095,8 +1095,8 @@
     "p-espn-146162": {
       "goals": 0,
       "assists": 0,
-      "yellow": 5,
-      "red": 0
+      "yellow": 6,
+      "red": 1
     },
     "p-espn-365558": {
       "goals": 0,
@@ -1665,7 +1665,7 @@
     "p-espn-403572": {
       "goals": 2,
       "assists": 1,
-      "yellow": 3,
+      "yellow": 4,
       "red": 0
     },
     "p-espn-364156": {
@@ -1803,7 +1803,7 @@
     "p-espn-116395": {
       "goals": 6,
       "assists": 1,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-181657": {
@@ -2246,7 +2246,7 @@
     },
     "p-espn-227737": {
       "goals": 2,
-      "assists": 2,
+      "assists": 3,
       "yellow": 1,
       "red": 0
     },
@@ -2457,7 +2457,7 @@
     "p-espn-397260": {
       "goals": 1,
       "assists": 1,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-198561": {
@@ -2469,7 +2469,7 @@
     "p-espn-337996": {
       "goals": 0,
       "assists": 0,
-      "yellow": 2,
+      "yellow": 3,
       "red": 0
     },
     "p-espn-318136": {
@@ -2769,8 +2769,8 @@
     "p-espn-363020": {
       "goals": 0,
       "assists": 0,
-      "yellow": 6,
-      "red": 0
+      "yellow": 7,
+      "red": 1
     },
     "p-espn-269645": {
       "goals": 0,
@@ -3520,9 +3520,9 @@
     },
     "flu": {
       "goals": 57,
-      "conceded": 42,
-      "yellow": 82,
-      "red": 2
+      "conceded": 43,
+      "yellow": 86,
+      "red": 3
     },
     "gre": {
       "goals": 40,
@@ -3585,11 +3585,11 @@
       "red": 6
     },
     "cru": {
-      "goals": 59,
+      "goals": 60,
       "conceded": 50,
-      "yellow": 90,
-      "red": 3
+      "yellow": 93,
+      "red": 4
     }
   },
-  "updatedAt": "2026-11-27T14:30:44.273Z"
+  "updatedAt": "2026-11-28T09:57:08.734Z"
 }

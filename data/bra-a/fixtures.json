@@ -5438,11 +5438,14 @@
       "date": "2026-11-27T23:00:00Z",
       "home": "flu",
       "away": "cru",
-      "status": "scheduled",
-      "score": null,
+      "status": "finished",
+      "score": {
+        "home": 0,
+        "away": 1
+      },
       "espnEventId": "401841337",
-      "venue": null,
-      "attendance": null
+      "venue": "Estadio do Maracana",
+      "attendance": 0
     },
     {
       "id": "r37-bot-bah",
